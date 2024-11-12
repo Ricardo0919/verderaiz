@@ -22,6 +22,35 @@ const nextConfig: NextConfig = {
                 source: "/:first/a-propos",
                 destination: "/:first/about-us",
             },
+            {
+                source: "/:first/servicios",
+                destination: "/:first/services",
+            },
+            {
+                source: "/:first/dienstleistungen",
+                destination: "/:first/services",
+            },
+            {
+                source: "/:first/services",
+                destination: "/:first/services",
+            },
+            {
+                source: "/:first/blog",
+                destination: "/:first/blog",
+            },
+            {
+                source: "/:first/contacto",
+                destination: "/:first/contact",
+            },
+            {
+                source: "/:first/kontakt",
+                destination: "/:first/contact",
+            },
+            {
+                source: "/:first/contact",
+                destination: "/:first/contact",
+            },
+
         ];
     },
 };
