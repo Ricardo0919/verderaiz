@@ -10,6 +10,18 @@ const nextConfig: NextConfig = {
                 source: "/favicon.ico",
                 destination: "/favicon.ico",
             },
+            {
+                source: "/:first/nosotros",
+                destination: "/:first/about-us",
+            },
+            {
+                source: "/:first/ueber-uns",
+                destination: "/:first/about-us",
+            },
+            {
+                source: "/:first/a-propos",
+                destination: "/:first/about-us",
+            },
         ];
     },
 };
