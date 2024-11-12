@@ -3,7 +3,7 @@ import React from 'react';
 import { useTranslations } from "next-intl";
 
 
-function Gestion() {
+function HeroHome() {
     const t = useTranslations("HeroHome");
 
     return (
@@ -13,4 +13,4 @@ function Gestion() {
     );
 }
 
-export default Gestion;
+export default HeroHome;
