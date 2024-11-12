@@ -8,8 +8,9 @@ import {NextIntlClientProvider} from "next-intl";
 
 type Props = {
     children: ReactNode;
-    params: { locale: string };
+    params: Promise<{ locale: string }>;
 };
+
 
 export function generateStaticParams() {
     return locales.map((locale) => ({locale}));

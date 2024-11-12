@@ -14,7 +14,7 @@ export default getRequestConfig(async ({locale}:{locale:string}) => {
     } catch (error) {
         baseLocale = 'es'; // Fallback to a default locale
     }
-    if (!locales.includes(baseLocale)) return notFound();
+    if (!locales.includes(baseLocale as any)) return notFound();
 
     return {
         messages: (
