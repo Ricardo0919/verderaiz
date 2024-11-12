@@ -13,6 +13,24 @@ export const pathnames = {
         de: "/ueber-uns",
         fr: "/a-propos",
     },
+    "/services": {
+        en: "/services",
+        es: "/servicios",
+        de: "/dienstleistungen",
+        fr: "/services",
+    },
+    "/blog": {
+        en: "/blog",
+        es: "/blog",
+        de: "/blog",
+        fr: "/blog",
+    },
+    "/contact": {
+        en: "/contact",
+        es: "/contacto",
+        de: "/kontakt",
+        fr: "/contact",
+    },
 } satisfies Pathnames<typeof locales>;
 
 export const { Link, redirect, usePathname, useRouter } =
