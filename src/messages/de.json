@@ -3,7 +3,21 @@
     "label": "Change language",
     "locale": "{locale, select, es {🇲🇽 Spanish} en {🇺🇸 English} other {Unknown}}"
   },
-  "HeroHome": {
+  "heroHome": {
     "title": "Verderaíz Hallo"
+  },
+  "heroAboutUs": {
+    "title": "Über uns"
+  },
+  "navbar": {
+    "home": "Startseite",
+    "aboutUs": "Über uns",
+    "aboutUsLink": "/ueber-uns",
+    "services": "Dienstleistungen",
+    "servicesLink": "/dienstleistungen",
+    "blog": "Blog",
+    "blogLink": "/blog",
+    "contact": "Kontakt",
+    "contactLink": "/kontakt"
   }
 }
