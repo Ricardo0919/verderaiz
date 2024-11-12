@@ -1,5 +1,5 @@
 import type { NextConfig } from "next";
-//import withNextIntl from "next-intl/plugin";
+import withNextIntl from "next-intl/plugin";
 
 const nextConfig: NextConfig = {
     /* config options here */
@@ -13,7 +13,4 @@ const nextConfig: NextConfig = {
         ];
     },
 };
-const withNextIntl = require('next-intl/plugin')();
-// Configura `withNextIntl` con `nextConfig`
-export default withNextIntl(nextConfig);
-
+export default withNextIntl()(nextConfig);
