@@ -1,11 +1,27 @@
-import { getRequestConfig } from "next-intl/server";
-import { notFound } from "next/navigation"
-import { locales } from "./config";
+import {notFound} from 'next/navigation';
+import {getRequestConfig} from 'next-intl/server';
+import {locales} from './config';
 
-export default getRequestConfig(async ({ locale }: { locale: string }) => {
-    if (!locales.includes(locale as never)) notFound();
+export default getRequestConfig(async ({locale}:{locale:string}) => {
+    // Validate that the incoming `locale` parameter is valid
+    console.log(locale)
+    if (!locale){
+        console.log('no locale');
+    }
+    let baseLocale;
+    try {
+        baseLocale = new Intl.Locale(locale).baseName;
+    } catch (error) {
+        baseLocale = 'es'; // Fallback to a default locale
+    }
+    if (!locales.includes(baseLocale)) return notFound();
 
     return {
-        messages: (await import((`./messages/${locale}.json`))).default,
+        messages: (
+            await (locale === 'es'
+                ? // When using Turbopack, this will enable HMR for `en`
+                import('./messages/es.json')
+                : import(`./messages/${baseLocale}.json`))
+        ).default
     };
 });

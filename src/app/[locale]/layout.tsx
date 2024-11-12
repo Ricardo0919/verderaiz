@@ -1,39 +1,39 @@
-import { getMessages, unstable_setRequestLocale } from "next-intl/server";
-import { ReactNode } from "react";
-import { locales } from "../../config";
-import { NextIntlClientProvider } from "next-intl";
+import clsx from 'clsx';
+import {getMessages, unstable_setRequestLocale} from 'next-intl/server';
+import {ReactNode} from 'react';
+import {locales} from '../../config';
 import "../globals.css";
+import {NextIntlClientProvider} from "next-intl";
 
-// Función para generar los metadatos dinámicamente según el locale
-export async function generateMetadata({
-                                           params,
-                                       }: {
-    params: { locale: string };
-}): Promise<{ title: string; description: string }> {
-    const { locale } = await params;  // Esperar a que `params` se resuelva
 
-    return {
-        title: locale === "es" ? "Verderaiz" : "Verderaiz", // Título dinámico basado en el locale
-        description: locale === "es" ? "Sitio web de Verderaiz" : "Verderaiz Website", // Descripción dinámica
-    };
-}
 type Props = {
     children: ReactNode;
     params: { locale: string };
 };
 
 export function generateStaticParams() {
-    return locales.map((locale) => ({ locale }));
+    return locales.map((locale) => ({locale}));
 }
 
-export default async function LocaleLayout({children, params:{locale}}: Props) {
+export async function generateMetadata() {
+    return {
+        title: "Verderaiz",
+        description: "Verderaiz website",
+    }
+}
 
+
+export default async function LocaleLayout({children, params}: Props) {
+    // Enable static rendering
+    const { locale } = await params;
+    unstable_setRequestLocale(locale);
     const messages = await getMessages();
 
     return (
+
         <html className="h-full" lang={locale}>
-        <body className="flex h-full flex-col">
-        <NextIntlClientProvider messages={messages}>
+        <body className={clsx('flex h-full flex-col')}>
+        <NextIntlClientProvider messages={messages} >
             {children}
         </NextIntlClientProvider>
         </body>
