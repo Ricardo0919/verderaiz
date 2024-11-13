@@ -1,11 +1,11 @@
 "use client"
 import React from 'react';
-import { useTranslations } from "next-intl";
+//import { useTranslations } from "next-intl";
 import Image from "next/image";
 import background from "@/assets/images/heroHomeBG.png";
 
 function HeroHome() {
-    const t = useTranslations("heroHome");
+    //const t = useTranslations("heroHome");
 
     return (
         <div className="relative w-full h-screen text-center flex items-center justify-center py-20">
