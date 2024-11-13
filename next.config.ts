@@ -54,4 +54,4 @@ const nextConfig: NextConfig = {
         ];
     },
 };
-export default withNextIntl()(nextConfig);
+export default withNextIntl('./src/i18n.ts')(nextConfig);

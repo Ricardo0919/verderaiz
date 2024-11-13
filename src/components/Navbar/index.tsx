@@ -17,7 +17,7 @@ function NavBar() {
         setMenuOpen(!menuOpen);
     };
 
-    const linkClasses = (path) =>
+    const linkClasses = (path: string) =>
         pathname === path
             ? "bg-white text-black font-semibold text-md  xl:text-lg py-1 px-5 rounded-[40px]"
             : "text-white font-semibold text-md xl:text-lg hover:bg-white hover:text-black py-1 px-5 rounded-[40px]";
