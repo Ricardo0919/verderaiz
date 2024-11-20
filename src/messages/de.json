@@ -3,12 +3,6 @@
     "label": "Change language",
     "locale": "{locale, select, es {🇲🇽 Spanish} en {🇺🇸 English} other {Unknown}}"
   },
-  "heroHome": {
-    "title": "Verderaíz Hallo"
-  },
-  "heroAboutUs": {
-    "title": "Über uns"
-  },
   "navbar": {
     "home": "Startseite",
     "aboutUs": "Uns",
@@ -19,5 +13,17 @@
     "blogLink": "/blog",
     "contact": "Kontakt",
     "contactLink": "/kontakt"
+  },
+  "heroHome": {
+    "title": "EINE NACHHALTIGE ZUKUNFT STÄRKEN",
+    "description": "Bei Verderaíz identifizieren wir die Umweltprobleme Ihrer Projekte von Grund auf und bieten eine umfassende Perspektive, damit Sie bewusste Entscheidungen treffen, ökologische Auswirkungen minimieren und Ihre Ressourcen nachhaltig verwalten können.",
+    "button": "MACHEN SIE IHRE PROJEKTE MIT UNS"
+  },
+  "sustainableFutureHome": {
+    "title": "EINE ZUKUNFT PFLANZEN",
+    "description": "BEI VERDERAÍZ IDENTIFIZIEREN WIR <code>VON GRUND AUF</code> DIE UMWELTÜBERPROBLEME IHRER PROJEKTE UND BIETEN EINE UMFASSENDE PERSPEKTIVE, DAMIT SIE <code>BEWUSSTE ENTSCHEIDUNGEN</code> TREFFEN, ÖKOLOGISCHE AUSWIRKUNGEN MINIMIEREN UND IHRE RESSOURCEN NACHHALTIG VERWALTEN KÖNNEN."
+  },
+  "heroAboutUs": {
+    "title": "Über uns"
   }
 }
