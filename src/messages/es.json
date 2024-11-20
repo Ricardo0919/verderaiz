@@ -3,12 +3,6 @@
     "label": "Change language",
     "locale": "{locale, select, es {🇲🇽 Spanish} en {🇺🇸 English} other {Unknown}}"
   },
-  "heroHome": {
-    "title": "Verderaíz Hola"
-  },
-  "heroAboutUs": {
-    "title": "Nosotros"
-  },
   "navbar": {
     "home": "Inicio",
     "aboutUs": "Nosotros",
@@ -19,5 +13,17 @@
     "blogLink": "/blog",
     "contact": "Contacto",
     "contactLink": "/contacto"
+  },
+  "heroHome": {
+    "title": "EMPODERANDO UN FUTURO SOSTENIBLE",
+    "description": "En Verderaíz <code>identificamos</code> desde la raíz los desafíos ambientales de tus proyectos, proporcionando una perspectiva integral, para que tomes decisiones conscientes, minimices el impacto ecológico y gestiones tus recursos de forma sostenible.",
+    "button": "HAZ TUS PROYECTOS CON NOSOTROS"
+  },
+  "sustainableFutureHome": {
+    "title": "PLANTANDO UN FUTURO",
+    "description": "EN VERDERAÍZ IDENTIFICAMOS <code>DESDE LA RAÍZ</code> LOS DESAFÍOS AMBIENTALES DE TUS PROYECTOS, PROPORCIONANDO UNA PERSPECTIVA INTEGRAL, PARA QUE TOMES <code>DECISIONES CONSCIENTES</code>, MINIMICES EL IMPACTO ECOLÓGICO Y GESTIONES TUS RECURSOS DE FORMA SOSTENIBLE."
+  },
+  "heroAboutUs": {
+    "title": "Nosotros"
   }
 }

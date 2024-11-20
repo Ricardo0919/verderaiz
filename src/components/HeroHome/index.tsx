@@ -1,36 +1,42 @@
-"use client"
-import React from 'react';
-//import { useTranslations } from "next-intl";
+"use client";
+import React from "react";
 import Image from "next/image";
 import background from "@/assets/images/heroHomeBG.png";
+import {useTranslations} from "next-intl";
 
 function HeroHome() {
-    //const t = useTranslations("heroHome");
-
+    const t = useTranslations("heroHome");
     return (
-        <div className="relative w-full h-screen text-center flex items-center justify-center py-20">
+        <div className="relative text-center py-28 md:py-20 lg:py-72">
             {/* Imagen de fondo */}
-            <Image
-                src={background}
-                alt="Background Image"
-                layout="fill"
-                objectFit="cover"
-                className="-z-10" // Para que la imagen esté detrás del texto
-                priority // Para optimización de carga
-            />
+            <div className="absolute inset-0">
+                <Image
+                    src={background}
+                    alt="Background Image"
+                    layout="fill"
+                    objectFit="cover"
+                    priority // Optimización de carga
+                />
+            </div>
 
             {/* Contenido principal */}
-            <div className="relative z-10 border border-white pt-28 pb-10 px-10 rounded-2xl mx-16 md:pt-28 md:-mt-28">
-                <div className="flex flex-col md:flex-row items-center">
-                    <h1 className="text-4xl text-white font-black font-mono mt-6 md:w-1/2 md:order-2 md:text-right md:mt-0">
-                        EMPODERANDO UN FUTURO SOSTENIBLE
+            <div className="relative border border-white rounded-2xl pt-24 pb-6 px-10 mx-8 md:px-6 lg:pb-10 lg:-mt-40 lg:pt-40 lg:px-20 xl:p-24 xl:pt-44">
+                <div className="flex flex-col md:flex-row items-center justify-center md:gap-12 lg:gap-8">
+                    <h1 className="text-4xl md:text-5xl text-white font-black font-mono mt-6 md:w-1/2 md:order-2 md:text-right md:mt-0 lg:w-2/3 lg:text-7xl xl:text-8xl">
+                        {t("title")}
                     </h1>
-                    <div className="text-white md:w-1/2 md:order-1 md:px-8">
-                        <p className="text-justify mt-7 text-sm font-light">
-                            En Verderaíz te ayudamos a ver desde la raíz los desafíos ambientales de tus proyectos, para que tomes decisiones conscientes, minimices el impacto y gestiones tus recursos de forma sostenible.
+                    <div className="text-white md:w-1/2 md:order-1 lg:w-1/3">
+                        <p className="text-justify mt-6 text-sm font-light lg:text-lg xl:text-2xl">
+                            {t.rich("description",{
+                                code:(chunks) => (
+                                    <code className="font-black">
+                                        {chunks}
+                                    </code>
+                                ),
+                            })}
                         </p>
-                        <p className="mt-2 border border-white rounded-3xl font-bold text-lg px-10">
-                            HAZ TUS PROYECTOS CON NOSTROS
+                        <p className="mt-8 border border-white rounded-3xl font-bold text-lg px-10 md:px-16 lg:text-base xl:px-24 xl:text-xl">
+                            {t("button")}
                         </p>
                     </div>
                 </div>

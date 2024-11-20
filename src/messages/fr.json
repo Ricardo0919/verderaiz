@@ -3,12 +3,6 @@
     "label": "Change language",
     "locale": "{locale, select, es {🇲🇽 Spanish} en {🇺🇸 English} other {Unknown}}"
   },
-  "heroHome": {
-    "title": "Verderaíz Salut"
-  },
-  "heroAboutUs": {
-    "title": "Nous"
-  },
   "navbar": {
     "home": "Accueil",
     "aboutUs": "À propos",
@@ -19,5 +13,17 @@
     "blogLink": "/blog",
     "contact": "Contact",
     "contactLink": "/contact"
+  },
+  "heroHome": {
+    "title": "DONNER LES MOYENS D'UN AVENIR DURABLE",
+    "description": "Chez Verderaíz, nous identifions les défis environnementaux de vos projets à la racine, en offrant une perspective globale, afin que vous puissiez prendre des décisions conscientes, minimiser l'impact écologique et gérer vos ressources de manière durable.",
+    "button": "RÉALISEZ VOS PROJETS AVEC NOUS"
+  },
+  "sustainableFutureHome": {
+    "title": "PLANTER UN AVENIR",
+    "description": "CHEZ VERDERAÍZ, NOUS IDENTIFIONS LES DÉFIS ENVIRONNEMENTAUX DE VOS PROJETS <code>À LA RACINE</code>, EN OFFRANT UNE PERSPECTIVE GLOBALE, AFIN QUE VOUS PUISSIEZ PRENDRE DES <code>DÉCISIONS CONSCIENTES</code>, MINIMISER L'IMPACT ÉCOLOGIQUE ET GÉRER VOS RESSOURCES DE MANIÈRE DURABLE."
+  },
+  "heroAboutUs": {
+    "title": "Nous"
   }
 }

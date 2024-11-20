@@ -1,8 +1,7 @@
 import React from "react";
-import Hero from "@/components/HeroHome";
 import Navbar from "@/components/Navbar";
-//import { unstable_setRequestLocale } from "next-intl/server";
-//import { useTranslations } from "next-intl";
+import Hero from "@/components/HeroHome";
+import SustainableFuture from "@/components/SustainableFutureHome";
 
 export default function Home() {
 
@@ -10,6 +9,7 @@ export default function Home() {
         <div className="">
             <Navbar/>
             <Hero/>
+            <SustainableFuture/>
         </div>
     );
 }

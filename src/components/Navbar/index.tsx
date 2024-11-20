@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import logo from "@/assets/images/Logo.png";
 import Sidebar from "./Sidebar";
@@ -10,12 +10,26 @@ import { IoMenu } from "react-icons/io5";
 
 function NavBar() {
     const [menuOpen, setMenuOpen] = useState(false);
-    const pathname = usePathname();  // En lugar de useRouter
+    const [isScrolled, setIsScrolled] = useState(false);
+    const pathname = usePathname();
     const t = useTranslations("navbar");
 
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
+
+    const handleScroll = () => {
+        if (window.scrollY > 10) {
+            setIsScrolled(true);
+        } else {
+            setIsScrolled(false);
+        }
+    };
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     const linkClasses = (path: string) =>
         pathname === path
@@ -23,7 +37,13 @@ function NavBar() {
             : "text-white font-semibold text-md xl:text-lg hover:bg-white hover:text-black py-1 px-5 rounded-[40px]";
 
     return (
-        <nav className="fixed w-full h-auto z-50 px-20 lg:px-16 py-4 pb-16 mt-4">
+        <nav
+            className={`fixed w-full z-50 px-20 lg:px-16 py-4 pb-16 mt-28 md:mt-20 lg:mt-32 transition-all duration-300 ${
+                isScrolled
+                    ? "bg-dark-green bg-opacity-50 shadow-2xl mt-0 md:-mt-0 lg:-mt-0 py-0 pb-2"
+                    : "bg-transparent"
+            }`}
+        >
             {/* Logo and Laptop Menu */}
             <div className="flex flex-row">
                 <div className="flex items-center lg:w-1/3">
@@ -56,16 +76,12 @@ function NavBar() {
 
             {/* Mobile & Tablet Menu */}
             <div className="flex justify-end -mt-20 lg:hidden">
-                <button
-                    className="text-white"
-                    onClick={toggleMenu}
-                >
-                    <IoMenu className="text-5xl"/>
+                <button className="text-white" onClick={toggleMenu}>
+                    <IoMenu className="text-5xl" />
                 </button>
             </div>
 
             {menuOpen && <Sidebar />}
-
         </nav>
     );
 }
