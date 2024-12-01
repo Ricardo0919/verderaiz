@@ -23,6 +23,16 @@
     "title": "PLANTING A FUTURE",
     "description": "AT VERDERAÍZ, WE IDENTIFY <code>FROM THE ROOT</code> THE ENVIRONMENTAL CHALLENGES OF YOUR PROJECTS, PROVIDING A COMPREHENSIVE PERSPECTIVE SO YOU CAN MAKE <code>CONSCIOUS DECISIONS</code>, MINIMIZE ECOLOGICAL IMPACT, AND MANAGE YOUR RESOURCES SUSTAINABLY."
   },
+  "aboutUsHome": {
+    "title": "ABOUT US",
+    "description1": "At Verderaíz, we help companies develop their projects sustainably, verifying and aligning them with current regulations as well as best environmental practices. We specialize in environmental impact assessment, focusing on turning environmental challenges into opportunities for improvement and economic development without compromising the care of the planet.",
+    "description2": "<code>We believe that sustainability not only benefits the environment but is also key to long-term business success.</code> Our experience and passion for nature allow us to provide tailored solutions that ensure a positive impact both for your company and the environment."
+  },
+  "MexicanCompanyHome": {
+    "title": "100% MEXICAN COMPANY",
+    "description1": "Founded by two women from Querétaro with passion and conviction to make this planet a better place.",
+    "description2": "We have stood out for offering a comprehensive service and quickly addressing the needs of our clients, committed to providing environmental solutions for the industry in Mexico."
+  },
   "heroAboutUs": {
     "title": "About Us"
   }
