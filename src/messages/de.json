@@ -23,6 +23,16 @@
     "title": "EINE ZUKUNFT PFLANZEN",
     "description": "BEI VERDERAÍZ IDENTIFIZIEREN WIR <code>VON GRUND AUF</code> DIE UMWELTÜBERPROBLEME IHRER PROJEKTE UND BIETEN EINE UMFASSENDE PERSPEKTIVE, DAMIT SIE <code>BEWUSSTE ENTSCHEIDUNGEN</code> TREFFEN, ÖKOLOGISCHE AUSWIRKUNGEN MINIMIEREN UND IHRE RESSOURCEN NACHHALTIG VERWALTEN KÖNNEN."
   },
+  "aboutUsHome": {
+    "title": "ÜBER UNS",
+    "description1": "Bei Verderaíz helfen wir Unternehmen, ihre Projekte nachhaltig zu entwickeln, indem wir sie mit den aktuellen Vorschriften sowie den besten Umweltpraktiken überprüfen und ausrichten. Wir sind auf Umweltverträglichkeitsprüfungen spezialisiert und konzentrieren uns darauf, Umweltprobleme in Chancen für Verbesserung und wirtschaftliche Entwicklung zu verwandeln, ohne die Sorge um den Planeten zu gefährden.",
+    "description2": "<code>Wir glauben, dass Nachhaltigkeit nicht nur der Umwelt zugutekommt, sondern auch der Schlüssel zum langfristigen Geschäftserfolg ist.</code> Unsere Erfahrung und Leidenschaft für die Natur ermöglichen es uns, maßgeschneiderte Lösungen anzubieten, die sowohl für Ihr Unternehmen als auch für die Umwelt positive Auswirkungen gewährleisten."
+  },
+  "MexicanCompanyHome": {
+    "title": "100% MEXIKANISCHES UNTERNEHMEN",
+    "description1": "Gegründet von zwei Frauen aus Querétaro mit Leidenschaft und Überzeugung, diesen Planeten zu einem besseren Ort zu machen.",
+    "description2": "Wir zeichnen uns dadurch aus, einen umfassenden Service anzubieten und die Bedürfnisse unserer Kunden schnell zu erfüllen, stets engagiert, Umweltlösungen für die Industrie in Mexiko bereitzustellen."
+  },
   "heroAboutUs": {
     "title": "Über uns"
   }

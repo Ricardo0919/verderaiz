@@ -23,6 +23,16 @@
     "title": "PLANTANDO UN FUTURO",
     "description": "EN VERDERAÍZ IDENTIFICAMOS <code>DESDE LA RAÍZ</code> LOS DESAFÍOS AMBIENTALES DE TUS PROYECTOS, PROPORCIONANDO UNA PERSPECTIVA INTEGRAL, PARA QUE TOMES <code>DECISIONES CONSCIENTES</code>, MINIMICES EL IMPACTO ECOLÓGICO Y GESTIONES TUS RECURSOS DE FORMA SOSTENIBLE."
   },
+  "aboutUsHome": {
+    "title": "ACERCA DE",
+    "description1": "En Verderaíz, ayudamos a las empresas a desarrollar sus proyectos de manera sostenible, verificando y  alineándolos con la normativa vigente, así como las mejores prácticas ambientales. Nos especializamos en la evaluación de impacto ambiental, enfocándonos en transformar desafíos ambientales en oportunidades de mejora y desarrollo económico, sin comprometer el cuidado del planeta.",
+    "description2": "<code>Creemos que la sustentabilidad no solo beneficia al medio ambiente, sino que también es clave para el éxito empresarial a largo plazo.</code> Nuestra experiencia y pasión por la naturaleza nos permiten brindar soluciones personalizadas que aseguran un impacto positivo tanto para tu empresa como para el entorno."
+  },
+  "MexicanCompanyHome": {
+    "title": "EMPRESA 100% MEXICANA",
+    "description1": "Fundada por dos mujeres queretanas con pasión y convicción por hacer de este planeta un lugar mejor.",
+    "description2": "Nos hemos destacado por ofrecer un servicio completo y atender de forma rápida las necesidades de nuestros clientes, comprometidas en proporcionar soluciones ambientales para la industria en México."
+  },
   "heroAboutUs": {
     "title": "Nosotros"
   }

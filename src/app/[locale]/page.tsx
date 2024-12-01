@@ -1,7 +1,9 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/HeroHome";
-import SustainableFuture from "@/components/SustainableFutureHome";
+import Hero from "../../components/Home/HeroHome";
+import SustainableFuture from "../../components/Home/SustainableFutureHome";
+import AboutUs from "../../components/Home/AboutUsHome";
+import MexicanCompanyHome from "@/components/Home/MexicanCompanyHome";
 
 export default function Home() {
 
@@ -10,6 +12,8 @@ export default function Home() {
             <Navbar/>
             <Hero/>
             <SustainableFuture/>
+            <AboutUs/>
+            <MexicanCompanyHome/>
         </div>
     );
 }
