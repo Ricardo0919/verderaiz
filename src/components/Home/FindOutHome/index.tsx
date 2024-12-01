@@ -1,6 +1,5 @@
 "use client"
 import React from 'react';
-import AboutUsHome from "@/assets/images/AboutUsHome.png";
 import Image from "next/image";
 import {FaArrowRightLong} from "react-icons/fa6";
 import Ecoladrillos from "@/assets/images/Ecoladrillos.png";
