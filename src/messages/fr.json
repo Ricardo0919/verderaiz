@@ -28,12 +28,34 @@
     "description1": "Chez Verderaíz, nous aidons les entreprises à développer leurs projets de manière durable, en les vérifiant et en les alignant sur la réglementation en vigueur ainsi que sur les meilleures pratiques environnementales. Nous sommes spécialisés dans l'évaluation de l'impact environnemental, en nous concentrant sur la transformation des défis environnementaux en opportunités d'amélioration et de développement économique, sans compromettre la préservation de la planète.",
     "description2": "<code>Nous croyons que la durabilité ne profite pas seulement à l'environnement, mais qu'elle est également essentielle pour la réussite à long terme des entreprises.</code> Notre expérience et notre passion pour la nature nous permettent de fournir des solutions sur mesure qui assurent un impact positif à la fois pour votre entreprise et pour l'environnement."
   },
-  "MexicanCompanyHome": {
+  "mexicanCompanyHome": {
     "title": "ENTREPRISE 100% MEXICAINE",
     "description1": "Fondée par deux femmes de Querétaro avec passion et conviction pour faire de cette planète un endroit meilleur.",
     "description2": "Nous nous sommes distingués par l'offre d'un service complet et la réponse rapide aux besoins de nos clients, engagés à fournir des solutions environnementales pour l'industrie au Mexique."
   },
+  "findOutHome": {
+    "title": "DÉCOUVREZ",
+    "description": "Notre <code>blog</code> est un <code>espace dynamique</code> qui célèbre la passion pour <code>la durabilité,</code> les projets réussis et les communautés durables.",
+    "titleSquare1": "Compostage à domicile",
+    "viewMore": "Voir plus",
+    "titleSquare2": "Écobriques",
+    "descriptionSquare1": "Idéal pour les maisons avec un espace limité ou sans jardin....",
+    "descriptionSquare2": "Évaluez et anticipez les risques potentiels liés aux activités industrielles, minimisez l'impact environnemental et protégez la communauté et les ressources naturelles."
+  },
   "heroAboutUs": {
     "title": "Nous"
+  },
+  "footer": {
+    "title": "CONTACTEZ-NOUS",
+    "project": "Parlons de votre projet",
+    "name": "Votre nom",
+    "phone": "Téléphone",
+    "mail": "e-mail",
+    "city": "Ville",
+    "message": "Message / service d'intérêt",
+    "button": "Envoyer",
+    "offices": "Bureaux",
+    "address": "Queretaro",
+    "information": "Plus d'informations sur les bureaux et nous"
   }
 }

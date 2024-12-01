@@ -28,12 +28,34 @@
     "description1": "At Verderaíz, we help companies develop their projects sustainably, verifying and aligning them with current regulations as well as best environmental practices. We specialize in environmental impact assessment, focusing on turning environmental challenges into opportunities for improvement and economic development without compromising the care of the planet.",
     "description2": "<code>We believe that sustainability not only benefits the environment but is also key to long-term business success.</code> Our experience and passion for nature allow us to provide tailored solutions that ensure a positive impact both for your company and the environment."
   },
-  "MexicanCompanyHome": {
+  "mexicanCompanyHome": {
     "title": "100% MEXICAN COMPANY",
     "description1": "Founded by two women from Querétaro with passion and conviction to make this planet a better place.",
     "description2": "We have stood out for offering a comprehensive service and quickly addressing the needs of our clients, committed to providing environmental solutions for the industry in Mexico."
   },
+  "findOutHome": {
+    "title": "FIND OUT",
+    "description": "Our <code>blog</code> is a <code>dynamic space</code> that celebrates the passion for <code>sustainability,</code> successful projects, and sustainable communities.",
+    "titleSquare1": "Home Composting",
+    "viewMore": "View more",
+    "titleSquare2": "Ecobricks",
+    "descriptionSquare1": "Ideal for homes with limited space or without a garden....",
+    "descriptionSquare2": "Evaluate and anticipate potential risks associated with industrial activities, minimizing environmental impact and protecting the community and natural resources."
+  },
   "heroAboutUs": {
     "title": "About Us"
+  },
+  "footer": {
+    "title": "CONTACT US",
+    "project": "Let's talk about your project",
+    "name": "Your name",
+    "phone": "Phone",
+    "mail": "e-mail",
+    "city": "City",
+    "message": "Message / service of interest",
+    "button": "Send",
+    "offices": "Offices",
+    "address": "Queretaro",
+    "information": "More information about the offices and us"
   }
 }

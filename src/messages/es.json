@@ -28,12 +28,34 @@
     "description1": "En Verderaíz, ayudamos a las empresas a desarrollar sus proyectos de manera sostenible, verificando y  alineándolos con la normativa vigente, así como las mejores prácticas ambientales. Nos especializamos en la evaluación de impacto ambiental, enfocándonos en transformar desafíos ambientales en oportunidades de mejora y desarrollo económico, sin comprometer el cuidado del planeta.",
     "description2": "<code>Creemos que la sustentabilidad no solo beneficia al medio ambiente, sino que también es clave para el éxito empresarial a largo plazo.</code> Nuestra experiencia y pasión por la naturaleza nos permiten brindar soluciones personalizadas que aseguran un impacto positivo tanto para tu empresa como para el entorno."
   },
-  "MexicanCompanyHome": {
+  "mexicanCompanyHome": {
     "title": "EMPRESA 100% MEXICANA",
     "description1": "Fundada por dos mujeres queretanas con pasión y convicción por hacer de este planeta un lugar mejor.",
     "description2": "Nos hemos destacado por ofrecer un servicio completo y atender de forma rápida las necesidades de nuestros clientes, comprometidas en proporcionar soluciones ambientales para la industria en México."
   },
+  "findOutHome": {
+    "title": "ENTERATE",
+    "description": "Nuestro <code>blog</code> es un <code>espacio dinámico</code> que celebra la pasión por <code>la sustentabilidad,</code> proyectos de éxito y comunidades sostenibles.",
+    "titleSquare1": "Composta en casa",
+    "viewMore": "Ver más",
+    "titleSquare2": "Ecoladrillos",
+    "descriptionSquare1": "Ideal para viviendas reducidas en espacio sin jardin o con jardin limitado....",
+    "descriptionSquare2": "Evalúa y anticipa posibles riesgos asociados a actividades industriales, minimizando el impacto sobre el entorno y protegiendo a la comunidad y los recursos naturales."
+  },
   "heroAboutUs": {
     "title": "Nosotros"
+  },
+  "footer": {
+    "title": "CONTÁCTANOS",
+    "project": "Hablemos de tu proyecto",
+    "name": "Tu nombre",
+    "phone": "Teléfono",
+    "mail": "e-mail",
+    "city": "Ciudad",
+    "message": "Mensaje servicio de interés",
+    "button": "Enviar",
+    "offices": "Oficinas",
+    "address": "Querétaro",
+    "information": "Más información sobre las oficinas y nosotros"
   }
 }

@@ -38,12 +38,13 @@ function NavBar() {
 
     return (
         <nav
-            className={`fixed w-full z-50 px-20 lg:px-16 py-4 pb-16 mt-28 md:mt-20 lg:mt-32 transition-all duration-300 ${
+            className={`fixed w-full z-50 px-20 lg:px-16 transition-all duration-300 ${
                 isScrolled
-                    ? "bg-dark-green bg-opacity-50 shadow-2xl -mt-0 md:-mt-0 lg:-mt-0 py-0 pb-2"
-                    : "bg-transparent"
+                    ? "bg-dark-green bg-opacity-50 shadow-2xl mt-0 py-2 pb-6 lg:pb-2"
+                    : "bg-transparent mt-28 md:mt-20 lg:mt-32 py-4 pb-16"
             }`}
         >
+
             {/* Logo and Laptop Menu */}
             <div className="flex flex-row">
                 <div className="flex items-center lg:w-1/3">
@@ -55,7 +56,8 @@ function NavBar() {
                         />
                     </Link>
                 </div>
-                <div className="lg:w-2/3 hidden lg:flex flex-row justify-center items-center border-white border-2 my-12 xl:my-10 xl:mx-40 rounded-[60px]">
+                <div
+                    className="lg:w-2/3 hidden lg:flex flex-row justify-center items-center border-white border-2 my-12 xl:my-10 xl:mx-40 rounded-[60px]">
                     <Link href="/" className={linkClasses("/")}>
                         {t("home")}
                     </Link>
@@ -77,11 +79,11 @@ function NavBar() {
             {/* Mobile & Tablet Menu */}
             <div className="flex justify-end -mt-20 lg:hidden">
                 <button className="text-white" onClick={toggleMenu}>
-                    <IoMenu className="text-5xl" />
+                    <IoMenu className="text-5xl"/>
                 </button>
             </div>
 
-            {menuOpen && <Sidebar />}
+            {menuOpen && <Sidebar/>}
         </nav>
     );
 }
