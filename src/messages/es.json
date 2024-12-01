@@ -45,6 +45,32 @@
   "heroAboutUs": {
     "title": "Nosotros"
   },
+  "heroServices": {
+    "title": "VERDERAÍZ",
+    "description": "Desde la raíz del problema, hacia un impacto positivo: Servicios que integran sostenibilidad en cada decisión.",
+    "button": "EMPEZAR MI PROYECTO"
+  },
+  "environmentalServices": {
+    "title": "QUÉ HACEMOS",
+    "subtitle": "MANIFESTACIÓN DE IMPACTO AMBIENTAL",
+    "description1": "Es un estudio técnico que evalúa los posibles efectos de un proyecto en el medio ambiente. A través de una MIA, identificamos, prevenimos y mitigamos los impactos negativos antes de que se ejecuten las actividades proyectadas. Este estudio es esencial para proyectos de construcción, infraestructura, industria y turismo, entre otros.",
+    "description2": "La MIA es un requisito indispensable para proyectos que pueden afectar el entorno natural, ya que permite tomar decisiones informadas y sostenibles. Además, asegura el cumplimiento con la normativa ambiental en México, evitando sanciones y fortaleciendo la reputación de la empresa."
+  },
+  "preventiveServices": {
+    "subtitle": "INFORME\nPREVENTIVO",
+    "description1": "Es una herramienta que permite a las autoridades y empresas evaluar si un proyecto tiene el potencial de causar daños ambientales, considerando los riesgos asociados y las actividades propuestas. Este informe es requerido para aquellos proyectos de menor impacto, aunque igualmente importantes en términos de sostenibilidad y responsabilidad.",
+    "description2": "Facilita la validación de proyectos que, por su escala o características, no requieren una MIA completa. Además, permite a las empresas identificar medidas de prevención y asegura que se cumpla con la normatividad, promoviendo prácticas responsables y evitando conflictos o retrasos regulatorios."
+  },
+  "riskServices": {
+    "subtitle": "ESTUDIO DE\nRIESGO",
+    "description1": "Evaluamos los riesgos de accidentes o desastres ambientales que podrían ocurrir durante la operación de un proyecto. Incluye análisis de impacto potencial sobre la salud humana, los ecosistemas, y la infraestructura, permitiendo a las empresas implementar medidas para evitar o minimizar estos riesgos.",
+    "description2": "Este estudio es fundamental para la prevención y preparación ante posibles incidentes ambientales, especialmente en sectores de alta complejidad, como hidrocarburos, químico, y minería. Ayuda a las empresas a proteger sus activos y personal, cumpliendo con las exigencias legales y demostrando un compromiso sólido con la seguridad ambiental."
+  },
+  "trainingServices": {
+    "subtitle": "CAPACITACIÓN",
+    "description1": "Nuestras capacitaciones en conciencia ambiental están diseñadas para educar y sensibilizar a equipos y empleados sobre las mejores prácticas ambientales, el cumplimiento normativo, y la importancia de la sostenibilidad en la operación diaria. A través de dinámicas de aprendizaje y contenido especializado, fomentamos una cultura organizacional orientada al cuidado del medio ambiente.",
+    "description2": "La capacitación ambiental es clave para el éxito de cualquier estrategia de sostenibilidad. Permite que todo el personal esté alineado con los objetivos ambientales de la empresa, reduce el riesgo de incumplimiento normativo, y fortalece la imagen responsable de la organización. Además, incrementa la eficiencia en el manejo de recursos y en la implementación de políticas ambientales."
+  },
   "footer": {
     "title": "CONTÁCTANOS",
     "project": "Hablemos de tu proyecto",

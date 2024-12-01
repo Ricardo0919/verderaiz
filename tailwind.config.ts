@@ -14,6 +14,7 @@ export default {
         'white': '#ffffff',
         'dark-green': '#263c2d',
         'light-green': '#bbccb5',
+        'services-BG': '#a4ada5',
       },
     },
   },

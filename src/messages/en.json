@@ -45,6 +45,32 @@
   "heroAboutUs": {
     "title": "About Us"
   },
+  "heroServices": {
+    "title": "VERDERAÍZ",
+    "description": "From the root of the problem to a positive impact: Services that integrate sustainability into every decision.\n\n",
+    "button": "START MY PROJECT"
+  },
+  "environmentalServices": {
+    "title": "WHAT WE DO",
+    "subtitle": "ENVIRONMENTAL IMPACT ASSESSMENT",
+    "description1": "It is a technical study that evaluates the potential effects of a project on the environment. Through an EIA, we identify, prevent, and mitigate negative impacts before the planned activities are executed. This study is essential for construction, infrastructure, industry, and tourism projects, among others.",
+    "description2": "The EIA is an indispensable requirement for projects that may affect the natural environment, as it allows for informed and sustainable decision-making. Additionally, it ensures compliance with environmental regulations in Mexico, avoiding penalties and strengthening the company's reputation."
+  },
+  "preventiveServices": {
+    "subtitle": "PREVENTIVE\nREPORT",
+    "description1": "It is a tool that allows authorities and companies to assess whether a project has the potential to cause environmental harm, considering associated risks and proposed activities. This report is required for projects with lesser impact, although still significant in terms of sustainability and responsibility.",
+    "description2": "It facilitates the validation of projects that, due to their scale or characteristics, do not require a full EIA. Additionally, it enables companies to identify preventive measures and ensures compliance with regulations, promoting responsible practices and avoiding regulatory conflicts or delays."
+  },
+  "riskServices": {
+    "subtitle": "RISK\nASSESSMENT",
+    "description1": "We evaluate the risks of accidents or environmental disasters that could occur during a project's operation. This includes analyzing potential impacts on human health, ecosystems, and infrastructure, allowing companies to implement measures to prevent or minimize these risks.",
+    "description2": "This study is essential for prevention and preparation for possible environmental incidents, especially in highly complex sectors such as hydrocarbons, chemicals, and mining. It helps companies protect their assets and personnel, comply with legal requirements, and demonstrate a strong commitment to environmental safety."
+  },
+  "trainingServices": {
+    "subtitle": "TRAINING",
+    "description1": "Our environmental awareness training programs are designed to educate and raise awareness among teams and employees about best environmental practices, regulatory compliance, and the importance of sustainability in daily operations. Through dynamic learning activities and specialized content, we foster an organizational culture oriented towards environmental care.",
+    "description2": "Environmental training is key to the success of any sustainability strategy. It ensures that all staff are aligned with the company's environmental goals, reduces the risk of non-compliance, and strengthens the organization's responsible image. Additionally, it enhances efficiency in resource management and the implementation of environmental policies."
+  },
   "footer": {
     "title": "CONTACT US",
     "project": "Let's talk about your project",

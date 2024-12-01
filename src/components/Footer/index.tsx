@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import background from "@/assets/images/footerBG.png";
+import background from "@/assets/images/FooterBG.png";
 import {useTranslations} from "next-intl";
 
 function Footer() {

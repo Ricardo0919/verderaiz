@@ -41,7 +41,7 @@ function NavBar() {
             className={`fixed w-full z-50 px-20 lg:px-16 transition-all duration-300 ${
                 isScrolled
                     ? "bg-dark-green bg-opacity-50 shadow-2xl mt-0 py-2 pb-6 lg:pb-2"
-                    : "bg-transparent mt-28 md:mt-20 lg:mt-32 py-4 pb-16"
+                    : "bg-transparent mt-28 md:mt-20 lg:mt-16 py-4 pb-16"
             }`}
         >
 
