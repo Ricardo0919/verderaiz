@@ -22,7 +22,7 @@ function SustainableFutureHome() {
                 <p className="text-black text-center text-sm font-serif md:text-lg xl:text-2xl">
                     {t.rich("description",{
                         code:(chunks) => (
-                            <code className="font-black">
+                            <code className="font-black font-serif">
                                 {chunks}
                             </code>
                         ),

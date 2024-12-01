@@ -4,6 +4,8 @@ import Hero from "../../components/Home/HeroHome";
 import SustainableFuture from "../../components/Home/SustainableFutureHome";
 import AboutUs from "../../components/Home/AboutUsHome";
 import MexicanCompanyHome from "@/components/Home/MexicanCompanyHome";
+import FindOut from "@/components/Home/FindOutHome";
+import Footer from "@/components/Footer";
 
 export default function Home() {
 
@@ -14,6 +16,8 @@ export default function Home() {
             <SustainableFuture/>
             <AboutUs/>
             <MexicanCompanyHome/>
+            <FindOut/>
+            <Footer/>
         </div>
     );
 }

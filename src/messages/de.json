@@ -28,12 +28,34 @@
     "description1": "Bei Verderaíz helfen wir Unternehmen, ihre Projekte nachhaltig zu entwickeln, indem wir sie mit den aktuellen Vorschriften sowie den besten Umweltpraktiken überprüfen und ausrichten. Wir sind auf Umweltverträglichkeitsprüfungen spezialisiert und konzentrieren uns darauf, Umweltprobleme in Chancen für Verbesserung und wirtschaftliche Entwicklung zu verwandeln, ohne die Sorge um den Planeten zu gefährden.",
     "description2": "<code>Wir glauben, dass Nachhaltigkeit nicht nur der Umwelt zugutekommt, sondern auch der Schlüssel zum langfristigen Geschäftserfolg ist.</code> Unsere Erfahrung und Leidenschaft für die Natur ermöglichen es uns, maßgeschneiderte Lösungen anzubieten, die sowohl für Ihr Unternehmen als auch für die Umwelt positive Auswirkungen gewährleisten."
   },
-  "MexicanCompanyHome": {
+  "mexicanCompanyHome": {
     "title": "100% MEXIKANISCHES UNTERNEHMEN",
     "description1": "Gegründet von zwei Frauen aus Querétaro mit Leidenschaft und Überzeugung, diesen Planeten zu einem besseren Ort zu machen.",
     "description2": "Wir zeichnen uns dadurch aus, einen umfassenden Service anzubieten und die Bedürfnisse unserer Kunden schnell zu erfüllen, stets engagiert, Umweltlösungen für die Industrie in Mexiko bereitzustellen."
   },
+  "findOutHome": {
+    "title": "ENTDECKEN",
+    "description": "Unser <code>Blog</code> ist ein <code>dynamischer Raum</code>, der die Leidenschaft für <code>Nachhaltigkeit,</code> erfolgreiche Projekte und nachhaltige Gemeinschaften feiert.",
+    "titleSquare1": "Kompostieren zu Hause",
+    "viewMore": "Mehr anzeigen",
+    "titleSquare2": "Ökosteine",
+    "descriptionSquare1": "Ideal für Wohnungen mit begrenztem Platz oder ohne Garten....",
+    "descriptionSquare2": "Bewerten und antizipieren Sie potenzielle Risiken im Zusammenhang mit industriellen Aktivitäten, minimieren Sie die Auswirkungen auf die Umwelt und schützen Sie die Gemeinschaft und die natürlichen Ressourcen."
+  },
   "heroAboutUs": {
     "title": "Über uns"
+  },
+  "footer": {
+    "title": "KONTAKTIERE UNS",
+    "project": "Lass uns über dein Projekt sprechen",
+    "name": "Dein Name",
+    "phone": "Telefon",
+    "mail": "E-Mail",
+    "city": "Stadt",
+    "message": "Nachricht / Interessierter Service",
+    "button": "Absenden",
+    "offices": "Büros",
+    "address": "Queretaro",
+    "information": "Mehr Informationen über die Büros und uns"
   }
 }
