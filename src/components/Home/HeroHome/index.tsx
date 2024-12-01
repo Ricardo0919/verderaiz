@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import background from "@/assets/images/heroHomeBG.png";
+import background from "@/assets/images/HeroHomeBG.png";
 import {useTranslations} from "next-intl";
 
 function HeroHome() {
     const t = useTranslations("heroHome");
     return (
-        <div className="relative text-center py-28 md:py-20 lg:py-72">
+        <div className="relative text-center py-28 md:py-20 lg:py-56">
             {/* Imagen de fondo */}
             <div className="absolute inset-0">
                 <Image
