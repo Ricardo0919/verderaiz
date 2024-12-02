@@ -43,7 +43,25 @@
     "descriptionSquare2": "Evaluate and anticipate potential risks associated with industrial activities, minimizing environmental impact and protecting the community and natural resources."
   },
   "heroAboutUs": {
-    "title": "About Us"
+    "title": "VERDERAÍZ",
+    "description1": "We are a consulting firm passionate about",
+    "description2": "sustainable development",
+    "description3": "of our clients projects."
+  },
+  "misionVisionAboutUs": {
+    "title1": "MISSION",
+    "description1": "To guide companies towards sustainable development by integrating mitigation, conservation, and compensation proposals that align projects with planet care. Demonstrating that sustainability is the most efficient and profitable way to generate economic and social value.",
+    "title2": "VISION",
+    "description2": "To be leaders in environmental consulting in Mexico, recognized for our ability to transform environmental challenges into innovative solutions and safeguard the nation's natural resources. Supporting our clients in contributing to a more balanced and sustainable development for future generations."
+  },
+  "ourTeamAboutUs": {
+    "title": "OUR TEAM",
+    "name1": "Fernanda\nHernandez Burgos",
+    "description1": "Work samples can attract potential clients to request more of your work. Share them here.",
+    "name2": "Alison\nSierra Reséndiz",
+    "description2": "Work samples can attract potential clients to request more of your work. Share them here.",
+    "name3": "Gustavo\nHernandez Alfaro",
+    "description3": "Work samples can attract potential clients to request more of your work. Share them here."
   },
   "heroServices": {
     "title": "VERDERAÍZ",

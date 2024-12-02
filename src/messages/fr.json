@@ -43,7 +43,25 @@
     "descriptionSquare2": "Évaluez et anticipez les risques potentiels liés aux activités industrielles, minimisez l'impact environnemental et protégez la communauté et les ressources naturelles."
   },
   "heroAboutUs": {
-    "title": "Nous"
+    "title": "VERDERAÍZ",
+    "description1": "Nous sommes un cabinet de conseil passionné par",
+    "description2": "le développement durable",
+    "description3": "des projets de nos clients."
+  },
+  "misionVisionAboutUs": {
+    "title1": "MISSION",
+    "description1": "Guider les entreprises vers un développement durable en intégrant des propositions de mitigation, de conservation et de compensation qui alignent les projets avec la préservation de la planète. Démontrant que la durabilité est le moyen le plus efficace et rentable de générer de la valeur économique et sociale.",
+    "title2": "VISION",
+    "description2": "Être leader en conseil environnemental au Mexique et être reconnu pour notre capacité à transformer les défis environnementaux en solutions innovantes et à protéger les ressources naturelles de la nation. En aidant nos clients à contribuer à un développement plus équilibré et durable pour les générations futures."
+  },
+  "ourTeamAboutUs": {
+    "title": "NOTRE ÉQUIPE",
+    "name1": "Fernanda\nHernandez Burgos",
+    "description1": "Des exemples de travail peuvent attirer des clients potentiels à demander davantage de vos travaux. Partagez-les ici.",
+    "name2": "Alison\nSierra Reséndiz",
+    "description2": "Des exemples de travail peuvent attirer des clients potentiels à demander davantage de vos travaux. Partagez-les ici.",
+    "name3": "Gustavo\nHernandez Alfaro",
+    "description3": "Des exemples de travail peuvent attirer des clients potentiels à demander davantage de vos travaux. Partagez-les ici."
   },
   "heroServices": {
     "title": "VERDERAÍZ",

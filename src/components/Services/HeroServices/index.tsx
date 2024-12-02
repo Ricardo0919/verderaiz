@@ -28,6 +28,7 @@ function HeroServices() {
                     <Image
                         src={PlantBG}
                         alt="Plant with gears"
+                        priority
                     />
                 </div>
             </div>
