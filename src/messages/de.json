@@ -43,7 +43,25 @@
     "descriptionSquare2": "Bewerten und antizipieren Sie potenzielle Risiken im Zusammenhang mit industriellen Aktivitäten, minimieren Sie die Auswirkungen auf die Umwelt und schützen Sie die Gemeinschaft und die natürlichen Ressourcen."
   },
   "heroAboutUs": {
-    "title": "Über uns"
+    "title": "VERDERAÍZ",
+    "description1": "Wir sind eine Beratungsfirma, die sich für die",
+    "description2": "nachhaltige Entwicklung",
+    "description3": "der Projekte unserer Kunden begeistert."
+  },
+  "misionVisionAboutUs": {
+    "title1": "MISSION",
+    "description1": "Unternehmen auf dem Weg zu einer nachhaltigen Entwicklung zu begleiten, indem wir Vorschläge zur Minderung, Erhaltung und Kompensation integrieren, die Projekte mit dem Schutz des Planeten in Einklang bringen. Dabei zeigen wir, dass Nachhaltigkeit der effizienteste und rentabelste Weg ist, wirtschaftlichen und sozialen Wert zu schaffen.",
+    "title2": "VISION",
+    "description2": "Führend in der Umweltberatung in Mexiko zu sein und für unsere Fähigkeit anerkannt zu werden, Umweltprobleme in innovative Lösungen zu verwandeln und die natürlichen Ressourcen der Nation zu schützen. Unsere Kunden dabei zu unterstützen, zu einer ausgewogeneren und nachhaltigeren Entwicklung für zukünftige Generationen beizutragen."
+  },
+  "ourTeamAboutUs": {
+    "title": "UNSER TEAM",
+    "name1": "Fernanda\nHernandez Burgos",
+    "description1": "Arbeitsproben können potenzielle Kunden dazu bringen, mehr Arbeiten von Ihnen anzufordern. Teilen Sie sie hier.",
+    "name2": "Alison\nSierra Reséndiz",
+    "description2": "Arbeitsproben können potenzielle Kunden dazu bringen, mehr Arbeiten von Ihnen anzufordern. Teilen Sie sie hier.",
+    "name3": "Gustavo\nHernandez Alfaro",
+    "description3": "Arbeitsproben können potenzielle Kunden dazu bringen, mehr Arbeiten von Ihnen anzufordern. Teilen Sie sie hier."
   },
   "heroServices": {
     "title": "VERDERAÍZ",

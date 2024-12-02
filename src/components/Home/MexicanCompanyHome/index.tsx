@@ -32,6 +32,7 @@ function MexicanCompany() {
                 <Image
                     src={ArcosQro}
                     alt="Arcos QRO"
+                    priority
                 />
             </div>
         </div>

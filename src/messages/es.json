@@ -43,7 +43,25 @@
     "descriptionSquare2": "Evalúa y anticipa posibles riesgos asociados a actividades industriales, minimizando el impacto sobre el entorno y protegiendo a la comunidad y los recursos naturales."
   },
   "heroAboutUs": {
-    "title": "Nosotros"
+    "title": "VERDERAÍZ",
+    "description1": "Somos una consultora apasionada por el",
+    "description2": "desarrollo sustentable",
+    "description3": "de los proyectos de nuestros clientes."
+  },
+  "misionVisionAboutUs": {
+    "title1": "MISIÓN",
+    "description1": "Guiar a las empresas hacia un desarrollo sostenible, integrando propuestas de mitigación, conservación y compensación que permitan que los proyectos sean alineados con el cuidado del planeta. Demostrando que la sustentabilidad es el camino más eficiente y rentable para generar valor económico y social.",
+    "title2": "VISIÓN",
+    "description2": "Ser líderes en consultoría ambiental en México y ser reconocidos por nuestra capacidad para transformar desafíos ambientales en soluciones innovadoras y salvaguardar los recursos naturales de la nación. Apoyando a nuestros clientes a contribuir con un desarrollo más equilibrado y sostenible para las futuras generaciones."
+  },
+  "ourTeamAboutUs": {
+    "title": "NUESTRO EQUIPO",
+    "name1": "Fernanda\nHernandez Burgos",
+    "description1": "Las muestras de trabajo pueden atraer a clientes potenciales para que soliciten más trabajos tuyos. Compártelas aquí.",
+    "name2": "Alison\nSierra Reséndiz",
+    "description2": "Las muestras de trabajo pueden atraer a clientes potenciales para que soliciten más trabajos tuyos. Compártelas aquí.",
+    "name3": "Gustavo\nHernandez Alfaro",
+    "description3": "Las muestras de trabajo pueden atraer a clientes potenciales para que soliciten más trabajos tuyos. Compártelas aquí."
   },
   "heroServices": {
     "title": "VERDERAÍZ",
