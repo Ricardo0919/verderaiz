@@ -33,6 +33,18 @@
     "description1": "Fondée par deux femmes de Querétaro avec passion et conviction pour faire de cette planète un endroit meilleur.",
     "description2": "Nous nous sommes distingués par l'offre d'un service complet et la réponse rapide aux besoins de nos clients, engagés à fournir des solutions environnementales pour l'industrie au Mexique."
   },
+  "sliderHome": {
+    "title": "SERVICES",
+    "subtitle1": "Déclaration d'impact environnemental",
+    "description1": "Étude détaillée pour identifier, décrire, évaluer et atténuer les impacts environnementaux des projets, assurant un développement durable et facilitant l'obtention de permis.",
+    "subtitle2": "Rapport Préventif",
+    "description2": "Idéal pour les projets de plus petite échelle qui ne nécessitent pas une étude complète. Simplifie les démarches avec SEMARNAT et démontre l'engagement de votre entreprise envers la réglementation environnementale.",
+    "subtitle3": "Formation",
+    "description3": "Former votre équipe aux bonnes pratiques environnementales renforce la culture de durabilité au sein de votre entreprise, améliorant l'efficacité et la conformité réglementaire.",
+    "subtitle4": "Étude de Risque",
+    "description4": "Évalue et anticipe les risques possibles liés aux activités industrielles, minimisant l'impact sur l'environnement et protégeant la communauté et les ressources naturelles.",
+    "viewMore": "En savoir plus"
+  },
   "findOutHome": {
     "title": "DÉCOUVREZ",
     "description": "Notre <code>blog</code> est un <code>espace dynamique</code> qui célèbre la passion pour <code>la durabilité,</code> les projets réussis et les communautés durables.",

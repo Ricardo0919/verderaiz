@@ -33,6 +33,18 @@
     "description1": "Fundada por dos mujeres queretanas con pasión y convicción por hacer de este planeta un lugar mejor.",
     "description2": "Nos hemos destacado por ofrecer un servicio completo y atender de forma rápida las necesidades de nuestros clientes, comprometidas en proporcionar soluciones ambientales para la industria en México."
   },
+  "sliderHome": {
+    "title": "SERVICIOS",
+    "subtitle1": "Manifiesto de impacto ambiental",
+    "description1": "Estudio detallado para identificar, describir, evaluar y mitigar los impactos ambientales de proyectos, asegurando el desarrollo sostenible y así mismo, facilitar la obtención de permisos.",
+    "subtitle2": "Informe Preventivo",
+    "description2": "Ideal para proyectos de menor escala que no requieren una MIA completa. Simplifica los trámites ante la SEMARNAT y demuestra el compromiso de tu empresa con la normativa ambiental.",
+    "subtitle3": "Capacitación",
+    "description3": "Formar a tu equipo en buenas prácticas ambientales fortalece la cultura de sostenibilidad dentro de tu empresa, mejorando la eficiencia y cumplimiento normativo desde dentro.",
+    "subtitle4": "Estudio de riesgo",
+    "description4": "Evalúa y anticipa posibles riesgos asociados a actividades industriales, minimizando el impacto sobre el entorno y protegiendo a la comunidad y los recursos naturales.",
+    "viewMore": "Ver más"
+  },
   "findOutHome": {
     "title": "ENTERATE",
     "description": "Nuestro <code>blog</code> es un <code>espacio dinámico</code> que celebra la pasión por <code>la sustentabilidad,</code> proyectos de éxito y comunidades sostenibles.",
