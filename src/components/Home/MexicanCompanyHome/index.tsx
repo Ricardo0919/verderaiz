@@ -4,10 +4,12 @@ import ArcosQro from "@/assets/images/MexicanCompanyHome.png";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { FaArrowRightLong } from "react-icons/fa6";
+import Link from "next/link";
 
 
 function MexicanCompany() {
     const t = useTranslations("mexicanCompanyHome");
+    const l = useTranslations("navbar");
 
     return (
         <div className="flex flex-col justify-center items-center md:flex-row mb-12 xl:mb-20">
@@ -21,11 +23,11 @@ function MexicanCompany() {
                 <p className="text-justify mt-6 md:text-xs lg:text-base xl:text-xl lg:mt-8 mb-4 xl:mb-8">
                     {t("description2")}
                 </p>
-                <a href="#">
+                <Link href={l("aboutUsLink")}>
                     <button className="border-2 xl:border-[3px] border-dark-green rounded-2xl px-4 lg:px-6 transform hover:scale-125 transition-transform duration-300">
                         <FaArrowRightLong className="text-xl lg:text-3xl text-dark-green"/>
                     </button>
-                </a>
+                </Link>
             </div>
 
             <div className="rounded-[200px] ml-9 mt-6 md:w-1/2">

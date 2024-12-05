@@ -16,6 +16,15 @@ export default {
         'light-green': '#bbccb5',
         'services-BG': '#a4ada5',
       },
+      animation: {
+        'spin-once': 'spin-once 0.5s linear forwards',
+      },
+      keyframes: {
+        'spin-once': {
+          '0%': {transform: 'rotate(0deg)'},
+          '100%': {transform: 'rotate(360deg)'},
+        },
+      },
     },
   },
   plugins: [],

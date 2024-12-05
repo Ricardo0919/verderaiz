@@ -33,6 +33,18 @@
     "description1": "Gegründet von zwei Frauen aus Querétaro mit Leidenschaft und Überzeugung, diesen Planeten zu einem besseren Ort zu machen.",
     "description2": "Wir zeichnen uns dadurch aus, einen umfassenden Service anzubieten und die Bedürfnisse unserer Kunden schnell zu erfüllen, stets engagiert, Umweltlösungen für die Industrie in Mexiko bereitzustellen."
   },
+  "sliderHome": {
+    "title": "DIENSTLEISTUNGEN",
+    "subtitle1": "Umweltverträglichkeitsprüfung",
+    "description1": "Detaillierte Studie zur Identifizierung, Beschreibung, Bewertung und Minderung der Umweltauswirkungen von Projekten, um eine nachhaltige Entwicklung sicherzustellen und die Genehmigungserteilung zu erleichtern.",
+    "subtitle2": "Präventiver Bericht",
+    "description2": "Ideal für kleinere Projekte, die keine vollständige UVP erfordern. Vereinfacht Verfahren mit SEMARNAT und zeigt das Engagement Ihres Unternehmens für Umweltvorschriften.",
+    "subtitle3": "Schulung",
+    "description3": "Die Schulung Ihres Teams in bewährten Umweltpraktiken stärkt die Nachhaltigkeitskultur in Ihrem Unternehmen, verbessert die Effizienz und die Einhaltung von Vorschriften.",
+    "subtitle4": "Risikoanalyse",
+    "description4": "Bewertet und antizipiert mögliche Risiken im Zusammenhang mit industriellen Aktivitäten, minimiert die Auswirkungen auf die Umwelt und schützt die Gemeinschaft und natürliche Ressourcen.",
+    "viewMore": "Mehr erfahren"
+  },
   "findOutHome": {
     "title": "ENTDECKEN",
     "description": "Unser <code>Blog</code> ist ein <code>dynamischer Raum</code>, der die Leidenschaft für <code>Nachhaltigkeit,</code> erfolgreiche Projekte und nachhaltige Gemeinschaften feiert.",

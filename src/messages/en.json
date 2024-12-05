@@ -33,6 +33,18 @@
     "description1": "Founded by two women from Querétaro with passion and conviction to make this planet a better place.",
     "description2": "We have stood out for offering a comprehensive service and quickly addressing the needs of our clients, committed to providing environmental solutions for the industry in Mexico."
   },
+  "sliderHome": {
+    "title": "SERVICES",
+    "subtitle1": "Environmental Impact Statement",
+    "description1": "Detailed study to identify, describe, evaluate, and mitigate the environmental impacts of projects, ensuring sustainable development and facilitating the acquisition of permits.",
+    "subtitle2": "Preventive Report",
+    "description2": "Ideal for smaller-scale projects that do not require a full EIS. Simplifies procedures with SEMARNAT and demonstrates your company's commitment to environmental regulations.",
+    "subtitle3": "Training",
+    "description3": "Training your team in good environmental practices strengthens the culture of sustainability within your company, improving efficiency and regulatory compliance from within.",
+    "subtitle4": "Risk Study",
+    "description4": "Evaluates and anticipates possible risks associated with industrial activities, minimizing the impact on the environment and protecting the community and natural resources.",
+    "viewMore": "View more"
+  },
   "findOutHome": {
     "title": "FIND OUT",
     "description": "Our <code>blog</code> is a <code>dynamic space</code> that celebrates the passion for <code>sustainability,</code> successful projects, and sustainable communities.",

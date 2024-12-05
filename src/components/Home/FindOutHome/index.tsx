@@ -5,10 +5,12 @@ import {FaArrowRightLong} from "react-icons/fa6";
 import Ecoladrillos from "@/assets/images/Ecoladrillos.png";
 import Composta from "@/assets/images/Composta.png";
 import {useTranslations} from "next-intl";
+import Link from "next/link";
 
 
 function FindOut() {
     const t = useTranslations("findOutHome");
+    const l = useTranslations("navbar");
 
     return (
         <div className="flex flex-col justify-center items-center mx-10 text-black mb-10 lg:flex-row lg:mx-16 lg:gap-20">
@@ -25,12 +27,12 @@ function FindOut() {
                         ),
                     })}
                 </p>
-                <a href="#">
+                <Link href={l("blogLink")}>
                     <button
                         className="border-2 xl:border-[3px] border-dark-green rounded-2xl px-4 lg:px-6 transform hover:scale-125 transition-transform duration-300">
                         <FaArrowRightLong className="text-xl lg:text-3xl text-dark-green"/>
                     </button>
-                </a>
+                </Link>
             </div>
 
             <div className="mt-6 flex flex-col md:flex-row md:gap-10 lg:w-1/2">
@@ -48,9 +50,11 @@ function FindOut() {
                             </p>
                         </div>
                         <a className="absolute inset-0 flex flex-col items-center justify-end mb-10 lg:mb-6 xl:mb-8">
-                            <button className="text-white border-2 border-white py-2 px-4 xl:px-6 rounded-[30px] text-xs xl:text-lg transform hover:scale-125 transition-transform duration-300">
-                                {t("viewMore")}
-                            </button>
+                            <Link href={l("blogLink")}>
+                                <button className="text-white border-2 border-white py-2 px-4 xl:px-6 rounded-[30px] text-xs xl:text-lg transform hover:scale-125 transition-transform duration-300">
+                                    {t("viewMore")}
+                                </button>
+                            </Link>
                         </a>
                     </div>
                     <p className="text-center mt-1 text-xs mx-6 xl:text-lg">
@@ -72,9 +76,11 @@ function FindOut() {
                             </p>
                         </div>
                         <a className="absolute inset-0 flex flex-col items-center justify-end mb-12 lg:mb-6 xl:mb-8">
-                            <button className="text-white border-2 border-white py-2 px-4 lg:px-2 lg:py-1 xl:px-3 xl:py-2 rounded-[30px] text-xs lg:text-[10px] xl:text-[20px] transform hover:scale-125 transition-transform duration-300">
-                                {t("viewMore")}
-                            </button>
+                            <Link href={l("blogLink")}>
+                                <button className="text-white border-2 border-white py-2 px-4 lg:px-2 lg:py-1 xl:px-3 xl:py-2 rounded-[30px] text-xs lg:text-[10px] xl:text-[20px] transform hover:scale-125 transition-transform duration-300">
+                                    {t("viewMore")}
+                                </button>
+                            </Link>
                         </a>
                     </div>
                     <p className="text-center mt-1 text-xs mx-6 xl:text-lg">
