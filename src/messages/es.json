@@ -75,6 +75,12 @@
     "name3": "Gustavo\nHernandez Alfaro",
     "description3": "Las muestras de trabajo pueden atraer a clientes potenciales para que soliciten más trabajos tuyos. Compártelas aquí."
   },
+  "accreditationsAboutUs": {
+    "title": "Acreditaciones",
+    "subtitle1": "DIPLOMADO EN INFORMES PREVENTIVOS Y MANIFIESTOS DE IMPACTO AMBIENTAL PARA LA CONSTRUCCION",
+    "subtitle2": "CURSO GESTIÓN AMBIENTAL\nISO 14001:2015",
+    "subtitle3": "TALLER IMPACTO AMBIENTAL"
+  },
   "heroServices": {
     "title": "VERDERAÍZ",
     "description": "Desde la raíz del problema, hacia un impacto positivo: Servicios que integran sostenibilidad en cada decisión.",
