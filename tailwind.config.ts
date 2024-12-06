@@ -15,6 +15,7 @@ export default {
         'dark-green': '#263c2d',
         'light-green': '#bbccb5',
         'services-BG': '#a4ada5',
+        'blog-BG': '#121e15',
       },
       animation: {
         'spin-once': 'spin-once 0.5s linear forwards',
