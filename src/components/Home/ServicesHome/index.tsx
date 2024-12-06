@@ -169,6 +169,10 @@ function Slider() {
         setSelectedSlide(null);
     };
 
+    const handleLink = () => {
+        setShowDetails(false);
+    };
+
     useEffect(() => {
         if (showDetails) {
             document.body.style.overflow = "hidden";
@@ -280,6 +284,7 @@ function Slider() {
                         <div className="relative flex justify-center z-10 mb-8">
                             <Link href={l("servicesLink")}>
                                 <button
+                                    onClick={handleLink}
                                     className="text-white border-2 border-white py-2 px-4 xl:px-6 rounded-[30px] text-xs xl:text-lg transform hover:scale-125 transition-transform duration-300"
                                 >
                                     {t("viewMore")}
