@@ -185,7 +185,7 @@ function Slider() {
 
     return (
         <div className="relative w-full bg-white py-10">
-            <h2 className="text-3xl font-serif font-bold text-dark-green text-center mb-4">
+            <h2 className="text-3xl font-serif font-bold text-dark-green text-center mb-4 md:text4xl  md:tracking-[7px] lg:text-5xl lg:tracking-[10px] xl:text-6xl xl:tracking-[18px]">
                 {t("title")}
             </h2>
 
@@ -220,7 +220,7 @@ function Slider() {
                             style={{ flex: `0 0 calc(100% / ${visibleSlides})` }}
                             ref={index === 0 ? slideRef : null}
                         >
-                            <div className="relative w-full h-[380px] mx-auto rounded-xl overflow-hidden shadow-lg flex flex-col items-center justify-center">
+                            <div className="relative w-full h-[380px] mx-auto rounded-xl overflow-hidden flex flex-col items-center justify-center">
                                 <Image
                                     src={slide.img}
                                     alt={slide.alt}
@@ -275,7 +275,7 @@ function Slider() {
                         >
                             <IoIosCloseCircleOutline size={40}/>
                         </button>
-                        <h3 className="relative text-2xl font-bold text-center mb-4 text-white z-10 mt-20 mx-4">
+                        <h3 className="relative text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-center mb-4 text-white z-10 mt-20 mx-4">
                             {selectedSlide.title}
                         </h3>
                         <p className="relative text-center text-gray-200 mb-6 z-10 mx-6">

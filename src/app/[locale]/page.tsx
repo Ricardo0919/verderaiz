@@ -4,7 +4,7 @@ import Hero from "../../components/Home/HeroHome";
 import SustainableFuture from "../../components/Home/SustainableFutureHome";
 import AboutUs from "../../components/Home/AboutUsHome";
 import MexicanCompanyHome from "@/components/Home/MexicanCompanyHome";
-import ServicesHome from "@/components/Home/ServicesHome";
+import ServicesHome from "../../components/Home/ServicesSliderHome";
 import FindOut from "@/components/Home/FindOutHome";
 import Footer from "@/components/Footer";
 

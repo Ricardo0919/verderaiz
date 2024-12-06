@@ -75,6 +75,12 @@
     "name3": "Gustavo\nHernandez Alfaro",
     "description3": "Des exemples de travail peuvent attirer des clients potentiels à demander davantage de vos travaux. Partagez-les ici."
   },
+  "accreditationsAboutUs": {
+    "title": "Accréditations",
+    "subtitle1": "Diplôme en Rapports Préventifs et Déclarations d'Impact Environnemental pour la Construction",
+    "subtitle2": "Cours de Gestion Environnementale\nISO 14001:2015",
+    "subtitle3": "Atelier sur l'Impact Environnemental"
+  },
   "heroServices": {
     "title": "VERDERAÍZ",
     "description": "De la racine du problème à un impact positif : des services qui intègrent la durabilité dans chaque décision.\n\n",
