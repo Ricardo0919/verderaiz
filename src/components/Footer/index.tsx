@@ -7,7 +7,7 @@ import {useTranslations} from "next-intl";
 function Footer() {
     const t = useTranslations("footer");
     return (
-        <footer className="relative text-center py-10">
+        <footer id="footer" className="relative text-center py-10">
             <div className="absolute inset-0">
                 <Image
                     src={background}
