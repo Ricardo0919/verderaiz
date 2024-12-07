@@ -6,14 +6,14 @@ import PreventiveReport from "@/components/Services/PreventiveReport";
 import RiskStudy from "@/components/Services/RiskStudy";
 import Training from "@/components/Services/Training";
 import Footer from "@/components/Footer";
-//import { unstable_setRequestLocale } from "next-intl/server";
-//import { useTranslations } from "next-intl";
+import ButtonLanguage from "@/components/ButtonLanguage";
 
 export default function Services() {
 
     return (
         <div>
             <Navbar/>
+            <ButtonLanguage/>
             <Hero/>
             <EnvironmentalImpact/>
             <PreventiveReport/>

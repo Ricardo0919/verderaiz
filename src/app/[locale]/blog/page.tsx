@@ -3,14 +3,14 @@ import Hero from "../../../components/Blog/HeroBlog";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BlogsIcons from "@/components/Blog/BlogsIcons";
-//import { unstable_setRequestLocale } from "next-intl/server";
-//import { useTranslations } from "next-intl";
+import ButtonLanguage from "@/components/ButtonLanguage";
 
 export default function Blog() {
 
     return (
         <div>
             <Navbar/>
+            <ButtonLanguage/>
             <Hero/>
             <BlogsIcons/>
             <Footer/>

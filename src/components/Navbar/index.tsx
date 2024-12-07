@@ -7,7 +7,7 @@ import logo from "@/assets/images/Logo.png";
 import Sidebar from "./Sidebar";
 import { useTranslations } from "next-intl";
 import { IoMenu } from "react-icons/io5";
-import { RxCross2 } from "react-icons/rx";
+import { RxCross2 } from "react-icons/rx";;
 
 function NavBar() {
     const [menuOpen, setMenuOpen] = useState(false);
