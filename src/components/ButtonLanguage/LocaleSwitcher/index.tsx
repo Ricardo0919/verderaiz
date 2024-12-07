@@ -6,14 +6,14 @@ import Image from 'next/image';
 import { useTranslations } from "next-intl";
 
 type Props = {
-    closeModal: () => void;
+    closeModalAction: () => void;
     currentLocale: string;
 };
 
-export default function LocaleSwitcher({ closeModal, currentLocale }: Props) {
+export default function LocaleSwitcher({ closeModalAction, currentLocale }: Props) {
     const t = useTranslations("buttonLanguage");
     const router = useRouter();
-    const [,startTransition] = useTransition();
+    const [isPending, startTransition] = useTransition();
     const pathname = usePathname();
     const params = useParams();
 
@@ -22,7 +22,7 @@ export default function LocaleSwitcher({ closeModal, currentLocale }: Props) {
         const nextLocale = locale;
         startTransition(() => {
             router.replace(
-                { pathname, query: params },
+                { pathname },
                 { locale: nextLocale }
             );
         });
@@ -32,11 +32,12 @@ export default function LocaleSwitcher({ closeModal, currentLocale }: Props) {
         <div>
             <div
                 className="fixed bottom-20 right-4 z-50"
-                onClick={closeModal}
+                onClick={closeModalAction}
             >
                 <div onClick={(e) => e.stopPropagation()}>
                     <div className="flex flex-col lg:flex-col justify-center gap-y-1">
                         <button
+                            disabled={isPending}
                             onClick={() => localeChange('en')}
                             className={`${
                                 currentLocale === 'en'
@@ -57,6 +58,7 @@ export default function LocaleSwitcher({ closeModal, currentLocale }: Props) {
                         </button>
 
                         <button
+                            disabled={isPending}
                             onClick={() => localeChange('es')}
                             className={`${
                                 currentLocale === 'es'
@@ -77,6 +79,7 @@ export default function LocaleSwitcher({ closeModal, currentLocale }: Props) {
                         </button>
 
                         <button
+                            disabled={isPending}
                             onClick={() => localeChange('de')}
                             className={`${
                                 currentLocale === 'de'
@@ -97,6 +100,7 @@ export default function LocaleSwitcher({ closeModal, currentLocale }: Props) {
                         </button>
 
                         <button
+                            disabled={isPending}
                             onClick={() => localeChange('fr')}
                             className={`${
                                 currentLocale === 'fr'

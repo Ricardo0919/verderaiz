@@ -18,7 +18,7 @@ function ButtonLanguage() {
                 <HiLanguage className="text-white bg-dark-green p-2 rounded-full" size={50} />
             </div>
             {showModal && (
-                <LocaleSwitcher closeModal={toggleModal} currentLocale={locale} />
+                <LocaleSwitcher closeModalAction={toggleModal} currentLocale={locale} />
             )}
         </div>
     );
