@@ -5,14 +5,14 @@ import MisionVision from "@/components/AboutUs/MisionVision";
 import OurTeam from "@/components/AboutUs/OurTeam";
 import Footer from "@/components/Footer";
 import AccreditationsSlider from "@/components/AboutUs/AccreditationsSliderAboutUs";
-//import { unstable_setRequestLocale } from "next-intl/server";
-//import { useTranslations } from "next-intl";
+import ButtonLanguage from "@/components/ButtonLanguage";
 
 export default function AboutUs() {
 
     return (
         <div>
             <Navbar/>
+            <ButtonLanguage/>
             <Hero/>
             <MisionVision/>
             <OurTeam/>

@@ -4,6 +4,17 @@ import withNextIntl from "next-intl/plugin";
 const nextConfig: NextConfig = {
     /* config options here */
     output: "standalone",
+
+    /* Configuración para imágenes remotas */
+    images: {
+        remotePatterns: [
+            {
+                protocol: "https",
+                hostname: "flagcdn.com",
+            },
+        ],
+    },
+
     async rewrites() {
         return [
             {
