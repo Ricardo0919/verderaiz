@@ -3,9 +3,12 @@ import React from "react";
 import PlantBG from "@/assets/images/PlantBG.png";
 import Image from "next/image";
 import {useTranslations} from "next-intl";
+import Link from "next/link";
 
 function HeroServices() {
     const t = useTranslations("heroServices");
+    const l = useTranslations("navbar");
+
     return (
         <div className="text-center py-28 md:py-20 lg:py-20 bg-services-BG px-6">
             {/* Contenido principal */}
@@ -17,11 +20,11 @@ function HeroServices() {
                     <p className="text-left my-4 md:my-8 xl:my-14 mx-8 md:text-lg lg:text-xl xl:text-3xl">
                         {t("description")}
                     </p>
-                    <a href="">
+                    <Link href={l("contactLink")}>
                         <button className="border-2 border-white px-6 py-2 text-xs md:text-sm lg:text-lg xl:text-2xl rounded-[30px] transform hover:scale-125 transition-transform duration-300">
                             {t("button")}
                         </button>
-                    </a>
+                    </Link>
                 </div>
 
                 <div className="mx-4 mb-6 md:order-1 md:w-1/2">
