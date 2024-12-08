@@ -19,11 +19,22 @@ export default {
       },
       animation: {
         'spin-once': 'spin-once 0.5s linear forwards',
+        slideInUp: 'slideInUp 0.5s ease-out forwards',
       },
       keyframes: {
         'spin-once': {
           '0%': {transform: 'rotate(0deg)'},
           '100%': {transform: 'rotate(360deg)'},
+        },
+        slideInUp: {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(20px) translateX(20px)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0) translateX(0)',
+          },
         },
       },
     },
