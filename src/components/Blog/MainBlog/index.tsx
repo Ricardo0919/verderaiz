@@ -35,7 +35,7 @@ function MainBlog() {
                         61 %
                     </p>
                     <p className="w-2/3 text-sm">
-                        Datos sobre saques que, datos duros y esas cosas para llama la atencion de la gente inculta ambientalmente
+                        Datos sobre saques que, datos duros y esas cosas para llama la atencion de la gente inculta ambientalmente.
                     </p>
                 </div>
                 <div className="bg-main-blog text-white rounded-[30px] py-4 px-6 shadow-lg flex justify-center items-center md:h-[190px]">
