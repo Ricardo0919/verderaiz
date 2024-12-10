@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../../../components/Blog/HeroBlog";
+import MainBlog from "../../../components/Blog/MainBlog";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BlogsIcons from "@/components/Blog/BlogsIcons";
@@ -12,6 +13,7 @@ export default function Blog() {
             <Navbar/>
             <ButtonLanguage/>
             <Hero/>
+            <MainBlog/>
             <BlogsIcons/>
             <Footer/>
         </div>
