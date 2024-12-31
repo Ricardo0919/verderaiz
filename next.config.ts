@@ -5,8 +5,9 @@ const nextConfig: NextConfig = {
     /* config options here */
     output: "standalone",
 
-    /* Configuración para imágenes remotas */
+    /* Configuration for remote images */
     images: {
+        domains: ['blog.verderaiz.com.mx'], // Allows remote images form blog.verderaiz.com.mx
         remotePatterns: [
             {
                 protocol: "https",
@@ -14,6 +15,7 @@ const nextConfig: NextConfig = {
             },
         ],
     },
+    reactStrictMode: true,
 
     async rewrites() {
         return [

@@ -1,61 +1,61 @@
 "use client";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import blog1 from "@/assets/images/blog1.png";
-import blog2 from "@/assets/images/blog2.png";
-import blog3 from "@/assets/images/blog3.png";
 import SuperiorBlog from "@/assets/images/SuperiorBlog.png";
 import InferiorBlog from "@/assets/images/InferiorBlog.png";
 import { CiCirclePlus } from "react-icons/ci";
 
-function HeroBlog() {
-    const blogs = [
-        {
-            imagen: blog1,
-            descripcion: "DESCRIPCIÓN ATRACTIVA Y BREVE DE ESTE GRAN",
-            autor: "Autor1"
-        },
-        {
-            imagen: blog2,
-            descripcion: "DESCRIPCIÓN ATRACTIVA Y BREVE DE ESTE GRAN",
-            autor: "Autor2"
-        },
-        {
-            imagen: blog3,
-            descripcion: "DESCRIPCIÓN ATRACTIVA Y BREVE DE ESTE GRAN",
-            autor: "Autor3"
-        },
-        {
-            imagen: blog2,
-            descripcion: "DESCRIPCIÓN ATRACTIVA Y BREVE DE ESTE GRAN",
-            autor: "Autor4"
-        },
-        {
-            imagen: blog1,
-            descripcion: "DESCRIPCIÓN ATRACTIVA Y BREVE DE ESTE GRAN",
-            autor: "Autor5"
-        },
-        {
-            imagen: blog3,
-            descripcion: "DESCRIPCIÓN ATRACTIVA Y BREVE DE ESTE GRAN",
-            autor: "Autor6"
-        },
-        {
-            imagen: blog1,
-            descripcion: "DESCRIPCIÓN ATRACTIVA Y BREVE DE ESTE GRAN",
-            autor: "Autor7"
-        },
-        {
-            imagen: blog3,
-            descripcion: "DESCRIPCIÓN ATRACTIVA Y BREVE DE ESTE GRAN",
-            autor: "Autor8"
-        },
-        {
-            imagen: blog2,
-            descripcion: "DESCRIPCIÓN ATRACTIVA Y BREVE DE ESTE GRAN",
-            autor: "Autor9"
-        }
-    ];
+const fetchAuthor = async (authorId: number) => {
+    const response = await fetch(`https://blog.verderaiz.com.mx/wp-json/wp/v2/users/${authorId}`);
+    const authorData = await response.json();
+    return authorData.name;
+};
+
+const fetchImage = async (mediaId: number) => {
+    const response = await fetch(`https://blog.verderaiz.com.mx/wp-json/wp/v2/media/${mediaId}`);
+    const mediaData = await response.json();
+    return mediaData.source_url;
+};
+
+function Blogs() {
+    const [blogs, setBlogs] = useState<any[]>([]);
+    const [loading, setLoading] = useState<boolean>(true);
+
+    useEffect(() => {
+        const fetchBlogs = async () => {
+            try {
+                const response = await fetch("https://blog.verderaiz.com.mx/wp-json/wp/v2/posts");
+                const data = await response.json();
+
+                const formattedBlogs = await Promise.all(
+                    data.map(async (post: any) => {
+                        const autor = await fetchAuthor(post.author);
+                        const imagen = post.featured_media
+                            ? await fetchImage(post.featured_media)
+                            : "";
+
+                        return {
+                            imagen,
+                            descripcion: post.title.rendered,
+                            autor,
+                        };
+                    })
+                );
+
+                setBlogs(formattedBlogs);
+            } catch (error) {
+                console.error("Error al obtener los blogs:", error);
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        fetchBlogs();
+    }, []);
+
+    if (loading) {
+        return <p>Cargando blogs...</p>;
+    }
 
     return (
         <div className="bg-white -mb-[400px] md:-mb-[700px]">
@@ -71,12 +71,16 @@ function HeroBlog() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 justify-items-center justify-center -mt-32 md:-mt-[180px] lg:-mt-[340px] xl:-mt-[560px]">
                 {blogs.map((blog, index) => (
                     <div key={index} className="w-[200px] md:w-[300px] lg:w-[230px]">
-                        <Image
-                            src={blog.imagen}
-                            alt={`Imagen blog ${index + 1}`}
-                            priority
-                            className="rounded-2xl"
-                        />
+                        {blog.imagen && (
+                            <Image
+                                src={blog.imagen}
+                                alt={`Imagen blog ${index + 1}`}
+                                width={300}
+                                height={200}
+                                priority
+                                className="rounded-2xl"
+                            />
+                        )}
                         <div className="flex flex-row items-center justify-center pt-3 mx-1">
                             <p className="text-black font-bold text-left text-xs md:text-base lg:text-sm">
                                 {blog.descripcion}
@@ -102,4 +106,4 @@ function HeroBlog() {
     );
 }
 
-export default HeroBlog;
+export default Blogs;
