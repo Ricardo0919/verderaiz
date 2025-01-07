@@ -44,11 +44,19 @@ const nextConfig: NextConfig = {
                 destination: "/:first/services",
             },
             {
-                source: "/:first/services",
+                source: "/:first/services-fr",
                 destination: "/:first/services",
             },
             {
-                source: "/:first/blog",
+                source: "/:first/blog-es",
+                destination: "/:first/blog",
+            },
+            {
+                source: "/:first/blog-de",
+                destination: "/:first/blog",
+            },
+            {
+                source: "/:first/blog-fr",
                 destination: "/:first/blog",
             },
             {
@@ -60,7 +68,7 @@ const nextConfig: NextConfig = {
                 destination: "/:first/contact",
             },
             {
-                source: "/:first/contact",
+                source: "/:first/contact-fr",
                 destination: "/:first/contact",
             },
 

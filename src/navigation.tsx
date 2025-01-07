@@ -17,19 +17,19 @@ export const pathnames = {
         en: "/services",
         es: "/servicios",
         de: "/dienstleistungen",
-        fr: "/services",
+        fr: "/services-fr",
     },
     "/blog": {
         en: "/blog",
-        es: "/blog",
-        de: "/blog",
-        fr: "/blog",
+        es: "/blog-es",
+        de: "/blog-de",
+        fr: "/blog-fr",
     },
     "/contact": {
         en: "/contact",
         es: "/contacto",
         de: "/kontakt",
-        fr: "/contact",
+        fr: "/contact-fr",
     },
 } satisfies Pathnames<typeof locales>;
 
