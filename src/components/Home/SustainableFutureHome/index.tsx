@@ -7,9 +7,9 @@ import { useTranslations } from "next-intl";
 function SustainableFutureHome() {
     const t = useTranslations("sustainableFutureHome");
     return (
-        <div className="flex flex-col items-center justify-center py-10 lg:py-20">
+        <div className="flex flex-col items-center justify-center py-10 lg:py-20 bg-light-beige">
             <div className="w-fit">
-                <h1 className="text-black text-2xl font-bold text-center mb-3 md:text-5xl font-serif lg:text-6xl xl:text-7xl">
+                <h1 className="text-dark-green text-3xl tracking-[1px] font-bold text-center mb-3 md:text-7xl md:tracking-[3px] font-titles lg:tracking-[6px] lg:text-7xl xl:tracking-[8px] xl:text-8xl">
                     {t("title")}
                 </h1>
                 <Image

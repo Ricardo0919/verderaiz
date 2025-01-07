@@ -13,9 +13,9 @@ function FindOut() {
     const l = useTranslations("navbar");
 
     return (
-        <div className="flex flex-col justify-center items-center mx-10 text-black mb-10 lg:flex-row lg:mx-16 lg:gap-20">
+        <div className="flex flex-col justify-center items-center px-10 text-black pb-10 lg:flex-row lg:px-16 lg:gap-20 bg-light-beige">
             <div className="lg:w-1/3">
-                <h1 className="tracking-[5px] font-serif font-black text-3xl lg:text-5xl xl:text-6xl">
+                <h1 className="tracking-[5px] font-titles font-black text-4xl lg:text-5xl xl:text-6xl">
                     {t("title")}
                 </h1>
                 <p className="text-sm py-4 font-serif lg:text-base xl:text-xl">

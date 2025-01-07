@@ -18,7 +18,7 @@ function Footer() {
             </div>
 
             <div className="relative text-white mx-7">
-                <h1 className="text-3xl font-black font-serif lg:text-left lg:pl-10 lg:mb-8">
+                <h1 className="text-3xl tracking-[3px] lg:text-4xl xl:text-5xl font-semibold font-titles lg:text-left lg:pl-10 lg:mb-8">
                     {t("title")}
                 </h1>
 
@@ -81,7 +81,7 @@ function Footer() {
 
                     {/* Information */}
                     <div className="border-2 border-white bg-dark-green rounded-[30px] mt-8 text-left lg:w-1/3 lg:mt-0">
-                        <p className="text-3xl font-black font-serif ml-7 mt-10">
+                        <p className="text-3xl font-titles font-black ml-7 mt-10">
                             {t("offices")}
                         </p>
                         <hr className="border-2 border-white my-4"/>
