@@ -5,6 +5,20 @@ import SuperiorBlog from "@/assets/images/SuperiorBlog.png";
 import InferiorBlog from "@/assets/images/InferiorBlog.png";
 import { CiCirclePlus } from "react-icons/ci";
 
+interface Blog {
+    imagen: string;
+    descripcion: string;
+    autor: string;
+}
+
+interface PostAPI {
+    author: number;
+    featured_media: number | null;
+    title: {
+        rendered: string;
+    };
+}
+
 const fetchAuthor = async (authorId: number) => {
     const response = await fetch(`https://blog.verderaiz.com.mx/wp-json/wp/v2/users/${authorId}`);
     const authorData = await response.json();
@@ -18,7 +32,7 @@ const fetchImage = async (mediaId: number) => {
 };
 
 function Blogs() {
-    const [blogs, setBlogs] = useState<any[]>([]);
+    const [blogs, setBlogs] = useState<Blog[]>([]);
     const [loading, setLoading] = useState<boolean>(true);
 
     useEffect(() => {
@@ -27,8 +41,8 @@ function Blogs() {
                 const response = await fetch("https://blog.verderaiz.com.mx/wp-json/wp/v2/posts");
                 const data = await response.json();
 
-                const formattedBlogs = await Promise.all(
-                    data.map(async (post: any) => {
+                const formattedBlogs: Blog[] = await Promise.all(
+                    data.map(async (post:PostAPI): Promise<Blog> => {
                         const autor = await fetchAuthor(post.author);
                         const imagen = post.featured_media
                             ? await fetchImage(post.featured_media)
