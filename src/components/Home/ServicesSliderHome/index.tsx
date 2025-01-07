@@ -184,8 +184,8 @@ function Slider() {
     const progressPercentage = maxIndex > 0 ? (currentIndex / maxIndex) * 100 : 100;
 
     return (
-        <div className="relative w-full bg-white py-10">
-            <h2 className="text-3xl font-serif font-bold text-dark-green text-center mb-4 md:text4xl  md:tracking-[7px] lg:text-5xl lg:tracking-[10px] xl:text-6xl xl:tracking-[18px]">
+        <div className="relative w-full bg-light-beige py-10">
+            <h2 className="text-4xl tracking-[2px] font-titles font-bold text-dark-green text-center mb-4 md:text-4xl md:tracking-[7px] lg:text-5xl lg:tracking-[10px] xl:text-6xl xl:tracking-[18px]">
                 {t("title")}
             </h2>
 

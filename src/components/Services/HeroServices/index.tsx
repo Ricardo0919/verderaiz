@@ -14,10 +14,10 @@ function HeroServices() {
             {/* Contenido principal */}
             <div className="border-[4px] border-white rounded-2xl flex flex-col items-center justify-center md:flex-row md:pt-28 lg:pt-40">
                 <div className="mt-32 mb-6 md:order-2 md:w-1/2 md:mt-0 xl:w-1/3">
-                    <h1 className="font-serif font-black text-3xl md:text-4xl lg:text-5xl xl:text-6xl">
+                    <h1 className="font-titles font-black text-4xl tracking-[3px] md:text-5xl lg:text-6xl xl:text-7xl">
                         {t("title")}
                     </h1>
-                    <p className="text-left my-4 md:my-8 xl:my-14 mx-8 md:text-lg lg:text-xl xl:text-3xl">
+                    <p className="text-left my-4 md:my-4 lg:my-6 xl:my-8 mx-8 md:text-lg lg:text-xl xl:text-3xl">
                         {t("description")}
                     </p>
                     <Link href={l("contactLink")}>

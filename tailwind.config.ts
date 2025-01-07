@@ -16,6 +16,7 @@ export default {
         'light-green': '#bbccb5',
         'services-BG': '#a4ada5',
         'blog-BG': '#121e15',
+        'light-beige': '#f8f8f6',
       },
       animation: {
         'spin-once': 'spin-once 0.5s linear forwards',
@@ -36,6 +37,9 @@ export default {
             transform: 'translateY(0) translateX(0)',
           },
         },
+      },
+      fontFamily: {
+        titles: ['MODULAR-14', 'sans-serif'], // Usa 'custom' como referencia
       },
     },
   },

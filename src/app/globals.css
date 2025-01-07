@@ -23,3 +23,11 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+@font-face {
+  font-family: 'MODULAR-14';
+  src: url('../../src/assets/fonts/MODULAR-14.otf') format('truetype');
+  font-weight: normal; /* Ajusta según sea necesario */
+  font-style: normal;  /* Ajusta según sea necesario */
+}
+
