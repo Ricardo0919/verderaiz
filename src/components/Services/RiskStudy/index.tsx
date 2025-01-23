@@ -11,7 +11,7 @@ function RiskStudy() {
             <div className="flex flex-col justify-center items-center md:flex-row md:gap-4 md:py-10 ">
                 <div className="md:w-1/2">
                     {/*Subtitle*/}
-                    <h2 className="text-center font-black font-titles text-3xl tracking-[2px] mt-6 md:text-left md:text-2xl md:mt-0 lg:text-3xl xl:text-5xl">
+                    <h2 className="text-center font-[1000] font-cambay text-3xl tracking-[2px] mt-6 md:text-left md:text-2xl md:mt-0 lg:text-3xl xl:text-5xl">
                         {t("subtitle")}
                     </h2>
                     {/*Description*/}

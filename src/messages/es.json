@@ -52,7 +52,7 @@
     "viewMore": "Ver más"
   },
   "findOutHome": {
-    "title": "ENTERATE",
+    "title": "ENTÉRATE",
     "description": "Nuestro <code>blog</code> es un <code>espacio dinámico</code> que celebra la pasión por <code>la sustentabilidad,</code> proyectos de éxito y comunidades sostenibles.",
     "titleSquare1": "Composta en casa",
     "viewMore": "Ver más",
@@ -82,10 +82,11 @@
     "description3": "Las muestras de trabajo pueden atraer a clientes potenciales para que soliciten más trabajos tuyos. Compártelas aquí."
   },
   "accreditationsAboutUs": {
-    "title": "Acreditaciones",
+    "title": "ACREDITACIONES",
     "subtitle1": "DIPLOMADO EN INFORMES PREVENTIVOS Y MANIFIESTOS DE IMPACTO AMBIENTAL PARA LA CONSTRUCCION",
     "subtitle2": "CURSO GESTIÓN AMBIENTAL\nISO 14001:2015",
-    "subtitle3": "TALLER IMPACTO AMBIENTAL"
+    "subtitle3": "TALLER IMPACTO AMBIENTAL",
+    "subtitle4": "CURSO INTENSIVO PARA LA ELABORACIÓN DE ESTUDIOS DE RIESGO"
   },
   "heroServices": {
     "title": "VERDERAÍZ",

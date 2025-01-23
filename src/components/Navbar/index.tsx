@@ -32,8 +32,8 @@ function NavBar() {
 
     const linkClasses = (path: string) =>
         pathname === path
-            ? "bg-white text-black font-semibold text-md  xl:text-lg py-1 px-5 rounded-[40px]"
-            : "text-white font-semibold text-md xl:text-lg hover:bg-white hover:text-black py-1 px-5 rounded-[40px]";
+            ? "bg-white text-black font-semibold text-sm  xl:text-md py-1 px-5 rounded-[40px] font-zendots"
+            : "text-white font-semibold text-sm xl:text-md hover:bg-white hover:text-black py-1 px-5 rounded-[40px] font-zendots";
 
     const handleMenuIconClick = () => {
         // Si ya se está rotando, no hacer nada
@@ -68,7 +68,7 @@ function NavBar() {
                     </Link>
                 </div>
                 <div
-                    className="lg:w-2/3 hidden lg:flex flex-row justify-center items-center border-white border-2 my-12 xl:my-10 xl:mx-40 rounded-[60px]"
+                    className="lg:w-2/3 hidden lg:flex flex-row justify-center items-center border-white border-2 my-12 xl:my-10 xl:ml-72 rounded-[60px]"
                 >
                     <Link href="/" className={linkClasses("/")}>
                         {t("home")}

@@ -66,8 +66,11 @@ function Slider() {
     const slideRef = useRef<HTMLDivElement | null>(null);
     const [slideWidth, setSlideWidth] = useState<number>(0);
 
-    const [showDetails, setShowDetails] = useState<boolean>(false);
-    const [selectedSlide, setSelectedSlide] = useState<Slide | null>(null);
+    // Estado para controlar cuál slide se está "expandiendo"
+    const [expandedSlideId, setExpandedSlideId] = useState<number | null>(null);
+
+    // Estado para manejar la animación del botón de +
+    const [animatingSlideId, setAnimatingSlideId] = useState<number | null>(null);
 
     const updateVisibleSlides = () => {
         const width = window.innerWidth;
@@ -159,33 +162,33 @@ function Slider() {
         }
     };
 
-    const handleShowDetails = (slide: Slide) => {
-        setSelectedSlide(slide);
-        setShowDetails(true);
+    // Inicio de la animación del botón de +
+    const handlePlusClick = (id: number) => {
+        setAnimatingSlideId(id);
     };
 
+    // Cuando termina la animación, se muestra el slide expandido
+    const handleAnimationEnd = (id: number) => {
+        if (animatingSlideId === id) {
+            setAnimatingSlideId(null);
+            setExpandedSlideId(id);
+        }
+    };
+
+    // Cerrar el slide expandido
     const handleCloseDetails = () => {
-        setShowDetails(false);
-        setSelectedSlide(null);
+        setExpandedSlideId(null);
     };
 
     const handleLink = () => {
-        setShowDetails(false);
+        setExpandedSlideId(null);
     };
-
-    useEffect(() => {
-        if (showDetails) {
-            document.body.style.overflow = "hidden";
-        } else {
-            document.body.style.overflow = "auto";
-        }
-    }, [showDetails]);
 
     const progressPercentage = maxIndex > 0 ? (currentIndex / maxIndex) * 100 : 100;
 
     return (
         <div className="relative w-full bg-light-beige py-10">
-            <h2 className="text-4xl tracking-[2px] font-titles font-bold text-dark-green text-center mb-4 md:text-4xl md:tracking-[7px] lg:text-5xl lg:tracking-[10px] xl:text-6xl xl:tracking-[18px]">
+            <h2 className="text-4xl tracking-[2px] font-cambay font-[1000] text-dark-green text-center mb-4 md:text-4xl md:tracking-[7px] lg:text-5xl lg:tracking-[7px] xl:text-6xl xl:tracking-[7px]">
                 {t("title")}
             </h2>
 
@@ -213,33 +216,71 @@ function Slider() {
                         transform: `translateX(${-currentIndex * slideWidth + dragTranslate}px)`,
                     }}
                 >
-                    {slides.map((slide, index) => (
-                        <div
-                            key={slide.id}
-                            className="flex-shrink-0 flex flex-col items-center justify-center relative px-4"
-                            style={{ flex: `0 0 calc(100% / ${visibleSlides})` }}
-                            ref={index === 0 ? slideRef : null}
-                        >
-                            <div className="relative w-full h-[380px] mx-auto rounded-xl overflow-hidden flex flex-col items-center justify-center">
-                                <Image
-                                    src={slide.img}
-                                    alt={slide.alt}
-                                    layout="fill"
-                                    objectFit="cover"
-                                    priority
-                                />
-                                <div className="absolute bottom-6 transform text-white text-xl font-black text-center whitespace-normal px-2">
-                                    {slide.title}
+                    {slides.map((slide, index) => {
+                        const isExpanded = expandedSlideId === slide.id;
+                        return (
+                            <div
+                                key={slide.id}
+                                className="flex-shrink-0 flex flex-col items-center justify-center relative px-4"
+                                style={{ flex: `0 0 calc(100% / ${visibleSlides})` }}
+                                ref={index === 0 ? slideRef : null}
+                            >
+                                <div className="relative w-full h-[380px] mx-auto rounded-xl overflow-hidden flex flex-col items-center justify-center">
+                                    <Image
+                                        src={slide.img}
+                                        alt={slide.alt}
+                                        layout="fill"
+                                        objectFit="cover"
+                                        priority
+                                    />
+                                    {!isExpanded && (
+                                        <>
+                                            <div className="absolute bottom-6 transform text-white text-2xl font-black text-center whitespace-normal px-4 font-cambay">
+                                                {slide.title}
+                                            </div>
+                                            <button
+                                                onClick={() => handlePlusClick(slide.id)}
+                                                onTransitionEnd={() => handleAnimationEnd(slide.id)}
+                                                className={`absolute top-3 left-3 transform transition-transform duration-500 ease-in-out
+                                                    ${
+                                                    animatingSlideId === slide.id
+                                                        ? "rotate-[360deg] scale-125"
+                                                        : ""
+                                                }
+                                                `}
+                                            >
+                                                <CiCirclePlus size={50} className="text-white" />
+                                            </button>
+                                        </>
+                                    )}
+                                    {isExpanded && (
+                                        <>
+                                            <div className="absolute inset-0 bg-black bg-opacity-60 rounded-xl"></div>
+                                            <button
+                                                onClick={handleCloseDetails}
+                                                className="absolute top-4 right-4 text-white hover:text-gray-300 z-10"
+                                            >
+                                                <IoIosCloseCircleOutline size={40}/>
+                                            </button>
+                                            <p className="relative text-center text-gray-200 mt-20 lg:mt-14 mb-6 z-10 mx-6">
+                                                {slide.description}
+                                            </p>
+                                            <div className="relative flex justify-center z-10 mb-8">
+                                                <Link href={l("servicesLink")}>
+                                                    <button
+                                                        onClick={handleLink}
+                                                        className="font-zendots text-white border-2 border-white py-2 px-4 xl:px-6 rounded-[30px] text-xs xl:text-lg transform hover:scale-125 transition-transform duration-300"
+                                                    >
+                                                        {t("viewMore")}
+                                                    </button>
+                                                </Link>
+                                            </div>
+                                        </>
+                                    )}
                                 </div>
-                                <button
-                                    onClick={() => handleShowDetails(slide)}
-                                    className="absolute top-3 left-3 transform transition-transform duration-500 ease-in-out hover:rotate-[360deg] hover:scale-125"
-                                >
-                                    <CiCirclePlus size={50} className="text-white" />
-                                </button>
                             </div>
-                        </div>
-                    ))}
+                        );
+                    })}
                 </div>
             </div>
 
@@ -257,43 +298,6 @@ function Slider() {
                     <FaRegArrowAltCircleRight size={30} />
                 </button>
             </div>
-
-            {showDetails && selectedSlide && (
-                <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-                    <div
-                        className="relative md:w-[60%] lg:w-[40%] rounded-xl bg-center bg-cover bg-no-repeat mx-6"
-                        style={{
-                            backgroundImage: `url(${(selectedSlide.img as StaticImageData).src})`,
-                            backgroundPosition: 'center',
-                            backgroundSize: 'cover'
-                        }}
-                    >
-                        <div className="absolute inset-0 bg-black bg-opacity-60 rounded-xl"></div>
-                        <button
-                            onClick={handleCloseDetails}
-                            className="absolute top-4 right-4 text-white hover:text-gray-300 z-10"
-                        >
-                            <IoIosCloseCircleOutline size={40}/>
-                        </button>
-                        <h3 className="relative text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold text-center mb-4 text-white z-10 mt-20 mx-4">
-                            {selectedSlide.title}
-                        </h3>
-                        <p className="relative text-center text-gray-200 mb-6 z-10 mx-6">
-                            {selectedSlide.description}
-                        </p>
-                        <div className="relative flex justify-center z-10 mb-8">
-                            <Link href={l("servicesLink")}>
-                                <button
-                                    onClick={handleLink}
-                                    className="text-white border-2 border-white py-2 px-4 xl:px-6 rounded-[30px] text-xs xl:text-lg transform hover:scale-125 transition-transform duration-300"
-                                >
-                                    {t("viewMore")}
-                                </button>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            )}
         </div>
     );
 }

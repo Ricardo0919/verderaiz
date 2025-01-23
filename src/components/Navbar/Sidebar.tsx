@@ -9,14 +9,14 @@ function Sidebar(){
     return (
         <div className="absolute top-20 right-0 w-[160px] h-auto bg-white rounded-md shadow-lg p-6 z-20">
             <nav className="space-y-4">
-                <Link href="/" className="block text-gray-400 hover:text-gray-700 text-md">
+                <Link href="/" className="block text-gray-400 hover:text-gray-700 text-sm font-zendots">
                     {t("home")}
                 </Link>
                 <hr className="border-gray-200" />
 
                 <Link
                     href={t("aboutUsLink")}
-                    className="block text-gray-400 hover:text-gray-700 text-md"
+                    className="block text-gray-400 hover:text-gray-700 text-sm font-zendots"
                 >
                     {t("aboutUs")}
                 </Link>
@@ -24,7 +24,7 @@ function Sidebar(){
 
                 <Link
                     href={t("servicesLink")}
-                    className="block text-gray-400 hover:text-gray-700 text-md"
+                    className="block text-gray-400 hover:text-gray-700 text-sm font-zendots"
                 >
                     {t("services")}
                 </Link>
@@ -32,7 +32,7 @@ function Sidebar(){
 
                 <Link
                     href={t("blogLink")}
-                    className="block text-gray-400 hover:text-gray-700 text-md"
+                    className="block text-gray-400 hover:text-gray-700 text-sm font-zendots"
                 >
                     {t("blog")}
                 </Link>
@@ -40,7 +40,7 @@ function Sidebar(){
 
                 <Link
                     href={t("contactLink")}
-                    className="block text-gray-400 hover:text-gray-700 text-md"
+                    className="block text-gray-400 hover:text-gray-700 text-sm font-zendots"
                 >
                     {t("contact")}
                 </Link>
