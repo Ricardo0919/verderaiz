@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 import umaLogo from "@/assets/images/umaLogo.png";
 import enzoLogo from "@/assets/images/enzoLogo.png";
 import emaLogo from "@/assets/images/emaLogo.png";
+import uniciLogo from "@/assets/images/uniciLogo.png";
 
 interface Slide {
     id: number;
@@ -35,6 +36,12 @@ function AccreditationsSliderAboutUs() {
             title: t("subtitle3"),
             img: umaLogo,
             alt: t("subtitle3")
+        },
+        {
+            id: 4,
+            title: t("subtitle4"),
+            img: uniciLogo,
+            alt: t("subtitle4")
         },
     ];
 
@@ -142,7 +149,7 @@ function AccreditationsSliderAboutUs() {
 
     return (
         <div className="relative w-full bg-light-beige py-10">
-            <h2 className="text-3xl tracking-[3px] font-titles font-bold text-dark-green text-center mb-4 md:text-4xl md:tracking-[7px] lg:text-5xl lg:tracking-[10px] xl:text-6xl xl:tracking-[18px]">
+            <h2 className="text-3xl tracking-[3px] font-cambay font-[1000] text-dark-green text-center mb-4 md:text-4xl md:tracking-[7px] lg:text-4xl lg:tracking-[7px] xl:text-5xl xl:tracking-[10px]">
                 {t("title")}
             </h2>
 

@@ -40,6 +40,8 @@ export default {
       },
       fontFamily: {
         titles: ['MODULAR-14', 'sans-serif'], // Usa 'custom' como referencia
+        cambay: ['Cambay-Regular'],
+        zendots: ['ZenDots-Regular'],
       },
     },
   },

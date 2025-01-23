@@ -9,13 +9,13 @@ function EnvironmentalImpact() {
     return (
         <div className="text-black pt-16 px-10 md:px-20 xl:px-32 lg:pt-24 xl:pt-32 bg-light-beige">
             {/*Title*/}
-            <h1 className="text-center font-black font-titles tracking-[3px] text-3xl md:text-right md:text-4xl lg:tracking-[8px] lg:text-5xl xl:text-6xl">
+            <h1 className="text-center font-[1000] font-cambay tracking-[3px] text-3xl md:text-right md:text-4xl lg:tracking-[8px] lg:text-5xl xl:text-6xl">
                 {t("title")}
             </h1>
             <div className="flex flex-col justify-center items-center md:flex-row md:gap-4 md:py-10 ">
                 <div className="md:w-1/2">
                     {/*Subtitle*/}
-                    <h2 className="text-center font-black font-titles text-3xl tracking-[2px] mt-6 md:text-left md:text-2xl md:mt-0 lg:text-3xl xl:text-5xl">
+                    <h2 className="text-center font-[1000] font-cambay text-3xl tracking-[2px] mt-6 md:text-left md:text-2xl md:mt-0 lg:text-3xl xl:text-5xl">
                         {t("subtitle")}
                     </h2>
                     {/*Description*/}

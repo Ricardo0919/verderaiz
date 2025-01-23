@@ -10,7 +10,7 @@ function OurTeam() {
     const t = useTranslations("ourTeamAboutUs");
     return (
         <div className="text-black pb-10 md:pt-20 lg:pb-20 bg-light-beige">
-            <h1 className="text-4xl tracking-[3px] font-black font-titles text-center mb-8 md:text-4xl lg:text-5xl xl:text-6xl xl:mb-16">
+            <h1 className="text-4xl tracking-[3px] font-[1000] font-cambay text-center mb-8 md:text-4xl lg:text-4xl xl:text-5xl xl:mb-16">
                 {t("title")}
             </h1>
 

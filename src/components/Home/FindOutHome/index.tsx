@@ -13,15 +13,15 @@ function FindOut() {
     const l = useTranslations("navbar");
 
     return (
-        <div className="flex flex-col justify-center items-center px-10 text-black pb-10 lg:flex-row lg:px-16 lg:gap-20 bg-light-beige">
+        <div className="flex flex-col justify-center items-center px-10 text-black pt-10 pb-10 lg:flex-row lg:px-16 lg:gap-20 bg-light-beige">
             <div className="lg:w-1/3">
-                <h1 className="tracking-[5px] font-titles font-black text-4xl lg:text-5xl xl:text-6xl">
+                <h1 className="text-center lg:text-left tracking-[5px] font-cambay font-black text-4xl lg:text-4xl xl:text-5xl">
                     {t("title")}
                 </h1>
-                <p className="text-sm py-4 font-serif lg:text-base xl:text-xl">
+                <p className="text-sm py-4 lg:text-lg xl:text-2xl">
                     {t.rich("description",{
                         code:(chunks) => (
-                            <code className="font-black font-serif">
+                            <code className="font-black">
                                 {chunks}
                             </code>
                         ),
@@ -50,7 +50,7 @@ function FindOut() {
                             </p>
                         </div>
                         <Link href={l("blogLink")} className="absolute inset-0 flex flex-col items-center justify-end mb-10 lg:mb-6 xl:mb-8">
-                            <button className="text-white border-2 border-white py-2 px-4 xl:px-6 rounded-[30px] text-xs xl:text-lg transform hover:scale-125 transition-transform duration-300">
+                            <button className="font-zendots text-white border-2 border-white py-2 px-4 xl:px-6 rounded-[30px] text-xs xl:text-lg transform hover:scale-125 transition-transform duration-300">
                                 {t("viewMore")}
                             </button>
                         </Link>
@@ -74,7 +74,7 @@ function FindOut() {
                             </p>
                         </div>
                         <Link href={l("blogLink")} className="absolute inset-0 flex flex-col items-center justify-end mb-12 lg:mb-6 xl:mb-8">
-                            <button className="text-white border-2 border-white py-2 px-4 lg:px-2 lg:py-1 xl:px-3 xl:py-2 rounded-[30px] text-xs lg:text-[10px] xl:text-[20px] transform hover:scale-125 transition-transform duration-300">
+                            <button className="font-zendots text-white border-2 border-white py-2 px-4 lg:px-2 lg:py-1 xl:px-3 xl:py-2 rounded-[30px] text-xs lg:text-[10px] xl:text-[20px] transform hover:scale-125 transition-transform duration-300">
                                 {t("viewMore")}
                             </button>
                         </Link>
