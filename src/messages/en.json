@@ -13,6 +13,9 @@
     "home": "Home",
     "aboutUs": "About Us",
     "aboutUsLink": "/about-us",
+    "identity": "Identity",
+    "ethicsPolicies": "Ethics Policies",
+    "ethicsPoliciesLink": "ethics-policies",
     "services": "Services",
     "servicesLink": "/services",
     "blog": "Blog",
@@ -87,6 +90,42 @@
     "subtitle2": "Environmental Management Course\nISO 14001:2015",
     "subtitle3": "Environmental Impact Workshop",
     "subtitle4": "INTENSIVE COURSE ON RISK STUDY DEVELOPMENT"
+  },
+  "heroEthicPolicies": {
+    "title": "ETHICS POLICIES",
+    "description": "We are committed to acting with the highest ethical standards in all aspects of our operations. These policies reflect our core principles and guide our actions to ensure that our activities benefit both our clients and the social and environmental surroundings in which we operate."
+  },
+  "ethicPolicies": {
+    "title1": "Transparency and Professional Ethics",
+    "description1": "We are committed to operating with the highest level of transparency and professional ethics, ensuring that all our practices and decisions are based on principles of fairness, integrity, and respect for human, social, and environmental rights. All Verderaiz processes are aimed at maintaining a safe and accessible space for anyone wishing to collaborate or work with us.",
+    "title2": "Confidentiality and Information Security",
+    "description2": "We maintain strict measures to protect our clients' confidential information. We ensure that the data provided will be used exclusively for the agreed purposes and commit to complying with applicable data protection laws and regulations.",
+    "title3": "Anti-Corruption Commitment",
+    "description3": "We adopt a zero-tolerance stance towards corruption in all its forms, including extortion and bribery. We maintain rigorous internal controls and foster a culture of integrity among our collaborators.",
+    "title4": "Environmental Responsibility",
+    "description4": "As an environmental consulting firm, we are dedicated to reducing the environmental impact of our operations. We promote sustainable practices and work to ensure our clients also adopt measures that contribute to caring for the planet.",
+    "title5": "Community Relations",
+    "description5": "We strive to generate a positive impact in the communities where we operate. We actively participate in initiatives that promote social well-being and sustainable development.",
+    "title6": "Regulatory Compliance",
+    "description6": "We ensure that all our activities comply with applicable laws, regulations, and standards. We stay up to date on relevant environmental, labor, and commercial regulations.",
+    "title7": "Training and Professional Development",
+    "description7": "We encourage the continuous development of our collaborators through training programs that promote knowledge, ethics, and professional excellence.",
+    "title8": "Relationship with Clients and Suppliers",
+    "description8": "We establish relationships based on trust, mutual respect, and ethics. We work with suppliers who share our values, and we ensure that our business relationships are free from conflicts of interest.",
+    "title9": "Relationship with Clients and Suppliers",
+    "description9": "We establish relationships based on trust, mutual respect, and ethics. We work with suppliers who share our values, and we ensure that our business relationships are free from conflicts of interest.",
+    "title10": "Accessibility and Opportunities for Everyone",
+    "description10": "We promote an inclusive organizational culture, where everyone has access to the same opportunities for growth and participation. We work to eliminate physical, social, and cultural barriers, ensuring that all our services are accessible to the widest possible diversity of people, regardless of their physical abilities, religion, or any other condition.",
+    "title11": "Respectful Work Environment and Zero Tolerance for Harassment or Violence",
+    "description11": "We are committed to providing a work environment free of harassment, violence, intimidation, or any kind of behavior that endangers people's well-being. We foster a space where every member of our team and all our collaborators feel safe, valued, and respected in their identity and differences.",
+    "title12": "Reporting Mechanisms",
+    "description12": "We provide secure and confidential channels for collaborators, clients, and third parties to report any inappropriate conduct or violation of our policies. We guarantee that all reports are investigated impartially and promptly.",
+    "title13": "Commitment to Equity, Inclusion, and Promotion of Diversity",
+    "description13": "At Verderaiz, we firmly believe that diversity enriches decision-making and innovation, and therefore, we work to create an environment free from any form of discrimination and commit to ensuring that all people, whether they are clients, collaborators, or partners, feel welcome and respected. We do not tolerate any form of discrimination, whether based on gender, sexual orientation, gender identity, ethnicity, limited mobility, or disability. We are proud to be a pro-LGBTQ+ and trans-inclusive company, upholding the equity of rights and representation for all individuals, without distinction. We promote equal opportunities and fair treatment for everyone."
+  },
+  "quoteEthicPolicies": {
+    "title": "These policies are periodically reviewed to ensure they reflect our values and align with industry best practices. All Verderaíz collaborators are responsible for adhering to these policies and acting as ambassadors of our ethical principles. At Verderaíz, everyone is valued for who they are, and we aim to build a more just, inclusive, sustainable, and ethical future for all communities.",
+    "quote": "\"DIVERSITY STRENGTHENS US, INCLUSION UNITES US, AND ETHICS AND TRANSPARENCY GUIDE US TOWARDS A SUSTAINABLE FUTURE.\""
   },
   "heroServices": {
     "title": "VERDERAÍZ",

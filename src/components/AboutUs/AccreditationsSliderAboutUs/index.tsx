@@ -7,6 +7,7 @@ import umaLogo from "@/assets/images/umaLogo.png";
 import enzoLogo from "@/assets/images/enzoLogo.png";
 import emaLogo from "@/assets/images/emaLogo.png";
 import uniciLogo from "@/assets/images/uniciLogo.png";
+import aboutusBG3 from "@/assets/images/aboutusBG3.png";
 
 interface Slide {
     id: number;
@@ -148,72 +149,83 @@ function AccreditationsSliderAboutUs() {
     const progressPercentage = maxIndex > 0 ? (currentIndex / maxIndex) * 100 : 100;
 
     return (
-        <div className="relative w-full bg-light-beige py-10">
-            <h2 className="text-3xl tracking-[3px] font-cambay font-[1000] text-dark-green text-center mb-4 md:text-4xl md:tracking-[7px] lg:text-4xl lg:tracking-[7px] xl:text-5xl xl:tracking-[10px]">
-                {t("title")}
-            </h2>
+        <div className="bg-light-beige flex flex-col justify-center relative ">
+            <Image
+                src={aboutusBG3}
+                alt="aboutusBG3"
+                className="absolute bottom-0 pr-4 md:pr-0 md:w-1/2 xl:w-1/3"
+            />
 
-            <div className="w-[60%] mx-auto h-5 border border-dark-green rounded-full relative mb-6 px-2 py-1">
-                <div
-                    className="h-full bg-dark-green rounded-full transition-all duration-300"
-                    style={{
-                        width: `${progressPercentage}%`,
-                    }}
-                ></div>
-            </div>
+            <div className="z-10">
+                <div className="relative w-full py-10">
+                    <h2 className="text-3xl tracking-[3px] font-cambay font-[1000] text-dark-green text-center mb-4 md:text-4xl md:tracking-[7px] lg:text-4xl lg:tracking-[7px] xl:text-5xl xl:tracking-[10px]">
+                        {t("title")}
+                    </h2>
 
-            <div className="relative overflow-hidden mx-2 md:mx-20 xl:mx-72">
-                <div
-                    ref={sliderRef}
-                    onTouchStart={handleTouchStart}
-                    onTouchMove={handleTouchMove}
-                    onTouchEnd={handleTouchEnd}
-                    onMouseDown={handleMouseDown}
-                    onMouseMove={handleMouseMove}
-                    onMouseUp={handleMouseUp}
-                    onMouseLeave={handleMouseUp}
-                    className={`flex ${!isDragging ? "transition-transform duration-300 ease-in-out" : ""} gap-0`}
-                    style={{
-                        transform: `translateX(${-currentIndex * (slideWidth + 8) + dragTranslate}px)`,
-                    }}
-                >
-                    {slides.map((slide, index) => (
+                    <div className="w-[60%] mx-auto h-5 border border-dark-green rounded-full relative mb-6 px-2 py-1">
                         <div
-                            key={slide.id}
-                            className="flex flex-col items-center justify-center relative"
-                            style={{ flex: `0 0 calc(100% / ${visibleSlides})` }}
-                            ref={index === 0 ? slideRef : null}
-                        >
-                            <div className="w-[220px] h-[220px] md:w-[250px] md:h-[250px] rounded-xl overflow-hidden shadow-xl flex flex-col items-center justify-center bg-white border-2 border-black p-4">
-                                <Image
-                                    src={slide.img}
-                                    alt={slide.alt}
-                                    width={150}
-                                    height={150}
-                                    priority
-                                />
-                                <div className="mt-4 text-black text-xs md:text-sm font-black text-center">
-                                    {slide.title}
-                                </div>
-                            </div>
-                        </div>
-                    ))}
-                </div>
-            </div>
+                            className="h-full bg-dark-green rounded-full transition-all duration-300"
+                            style={{
+                                width: `${progressPercentage}%`,
+                            }}
+                        ></div>
+                    </div>
 
-            <div className="flex justify-center items-center mt-6 gap-4">
-                <button
-                    onClick={handlePrev}
-                    className="text-dark-green hover:scale-125 transition-transform"
-                >
-                    <FaRegArrowAltCircleLeft size={30} />
-                </button>
-                <button
-                    onClick={handleNext}
-                    className="text-dark-green hover:scale-125 transition-transform"
-                >
-                    <FaRegArrowAltCircleRight size={30} />
-                </button>
+                    <div className="relative overflow-hidden mx-2 md:mx-20 xl:mx-72">
+                        <div
+                            ref={sliderRef}
+                            onTouchStart={handleTouchStart}
+                            onTouchMove={handleTouchMove}
+                            onTouchEnd={handleTouchEnd}
+                            onMouseDown={handleMouseDown}
+                            onMouseMove={handleMouseMove}
+                            onMouseUp={handleMouseUp}
+                            onMouseLeave={handleMouseUp}
+                            className={`flex ${!isDragging ? "transition-transform duration-300 ease-in-out" : ""} gap-0`}
+                            style={{
+                                transform: `translateX(${-currentIndex * (slideWidth) + dragTranslate}px)`,
+                            }}
+                        >
+                            {slides.map((slide, index) => (
+                                <div
+                                    key={slide.id}
+                                    className="flex flex-col items-center justify-center relative"
+                                    style={{flex: `0 0 calc(100% / ${visibleSlides})`}}
+                                    ref={index === 0 ? slideRef : null}
+                                >
+                                    <div
+                                        className="w-[220px] h-[220px] md:w-[250px] md:h-[250px] rounded-xl overflow-hidden shadow-xl flex flex-col items-center justify-center bg-white border-2 border-black p-4">
+                                        <Image
+                                            src={slide.img}
+                                            alt={slide.alt}
+                                            width={150}
+                                            height={150}
+                                            priority
+                                        />
+                                        <div className="mt-4 text-black text-xs md:text-sm font-black text-center uppercase">
+                                            {slide.title}
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="flex justify-center items-center mt-6 gap-4">
+                        <button
+                            onClick={handlePrev}
+                            className="text-dark-green hover:scale-125 transition-transform"
+                        >
+                            <FaRegArrowAltCircleLeft size={30}/>
+                        </button>
+                        <button
+                            onClick={handleNext}
+                            className="text-dark-green hover:scale-125 transition-transform"
+                        >
+                            <FaRegArrowAltCircleRight size={30}/>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     );

@@ -36,6 +36,18 @@ const nextConfig: NextConfig = {
                 destination: "/:first/about-us",
             },
             {
+                source: "/:first/politicas-de-etica",
+                destination: "/:first/ethics-policies",
+            },
+            {
+                source: "/:first/ethikrichtlinien",
+                destination: "/:first/ethics-policies",
+            },
+            {
+                source: "/:first/politiques-d-ethique",
+                destination: "/:first/ethics-policies",
+            },
+            {
                 source: "/:first/servicios",
                 destination: "/:first/services",
             },

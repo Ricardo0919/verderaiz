@@ -13,6 +13,12 @@ export const pathnames = {
         de: "/ueber-uns",
         fr: "/a-propos",
     },
+    "/ethics-policies":{
+        en: "/ethics-policies",
+        es: "/politicas-de-etica",
+        de: "/ethikrichtlinien",
+        fr: "/politiques-d-ethique",
+    },
     "/services": {
         en: "/services",
         es: "/servicios",
