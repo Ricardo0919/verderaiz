@@ -13,6 +13,9 @@
     "home": "Inicio",
     "aboutUs": "Nosotros",
     "aboutUsLink": "/nosotros",
+    "identity": "Identidad",
+    "ethicsPolicies": "Póliticas de Ética",
+    "ethicsPoliciesLink": "politicas-de-etica",
     "services": "Servicios",
     "servicesLink": "/servicios",
     "blog": "Blog",
@@ -87,6 +90,42 @@
     "subtitle2": "CURSO GESTIÓN AMBIENTAL\nISO 14001:2015",
     "subtitle3": "TALLER IMPACTO AMBIENTAL",
     "subtitle4": "CURSO INTENSIVO PARA LA ELABORACIÓN DE ESTUDIOS DE RIESGO"
+  },
+  "heroEthicPolicies": {
+    "title": "POLÍTICAS DE ÉTICA",
+    "description": "Nos comprometemos a actuar con los más altos estándares éticos en todos los aspectos de nuestras operaciones. Estas políticas reflejan nuestros principios fundamentales y orientan nuestras acciones para garantizar que nuestras actividades beneficien tanto a nuestros clientes como al entorno social y ambiental en el que operamos."
+  },
+  "ethicPolicies": {
+    "title1": "Transparencia y Ética Profesional",
+    "description1": "Nos comprometemos a operar con la máxima transparencia y ética profesional, garantizando que todas nuestras prácticas y decisiones se basen en principios de justicia, integridad y respeto a los derechos humanos, sociales y ambientales. Todos los procesos de Verderaiz están orientados a mantener un espacio seguro y accesible para cualquier persona que desee colaborar o trabajar con nosotros.",
+    "title2": "Confidencialidad y Seguridad de la Información",
+    "description2": "Mantenemos estrictas medidas para proteger la información confidencial de nuestros clientes. Garantizamos que los datos proporcionados serán utilizados exclusivamente para los fines acordados y nos comprometemos a cumplir con las leyes y normativas aplicables de protección de datos.",
+    "title3": "Compromiso Anticorrupción",
+    "description3": "Adoptamos una postura de cero tolerancia hacia la corrupción en todas sus formas, incluidas la extorsión y el soborno. Mantenemos controles internos rigurosos y fomentamos una cultura de integridad entre nuestros colaboradores.",
+    "title4": "Responsabilidad Ambiental",
+    "description4": "Como consultora ambiental, estamos dedicados a reducir el impacto ambiental de nuestras operaciones. Promovemos prácticas sostenibles y trabajamos para que nuestros clientes también adopten medidas que contribuyan al cuidado del planeta.",
+    "title5": "Relaciones con la Comunidad",
+    "description5": "Nos esforzamos por generar un impacto positivo en las comunidades donde operamos. Participamos activamente en iniciativas que promuevan el bienestar social y el desarrollo sostenible.",
+    "title6": "Cumplimiento Normativo",
+    "description6": "Nos aseguramos de que todas nuestras actividades cumplan con las leyes, regulaciones y estándares aplicables. Nos mantenemos actualizados con respecto a las normativas ambientales, laborales y comerciales pertinentes.",
+    "title7": "Capacitación y Desarrollo Profesional",
+    "description7": "Fomentamos el desarrollo continuo de nuestros colaboradores mediante programas de capacitación que promuevan el conocimiento, la ética y la excelencia profesional.",
+    "title8": "Relación con Clientes y Proveedores",
+    "description8": "Establecemos relaciones basadas en la confianza, el respeto mutuo y la ética. Trabajamos con proveedores que comparten nuestros valores y nos aseguramos de que nuestras relaciones comerciales estén libres de conflictos de interés.",
+    "title9": "Relación con Clientes y Proveedores",
+    "description9": "Establecemos relaciones basadas en la confianza, el respeto mutuo y la ética. Trabajamos con proveedores que comparten nuestros valores y nos aseguramos de que nuestras relaciones comerciales estén libres de conflictos de interés.",
+    "title10": "Accesibilidad y Oportunidades para Todos",
+    "description10": "Promovemos una cultura organizacional inclusiva, donde todas las personas tengan acceso a las mismas oportunidades de crecimiento y participación. Trabajamos para eliminar barreras físicas, sociales y culturales, y asegurar que todos nuestros servicios sean accesibles a la mayor diversidad de personas posible, independientemente de sus capacidades físicas, religión o cualquier otra condición.",
+    "title11": "Ambiente Laboral Respetuoso y Cero Tolerancia de Acoso o Violencia ",
+    "description11": "Nos comprometemos a proporcionar un entorno laboral libre de acoso, violencia, intimidación o cualquier tipo de comportamiento que ponga en riesgo el bienestar de las personas. Fomentamos un espacio donde cada miembro de nuestro equipo y todos nuestros colaboradores se sientan seguros, valorados y respetados en su identidad y sus diferencias.",
+    "title12": "Mecanismos de Denuncia",
+    "description12": "Proporcionamos canales seguros y confidenciales para que colaboradores, clientes y terceros puedan reportar cualquier conducta inapropiada o violación de nuestras políticas. Garantizamos que todas las denuncias sean investigadas de manera imparcial y con prontitud.",
+    "title13": "Compromiso con la Equidad, la Inclusión y Promoción de la Diversidad",
+    "description13": "En Verderaiz, creemos firmemente que la diversidad enriquece la toma de decisiones y la innovación, y por ello, trabajamos para crear un entorno libre de cualquier tipo de discriminación y nos comprometemos a garantizar que todas las personas, ya sean clientes, colaboradores o socios, se sientan bienvenidas y respetadas. No toleramos ninguna forma de discriminación ya sea de género, orientación sexual, identidad de género, etnia, movilidad limitada o discapacidad . Nos enorgullece ser una empresa pro-LGBTQ+, trans-inclusiva, haciendo respetar la equidad de derechos y la representación de todas las personas, sin distinción. Promovemos la igualdad de oportunidades y el trato justo para todos."
+  },
+  "quoteEthicPolicies": {
+    "title": "Estas políticas son revisadas periódicamente para asegurar que reflejen nuestros valores y se alineen con las mejores prácticas de la industria. Todos los colaboradores de Verderaíz son responsables de adherirse a estas políticas y actuar como embajadores de nuestros principios éticos. En Verderaiz, cada persona es valorada por lo que es, y buscamos construir juntos un futuro más justo, inclusivo, sostenible y ético para todas las comunidades.",
+    "quote": "\"LA DIVERSIDAD NOS FORTALECE, LA INCLUSIÓN NOS UNE, Y LA ÉTICA Y TRANSPARENCIA NOS GUÍAN HACIA UN FUTURO SOSTENIBLE.\""
   },
   "heroServices": {
     "title": "VERDERAÍZ",

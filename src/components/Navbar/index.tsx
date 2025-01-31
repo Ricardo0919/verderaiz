@@ -1,18 +1,24 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import logo from "@/assets/images/Logo.png";
+import logoVerde from "@/assets/images/LogoVerde.png";
 import Sidebar from "./Sidebar";
 import { useTranslations } from "next-intl";
 import { IoMenu } from "react-icons/io5";
-import { RxCross2 } from "react-icons/rx";;
+import { RxCross2 } from "react-icons/rx";
+import { IoIosArrowDown } from "react-icons/io"; // Import de la flecha
 
 function NavBar() {
     const [menuOpen, setMenuOpen] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
-    const [isRotating, setIsRotating] = useState(false); // Nuevo estado
+    const [isRotating, setIsRotating] = useState(false);
+
+    // Estado y referencia para el dropdown de About Us
+    const [dropdownOpen, setDropdownOpen] = useState(false);
+    const dropdownRef = useRef<HTMLDivElement>(null);
 
     const pathname = usePathname();
     const t = useTranslations("navbar");
@@ -30,23 +36,65 @@ function NavBar() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-    const linkClasses = (path: string) =>
-        pathname === path
-            ? "bg-white text-black font-semibold text-sm  xl:text-md py-1 px-5 rounded-[40px] font-zendots"
-            : "text-white font-semibold text-sm xl:text-md hover:bg-white hover:text-black py-1 px-5 rounded-[40px] font-zendots";
+    // Cerrar el dropdown de About Us si se hace clic fuera de él
+    useEffect(() => {
+        function handleClickOutside(event: MouseEvent) {
+            if (
+                dropdownRef.current &&
+                !dropdownRef.current.contains(event.target as Node)
+            ) {
+                setDropdownOpen(false);
+            }
+        }
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => {
+            document.removeEventListener("mousedown", handleClickOutside);
+        };
+    }, []);
+
+    // Detectar si estamos en la ruta ethicsPoliciesLink
+    const isOnEthicsPoliciesLink = pathname.includes(t("ethicsPoliciesLink"));
+
+    // Nuevo booleano que controla el "modo verde" SÓLO si está en policies Y no ha hecho scroll.
+    const isGreenMode = isOnEthicsPoliciesLink && !isScrolled;
+
+    /**
+     * linkClasses: determina las clases de cada link según:
+     * - Si estamos en la ruta actual (active).
+     * - Si estamos en "modo verde" (isGreenMode).
+     */
+    const linkClasses = (path: string) => {
+        if (isGreenMode) {
+            // Cuando estamos en la ruta de policies y NO scrolleamos:
+            // por defecto texto negro, hover fondo dark-green y texto blanco.
+            if (pathname === path) {
+                // Si el link está activo
+                return "bg-dark-green text-white font-semibold text-sm xl:text-md py-1 px-5 rounded-[40px] font-zendots";
+            }
+            // Link normal en ese modo
+            return "text-black font-semibold text-sm xl:text-md hover:bg-dark-green hover:text-white py-1 px-5 rounded-[40px] font-zendots";
+        } else {
+            // Lógica original fuera del modo verde
+            if (pathname === path) {
+                return "bg-white text-black font-semibold text-sm xl:text-md py-1 px-5 rounded-[40px] font-zendots";
+            }
+            return "text-white font-semibold text-sm xl:text-md hover:bg-white hover:text-black py-1 px-5 rounded-[40px] font-zendots";
+        }
+    };
 
     const handleMenuIconClick = () => {
-        // Si ya se está rotando, no hacer nada
         if (isRotating) return;
-
         setIsRotating(true);
-
-        // Después de 300ms (el tiempo de la animación), cambiamos el menú.
         setTimeout(() => {
             setMenuOpen((prev) => !prev);
             setIsRotating(false);
         }, 300);
     };
+
+    console.log("pathname:", pathname);
+    console.log("ethicsPoliciesLink:", t("ethicsPoliciesLink"));
+    console.log("isScrolled:", isScrolled);
+    console.log("isGreenMode:", isGreenMode);
 
     return (
         <nav
@@ -61,28 +109,73 @@ function NavBar() {
                 <div className="flex items-center lg:w-1/3">
                     <Link href="/">
                         <Image
-                            src={logo}
+                            // Mostramos logoVerde sólo si estamos en 'modo verde'
+                            src={isGreenMode ? logoVerde : logo}
                             alt="Logo"
                             className="w-24 lg:w-36"
                         />
                     </Link>
                 </div>
                 <div
-                    className="lg:w-2/3 hidden lg:flex flex-row justify-center items-center border-white border-2 my-12 xl:my-10 xl:ml-72 rounded-[60px]"
+                    className={`lg:w-2/3 hidden lg:flex flex-row justify-center items-center border-2 my-12 xl:my-10 xl:ml-72 rounded-[60px] ${
+                        // Si estamos en 'modo verde', borde dark-green; caso contrario, borde blanco
+                        isGreenMode ? "border-dark-green" : "border-white"
+                    }`}
                 >
                     <Link href="/" className={linkClasses("/")}>
                         {t("home")}
                     </Link>
-                    <Link href={t("aboutUsLink")} className={linkClasses(t("aboutUsLink"))}>
-                        {t("aboutUs")}
-                    </Link>
-                    <Link href={t("servicesLink")} className={linkClasses(t("servicesLink"))}>
+
+                    {/* Contenedor para About Us con dropdown */}
+                    <div className="relative" ref={dropdownRef}>
+                        <Link
+                            href="#"
+                            className={linkClasses(t("aboutUsLink"))}
+                            onClick={(e) => {
+                                e.preventDefault(); // Evita navegar
+                                setDropdownOpen((prev) => !prev);
+                            }}
+                        >
+                            {t("aboutUs")}
+                            <IoIosArrowDown className="inline ml-1 text-lg" />
+                        </Link>
+                        {/* Submenú con display condicional */}
+                        <div
+                            className={`absolute left-0 mt-2 bg-white text-black rounded-md shadow-lg ${
+                                dropdownOpen ? "block" : "hidden"
+                            }`}
+                        >
+                            <Link
+                                href={t("aboutUsLink")}
+                                className="block px-4 py-2 text-sm hover:bg-gray-200 font-zendots"
+                            >
+                                {t("identity")}
+                            </Link>
+                            <Link
+                                href={t("ethicsPoliciesLink")}
+                                className="block px-4 py-2 text-sm hover:bg-gray-200 font-zendots"
+                            >
+                                {t("ethicsPolicies")}
+                            </Link>
+                        </div>
+                    </div>
+
+                    <Link
+                        href={t("servicesLink")}
+                        className={linkClasses(t("servicesLink"))}
+                    >
                         {t("services")}
                     </Link>
-                    <Link href={t("blogLink")} className={linkClasses(t("blogLink"))}>
+                    <Link
+                        href={t("blogLink")}
+                        className={linkClasses(t("blogLink"))}
+                    >
                         {t("blog")}
                     </Link>
-                    <Link href={t("contactLink")} className={linkClasses(t("contactLink"))}>
+                    <Link
+                        href={t("contactLink")}
+                        className={linkClasses(t("contactLink"))}
+                    >
                         {t("contact")}
                     </Link>
                 </div>
@@ -90,14 +183,14 @@ function NavBar() {
 
             {/* Mobile & Tablet Menu */}
             <div className="flex justify-end -mt-20 lg:hidden">
-                <button className="text-white" onClick={handleMenuIconClick}>
+                <button
+                    // Mantén la lógica de color para el botón según isGreenMode
+                    className={`${isGreenMode ? "text-dark-green" : "text-white"}`}
+                    onClick={handleMenuIconClick}
+                >
                     {menuOpen ? (
-                        // Ícono de la X
-                        <RxCross2
-                            className="text-5xl transform transition-transform"
-                        />
+                        <RxCross2 className="text-5xl transform transition-transform" />
                     ) : (
-                        // Ícono del menú
                         <IoMenu
                             className={`text-5xl transform transition-transform duration-300 ${
                                 isRotating ? "rotate-[360deg]" : ""
@@ -111,9 +204,7 @@ function NavBar() {
             {menuOpen && (
                 <div
                     className={`fixed inset-0 z-40 ${
-                        isScrolled
-                            ? "mt-6 md:mt-0"
-                            : "mt-32 md:mt-24"
+                        isScrolled ? "mt-6 md:mt-0" : "mt-32 md:mt-24"
                     }`}
                     onClick={() => setMenuOpen(false)}
                 >

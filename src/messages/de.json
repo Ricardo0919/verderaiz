@@ -13,6 +13,9 @@
     "home": "Startseite",
     "aboutUs": "Uns",
     "aboutUsLink": "/ueber-uns",
+    "identity": "Identität",
+    "ethicsPolicies": "Ethikrichtlinien",
+    "ethicsPoliciesLink": "ethikrichtlinien",
     "services": "Dienstleistungen",
     "servicesLink": "/dienstleistungen",
     "blog": "Blog",
@@ -87,6 +90,42 @@
     "subtitle2": "Umweltmanagementkurs\nISO 14001:2015",
     "subtitle3": "Workshop Umweltverträglichkeit",
     "subtitle4": "INTENSIVKURS ZUR ERSTELLUNG VON RISIKOSTUDIEN"
+  },
+  "heroEthicPolicies": {
+    "title": "ETHIKRICHTLINIEN",
+    "description": "Wir verpflichten uns, in allen Bereichen unserer Tätigkeit nach den höchsten ethischen Standards zu handeln. Diese Richtlinien spiegeln unsere grundlegenden Prinzipien wider und leiten unser Handeln, um sicherzustellen, dass unsere Aktivitäten sowohl unseren Kunden als auch dem sozialen und ökologischen Umfeld zugutekommen."
+  },
+  "ethicPolicies": {
+    "title1": "Transparenz und professionelle Ethik",
+    "description1": "Wir verpflichten uns, mit höchstmöglicher Transparenz und professioneller Ethik zu arbeiten. Wir stellen sicher, dass alle unsere Praktiken und Entscheidungen auf Grundsätzen der Gerechtigkeit, Integrität sowie dem Respekt der Menschen-, Sozial- und Umweltrechte basieren. Alle Prozesse bei Verderaiz sind darauf ausgerichtet, einen sicheren und zugänglichen Raum für alle zu gewährleisten, die mit uns zusammenarbeiten oder für uns arbeiten möchten.",
+    "title2": "Vertraulichkeit und Informationssicherheit",
+    "description2": "Wir halten strenge Maßnahmen zum Schutz der vertraulichen Informationen unserer Kunden ein. Wir gewährleisten, dass die bereitgestellten Daten ausschließlich für die vereinbarten Zwecke verwendet werden, und verpflichten uns, die geltenden Datenschutzgesetze und -vorschriften einzuhalten.",
+    "title3": "Antikorruptionsverpflichtung",
+    "description3": "Wir nehmen eine Null-Toleranz-Haltung gegenüber Korruption in all ihren Formen ein, einschließlich Erpressung und Bestechung. Wir halten strenge interne Kontrollen aufrecht und fördern eine Kultur der Integrität unter unseren Mitarbeitern.",
+    "title4": "Umweltverantwortung",
+    "description4": "Als Umweltberatungsunternehmen sind wir bestrebt, die Umweltauswirkungen unserer Geschäftstätigkeit zu reduzieren. Wir fördern nachhaltige Praktiken und arbeiten daran, dass auch unsere Kunden Maßnahmen ergreifen, die zum Schutz unseres Planeten beitragen.",
+    "title5": "Beziehungen mit der Gemeinschaft",
+    "description5": "Wir bemühen uns, in den Gemeinden, in denen wir tätig sind, einen positiven Einfluss zu haben. Wir beteiligen uns aktiv an Initiativen, die das soziale Wohlergehen und eine nachhaltige Entwicklung fördern.",
+    "title6": "Einhaltung von Vorschriften",
+    "description6": "Wir stellen sicher, dass alle unsere Aktivitäten den geltenden Gesetzen, Vorschriften und Standards entsprechen. Wir halten uns über relevante Umwelt-, Arbeits- und Handelsvorschriften auf dem Laufenden.",
+    "title7": "Schulung und berufliche Weiterbildung",
+    "description7": "Wir fördern die kontinuierliche Entwicklung unserer Mitarbeiter durch Schulungsprogramme, die Wissen, Ethik und berufliche Exzellenz fördern.",
+    "title8": "Beziehung zu Kunden und Lieferanten",
+    "description8": "Wir bauen Beziehungen auf, die auf Vertrauen, gegenseitigem Respekt und Ethik basieren. Wir arbeiten mit Lieferanten zusammen, die unsere Werte teilen, und stellen sicher, dass unsere Geschäftsbeziehungen frei von Interessenkonflikten sind.",
+    "title9": "Beziehung zu Kunden und Lieferanten",
+    "description9": "Wir bauen Beziehungen auf, die auf Vertrauen, gegenseitigem Respekt und Ethik basieren. Wir arbeiten mit Lieferanten zusammen, die unsere Werte teilen, und stellen sicher, dass unsere Geschäftsbeziehungen frei von Interessenkonflikten sind.",
+    "title10": "Barrierefreiheit und Chancen für alle",
+    "description10": "Wir fördern eine inklusive Organisationskultur, in der alle Menschen Zugang zu denselben Wachstums- und Teilhabechancen haben. Wir arbeiten daran, physische, soziale und kulturelle Barrieren abzubauen und sicherzustellen, dass alle unsere Dienstleistungen so vielen verschiedenen Menschen wie möglich zugänglich sind, unabhängig von ihren körperlichen Fähigkeiten, ihrer Religion oder anderen Umständen.",
+    "title11": "Respektvolles Arbeitsumfeld und Null Toleranz gegenüber Belästigung oder Gewalt",
+    "description11": "Wir verpflichten uns, ein Arbeitsumfeld ohne Belästigung, Gewalt, Einschüchterung oder jegliches Verhalten zu schaffen, das das Wohlbefinden von Menschen gefährdet. Wir fördern ein Umfeld, in dem sich jedes Teammitglied und alle unsere Mitarbeiter sicher, geschätzt und in ihrer Identität und ihren Unterschieden respektiert fühlen.",
+    "title12": "Beschwerdemechanismen",
+    "description12": "Wir stellen sichere und vertrauliche Kanäle zur Verfügung, damit Mitarbeiter, Kunden und Dritte unangemessenes Verhalten oder Verstöße gegen unsere Richtlinien melden können. Wir gewährleisten, dass alle Beschwerden unparteiisch und umgehend untersucht werden.",
+    "title13": "Engagement für Gerechtigkeit, Inklusion und Förderung der Vielfalt",
+    "description13": "Bei Verderaiz sind wir fest davon überzeugt, dass Vielfalt die Entscheidungsfindung und Innovation bereichert. Daher arbeiten wir daran, ein Umfeld zu schaffen, das frei von jeglicher Art von Diskriminierung ist, und verpflichten uns sicherzustellen, dass sich alle Menschen – seien es Kunden, Mitarbeiter oder Partner – willkommen und respektiert fühlen. Wir tolerieren keinerlei Form von Diskriminierung, sei es aufgrund von Geschlecht, sexueller Orientierung, Geschlechtsidentität, Ethnie, eingeschränkter Mobilität oder Behinderung. Wir sind stolz darauf, ein pro-LGBTQ+ und trans-inklusives Unternehmen zu sein, das die Gleichberechtigung und Repräsentation aller Menschen ohne Unterschied respektiert. Wir fördern Chancengleichheit und faire Behandlung für alle."
+  },
+  "quoteEthicPolicies": {
+    "title": "Diese Richtlinien werden regelmäßig überprüft, um sicherzustellen, dass sie unsere Werte widerspiegeln und mit den besten Praktiken der Branche in Einklang stehen. Alle Mitarbeiter von Verderaíz sind dafür verantwortlich, diese Richtlinien einzuhalten und als Botschafter unserer ethischen Grundsätze zu handeln. Bei Verderaíz wird jeder für das geschätzt, was er ist, und wir streben danach, eine gerechtere, inklusivere, nachhaltigere und ethischere Zukunft für alle Gemeinschaften aufzubauen.",
+    "quote": "\"DIVERSITÄT STÄRKT UNS, INKLUSION VEREINT UNS, UND ETHIK UND TRANSPARENZ FÜHREN UNS ZU EINER NACHHALTIGEN ZUKUNFT.\""
   },
   "heroServices": {
     "title": "VERDERAÍZ",
