@@ -37,7 +37,7 @@ function EthicPolicies() {
 
     return (
         <div className="bg-light-beige px-10 pb-10 md:px-12 lg:px-16 xl:px-32">
-            <div className="bg-dark-green border rounded-[20px]">
+            <div>
                 {items.map((item, index) => (
                     <div key={index}>
                         {/* Botón para el título */}
@@ -45,10 +45,10 @@ function EthicPolicies() {
                             className="w-full flex items-center justify-between p-4 focus:outline-none lg:text-lg lg:p-6 xl:text-2xl xl:p-8 font-cambay text-left uppercase"
                             onClick={() => handleToggle(index)}
                         >
-                            <span className="font-semibold">{item.title}</span>
+                            <span className="font-semibold text-dark-green">{item.title}</span>
                             {/* Flecha que rota al abrir el acordeón */}
                             <svg
-                                className={`w-5 h-5 transition-transform duration-200 ${
+                                className={`w-5 h-5 transition-transform duration-200 text-dark-green ${
                                     activeIndex === index ? "transform rotate-180" : ""
                                 }`}
                                 fill="none"
@@ -65,15 +65,15 @@ function EthicPolicies() {
                             </svg>
                         </button>
 
-                        {/* Línea de separación debajo de cada título, excepto en el último */}
-                        {index < items.length - 1 && <hr className="mx-4 border-gray-300"/>}
-
                         {/* Contenido desplegado si este acordeón está activo */}
                         {activeIndex === index && (
-                            <div className="p-4 text-justify text-sm text-white lg:text-base lg:p-6 xl:text-xl xl:p-8">
+                            <div className="font-montserrat px-4 pb-4 text-justify text-sm text-dark-green lg:text-base lg:px-6 lg:pb-6 xl:text-xl xl:px-8 xl:pb-8">
                                 {item.content}
                             </div>
                         )}
+
+                        {/* Línea de separación debajo de cada título, excepto en el último */}
+                        {index < items.length - 1 && <hr className="mx-4 border-dark-green"/>}
                     </div>
                 ))}
             </div>

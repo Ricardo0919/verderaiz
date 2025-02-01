@@ -18,10 +18,10 @@ function FindOut() {
                 <h1 className="text-center lg:text-left tracking-[5px] font-cambay font-black text-4xl lg:text-4xl xl:text-5xl">
                     {t("title")}
                 </h1>
-                <p className="text-sm py-4 lg:text-lg xl:text-2xl">
+                <p className="text-sm py-4 lg:text-lg xl:text-2xl font-montserrat">
                     {t.rich("description",{
                         code:(chunks) => (
-                            <code className="font-black">
+                            <code className="font-black font-montserrat">
                                 {chunks}
                             </code>
                         ),
@@ -55,7 +55,7 @@ function FindOut() {
                             </button>
                         </Link>
                     </div>
-                    <p className="text-center mt-1 text-xs mx-6 xl:text-lg">
+                    <p className="text-center mt-1 text-xs mx-6 xl:text-lg font-montserrat">
                         {t("descriptionSquare1")}
                     </p>
                 </div>
@@ -79,7 +79,7 @@ function FindOut() {
                             </button>
                         </Link>
                     </div>
-                    <p className="text-center mt-1 text-xs mx-6 xl:text-lg">
+                    <p className="text-center mt-1 text-xs mx-6 xl:text-lg font-montserrat">
                         {t("descriptionSquare2")}
                     </p>
                 </div>

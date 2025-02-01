@@ -23,13 +23,13 @@ function AboutUs() {
                         <h1 className="text-dark-green text-center md:text-left font-cambay tracking-[2px] text-4xl font-[1000] md:text-4xl md:tracking-[7px] lg:text-5xl lg:tracking-[10px] xl:text-6xl xl:tracking-[18px]">
                             {t("title")}
                         </h1>
-                        <p className="text-justify mt-2 md:text-xs lg:text-base xl:text-xl">
+                        <p className="font-montserrat text-justify mt-2 md:text-xs lg:text-base xl:text-xl">
                             {t("description1")}
                         </p>
-                        <p className="text-justify mt-6 md:text-xs lg:text-base xl:text-xl">
+                        <p className="font-montserrat text-justify mt-6 md:text-xs lg:text-base xl:text-xl">
                             {t.rich("description2", {
                                 code: (chunks) => (
-                                    <code className="font-black font-serif">
+                                    <code className="font-black font-montserrat">
                                         {chunks}
                                     </code>
                                 ),

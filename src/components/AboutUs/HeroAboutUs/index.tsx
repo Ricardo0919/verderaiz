@@ -23,7 +23,7 @@ function HeroAboutUs() {
             {/* Contenido principal */}
             <div className="relative border-2 border-white rounded-2xl px-8 text-white mx-6 pt-32 flex flex-col md:flex-row md:pb-10 lg:pt-40 lg:pb-20 xl:pt-52 xl:pb-44">
                 <div className="md:w-1/3 lg:pl-10">
-                    <h1 className="font-cambay text-3xl tracking-[2px] font-black md:text-4xl md:text-left lg:text-4xl xl:text-6xl">
+                    <h1 className="font-cambay text-3xl tracking-[4px] font-black md:text-3xl md:tracking-[7px] md:text-left lg:text-4xl lg:tracking-[8px] xl:text-5xl xl:tracking-[9px]">
                         {t("title")}
                     </h1>
                     <div className="text-sm mt-4 md:text-left md:text-base lg:text-xl xl:text-3xl">

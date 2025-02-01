@@ -41,3 +41,7 @@ html {
   src: url('../../src/assets/fonts/Cambay-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../../src/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+}

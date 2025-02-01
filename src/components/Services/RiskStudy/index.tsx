@@ -20,14 +20,14 @@ function RiskStudy() {
                     <div className="flex flex-col justify-center items-center md:flex-row md:gap-4 md:py-10 ">
                         <div className="md:w-1/2">
                             {/*Subtitle*/}
-                            <h2 className="text-center font-[1000] font-cambay text-3xl tracking-[2px] mt-6 md:text-left md:text-2xl md:mt-0 lg:text-3xl xl:text-5xl">
+                            <h2 className="text-center font-[1000] font-cambay text-3xl tracking-[2px] mt-6 md:text-left md:text-2xl md:mt-0 lg:text-3xl xl:text-5xl md:tracking-[7px] lg:tracking-[10px] xl:tracking-[18px]">
                                 {t("subtitle")}
                             </h2>
                             {/*Description*/}
-                            <p className="mt-8 md:text-xs lg:text-base font-light xl:text-2xl">
+                            <p className="font-montserrat mt-8 md:text-xs lg:text-base font-light xl:text-2xl">
                                 {t("description1")}
                             </p>
-                            <p className="mt-3 md:text-xs lg:text-base font-light xl:text-2xl">
+                            <p className="font-montserrat mt-3 md:text-xs lg:text-base font-light xl:text-2xl">
                                 {t("description2")}.
                             </p>
                         </div>
