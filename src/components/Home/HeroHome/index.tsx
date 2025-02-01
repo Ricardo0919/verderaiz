@@ -27,7 +27,7 @@ function HeroHome() {
                         {t("title")}
                     </h1>
                     <div className="text-white md:w-1/2 md:order-1 lg:w-1/3">
-                        <p className="text-justify mt-6 text-sm font-light lg:text-lg xl:text-2xl">
+                        <p className="font-montserrat text-justify mt-6 text-sm font-light lg:text-lg xl:text-2xl">
                             {t.rich("description")}
                         </p>
                         <p className="mt-8 border border-white rounded-3xl font-bold text-lg px-10 md:px-16 lg:text-base xl:px-24 xl:text-xl">

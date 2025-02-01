@@ -7,6 +7,7 @@ import umaLogo from "@/assets/images/umaLogo.png";
 import enzoLogo from "@/assets/images/enzoLogo.png";
 import emaLogo from "@/assets/images/emaLogo.png";
 import uniciLogo from "@/assets/images/uniciLogo.png";
+import tecLogo from "@/assets/images/tecLogo.png";
 import aboutusBG3 from "@/assets/images/aboutusBG3.png";
 
 interface Slide {
@@ -43,6 +44,12 @@ function AccreditationsSliderAboutUs() {
             title: t("subtitle4"),
             img: uniciLogo,
             alt: t("subtitle4")
+        },
+        {
+            id: 5,
+            title: t("subtitle5"),
+            img: tecLogo,
+            alt: t("subtitle5")
         },
     ];
 
@@ -202,7 +209,7 @@ function AccreditationsSliderAboutUs() {
                                             height={150}
                                             priority
                                         />
-                                        <div className="mt-4 text-black text-xs md:text-sm font-black text-center uppercase">
+                                        <div className="mt-4 text-black text-xs md:text-sm font-bold text-center uppercase">
                                             {slide.title}
                                         </div>
                                     </div>

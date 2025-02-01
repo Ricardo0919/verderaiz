@@ -25,7 +25,7 @@ function OurTeam() {
 
             <div className="z-10">
                 <div className="text-black pb-10 md:pt-20 lg:pb-20">
-                    <h1 className="text-4xl tracking-[3px] font-[1000] font-cambay text-center mb-8 md:text-4xl lg:text-4xl xl:text-5xl xl:mb-16">
+                    <h1 className="text-4xl tracking-[4px] font-[1000] font-cambay text-center mb-8 md:text-4xl md:tracking-[7px] lg:text-4xl lg:tracking-[10px] xl:text-5xl xl:tracking-[13px] xl:mb-16">
                         {t("title")}
                     </h1>
 
@@ -43,10 +43,10 @@ function OurTeam() {
 
                                 {/*Information*/}
                                 <div className="w-1/2">
-                                    <p className="font-black text-xs lg:text-sm xl:text-lg">
+                                    <p className="tracking-[2px] font-semibold text-xs lg:text-sm xl:text-lg">
                                         {t("name1")}
                                     </p>
-                                    <p className="text-[10px] lg:text-xs xl:text-sm">
+                                    <p className="font-montserrat text-[10px] lg:text-xs xl:text-sm">
                                         {t("description1")}
                                     </p>
                                 </div>
@@ -63,10 +63,10 @@ function OurTeam() {
 
                                 {/*Information*/}
                                 <div className="w-1/2 order-1 md:order-2">
-                                    <p className="font-black text-xs lg:text-sm xl:text-lg">
+                                    <p className="tracking-[2px] font-semibold text-xs lg:text-sm xl:text-lg">
                                         {t("name2")}
                                     </p>
-                                    <p className="text-[10px] lg:text-xs xl:text-sm">
+                                    <p className="font-montserrat text-[10px] lg:text-xs xl:text-sm">
                                         {t("description2")}
                                     </p>
                                 </div>
@@ -85,10 +85,10 @@ function OurTeam() {
 
                             {/*Information*/}
                             <div className="w-1/2">
-                                <p className="font-black text-xs lg:text-sm xl:text-lg">
+                                <p className="tracking-[2px] font-semibold text-xs lg:text-sm xl:text-lg">
                                     {t("name3")}
                                 </p>
-                                <p className="text-[10px] lg:text-xs xl:text-sm">
+                                <p className="font-montserrat text-[10px] lg:text-xs xl:text-sm">
                                     {t("description3")}
                                 </p>
                             </div>

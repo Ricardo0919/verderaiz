@@ -42,6 +42,7 @@ export default {
         titles: ['MODULAR-14', 'sans-serif'], // Usa 'custom' como referencia
         cambay: ['Cambay-Regular'],
         zendots: ['ZenDots-Regular'],
+        montserrat: ['Montserrat-Regular'],
       },
     },
   },

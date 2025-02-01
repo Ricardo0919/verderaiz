@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import QuoteEthicsPoliciesIMG from "@/assets/images/QuoteEthicsPolicies.png";
+import QuoteEthicsPoliciesLG from "@/assets/images/QuoteEthicsPoliciesLG.png";
 import {useTranslations} from "next-intl";
 
 function QuoteEthicsPolicies() {
@@ -19,9 +20,14 @@ function QuoteEthicsPolicies() {
                     <Image
                         src={QuoteEthicsPoliciesIMG}
                         alt="QuoteEthicsPoliciesIMG"
-                        className="w-full h-auto"
+                        className="lg:hidden w-full h-auto"
                     />
-                    <p className="absolute inset-0 flex items-center justify-center text-center text-white text-[12px] px-3 md:text-3xl md:px-12 lg:text-5xl xl:text-6xl xl:px-24">
+                    <Image
+                        src={QuoteEthicsPoliciesLG}
+                        alt="QuoteEthicsPoliciesLG"
+                        className="hidden lg:flex w-full h-auto"
+                    />
+                    <p className="absolute inset-0 flex items-center justify-center text-center text-white text-[12px] px-3 md:text-3xl md:px-12 lg:text-3xl xl:text-4xl xl:px-24">
                         {t("quote")}
                     </p>
                 </div>

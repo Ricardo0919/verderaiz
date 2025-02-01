@@ -8,7 +8,7 @@ function HeroEthicsPolicies() {
     const t = useTranslations("heroEthicPolicies");
     return (
         <div className="bg-light-beige pt-72 pb-10 md:pt-60 xl:pt-72">
-            <h1 className="text-blog-BG text-center text-3xl font-cambay font-black tracking-[1px] lg:text-4xl xl:text-6xl xl:tracking-[4px] xl:pl-52">
+            <h1 className="text-blog-BG text-center text-3xl font-cambay font-black tracking-[1px] lg:text-4xl xl:text-6xl xl:tracking-[18px] xl:pl-52 md:tracking-[7px] lg:tracking-[10px]">
                 {t("title")}
             </h1>
 
@@ -19,7 +19,7 @@ function HeroEthicsPolicies() {
                 </div>
 
                 <div className="md:w-1/2 lg:w-1/3">
-                    <p className="text-dark-green text-justify mt-10 px-10 text-lg md:px-0 md:mt-0 md:text-right lg:text-lg xl:text-2xl">
+                    <p className="font-montserrat text-dark-green text-justify mt-10 px-10 text-lg md:px-0 md:mt-0 md:text-right lg:text-lg xl:text-2xl">
                         {t("description")}
                     </p>
                 </div>
