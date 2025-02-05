@@ -20,6 +20,9 @@
     "servicesLink": "/services-fr",
     "blog": "Blog",
     "blogLink": "/blog-fr",
+    "blogLibrary": "Bibliothèque de Blogs",
+    "blogLibraryLink": "/bibliotheque-de-blogs",
+    "returnBlog": "Retour à l'accueil",
     "contact": "Contact",
     "contactLink": "#footer"
   },
@@ -155,7 +158,8 @@
     "description2": "La formation environnementale est essentielle au succès de toute stratégie de durabilité. Elle garantit que tout le personnel est aligné sur les objectifs environnementaux de l'entreprise, réduit le risque de non-conformité et renforce l'image responsable de l'organisation. En outre, elle améliore l'efficacité de la gestion des ressources et de la mise en œuvre des politiques environnementales."
   },
   "heroBlog": {
-    "title": "La connaissance est la première étape vers"
+    "title": "La connaissance est la première étape vers",
+    "preloader": "Chargement"
   },
   "footer": {
     "title": "CONTACTEZ-NOUS",

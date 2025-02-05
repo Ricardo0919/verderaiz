@@ -72,6 +72,18 @@ const nextConfig: NextConfig = {
                 destination: "/:first/blog",
             },
             {
+                source: "/:first/biblioteca-de-blogs",
+                destination: "/:first/blog-library",
+            },
+            {
+                source: "/:first/blog-bibliothek",
+                destination: "/:first/blog-library",
+            },
+            {
+                source: "/:first/bibliotheque-de-blogs",
+                destination: "/:first/blog-library",
+            },
+            {
                 source: "/:first/contacto",
                 destination: "/:first/contact",
             },

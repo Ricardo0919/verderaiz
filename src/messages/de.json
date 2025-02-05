@@ -20,6 +20,9 @@
     "servicesLink": "/dienstleistungen",
     "blog": "Blog",
     "blogLink": "/blog-de",
+    "blogLibrary": "Blog Bibliothek",
+    "blogLibraryLink": "/blog-bibliothek",
+    "returnBlog": "Zurück zur Startseite",
     "contact": "Kontakt",
     "contactLink": "#footer"
   },
@@ -155,7 +158,8 @@
     "description2": "Umweltschulungen sind der Schlüssel zum Erfolg jeder Nachhaltigkeitsstrategie. Sie stellen sicher, dass alle Mitarbeiter mit den Umweltzielen des Unternehmens übereinstimmen, verringern das Risiko von Vorschriftsverstößen und stärken das verantwortungsbewusste Image der Organisation. Darüber hinaus verbessern sie die Effizienz im Ressourcenmanagement und in der Umsetzung von Umweltpolitiken."
   },
   "heroBlog": {
-    "title": "Wissen ist der erste Schritt zu"
+    "title": "Wissen ist der erste Schritt zu",
+    "preloader": "Lädt"
   },
   "footer": {
     "title": "KONTAKTIERE UNS",

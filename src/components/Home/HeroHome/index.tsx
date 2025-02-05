@@ -1,27 +1,69 @@
 "use client";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import background from "@/assets/images/HeroHomeBG.png";
-import {useTranslations} from "next-intl";
+import background1 from "@/assets/images/HeroHomeBG1.png";
+import background2 from "@/assets/images/HeroHomeBG2.png";
+import background3 from "@/assets/images/HeroHomeBG3.png";
+import background4 from "@/assets/images/HeroHomeBG4.png";
+import background5 from "@/assets/images/HeroHomeBG5.png";
+import background6 from "@/assets/images/HeroHomeBG6.png";
+import { useTranslations } from "next-intl";
 
 function HeroHome() {
     const t = useTranslations("heroHome");
+
+    // Arreglo con las imágenes del slider
+    const backgrounds = [
+        background1,
+        background2,
+        background3,
+        background4,
+        background5,
+        background6,
+    ];
+
+    // Estado para el slide actual
+    const [currentSlide, setCurrentSlide] = useState(0);
+
+    // Efecto para cambiar de slide automáticamente cada 5s
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentSlide((prevSlide) => (prevSlide + 1) % backgrounds.length);
+        }, 6000);
+        return () => clearInterval(interval);
+    }, [backgrounds.length]);
+
+    // Función para cuando el usuario hace clic en un indicador
+    const handleIndicatorClick = (index: number) => {
+        setCurrentSlide(index);
+    };
+
     return (
-        <div className="relative text-center py-28 md:py-20 lg:py-56">
-            {/* Imagen de fondo */}
-            <div className="absolute inset-0">
-                <Image
-                    src={background}
-                    alt="Background Image"
-                    layout="fill"
-                    objectFit="cover"
-                    priority // Optimización de carga
-                />
+        <div className="relative text-center pt-28 pb-16 md:pt-20 md:pb-20 lg:pt-56 lg:pb-24">
+            {/* Contenedor para la animación de slides (overflow hidden) */}
+            <div className="absolute inset-0 overflow-hidden">
+                {/* "Pista" de imágenes que se moverá con transform */}
+                <div
+                    className="flex h-full transition-transform duration-700 ease-in-out"
+                    style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+                >
+                    {backgrounds.map((bg, index) => (
+                        <div key={index} className="relative w-full h-full flex-shrink-0">
+                            <Image
+                                src={bg}
+                                alt="Background Image"
+                                fill
+                                style={{ objectFit: "cover" }}
+                                // Solo marcamos la primera imagen como prioridad
+                                priority={index === 0}
+                            />
+                        </div>
+                    ))}
+                </div>
             </div>
 
             {/* Contenido principal */}
-            <div
-                className="relative border border-white rounded-2xl pt-24 pb-6 px-10 mx-8 md:px-6 lg:pb-10 lg:-mt-40 lg:pt-40 lg:px-20 xl:p-24 xl:pt-44">
+            <div className="relative border border-white rounded-2xl pt-24 pb-6 px-10 mx-8 md:px-6 lg:pb-10 lg:-mt-40 lg:pt-40 lg:px-20 xl:p-24 xl:pt-44">
                 <div className="flex flex-col md:flex-row items-center justify-center md:gap-12 lg:gap-8">
                     <h1 className="text-3xl md:text-3xl text-white font-cambay font-semibold mt-6 md:w-1/2 md:order-2 md:text-right md:mt-0 lg:w-2/3 lg:tracking-[7px] xl:tracking-[8px] lg:pl-20 lg:leading-[75px] xl:leading-[75px] xl:pl-44 lg:text-4xl xl:text-5xl">
                         {t("title")}
@@ -36,8 +78,20 @@ function HeroHome() {
                     </div>
                 </div>
             </div>
-        </div>
 
+            {/* Indicadores del slider */}
+            <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                {backgrounds.map((_, index) => (
+                    <div
+                        key={index}
+                        onClick={() => handleIndicatorClick(index)}
+                        className={`w-3 h-3 rounded-full cursor-pointer ${
+                            index === currentSlide ? "bg-white" : "bg-gray-400"
+                        }`}
+                    />
+                ))}
+            </div>
+        </div>
     );
 }
 

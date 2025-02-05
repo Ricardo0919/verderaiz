@@ -54,6 +54,8 @@ function NavBar() {
 
     // Detectar si estamos en la ruta ethicsPoliciesLink
     const isOnEthicsPoliciesLink = pathname.includes(t("ethicsPoliciesLink"));
+    // Detectar si estamos en la ruta blogLink
+    const isOnBlogLink = pathname.includes(t("blogLink"));
 
     // Nuevo booleano que controla el "modo verde" SÓLO si está en policies Y no ha hecho scroll.
     const isGreenMode = isOnEthicsPoliciesLink && !isScrolled;
@@ -106,7 +108,8 @@ function NavBar() {
         >
             {/* Logo and Laptop Menu */}
             <div className="flex flex-row">
-                <div className="flex items-center lg:w-1/3">
+                {/* Contenedor del Logo */}
+                <div className="flex items-center lg:w-1/4">
                     <Link href="/">
                         <Image
                             // Mostramos logoVerde sólo si estamos en 'modo verde'
@@ -116,11 +119,18 @@ function NavBar() {
                         />
                     </Link>
                 </div>
+
+                {/* Línea horizontal entre logo y menú, SOLO si no hay scroll Y estamos en la página de blog */}
+                {!isScrolled && isOnBlogLink && (
+                    <hr className="hidden lg:flex self-center border-white border-[2px] w-[200px] xl:w-[600px]" />
+                )}
+
+                {/* Contenedor del menú con borde */}
                 <div
-                    className={`lg:w-2/3 hidden lg:flex flex-row justify-center items-center border-2 my-12 xl:my-10 xl:ml-72 rounded-[60px] ${
-                        // Si estamos en 'modo verde', borde dark-green; caso contrario, borde blanco
-                        isGreenMode ? "border-dark-green" : "border-white"
-                    }`}
+                    className={`lg:w-10/12 hidden lg:flex flex-row justify-center items-center border-[3px] my-12 xl:my-10 rounded-[60px] 
+                    ${isGreenMode ? "border-dark-green" : "border-white"}
+                    ${isOnBlogLink ? "xl:ml-0" : "xl:ml-72"}
+                    `}
                 >
                     <Link href="/" className={linkClasses("/")}>
                         {t("home")}
@@ -184,7 +194,6 @@ function NavBar() {
             {/* Mobile & Tablet Menu */}
             <div className="flex justify-end -mt-20 lg:hidden">
                 <button
-                    // Mantén la lógica de color para el botón según isGreenMode
                     className={`${isGreenMode ? "text-dark-green" : "text-white"}`}
                     onClick={handleMenuIconClick}
                 >
