@@ -96,7 +96,7 @@ function Slider() {
         updateVisibleSlides();
         window.addEventListener("resize", updateVisibleSlides);
         return () => window.removeEventListener("resize", updateVisibleSlides);
-    }, []);
+    });
 
     useEffect(() => {
         if (slideRef.current) {
