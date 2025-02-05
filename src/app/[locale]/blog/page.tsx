@@ -1,8 +1,11 @@
 import React from "react";
-import Hero from "../../../components/Blog/HeroBlog";
 import Navbar from "@/components/Navbar";
+import Hero from "../../../components/Blog/HeroBlog";
+import MainBlog from "@/components/Blog/MainBlog";
+import RecentBlogs from "@/components/Blog/RecentBlogs";
+import LibraryBlogButton from "@/components/Blog/LibraryBlogButton";
+import AdsBlog from "@/components/Blog/AdsBlog";
 import Footer from "@/components/Footer";
-import BlogsIcons from "@/components/Blog/BlogsIcons";
 import ButtonLanguage from "@/components/ButtonLanguage";
 
 export default function Blog() {
@@ -12,7 +15,12 @@ export default function Blog() {
             <Navbar/>
             <ButtonLanguage/>
             <Hero/>
-            <BlogsIcons/>
+            <div className="bg-blog-BG">
+                <MainBlog/>
+            </div>
+            <RecentBlogs/>
+            <LibraryBlogButton/>
+            <AdsBlog/>
             <Footer/>
         </div>
     );

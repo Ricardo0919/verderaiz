@@ -20,6 +20,9 @@
     "servicesLink": "/services",
     "blog": "Blog",
     "blogLink": "/blog",
+    "blogLibrary": "Blog Library",
+    "blogLibraryLink": "/blog-library",
+    "returnBlog": "Return to home",
     "contact": "Contact",
     "contactLink": "#footer"
   },
@@ -155,7 +158,8 @@
     "description2": "Environmental training is key to the success of any sustainability strategy. It ensures that all staff are aligned with the company's environmental goals, reduces the risk of non-compliance, and strengthens the organization's responsible image. Additionally, it enhances efficiency in resource management and the implementation of environmental policies."
   },
   "heroBlog": {
-    "title": "Knowledge is the first step towards"
+    "title": "Knowledge is the first step towards",
+    "preloader": "Loading"
   },
   "footer": {
     "title": "CONTACT US",

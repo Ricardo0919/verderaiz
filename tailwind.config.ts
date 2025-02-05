@@ -16,6 +16,7 @@ export default {
         'light-green': '#bbccb5',
         'services-BG': '#a4ada5',
         'blog-BG': '#121e15',
+        'light-green-blog': '#49724b',
         'light-beige': '#f8f8f6',
       },
       animation: {
