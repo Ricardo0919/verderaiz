@@ -1,20 +1,20 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import background1 from "@/assets/images/HeroHomeBG1.png";
 import background2 from "@/assets/images/HeroHomeBG2.png";
 import background3 from "@/assets/images/HeroHomeBG3.png";
 import background4 from "@/assets/images/HeroHomeBG4.png";
 import background5 from "@/assets/images/HeroHomeBG5.png";
 import background6 from "@/assets/images/HeroHomeBG6.png";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
 
 function HeroHome() {
     const t = useTranslations("heroHome");
+    const l = useTranslations("navbar");
 
     // Arreglo con las imágenes del slider
     const backgrounds = [
-        background1,
         background2,
         background3,
         background4,
@@ -72,9 +72,11 @@ function HeroHome() {
                         <p className="font-montserrat text-justify mt-6 text-sm font-light lg:text-lg xl:text-2xl">
                             {t.rich("description")}
                         </p>
-                        <p className="mt-8 border border-white rounded-3xl font-bold text-lg px-10 md:px-16 lg:text-base xl:px-24 xl:text-xl">
-                            {t("button")}
-                        </p>
+                        <Link href={l("contactLink")}>
+                            <button className="mt-8 border border-white rounded-3xl font-bold text-lg px-10 md:px-16 lg:text-base xl:px-24 xl:text-xl transform hover:scale-125 transition-transform duration-300">
+                                {t("button")}
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

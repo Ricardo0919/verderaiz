@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import blogBG3 from "@/assets/images/blogBG3.png";
+import Logo from "@/assets/images/Logo.png"; // Default image for blogpost
 import {useTranslations} from "next-intl";
 
 interface Blog {
@@ -78,7 +79,7 @@ function RecentBlogs() {
                         }
 
                         if (!imagen) {
-                            imagen = "/images/LogoVerde.png";
+                            imagen = Logo.src;
                         }
 
                         return {
@@ -127,13 +128,13 @@ function RecentBlogs() {
                 <style jsx>{`
                     @keyframes progressBar {
                         0% {
-                            width: 0%;
+                            width: 0;
                         }
                         50% {
                             width: 100%;
                         }
                         100% {
-                            width: 0%;
+                            width: 0;
                         }
                     }
                     .animate-progressBar {
@@ -202,7 +203,7 @@ function RecentBlogs() {
                     ${
                                             clickedIndex === index
                                                 ? "translate-x-20"
-                                                : "hover:translate-x-20"
+                                                : "translate-x-0"
                                         }
                   `}
                                     />
@@ -231,7 +232,7 @@ function RecentBlogs() {
                   flex flex-col justify-center
                 "
                                 >
-                                    <p className="text-xs">Author: {blog.autor}</p>
+                                    <p className="text-xs font-cambay">Author: {blog.autor}</p>
 
                                     <p
                                         className="
@@ -239,6 +240,7 @@ function RecentBlogs() {
                     line-clamp-2
                     overflow-hidden
                     break-words
+                    font-cambay
                   "
                                     >
                                         {blog.descripcion}
