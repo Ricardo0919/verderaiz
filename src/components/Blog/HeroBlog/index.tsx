@@ -19,7 +19,7 @@ function HeroBlog() {
 
                 <div
                     className="bg-white text-blog-BG mx-8 rounded-[40px] text-center mt-20 md:mx-32 lg:mx-40 lg:mt-24 py-4 md:py-8 px-4 md:px-6 xl:mx-44 flex flex-col items-center justify-center">
-                    <p className="font-black font-serif text-xl md:text-3xl md:tracking-[2px] lg:text-4xl lg:tracking-[4px] xl:text-6xl xl:tracking-[6px]">
+                    <p className="font-black font-cambay text-xl md:text-3xl md:tracking-[2px] lg:text-4xl lg:tracking-[4px] xl:text-6xl xl:tracking-[6px]">
                         {t("title")}
                     </p>
                     <Image
