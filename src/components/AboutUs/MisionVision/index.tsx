@@ -2,10 +2,25 @@
 import React from "react";
 import Image from "next/image";
 import PlantasMV from "@/assets/images/PlantasMV.png";
-import {useTranslations} from "next-intl";
+import PlantasMVEN from "@/assets/images/listonPlantasIngles.png";
+import PlantasMVDE from "@/assets/images/listonPlantasAleman.png";
+import PlantasMVFR from "@/assets/images/listonPlantasFrances.png";
+import { useTranslations, useLocale } from "next-intl";
 
 function MisionVision() {
     const t = useTranslations("misionVisionAboutUs");
+    const locale = useLocale();
+
+    // Mapeo de imágenes por idioma
+    const imagesByLocale = {
+        es: PlantasMV, // Español
+        en: PlantasMVEN, // Inglés
+        de: PlantasMVDE, // Alemán
+        fr: PlantasMVFR, // Francés
+    };
+
+    const selectedImage = imagesByLocale[locale as keyof typeof imagesByLocale] || PlantasMV;
+
     return (
         <div className="text-black px-10 pt-10 pb-10 flex flex-col items-start justify-center md:flex-row md:gap-6 md:pt-0 md:pb-10 lg:pb-20 xl:px-24 bg-light-beige">
             {/*Mision*/}
@@ -20,7 +35,7 @@ function MisionVision() {
 
             <div className="hidden md:flex md:w-2/3">
                 <Image
-                    src={PlantasMV}
+                    src={selectedImage}
                     alt="Tropical Plants"
                     priority // Optimización de carga
                     className=""

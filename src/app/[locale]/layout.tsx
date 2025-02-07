@@ -5,7 +5,6 @@ import {locales} from '../../config';
 import "../globals.css";
 import {NextIntlClientProvider} from "next-intl";
 
-
 type Props = {
     children: ReactNode;
     params: Promise<{ locale: string }>;
@@ -16,12 +15,19 @@ export function generateStaticParams() {
     return locales.map((locale) => ({locale}));
 }
 
+export const dynamic = 'force-dynamic'; // 🚀 Forzar actualización en cada render
+
 export async function generateMetadata() {
     return {
-        title: "Verderaiz",
+        title: "Verderaíz",
         description: "Verderaiz website",
-    }
+        icons: [
+            { rel: "icon", url: "/favicon-light.ico", media: "(prefers-color-scheme: light)" },
+            { rel: "icon", url: "/favicon-dark.ico", media: "(prefers-color-scheme: dark)" },
+        ],
+    };
 }
+
 
 
 export default async function LocaleLayout({children, params}: Props) {
@@ -33,11 +39,12 @@ export default async function LocaleLayout({children, params}: Props) {
     return (
 
         <html className="h-full" lang={locale}>
-        <body className={clsx('flex h-full flex-col')}>
-        <NextIntlClientProvider messages={messages} >
-            {children}
-        </NextIntlClientProvider>
-        </body>
+
+            <body className={clsx('flex h-full flex-col')}>
+                <NextIntlClientProvider messages={messages}>
+                    {children}
+                </NextIntlClientProvider>
+            </body>
         </html>
     );
 }

@@ -2,13 +2,29 @@
 import React from "react";
 import PlantBG from "@/assets/images/PlantBG.png";
 import PlantBGLG from "@/assets/images/PlantBGLG.png";
+import PlantBGLGEN from "@/assets/images/listonTuercaIngles.png";
+import PlantBGLGDE from "@/assets/images/listonTuercaAleman.png";
+import PlantBGLGFR from "@/assets/images/listonTuercaFrances.png";
+
 import Image from "next/image";
-import {useTranslations} from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import Link from "next/link";
 
 function HeroServices() {
     const t = useTranslations("heroServices");
     const l = useTranslations("navbar");
+    const locale = useLocale();
+
+    // Mapeo de imágenes por idioma
+    const imagesByLocale = {
+        es: PlantBGLG, // Español
+        en: PlantBGLGEN, // Inglés
+        de: PlantBGLGDE, // Alemán
+        fr: PlantBGLGFR, // Francés
+    };
+
+    const selectedImage = imagesByLocale[locale as keyof typeof imagesByLocale] || PlantBGLG;
+
 
     return (
         <div className="text-center py-28 md:py-20 lg:py-20 bg-services-BG px-6">
@@ -36,7 +52,7 @@ function HeroServices() {
                         className="md:hidden"
                     />
                     <Image
-                        src={PlantBGLG}
+                        src={selectedImage}
                         alt="Plant with gears"
                         priority
                         className="hidden md:flex right-0 bottom-0"

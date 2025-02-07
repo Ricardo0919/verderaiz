@@ -2,11 +2,26 @@
 import React from "react";
 import Image from "next/image";
 import Sostenible from "@/assets/images/Sostenible.png";
-import { useTranslations } from "next-intl";
+import SostenibleEn from "@/assets/images/pastoHomeIngles.png";
+import SostenibleDE from "@/assets/images/pastoHomeAleman.png";
+import SostenibleFR from "@/assets/images/pastoHomeFrances.png";
+import { useTranslations, useLocale } from "next-intl";
 import homeBG1 from "@/assets/images/homeBG1.png";
 
 function SustainableFutureHome() {
-    const t = useTranslations("sustainableFutureHome");
+    const t= useTranslations("sustainableFutureHome");
+    const locale = useLocale();
+
+    // Mapeo de imágenes por idioma
+    const imagesByLocale = {
+        es: Sostenible, // Español
+        en: SostenibleEn, // Inglés
+        de: SostenibleDE, // Alemán
+        fr: SostenibleFR, // Francés
+    };
+
+    const selectedImage = imagesByLocale[locale as keyof typeof imagesByLocale] || Sostenible;
+
     return (
         <div className="bg-light-beige flex flex-col items-center justify-center relative">
             <Image
@@ -21,7 +36,7 @@ function SustainableFutureHome() {
                             {t("title")}
                         </h1>
                         <Image
-                            src={Sostenible}
+                            src={selectedImage}
                             alt="Sostenible"
                             className="px-8 md:px-12 lg:px-28 xl:px-0 xl:w-[1100px]"
                         />
