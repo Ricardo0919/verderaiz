@@ -2,11 +2,26 @@
 import React from "react";
 import Image from "next/image";
 import Cambio from "@/assets/images/blogCambio.png";
-import {useTranslations} from "next-intl";
+import CambioEN from "@/assets/images/pastoBlogIngles.png";
+import CambioDE from "@/assets/images/pastoBlogAleman.png";
+import CambioFR from "@/assets/images/pastoBlogFrances.png";
+import { useTranslations, useLocale } from "next-intl";
 import blogBG1 from "@/assets/images/blogBG1.png";
 
 function HeroBlog() {
     const t = useTranslations("heroBlog");
+    const locale = useLocale();
+
+    // Mapeo de imágenes por idioma
+    const imagesByLocale = {
+        es: Cambio, // Español
+        en: CambioEN, // Inglés
+        de: CambioDE, // Alemán
+        fr: CambioFR, // Francés
+    };
+
+    const selectedImage = imagesByLocale[locale as keyof typeof imagesByLocale] || Cambio;
+
     return (
         <div className="bg-blog-BG flex flex-col items-center justify-center relative">
             <Image
@@ -23,7 +38,7 @@ function HeroBlog() {
                         {t("title")}
                     </p>
                     <Image
-                        src={Cambio}
+                        src={selectedImage}
                         alt="Cambio"
                         priority
                         className="pt-2 px-4 md:px-10 lg:px-8 xl:px-8"
