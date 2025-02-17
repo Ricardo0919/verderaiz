@@ -1,13 +1,16 @@
 "use client";
-import React, { useState, FormEvent } from "react";
+import React, { useState, FormEvent, useEffect } from "react";
 import Image from "next/image";
 import background from "@/assets/images/FooterBG.png";
 import { useTranslations } from "next-intl";
 
+// Tipos para el estado del botón/envío
+type SendStatus = "idle" | "sending" | "sent";
+
 function Footer() {
     const t = useTranslations("footer");
 
-    // 1. Estado local para los campos del formulario
+    // Estado local para los campos del formulario
     const [formData, setFormData] = useState({
         name: "",
         phone: "",
@@ -16,21 +19,79 @@ function Footer() {
         message: "",
     });
 
-    // 2. Manejar cambios en los inputs
-    //    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    // Lista de nombres de campos que están vacíos (faltan)
+    const [missingFields, setMissingFields] = useState<string[]>([]);
+
+    // Estado del envío ("idle", "sending", "sent")
+    const [sendStatus, setSendStatus] = useState<SendStatus>("idle");
+
+    // Estado para animar los puntitos de "Enviando..."
+    const [dots, setDots] = useState("");
+
+    // Efecto para animar los puntitos cuando el estado es "sending"
+    useEffect(() => {
+        if (sendStatus === "sending") {
+            let count = 0;
+            const interval = setInterval(() => {
+                // Rotamos entre ".", "..", "..."
+                setDots(".".repeat((count % 3) + 1));
+                count++;
+            }, 500);
+
+            return () => clearInterval(interval);
+        } else {
+            setDots("");
+        }
+    }, [sendStatus]);
+
+    // Texto del botón según el estado
+    const getButtonText = () => {
+        if (sendStatus === "idle") return t("buttonEnviar");
+        if (sendStatus === "sending") return t("buttonEnviando") + dots;
+        if (sendStatus === "sent") return t("buttonEnviado");
+        return t("buttonEnviar");
+    };
+
+    // Manejar cambios en los inputs
     const handleChange = (
         e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
     ) => {
         const { name, value } = e.target;
         setFormData((prev) => ({ ...prev, [name]: value }));
+
+        // Si el usuario escribe en un campo que estaba marcado como faltante,
+        // lo removemos de la lista de 'missingFields'
+        if (value.trim() !== "" && missingFields.includes(name)) {
+            setMissingFields((prev) => prev.filter((field) => field !== name));
+        }
     };
 
-    // 3. Manejar envío del formulario
-    //    e: FormEvent<HTMLFormElement>
+    // Manejar envío del formulario
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+
+        // 1. Revisar qué campos faltan
+        const fieldsToCheck = ["name", "phone", "email", "city", "message"] as const;
+        const newMissingFields: string[] = [];
+
+        fieldsToCheck.forEach((field) => {
+            if (!formData[field].trim()) {
+                newMissingFields.push(field);
+            }
+        });
+
+        // 2. Actualizar estado con los campos faltantes
+        setMissingFields(newMissingFields);
+
+        // Si hay campos vacíos, no continuamos con el envío
+        if (newMissingFields.length > 0) {
+            return;
+        }
+
+        // Si no faltan campos, enviamos el formulario
+        setSendStatus("sending");
+
         try {
-            // Hacemos POST a nuestra ruta de API
             const response = await fetch("/api/contact", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
@@ -39,27 +100,44 @@ function Footer() {
 
             const data = await response.json();
             if (response.ok) {
-                console.log("Correo enviado exitosamente");
+                setSendStatus("sent");
                 setFormData({ name: "", phone: "", email: "", city: "", message: "" });
+                console.log("Correo enviado exitosamente");
             } else {
-                alert("Error al enviar correo: " + data.message);
+                console.log("Error al enviar correo: " + data.message);
+                setSendStatus("idle");
             }
-        } catch (error: unknown) {
+        } catch (error) {
             console.error("Error de red o servidor:", error);
-
-            // Para extraer el mensaje, validamos si 'error' es Error real
-            if (error instanceof Error) {
-                alert("Error de red o servidor: " + error.message);
-            } else {
-                alert("Error desconocido");
-            }
+            setSendStatus("idle");
         }
+    };
+
+    // Función para obtener placeholder condicional
+    // Si el campo está en missingFields, añade "FALTA " delante.
+    const getPlaceholder = (field: string, defaultText: string) => {
+        return missingFields.includes(field)
+            ? `${t("missing")} ${defaultText}`
+            : defaultText;
+    };
+
+    // Función para obtener clases extra si el campo está faltando
+    const getMissingFieldClasses = (field: string) => {
+        // Si está faltando, añadimos color/placeholder rojo, borde, etc.
+        return missingFields.includes(field)
+            ? "border border-red-500 text-red-500 placeholder-red-500"
+            : "";
     };
 
     return (
         <footer id="footer" className="relative text-center py-10">
             <div className="absolute inset-0">
-                <Image src={background} alt="Footer Image" layout="fill" objectFit="cover" />
+                <Image
+                    src={background}
+                    alt="Footer Image"
+                    layout="fill"
+                    objectFit="cover"
+                />
             </div>
 
             <div className="relative text-white mx-7">
@@ -78,39 +156,49 @@ function Footer() {
                             <input
                                 type="text"
                                 name="name"
-                                placeholder={t("name")}
-                                className="bg-light-green text-white text-sm p-3 rounded-[40px] focus:outline-none placeholder-white font-zendots"
+                                placeholder={getPlaceholder("name", t("name"))}
+                                className={`bg-light-green text-white text-sm p-3 rounded-[40px] focus:outline-none placeholder-white font-zendots ${getMissingFieldClasses(
+                                    "name"
+                                )}`}
                                 value={formData.name}
                                 onChange={handleChange}
                             />
                             <input
                                 type="text"
                                 name="phone"
-                                placeholder={t("phone")}
-                                className="bg-light-green text-white text-sm p-3 rounded-[40px] focus:outline-none placeholder-white font-zendots"
+                                placeholder={getPlaceholder("phone", t("phone"))}
+                                className={`bg-light-green text-white text-sm p-3 rounded-[40px] focus:outline-none placeholder-white font-zendots ${getMissingFieldClasses(
+                                    "phone"
+                                )}`}
                                 value={formData.phone}
                                 onChange={handleChange}
                             />
                             <input
                                 type="email"
                                 name="email"
-                                placeholder={t("mail")}
-                                className="bg-light-green text-white text-sm p-3 rounded-[40px] focus:outline-none placeholder-white font-zendots"
+                                placeholder={getPlaceholder("email", t("mail"))}
+                                className={`bg-light-green text-white text-sm p-3 rounded-[40px] focus:outline-none placeholder-white font-zendots ${getMissingFieldClasses(
+                                    "email"
+                                )}`}
                                 value={formData.email}
                                 onChange={handleChange}
                             />
                             <input
                                 type="text"
                                 name="city"
-                                placeholder={t("city")}
-                                className="bg-light-green text-white text-sm p-3 rounded-[40px] focus:outline-none placeholder-white font-zendots"
+                                placeholder={getPlaceholder("city", t("city"))}
+                                className={`bg-light-green text-white text-sm p-3 rounded-[40px] focus:outline-none placeholder-white font-zendots ${getMissingFieldClasses(
+                                    "city"
+                                )}`}
                                 value={formData.city}
                                 onChange={handleChange}
                             />
                             <textarea
                                 name="message"
-                                placeholder={t("message")}
-                                className="bg-light-green text-white text-sm p-3 rounded-[20px] h-32 focus:outline-none placeholder-white font-zendots"
+                                placeholder={getPlaceholder("message", t("message"))}
+                                className={`bg-light-green text-white text-sm p-3 rounded-[20px] h-32 focus:outline-none placeholder-white font-zendots ${getMissingFieldClasses(
+                                    "message"
+                                )}`}
                                 value={formData.message}
                                 onChange={handleChange}
                             />
@@ -120,7 +208,7 @@ function Footer() {
                                 type="submit"
                                 className="bg-light-green text-white text-sm font-semibold px-6 py-2 rounded-[40px] transform hover:scale-125 transition-transform duration-300 self-start font-zendots"
                             >
-                                {t("button")}
+                                {getButtonText()}
                             </button>
                         </form>
                     </div>
@@ -145,7 +233,9 @@ function Footer() {
                         </p>
                         <hr className="border-2 border-white my-4" />
                         <div className="mx-12 pt-4 pb-8">
-                            <p className="text-2xl font-bold font-zendots">{t("address")}</p>
+                            <p className="text-2xl font-bold font-zendots">
+                                {t("address")}
+                            </p>
                             <p className="my-4">
                                 Prol. Pino Suárez 365, Galindas, 76177 Santiago de Querétaro, Qro.
                             </p>

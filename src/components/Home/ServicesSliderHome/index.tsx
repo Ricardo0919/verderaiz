@@ -246,7 +246,7 @@ function Slider() {
                                             {!isExpanded && (
                                                 <>
                                                     <div
-                                                        className="absolute bottom-6 transform text-white text-2xl font-black text-center whitespace-normal px-4 font-cambay">
+                                                        className="absolute bottom-6 transform text-white text-3xl tracking-[3px] font-[600] text-center whitespace-normal px-4 font-cambay uppercase">
                                                         {slide.title}
                                                     </div>
                                                     <button

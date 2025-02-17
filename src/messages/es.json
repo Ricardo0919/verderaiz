@@ -169,7 +169,10 @@
     "mail": "e-mail",
     "city": "Ciudad",
     "message": "Mensaje servicio de interés",
-    "button": "Enviar",
+    "missing": "Falta",
+    "buttonEnviar": "Enviar",
+    "buttonEnviando": "Enviando",
+    "buttonEnviado": "Enviado",
     "offices": "Oficinas",
     "address": "Querétaro",
     "information": "Más información sobre las oficinas y nosotros"
