@@ -19,7 +19,7 @@ export async function POST(request) {
         // 3. Definir el contenido del correo
         const mailOptions = {
             from: 'rickisierra03@gmail.com',
-            to: ['rickisierra919@gmail.com', 'rickisierra03@gmail.com'], // Destinatarios
+            to: ['alison.sierra@verderaiz.com.mx', 'fernandx.burgos@verderaiz.com.mx'], // Destinatarios
             subject: `Verderaíz - ${name} - Formulario Contáctanos`,
             text: `Teléfono: ${phone}
 Email: ${email}

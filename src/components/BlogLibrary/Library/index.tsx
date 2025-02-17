@@ -107,13 +107,13 @@ function Library() {
                 <style jsx>{`
           @keyframes progressBar {
             0% {
-              width: 0%;
+              width: 0;
             }
             50% {
               width: 100%;
             }
             100% {
-              width: 0%;
+              width: 0;
             }
           }
           .animate-progressBar {
@@ -148,6 +148,7 @@ function Library() {
                                 height={180}
                                 priority
                                 className="rounded-2xl object-cover w-[250px] h-[250px]"
+                                unoptimized
                             />
                             <div className="flex flex-row items-start justify-between w-full mt-3">
                                 <div>

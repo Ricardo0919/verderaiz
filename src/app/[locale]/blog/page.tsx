@@ -4,7 +4,7 @@ import Hero from "../../../components/Blog/HeroBlog";
 import MainBlog from "@/components/Blog/MainBlog";
 import RecentBlogs from "@/components/Blog/RecentBlogs";
 import LibraryBlogButton from "@/components/Blog/LibraryBlogButton";
-import AdsBlog from "@/components/Blog/AdsBlog";
+//import AdsBlog from "@/components/Blog/AdsBlog";
 import Footer from "@/components/Footer";
 import ButtonLanguage from "@/components/ButtonLanguage";
 
@@ -20,7 +20,7 @@ export default function Blog() {
             </div>
             <RecentBlogs/>
             <LibraryBlogButton/>
-            <AdsBlog/>
+            {/*<AdsBlog/>*/}
             <Footer/>
         </div>
     );

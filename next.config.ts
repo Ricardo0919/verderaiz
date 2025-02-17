@@ -7,11 +7,16 @@ const nextConfig: NextConfig = {
 
     /* Configuration for remote images */
     images: {
-        domains: ['blog.verderaiz.com.mx'], // Allows remote images form blog.verderaiz.com.mx
+        domains: ["blog.verderaiz.com.mx"],
         remotePatterns: [
             {
                 protocol: "https",
                 hostname: "flagcdn.com",
+            },
+            {
+                protocol: 'https',
+                hostname: 'blog.verderaiz.com.mx',
+                port: ''
             },
         ],
     },

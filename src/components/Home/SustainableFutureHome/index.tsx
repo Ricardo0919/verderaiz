@@ -32,7 +32,7 @@ function SustainableFutureHome() {
             <div className="absolute">
                 <div className="flex flex-col items-center justify-center py-10 lg:py-20">
                     <div className="w-fit">
-                        <h1 className="text-dark-green text-xl tracking-[2px] font-black text-center mb-3 md:text-5xl md:tracking-[7px] font-cambay lg:tracking-[10px] lg:text-5xl xl:tracking-[18px] xl:text-7xl">
+                        <h1 className="text-dark-green text-xl tracking-[2px] font-black text-center mb-3 md:text-5xl md:tracking-[7px] font-cambay lg:tracking-[10px] lg:text-[45px] xl:tracking-[18px] xl:text-[70px]">
                             {t("title")}
                         </h1>
                         <Image

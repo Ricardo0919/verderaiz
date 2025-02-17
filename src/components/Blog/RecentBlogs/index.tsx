@@ -48,7 +48,7 @@ function RecentBlogs() {
     const [loadingDots, setLoadingDots] = useState<string>("");
 
     useEffect(() => {
-        // Cada 500ms, alterna la cantidad de puntos (., .., ...)
+        // Cada 500 ms, alterna la cantidad de puntos (., .., ...)
         const interval = setInterval(() => {
             setLoadingDots((prev) => {
                 if (prev === "...") return "";
@@ -190,6 +190,7 @@ function RecentBlogs() {
                                         sizes="(max-width: 768px) 220px,
                          (max-width: 1024px) 180px,
                          200px"
+                                        unoptimized
                                     />
 
                                     {/* Flecha animada */}

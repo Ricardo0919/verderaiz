@@ -169,7 +169,10 @@
     "mail": "e-mail",
     "city": "Ville",
     "message": "Message / service d'intérêt",
-    "button": "Envoyer",
+    "missing": "Manquant",
+    "buttonEnviar": "Envoyer",
+    "buttonEnviando": "Envoi en cours",
+    "buttonEnviado": "Envoyé",
     "offices": "Bureaux",
     "address": "Queretaro",
     "information": "Plus d'informations sur les bureaux et nous"
