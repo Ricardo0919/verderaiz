@@ -1,9 +1,11 @@
 import clsx from 'clsx';
 import {getMessages, unstable_setRequestLocale} from 'next-intl/server';
 import {ReactNode} from 'react';
-import {locales} from '../../config';
+import {locales} from '@/config';
 import "../globals.css";
 import {NextIntlClientProvider} from "next-intl";
+import AdSenseProvider from '../../components/AdSenseProvider'; // Importa el script de AdSense
+
 
 type Props = {
     children: ReactNode;
@@ -42,6 +44,7 @@ export default async function LocaleLayout({children, params}: Props) {
 
             <body className={clsx('flex h-full flex-col')}>
                 <NextIntlClientProvider messages={messages}>
+                    <AdSenseProvider /> {/* Inyecta el script cuando el cliente se renderiza */}
                     {children}
                 </NextIntlClientProvider>
             </body>
