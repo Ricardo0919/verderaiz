@@ -4,7 +4,7 @@ import {ReactNode} from 'react';
 import {locales} from '@/config';
 import "../globals.css";
 import {NextIntlClientProvider} from "next-intl";
-import AdSenseProvider from '../../components/AdSenseProvider'; // Importa el script de AdSense
+// import AdSenseProvider from '../../components/AdSenseProvider'; // Importa el script de AdSense
 
 
 type Props = {
@@ -41,13 +41,19 @@ export default async function LocaleLayout({children, params}: Props) {
     return (
 
         <html className="h-full" lang={locale}>
+        <head>
+            <script async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6543351954015298"
+                    crossOrigin="anonymous"></script>
+        </head>
 
-            <body className={clsx('flex h-full flex-col')}>
-                <NextIntlClientProvider messages={messages}>
-                    <AdSenseProvider /> {/* Inyecta el script cuando el cliente se renderiza */}
-                    {children}
-                </NextIntlClientProvider>
-            </body>
+
+        <body className={clsx('flex h-full flex-col')}>
+        <NextIntlClientProvider messages={messages}>
+            {/*<AdSenseProvider/> Inyecta el script cuando el cliente se renderiza */}
+            {children}
+        </NextIntlClientProvider>
+        </body>
         </html>
     );
 }
