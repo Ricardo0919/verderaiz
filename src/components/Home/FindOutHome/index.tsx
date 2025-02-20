@@ -170,34 +170,42 @@ export default function FindOut() {
             <div className="mt-6 flex flex-col md:flex-row md:gap-10 lg:w-1/2">
                 {blogs.map((blog, index) => (
                     <div className="md:w-1/2 mt-8 md:mt-0" key={index}>
-                        <div className="relative">
+                        <div className="relative w-60 h-60 lg:w-52 lg:h-52 xl:w-60 xl:h-60 mx-auto rounded-[30px]">
                             {/* Imagen principal */}
                             <Image
                                 src={blog.imagen}
                                 alt={`Blog image ${index}`}
-                                className="block mx-auto lg:w-40 xl:w-56"
+                                // La imagen se ajusta a las dimensiones del padre
+                                className="object-cover w-full h-full rounded-[30px]"
                                 width={400}
                                 height={400}
                                 unoptimized
                             />
+
+                            {/* Overlay oscuro */}
+                            <div className="absolute inset-0 bg-black bg-opacity-40 rounded-[30px]"/>
+
                             {/* Capa centrada con el título */}
                             <div className="absolute inset-0 flex flex-col items-center justify-center">
-                                <p className="text-white px-6 font-black text-xl text-center xl:text-2xl">
+                                <p className="text-white px-6 font-black text-lg text-center lg:text-sm xl:text-lg">
                                     {blog.title}
                                 </p>
                             </div>
+
                             {/* Botón "View more" con link al post */}
                             <Link
                                 href={blog.link}
                                 className="absolute inset-0 flex flex-col items-center justify-end mb-12 lg:mb-6 xl:mb-8"
                             >
-                                <button className="font-zendots text-white border-2 border-white py-2 px-4 lg:px-2 lg:py-1 xl:px-3 xl:py-2 rounded-[30px] text-xs lg:text-[10px] xl:text-[20px] transform hover:scale-125 transition-transform duration-300">
+                                <button
+                                    className="font-zendots text-white border-2 border-white py-2 px-4 lg:px-2 lg:py-1 xl:px-3 xl:py-2 rounded-[30px] text-xs lg:text-[10px] xl:text-[20px] transform hover:scale-125 transition-transform duration-300">
                                     {t("viewMore")}
                                 </button>
                             </Link>
                         </div>
+
                         {/* Descripción / excerpt */}
-                        <p className="text-center mt-1 text-xs mx-6 xl:text-lg font-montserrat">
+                        <p className="text-center mt-3 text-xs mx-6 xl:text-lg font-montserrat">
                             {blog.snippet}
                         </p>
                     </div>
