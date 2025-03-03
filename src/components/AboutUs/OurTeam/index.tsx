@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Fernanda from "@/assets/images/Fernanda.png";
-import Alison from "@/assets/images/Alison.png";
-import Gustavo from "@/assets/images/Gustavo.png";
+import Fernanda from "@/assets/images/FER.jpg";
+import Alison from "@/assets/images/ALISON.jpg";
+import Gustavo from "@/assets/images/GUS.jpg";
 import {useTranslations} from "next-intl";
 import aboutusBG1 from "@/assets/images/aboutusBG1.png";
 import aboutusBG2 from "@/assets/images/aboutusBG2.png";
@@ -38,6 +38,7 @@ function OurTeam() {
                                     <Image
                                         src={Fernanda}
                                         alt={t("name1")}
+                                        className="rounded-[20px]"
                                     />
                                 </div>
 
@@ -58,6 +59,7 @@ function OurTeam() {
                                     <Image
                                         src={Alison}
                                         alt={t("name2")}
+                                        className="rounded-[20px]"
                                     />
                                 </div>
 
@@ -76,10 +78,11 @@ function OurTeam() {
                         <div
                             className="flex flex-row items-center justify-center gap-3 xl:gap-0 mt-6 md:w-1/2 md:mt-8 lg:mt-14">
                             {/*Image*/}
-                            <div className="w-1/2">
+                            <div className="w-1/2 ">
                                 <Image
                                     src={Gustavo}
                                     alt={t("name3")}
+                                    className="rounded-[20px] xl:rounded-[40px] xl:p-3"
                                 />
                             </div>
 

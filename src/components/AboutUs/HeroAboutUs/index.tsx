@@ -2,7 +2,8 @@
 import React from "react";
 import Image from "next/image";
 import background from "@/assets/images/AboutUsBG.png";
-import PartnersIMG from "@/assets/images/PartnersIMG.png";
+import PartnersIMG from "@/assets/images/IdentityPartnersIMG.png";
+import PartnersIMGLG from "@/assets/images/IdentityPartnersIMG-LG.png";
 import {useTranslations} from "next-intl";
 
 function HeroAboutUs() {
@@ -21,7 +22,8 @@ function HeroAboutUs() {
             </div>
 
             {/* Contenido principal */}
-            <div className="relative border-2 border-white rounded-2xl px-8 text-white mx-6 pt-32 flex flex-col md:flex-row md:pb-10 lg:pt-40 lg:pb-20 xl:pt-52 xl:pb-44">
+            <div
+                className="relative border-2 border-white rounded-2xl px-8 text-white mx-6 pt-32 flex flex-col md:flex-row md:pb-10 lg:pt-40 lg:pb-20 xl:pt-52 xl:pb-44">
                 <div className="md:w-1/3 lg:pl-10">
                     <h1 className="font-cambay text-3xl tracking-[4px] font-black md:text-3xl md:tracking-[7px] md:text-left lg:text-4xl lg:tracking-[8px] xl:text-5xl xl:tracking-[9px]">
                         {t("title")}
@@ -47,9 +49,18 @@ function HeroAboutUs() {
                 </div>
             </div>
 
-            <div className="hidden relative md:flex justify-end items-end -mt-[300px] lg:-mt-[430px] xl:-mt-[640px]">
+            <div className="hidden relative md:flex justify-end items-end -mt-[300px] lg:hidden">
                 <Image
                     src={PartnersIMG}
+                    alt="Partners"
+                    priority
+                    className="w-7/12 lg:w-8/12"
+                />
+            </div>
+
+            <div className="hidden relative lg:flex justify-end items-end lg:-mt-[360px] xl:-mt-[540px]">
+                <Image
+                    src={PartnersIMGLG}
                     alt="Partners"
                     priority
                     className="w-7/12 lg:w-8/12"
