@@ -72,14 +72,13 @@ function MainBlog() {
             rounded-[20px]
             text-center
             px-8 py-2
-            font-cambay font-bold
-            lg:py-4 lg:text-lg
-            xl:py-10 xl:text-2xl
+            font-cambay font-bold md:text-[12px]
+            lg:py-4 lg:text-[12px]
+            xl:py-10 xl:text-[16px]
             flex-1
           "
                     >
-                        Datos sobre saques que, datos duros y esas cosas para llama la atencion
-                        de la gente inculta ambientalmente
+                        En México, se generan diariamente 102.895 toneladas de residuos sólidos urbanos (RSU), de los cuales se recolecta el 83,93% y se disponen en sitios de disposición final el 78,54%. Sin embargo, solo el 9,63% de los RSU generados se reciclan, lo que indica un amplio margen de mejora en prácticas de economía circular (INEGI, 2023)
                     </div>
                     <div
                         className="
@@ -87,14 +86,14 @@ function MainBlog() {
             rounded-[20px]
             text-center
             px-8 py-2
-            font-cambay font-bold
-            lg:py-4 lg:text-lg
-            xl:py-10 xl:text-2xl
+            font-cambay font-bold md:text-[12px]
+            lg:py-4 lg:text-[12px]
+            xl:py-10 xl:text-[16px]
             flex-1
           "
                     >
-                        Datos sobre saques que, datos duros y esas cosas para llama la atencion
-                        de la gente inculta ambientalmente
+                        Se estimó que los impactos climáticos alcanzan, en promedio, el 6.22% del PIB actual. Mientras que los costos de mitigación del 50% de las emisiones representarían el
+                        0.7 y 2.21% del PIB (SEMARNAT, 2009).
                     </div>
                 </div>
             </div>
