@@ -23,7 +23,7 @@ jobs:
       # Paso 3: Conectarse al VPS y ejecutar comandos de despliegue
       - name: Deploy to VPS
         run: |
-          ssh -o StrictHostKeyChecking=no richie191.101.232.141 << 'EOF'
+          ssh -o StrictHostKeyChecking=no richie@191.101.232.141 << 'EOF'
             cd /var/www/verderaiz || exit
             git pull origin main || exit  # Actualizar el código con el último commit
             docker-compose down || exit  # Detener el contenedor en ejecución
