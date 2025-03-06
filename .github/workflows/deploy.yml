@@ -1,0 +1,31 @@
+name: Deploy to VPS
+
+on:
+  push:
+    branches:
+      - main  # Este es el branch que activará el flujo de trabajo cuando se haga un push
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest  # Usamos un runner de Ubuntu para ejecutar el workflow
+
+    steps:
+      # Paso 1: Check-out del código desde el repositorio
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      # Paso 2: Configurar SSH para acceder al VPS de manera segura
+      - name: Set up SSH
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      # Paso 3: Conectarse al VPS y ejecutar comandos de despliegue
+      - name: Deploy to VPS
+        run: |
+          ssh -o StrictHostKeyChecking=no richie191.101.232.141 << 'EOF'
+            cd /var/www/verderaiz || exit
+            git pull origin main || exit  # Actualizar el código con el último commit
+            docker-compose down || exit  # Detener el contenedor en ejecución
+            docker-compose up -d --build || exit  # Reconstruir y reiniciar el contenedor
+          EOF
