@@ -5,6 +5,11 @@ const nextConfig: NextConfig = {
     /* config options here */
     output: "standalone",
 
+    // Agrega esta configuración para permitir que Next.js escuche en todas las interfaces
+    devServer: {
+        host: '0.0.0.0', // Esto hace que Next.js escuche en todas las interfaces
+    },
+
     /* Configuration for remote images */
     images: {
         domains: ["blog.verderaiz.com.mx"],
