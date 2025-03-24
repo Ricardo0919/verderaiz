@@ -1,15 +1,14 @@
 version: '3'
 services:
   web:
-    image: verderaiz-website
     build:
       context: .
     ports:
       - "3000:3000"
-    volumes:
-      - .:/app
     networks:
       - backend
+    environment:
+      - NODE_ENV=production
 
 networks:
   backend:
