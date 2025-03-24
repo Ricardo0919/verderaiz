@@ -22,14 +22,6 @@ interface PostAPI {
     link: string;
 }
 
-const fetchAuthor = async (authorId: number) => {
-    const response = await fetch(
-        `https://blog.verderaiz.com.mx/wp-json/wp/v2/users/${authorId}`
-    );
-    const authorData = await response.json();
-    return authorData.name || "Desconocido";
-};
-
 const fetchImage = async (mediaId: number) => {
     const response = await fetch(
         `https://blog.verderaiz.com.mx/wp-json/wp/v2/media/${mediaId}`
@@ -65,13 +57,18 @@ function RecentBlogs() {
                 const response = await fetch(
                     "https://blog.verderaiz.com.mx/wp-json/wp/v2/posts"
                 );
-                const data: PostAPI[] = await response.json();
+                const data: (PostAPI & { authors?: { display_name: string }[] })[] = await response.json();
 
                 const firstFourPosts = data.slice(0, 4);
 
                 const formattedBlogs: Blog[] = await Promise.all(
                     firstFourPosts.map(async (post) => {
-                        const autor = await fetchAuthor(post.author);
+                        const autor = post.authors && post.authors.length > 0
+                            ? post.authors.length > 1
+                                ? `${post.authors[0].display_name} et al`
+                                : post.authors[0].display_name
+                            : "Anónimo";
+
                         let imagen = "";
 
                         if (post.featured_media) {

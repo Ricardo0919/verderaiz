@@ -23,12 +23,6 @@ interface PostAPI {
     link: string; // Blogpost URL
 }
 
-const fetchAuthor = async (authorId: number) => {
-    const response = await fetch(`https://blog.verderaiz.com.mx/wp-json/wp/v2/users/${authorId}`);
-    const authorData = await response.json();
-    return authorData.name;
-};
-
 const fetchImage = async (mediaId: number) => {
     const response = await fetch(`https://blog.verderaiz.com.mx/wp-json/wp/v2/media/${mediaId}`);
     const mediaData = await response.json();
@@ -62,17 +56,22 @@ function Library() {
                 const data = await response.json();
 
                 const formattedBlogs: Blog[] = await Promise.all(
-                    data.map(async (post: PostAPI): Promise<Blog> => {
-                        const autor = await fetchAuthor(post.author);
+                    data.map(async (post: PostAPI & { authors?: { display_name: string }[] }): Promise<Blog> => {
+                        const autor = post.authors && post.authors.length > 0
+                            ? post.authors.length > 1
+                                ? `${post.authors[0].display_name} et al`
+                                : post.authors[0].display_name
+                            : "Anónimo";
+
                         const imagen = post.featured_media
                             ? await fetchImage(post.featured_media)
-                            : LogoVerde; // Default image
+                            : LogoVerde;
 
                         return {
                             imagen,
                             descripcion: post.title.rendered,
                             autor,
-                            link: post.link, // Blogpost link
+                            link: post.link,
                         };
                     })
                 );
@@ -141,15 +140,18 @@ function Library() {
                             key={index}
                             className="w-[300px] flex flex-col items-start rounded-lg p-4"
                         >
-                            <Image
-                                src={blog.imagen || LogoVerde}
-                                alt={`Imagen blog ${index + 1}`}
-                                width={250}
-                                height={180}
-                                priority
-                                className="rounded-2xl object-cover w-[250px] h-[250px]"
-                                unoptimized
-                            />
+                            <Link href={blog.link}>
+                                <Image
+                                    src={blog.imagen || LogoVerde}
+                                    alt={`Imagen blog ${index + 1}`}
+                                    width={250}
+                                    height={180}
+                                    priority
+                                    className="rounded-2xl object-cover w-[250px] h-[250px] transform transition-transform duration-500 ease-in-out hover:scale-95"
+                                    unoptimized
+                                />
+                            </Link>
+
                             <div className="flex flex-row items-start justify-between w-full mt-3">
                                 <div>
                                     <p className="text-black font-bold text-left text-sm line-clamp-2">
