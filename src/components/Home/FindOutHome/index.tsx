@@ -203,11 +203,6 @@ export default function FindOut() {
                                 </button>
                             </Link>
                         </div>
-
-                        {/* Descripción / excerpt */}
-                        <p className="text-center mt-3 text-xs mx-6 xl:text-lg font-montserrat">
-                            {blog.snippet}
-                        </p>
                     </div>
                 ))}
             </div>

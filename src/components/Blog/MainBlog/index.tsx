@@ -3,8 +3,10 @@ import React from "react";
 import Image from "next/image";
 import mainBlog from "@/assets/images/mainBlog.png";
 import blogBG2 from "@/assets/images/blogBG2.png";
+import {useTranslations} from "next-intl";
 
 function MainBlog() {
+    const t = useTranslations("mainBlog");
     return (
         <div className="flex flex-col -mt-1 items-center justify-center relative">
             <Image
@@ -36,7 +38,7 @@ function MainBlog() {
                 <div className="mx-8 flex flex-col gap-y-6 pb-6 md:pb-0 md:mx-0 md:w-7/12">
                     <div className="bg-light-green-blog rounded-[20px] text-center">
                         <p className="px-8 py-2 uppercase font-cambay font-bold lg:text-xl xl:text-2xl xl:py-4">
-                            Innovación y técnicas para vivir de forma sustentable
+                            {t("title")}
                         </p>
                     </div>
 
@@ -57,7 +59,7 @@ function MainBlog() {
               xl:text-2xl
             "
                         >
-                            Innovación y técnicas para vivir de forma sustentable
+                            {t("title")}
                         </p>
                     </div>
                 </div>
@@ -78,7 +80,7 @@ function MainBlog() {
             flex-1
           "
                     >
-                        En México, se generan diariamente 102.895 toneladas de residuos sólidos urbanos (RSU), de los cuales se recolecta el 83,93% y se disponen en sitios de disposición final el 78,54%. Sin embargo, solo el 9,63% de los RSU generados se reciclan, lo que indica un amplio margen de mejora en prácticas de economía circular (INEGI, 2023)
+                        {t("quote1")}
                     </div>
                     <div
                         className="
@@ -92,8 +94,7 @@ function MainBlog() {
             flex-1
           "
                     >
-                        Se estimó que los impactos climáticos alcanzan, en promedio, el 6.22% del PIB actual. Mientras que los costos de mitigación del 50% de las emisiones representarían el
-                        0.7 y 2.21% del PIB (SEMARNAT, 2009).
+                        {t("quote2")}
                     </div>
                 </div>
             </div>

@@ -3,7 +3,8 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import blogBG3 from "@/assets/images/blogBG3.png";
-import Logo from "@/assets/images/Logo.png"; // Default image for blogpost
+import Logo from "@/assets/images/Logo.png"; // Default image for blog posts
+import Link from "next/link";
 import {useTranslations} from "next-intl";
 
 interface Blog {
@@ -179,16 +180,18 @@ function RecentBlogs() {
                   rounded-[30px] overflow-hidden
                 "
                                 >
-                                    <Image
-                                        src={blog.imagen}
-                                        alt={`Imagen blog ${index + 1}`}
-                                        fill
-                                        className="object-cover"
-                                        sizes="(max-width: 768px) 220px,
-                         (max-width: 1024px) 180px,
-                         200px"
-                                        unoptimized
-                                    />
+                                    <Link href={blog.link}>
+                                        <Image
+                                            src={blog.imagen}
+                                            alt={`Imagen blog ${index + 1}`}
+                                            fill
+                                            className="rounded-[30px] object-cover transform transition-transform duration-500 ease-in-out hover:scale-95"
+                                            sizes="(max-width: 768px) 220px,
+                             (max-width: 1024px) 180px,
+                             200px"
+                                            unoptimized
+                                        />
+                                    </Link>
 
                                     {/* Flecha animada */}
                                     <FaRegArrowAltCircleRight
