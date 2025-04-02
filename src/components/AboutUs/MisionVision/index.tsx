@@ -29,7 +29,7 @@ function MisionVision() {
                     {t("title1")}
                 </h1>
                 <p className="font-montserrat text-justify mt-4 md:text-left md:text-sm font-light lg:text-base xl:text-xl">
-                    {t("description2")}
+                    {t("description1")}
                 </p>
             </div>
 
