@@ -12,7 +12,6 @@ const nextConfig: NextConfig = {
 
     /* Configuration for remote images */
     images: {
-        domains: ["blog.verderaiz.com.mx"],
         remotePatterns: [
             {
                 protocol: "https",

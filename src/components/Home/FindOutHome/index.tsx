@@ -179,7 +179,6 @@ export default function FindOut() {
                                 className="object-cover w-full h-full rounded-[30px]"
                                 width={400}
                                 height={400}
-                                unoptimized
                             />
 
                             {/* Overlay oscuro */}

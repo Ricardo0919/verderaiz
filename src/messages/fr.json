@@ -48,13 +48,25 @@
   "sliderHome": {
     "title": "SERVICES",
     "subtitle1": "Déclaration d'impact environnemental",
-    "description1": "Étude détaillée pour identifier, décrire, évaluer et atténuer les impacts environnementaux des projets, assurant un développement durable et facilitant l'obtention de permis.",
+    "description1": "<p>Étude détaillée pour identifier, décrire, évaluer et atténuer les impacts environnementaux des projets, assurant un développement durable et facilitant l'obtention de permis.</p>",
     "subtitle2": "Rapport Préventif",
-    "description2": "Idéal pour les projets de plus petite échelle qui ne nécessitent pas une étude complète. Simplifie les démarches avec SEMARNAT et démontre l'engagement de votre entreprise envers la réglementation environnementale.",
+    "description2": "<p>Idéal pour les projets de plus petite échelle qui ne nécessitent pas une étude complète. Simplifie les démarches avec SEMARNAT et démontre l'engagement de votre entreprise envers la réglementation environnementale.</p>",
     "subtitle3": "Formation",
-    "description3": "Former votre équipe aux bonnes pratiques environnementales renforce la culture de durabilité au sein de votre entreprise, améliorant l'efficacité et la conformité réglementaire.",
+    "description3": "<p>Former votre équipe aux bonnes pratiques environnementales renforce la culture de durabilité au sein de votre entreprise, améliorant l'efficacité et la conformité réglementaire.</p>",
     "subtitle4": "Étude de Risque",
-    "description4": "Évalue et anticipe les risques possibles liés aux activités industrielles, minimisant l'impact sur l'environnement et protégeant la communauté et les ressources naturelles.",
+    "description4": "<p>Évalue et anticipe les risques possibles liés aux activités industrielles, minimisant l'impact sur l'environnement et protégeant la communauté et les ressources naturelles.</p>",
+    "subtitle5": "Solutions de gestion énergétique",
+    "description5": "<p>Stratégies d'efficacité énergétique et conception de projets photovoltaïques adaptés à chaque type d'installation :</p><ul><li>Systèmes hybrides</li><li>Systèmes autonomes</li></ul>",
+    "subtitle6": "Solutions de gestion de l'eau",
+    "description6": "<p>Engagés à préserver les ressources en eau, nous proposons des solutions de gestion efficace et durable de l'eau pour diverses applications :</p><ul><li>Eaux usées</li><li>Eau potable</li><li>Eau pour usages publics</li></ul>",
+    "subtitle7": "Gestion des déchets",
+    "description7": "<p>Nous promouvons une gestion responsable des déchets à travers :</p><ul><li>Programmes de gestion des déchets solides urbains et des déchets spéciaux.</li><li>Stratégies de valorisation et de gestion des déchets.</li><li>Modèles d'économie circulaire</li></ul>",
+    "subtitle8": "Solutions socioculturelles",
+    "description8": "<p>Stratégies à visée éducative et de sensibilisation environnementale pour les clients finaux, en collaboration avec l'économie locale et les communautés voisines, promouvant la coopération et la responsabilité écologique.</p>",
+    "subtitle9": "Solutions environnementales",
+    "description9": "<p>Verderaíz propose des solutions environnementales, de l'analyse détaillée de la biodiversité pour la conservation et la planification responsable, à la conception de stratégies de régénération des écosystèmes, la gestion de projets de crédits carbone et les solutions basées sur la nature.</p>",
+    "subtitle10": "Rapports de conformité gaz",
+    "description10": "<p>Évaluations certifiées pour garantir la sécurité et la conformité réglementaire dans les installations de gaz selon les normes suivantes :</p><ul><li>NOM-005-SESH-2010</li><li>NOM-007-SESH-2010</li><li>NOM-013-SEDG-2002</li></ul>",
     "viewMore": "En savoir plus"
   },
   "findOutHome": {
@@ -93,7 +105,8 @@
     "subtitle2": "Cours de Gestion Environnementale\nISO 14001:2015",
     "subtitle3": "Atelier sur l'Impact Environnemental",
     "subtitle4": "COURS INTENSIF POUR L'ÉLABORATION D'ÉTUDES DE RISQUE",
-    "subtitle5": "DIPLÔME EN APPLICATION DE LA LÉGISLATION ENVIRONNEMENTALE"
+    "subtitle5": "DIPLÔME EN APPLICATION DE LA LÉGISLATION ENVIRONNEMENTALE",
+    "subtitle6": "Unité d'inspection pour gaz de pétrole liquéfié\nUVSELP 154-C"
   },
   "heroEthicPolicies": {
     "title": "POLITIQUES D'ÉTHIQUE",

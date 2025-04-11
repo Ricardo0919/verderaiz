@@ -48,13 +48,25 @@
   "sliderHome": {
     "title": "SERVICES",
     "subtitle1": "Environmental Impact Statement",
-    "description1": "Detailed study to identify, describe, evaluate, and mitigate the environmental impacts of projects, ensuring sustainable development and facilitating the acquisition of permits.",
+    "description1": "<p>Detailed study to identify, describe, evaluate, and mitigate the environmental impacts of projects, ensuring sustainable development and facilitating the acquisition of permits.</p>",
     "subtitle2": "Preventive Report",
-    "description2": "Ideal for smaller-scale projects that do not require a full EIS. Simplifies procedures with SEMARNAT and demonstrates your company's commitment to environmental regulations.",
+    "description2": "<p>Ideal for smaller-scale projects that do not require a full EIS. Simplifies procedures with SEMARNAT and demonstrates your company's commitment to environmental regulations.</p>",
     "subtitle3": "Training",
-    "description3": "Training your team in good environmental practices strengthens the culture of sustainability within your company, improving efficiency and regulatory compliance from within.",
+    "description3": "<p>Training your team in good environmental practices strengthens the culture of sustainability within your company, improving efficiency and regulatory compliance from within.</p>",
     "subtitle4": "Risk Study",
-    "description4": "Evaluates and anticipates possible risks associated with industrial activities, minimizing the impact on the environment and protecting the community and natural resources.",
+    "description4": "<p>Evaluates and anticipates possible risks associated with industrial activities, minimizing the impact on the environment and protecting the community and natural resources.</p>",
+    "subtitle5": "Energy Management Solutions",
+    "description5": "<p>Energy efficiency strategies and photovoltaic project designs tailored to each type of installation:</p><ul><li>Hybrid systems</li><li>Autonomous systems</li></ul>",
+    "subtitle6": "Water Management Solutions",
+    "description6": "<p>Committed to safeguarding water resources, we offer efficient and sustainable water management solutions for various applications:</p><ul><li>Wastewater</li><li>Drinking water</li><li>Water for public use</li></ul>",
+    "subtitle7": "Waste Management",
+    "description7": "<p>We promote responsible waste management through:</p><ul><li>Management programs for Urban Solid Waste and Special Handling Waste.</li><li>Waste management and recovery strategies.</li><li>Circular economy models</li></ul>",
+    "subtitle8": "Sociocultural Solutions",
+    "description8": "<p>Strategies with an educational and environmental awareness approach for end clients, along with collaboration with the local economy and surrounding communities, promoting cooperation and ecological responsibility.</p>",
+    "subtitle9": "Environmental Solutions",
+    "description9": "<p>Verderaíz offers environmental solutions, from detailed biodiversity analysis for conservation and responsible environmental planning to designing ecosystem regeneration strategies, managing carbon credit projects, and nature-based solutions.</p>",
+    "subtitle10": "Gas Compliance Reports",
+    "description10": "<p>Certified evaluations to ensure safety and regulatory compliance in gas facilities under the following standards:</p><ul><li>NOM-005-SESH-2010</li><li>NOM-007-SESH-2010</li><li>NOM-013-SEDG-2002</li></ul>",
     "viewMore": "View more"
   },
   "findOutHome": {
@@ -93,7 +105,8 @@
     "subtitle2": "Environmental Management Course\nISO 14001:2015",
     "subtitle3": "Environmental Impact Workshop",
     "subtitle4": "INTENSIVE COURSE ON RISK STUDY DEVELOPMENT",
-    "subtitle5": "DIPLOMA IN ENVIRONMENTAL LEGISLATION APPLICATION"
+    "subtitle5": "DIPLOMA IN ENVIRONMENTAL LEGISLATION APPLICATION",
+    "subtitle6": "Inspection unit for L.P. gas\nUVSELP 154-C"
   },
   "heroEthicPolicies": {
     "title": "ETHICS POLICIES",
