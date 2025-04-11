@@ -48,13 +48,25 @@
   "sliderHome": {
     "title": "DIENSTLEISTUNGEN",
     "subtitle1": "Umweltverträglichkeitsprüfung",
-    "description1": "Detaillierte Studie zur Identifizierung, Beschreibung, Bewertung und Minderung der Umweltauswirkungen von Projekten, um eine nachhaltige Entwicklung sicherzustellen und die Genehmigungserteilung zu erleichtern.",
+    "description1": "<p>Detaillierte Studie zur Identifizierung, Beschreibung, Bewertung und Minderung der Umweltauswirkungen von Projekten, um eine nachhaltige Entwicklung sicherzustellen und die Genehmigungserteilung zu erleichtern.</p>",
     "subtitle2": "Präventiver Bericht",
-    "description2": "Ideal für kleinere Projekte, die keine vollständige UVP erfordern. Vereinfacht Verfahren mit SEMARNAT und zeigt das Engagement Ihres Unternehmens für Umweltvorschriften.",
+    "description2": "<p>Ideal für kleinere Projekte, die keine vollständige UVP erfordern. Vereinfacht Verfahren mit SEMARNAT und zeigt das Engagement Ihres Unternehmens für Umweltvorschriften.</p>",
     "subtitle3": "Schulung",
-    "description3": "Die Schulung Ihres Teams in bewährten Umweltpraktiken stärkt die Nachhaltigkeitskultur in Ihrem Unternehmen, verbessert die Effizienz und die Einhaltung von Vorschriften.",
+    "description3": "<p>Die Schulung Ihres Teams in bewährten Umweltpraktiken stärkt die Nachhaltigkeitskultur in Ihrem Unternehmen, verbessert die Effizienz und die Einhaltung von Vorschriften.</p>",
     "subtitle4": "Risikoanalyse",
-    "description4": "Bewertet und antizipiert mögliche Risiken im Zusammenhang mit industriellen Aktivitäten, minimiert die Auswirkungen auf die Umwelt und schützt die Gemeinschaft und natürliche Ressourcen.",
+    "description4": "<p>Bewertet und antizipiert mögliche Risiken im Zusammenhang mit industriellen Aktivitäten, minimiert die Auswirkungen auf die Umwelt und schützt die Gemeinschaft und natürliche Ressourcen.</p>",
+    "subtitle5": "Energielösungen",
+    "description5": "<p>Strategien zur Energieeffizienz und Gestaltung von Photovoltaikprojekten, angepasst an jeden Installationstyp:</p><ul><li>Hybridsysteme</li><li>Autonome Systeme</li></ul>",
+    "subtitle6": "Wasserbewirtschaftungslösungen",
+    "description6": "<p>Mit dem Ziel, die Wasserressourcen zu schützen, bieten wir effiziente und nachhaltige Lösungen für die Wasserbewirtschaftung in verschiedenen Anwendungen:</p><ul><li>Abwasser</li><li>Trinkwasser</li><li>Wasser für öffentliche Nutzung</li></ul>",
+    "subtitle7": "Abfallwirtschaft",
+    "description7": "<p>Wir fördern ein verantwortungsbewusstes Abfallmanagement durch:</p><ul><li>Programme für die Verwaltung von Siedlungsabfällen und Sondermüll.</li><li>Strategien zur Abfallverwertung und -rückgewinnung.</li><li>Kreislaufwirtschaftsmodelle</li></ul>",
+    "subtitle8": "Soziokulturelle Lösungen",
+    "description8": "<p>Strategien mit einem Bildungs- und Umweltbewusstseinsansatz für Endkunden sowie Zusammenarbeit mit der lokalen Wirtschaft und umliegenden Gemeinschaften zur Förderung von Kooperation und ökologischer Verantwortung.</p>",
+    "subtitle9": "Umweltlösungen",
+    "description9": "<p>Verderaíz bietet Umweltlösungen an, von der detaillierten Biodiversitätsanalyse für Naturschutz und verantwortungsvolle Umweltplanung bis hin zur Entwicklung von Strategien zur Ökosystemregeneration, Verwaltung von CO₂-Zertifikatsprojekten und naturbasierten Lösungen.</p>",
+    "subtitle10": "Gasgutachten",
+    "description10": "<p>Zertifizierte Bewertungen zur Gewährleistung der Sicherheit und Einhaltung gesetzlicher Vorschriften in Gasanlagen gemäß folgenden Normen:</p><ul><li>NOM-005-SESH-2010</li><li>NOM-007-SESH-2010</li><li>NOM-013-SEDG-2002</li></ul>",
     "viewMore": "Mehr erfahren"
   },
   "findOutHome": {
@@ -93,7 +105,8 @@
     "subtitle2": "Umweltmanagementkurs\nISO 14001:2015",
     "subtitle3": "Workshop Umweltverträglichkeit",
     "subtitle4": "INTENSIVKURS ZUR ERSTELLUNG VON RISIKOSTUDIEN",
-    "subtitle5": "DIPLOM IN ANWENDUNG DES UMWELTRECHTS"
+    "subtitle5": "DIPLOM IN ANWENDUNG DES UMWELTRECHTS",
+    "subtitle6": "Inspektionseinheit für Flüssiggas\nUVSELP 154-C"
   },
   "heroEthicPolicies": {
     "title": "ETHIKRICHTLINIEN",

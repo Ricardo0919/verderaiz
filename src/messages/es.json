@@ -48,13 +48,25 @@
   "sliderHome": {
     "title": "SERVICIOS",
     "subtitle1": "Manifiesto de impacto ambiental",
-    "description1": "Estudio detallado para identificar, describir, evaluar y mitigar los impactos ambientales de proyectos, asegurando el desarrollo sostenible y así mismo, facilitar la obtención de permisos.",
+    "description1": "<p>Estudio detallado para identificar, describir, evaluar y mitigar los impactos ambientales de proyectos, asegurando el desarrollo sostenible y así mismo, facilitar la obtención de permisos.</p>",
     "subtitle2": "Informe Preventivo",
-    "description2": "Ideal para proyectos de menor escala que no requieren una MIA completa. Simplifica los trámites ante la SEMARNAT y demuestra el compromiso de tu empresa con la normativa ambiental.",
+    "description2": "<p>Ideal para proyectos de menor escala que no requieren una MIA completa. Simplifica los trámites ante la SEMARNAT y demuestra el compromiso de tu empresa con la normativa ambiental.</p>",
     "subtitle3": "Capacitación",
-    "description3": "Formar a tu equipo en buenas prácticas ambientales fortalece la cultura de sostenibilidad dentro de tu empresa, mejorando la eficiencia y cumplimiento normativo desde dentro.",
+    "description3": "<p>Formar a tu equipo en buenas prácticas ambientales fortalece la cultura de sostenibilidad dentro de tu empresa, mejorando la eficiencia y cumplimiento normativo desde dentro.</p>",
     "subtitle4": "Estudio de riesgo",
-    "description4": "Evalúa y anticipa posibles riesgos asociados a actividades industriales, minimizando el impacto sobre el entorno y protegiendo a la comunidad y los recursos naturales.",
+    "description4": "<p>Evalúa y anticipa posibles riesgos asociados a actividades industriales, minimizando el impacto sobre el entorno y protegiendo a la comunidad y los recursos naturales.</p>",
+    "subtitle5": "Soluciones de gestión energética",
+    "description5": "<p>Estrategias de eficiencia energética y diseño de proyectos fotovoltaicos adaptados a cada tipo de instalación:</p><ul><li>Sistemas híbridos</li><li>Sistemas autónomos</li></ul>",
+    "subtitle6": "Soluciones de gestión hidrica",
+    "description6": "<p>Comprometidos con salvaguardar el recurso del agua, ofrecemos soluciones para la gestión eficiente y sustentable del agua en distintas aplicaciones:</p><ul><li>Agua residual</li><li>Agua potable</li><li>Agua para usos públicos</li></ul>",
+    "subtitle7": "Gestión de residuos",
+    "description7": "<p>Fomentamos el manejo responsable de residuos mediante:</p><ul><li>Programas de gestión de Residuos Sólidos Urbanos y Residuos de Manejo Especial.</li><li>Estrategias de gestión y valorización de residuos.</li><li>Modelos de economía circular</li></ul>",
+    "subtitle8": "Soluciones socioculturales",
+    "description8": "<p>Estrategias con enfoque educativo y de sensibilización ambiental para clientes finales, además de colaboración con economía local y comunidades aledañas, promoviendo la colaboración y la responsabilidad ecológica.</p>",
+    "subtitle9": "Soluciones ambientales",
+    "description9": "<p>Verderaíz ofrece soluciones ambientales, desde la realización de análisis detallado de biodiversidad para la conservación y planificación ambiental responsable, así como el diseño de estrategias de regeneración ecosistémica, gestión de proyectos para la obtención de bonos de carbono, soluciones basadas en la naturaleza, etc.</p>",
+    "subtitle10": "Dictamenes de gas",
+    "description10": "<p>Evaluaciones certificadas para garantizar la seguridad y cumplimiento normativo en instalaciones de gas en las siguientes normas:</p><ul><li>NOM-005-SESH-2010</li><li>NOM-007-SESH-2010</li><li>NOM-013-SEDG-2002</li></ul>",
     "viewMore": "Ver más"
   },
   "findOutHome": {
@@ -93,7 +105,8 @@
     "subtitle2": "CURSO GESTIÓN AMBIENTAL\nISO 14001:2015",
     "subtitle3": "TALLER IMPACTO AMBIENTAL",
     "subtitle4": "CURSO INTENSIVO PARA LA ELABORACIÓN DE ESTUDIOS DE RIESGO",
-    "subtitle5": "DIPLOMADO EN APLICACIÓN DE LA LEGISLACIÓN AMBIENTAL"
+    "subtitle5": "DIPLOMADO EN APLICACIÓN DE LA LEGISLACIÓN AMBIENTAL",
+    "subtitle6": "Unidad de inspección en gas L.P.\n UVSELP 154-C"
   },
   "heroEthicPolicies": {
     "title": "POLÍTICAS DE ÉTICA",

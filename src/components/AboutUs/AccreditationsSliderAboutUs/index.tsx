@@ -3,11 +3,11 @@ import React, { useState, useEffect, useRef } from "react";
 import Image, { StaticImageData } from "next/image";
 import { FaRegArrowAltCircleLeft, FaRegArrowAltCircleRight } from "react-icons/fa";
 import { useTranslations } from "next-intl";
-import umaLogo from "@/assets/images/umaLogo.png";
-import enzoLogo from "@/assets/images/enzoLogo.png";
-import emaLogo from "@/assets/images/emaLogo.png";
-import uniciLogo from "@/assets/images/uniciLogo.png";
-import tecLogo from "@/assets/images/tecLogo.png";
+import umaLogo from "@/assets/images/AccreditationsSlider/umaLogo.png";
+import enzoLogo from "@/assets/images/AccreditationsSlider/enzoLogo.png";
+import emaLogo from "@/assets/images/AccreditationsSlider/emaLogo.png";
+import uniciLogo from "@/assets/images/AccreditationsSlider/uniciLogo.png";
+import tecLogo from "@/assets/images/AccreditationsSlider/tecLogo.png";
 import aboutusBG3 from "@/assets/images/aboutusBG3.png";
 
 interface Slide {
@@ -50,6 +50,12 @@ function AccreditationsSliderAboutUs() {
             title: t("subtitle5"),
             img: tecLogo,
             alt: t("subtitle5")
+        },
+        {
+            id: 6,
+            title: t("subtitle6"),
+            img: emaLogo,
+            alt: t("subtitle6")
         },
     ];
 
