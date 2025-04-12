@@ -17,8 +17,12 @@ function NavBar() {
     const [isRotating, setIsRotating] = useState(false);
 
     // Estado y referencia para el dropdown de About Us
-    const [dropdownOpen, setDropdownOpen] = useState(false);
-    const dropdownRef = useRef<HTMLDivElement>(null);
+    const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
+    const aboutDropdownRef = useRef<HTMLDivElement>(null);
+
+    // Estado y referencia para el dropdown de Services
+    const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
+    const servicesDropdownRef = useRef<HTMLDivElement>(null);
 
     const pathname = usePathname();
     const t = useTranslations("navbar");
@@ -36,14 +40,20 @@ function NavBar() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-    // Cerrar el dropdown de About Us si se hace clic fuera de él
+    // Cerrar los dropdowns si se hace clic fuera de ellos
     useEffect(() => {
         function handleClickOutside(event: MouseEvent) {
             if (
-                dropdownRef.current &&
-                !dropdownRef.current.contains(event.target as Node)
+                aboutDropdownRef.current &&
+                !aboutDropdownRef.current.contains(event.target as Node)
             ) {
-                setDropdownOpen(false);
+                setAboutDropdownOpen(false);
+            }
+            if (
+                servicesDropdownRef.current &&
+                !servicesDropdownRef.current.contains(event.target as Node)
+            ) {
+                setServicesDropdownOpen(false);
             }
         }
         document.addEventListener("mousedown", handleClickOutside);
@@ -137,13 +147,13 @@ function NavBar() {
                     </Link>
 
                     {/* Contenedor para About Us con dropdown */}
-                    <div className="relative" ref={dropdownRef}>
+                    <div className="relative" ref={aboutDropdownRef}>
                         <Link
                             href="#"
                             className={linkClasses(t("aboutUsLink"))}
                             onClick={(e) => {
                                 e.preventDefault(); // Evita navegar
-                                setDropdownOpen((prev) => !prev);
+                                setAboutDropdownOpen((prev) => !prev);
                             }}
                         >
                             {t("aboutUs")}
@@ -152,7 +162,7 @@ function NavBar() {
                         {/* Submenú con display condicional */}
                         <div
                             className={`absolute left-0 mt-2 bg-white text-black rounded-md shadow-lg ${
-                                dropdownOpen ? "block" : "hidden"
+                                aboutDropdownOpen ? "block" : "hidden"
                             }`}
                         >
                             <Link
@@ -170,12 +180,64 @@ function NavBar() {
                         </div>
                     </div>
 
-                    <Link
-                        href={t("servicesLink")}
-                        className={linkClasses(t("servicesLink"))}
-                    >
-                        {t("services")}
-                    </Link>
+                    {/* Contenedor para Servicios con dropdown */}
+                    <div className="relative" ref={servicesDropdownRef}>
+                        <Link
+                            href="#"
+                            className={linkClasses(t("servicesLink"))}
+                            onClick={(e) => {
+                                e.preventDefault(); // Evita navegar
+                                setServicesDropdownOpen((prev) => !prev);
+                            }}
+                        >
+                            {t("services")}
+                            <IoIosArrowDown className="inline ml-1 text-lg" />
+                        </Link>
+                        {/* Submenú con display condicional */}
+                        <div
+                            className={`absolute left-0 mt-2 bg-white text-black rounded-md shadow-lg ${
+                                servicesDropdownOpen ? "block" : "hidden"
+                            }`}
+                        >
+                            <Link
+                                href={t("servicesComprehensiveProjectsLink")}
+                                className="block px-4 py-2 text-xs hover:bg-gray-200 font-zendots"
+                            >
+                                {t("servicesComprehensiveProjects")}
+                            </Link>
+                            <Link
+                                href={t("servicesEnvironmentalImpactProceduresLink")}
+                                className="block px-4 py-2 text-xs hover:bg-gray-200 font-zendots"
+                            >
+                                {t("servicesEnvironmentalImpactProcedures")}
+                            </Link>
+                            <Link
+                                href={t("servicesCoursesWorkshopsLink")}
+                                className="block px-4 py-2 text-xs hover:bg-gray-200 font-zendots"
+                            >
+                                {t("servicesCoursesWorkshops")}
+                            </Link>
+                            <Link
+                                href={t("servicesSocioculturalSolutionsLink")}
+                                className="block px-4 py-2 text-xs hover:bg-gray-200 font-zendots"
+                            >
+                                {t("servicesSocioculturalSolutions")}
+                            </Link>
+                            <Link
+                                href={t("servicesEnvironmentalSolutionsLink")}
+                                className="block px-4 py-2 text-xs hover:bg-gray-200 font-zendots"
+                            >
+                                {t("servicesEnvironmentalSolutions")}
+                            </Link>
+                            <Link
+                                href={t("servicesOthersLink")}
+                                className="block px-4 py-2 text-xs hover:bg-gray-200 font-zendots"
+                            >
+                                {t("servicesOthers")}
+                            </Link>
+                        </div>
+                    </div>
+
                     <Link
                         href={t("blogLink")}
                         className={linkClasses(t("blogLink"))}

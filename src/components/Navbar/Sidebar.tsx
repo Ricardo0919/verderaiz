@@ -8,14 +8,27 @@ function Sidebar() {
     const t = useTranslations("navbar");
 
     // Estado y referencia para el dropdown de About Us
-    const [dropdownOpen, setDropdownOpen] = useState(false);
-    const dropdownRef = useRef<HTMLDivElement>(null);
+    const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
+    const aboutDropdownRef = useRef<HTMLDivElement>(null);
 
-    // Cerrar el dropdown si se hace clic fuera de él
+    // Estado y referencia para el dropdown de Services
+    const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
+    const servicesDropdownRef = useRef<HTMLDivElement>(null);
+
+    // Cerrar los dropdowns si se hace clic fuera de ellos
     useEffect(() => {
         function handleClickOutside(event: MouseEvent) {
-            if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-                setDropdownOpen(false);
+            if (
+                aboutDropdownRef.current &&
+                !aboutDropdownRef.current.contains(event.target as Node)
+            ) {
+                setAboutDropdownOpen(false);
+            }
+            if (
+                servicesDropdownRef.current &&
+                !servicesDropdownRef.current.contains(event.target as Node)
+            ) {
+                setServicesDropdownOpen(false);
             }
         }
         document.addEventListener("mousedown", handleClickOutside);
@@ -36,24 +49,24 @@ function Sidebar() {
                 <hr className="border-gray-200" />
 
                 {/* Dropdown de About Us */}
-                <div className="relative" ref={dropdownRef}>
+                <div className="relative" ref={aboutDropdownRef}>
                     <a
                         href="#"
                         onClick={(e) => {
                             e.preventDefault(); // Evita navegar
-                            setDropdownOpen((prev) => !prev);
+                            setAboutDropdownOpen((prev) => !prev);
                         }}
                         className="block text-gray-400 hover:text-gray-700 text-sm font-zendots mb-3"
                     >
                         {t("aboutUs")}
                         <IoIosArrowDown className="inline ml-1 text-lg" />
                     </a>
-                    <hr className="border-gray-200"/>
+                    <hr className="border-gray-200" />
 
-                    {/* Submenú (visible solo si dropdownOpen === true) */}
+                    {/* Submenú (visible solo si aboutDropdownOpen === true) */}
                     <div
-                        className={`absolute left-0 mt-2 bg-white text-black rounded-md shadow-lg ${
-                            dropdownOpen ? "block" : "hidden"
+                        className={`mt-2 bg-white text-black rounded-md shadow-lg w-full ${
+                            aboutDropdownOpen ? "block" : "hidden"
                         }`}
                     >
                         <Link
@@ -71,13 +84,65 @@ function Sidebar() {
                     </div>
                 </div>
 
-                <Link
-                    href={t("servicesLink")}
-                    className="block text-gray-400 hover:text-gray-700 text-sm font-zendots"
-                >
-                    {t("services")}
-                </Link>
-                <hr className="border-gray-200" />
+                {/* Dropdown de Services */}
+                <div className="relative" ref={servicesDropdownRef}>
+                    <a
+                        href="#"
+                        onClick={(e) => {
+                            e.preventDefault(); // Evita navegar
+                            setServicesDropdownOpen((prev) => !prev);
+                        }}
+                        className="block text-gray-400 hover:text-gray-700 text-sm font-zendots mb-3"
+                    >
+                        {t("services")}
+                        <IoIosArrowDown className="inline ml-1 text-lg" />
+                    </a>
+                    <hr className="border-gray-200" />
+
+                    {/* Submenú (visible solo si servicesDropdownOpen === true) */}
+                    <div
+                        className={`mt-2 bg-white text-black rounded-md shadow-lg w-full ${
+                            servicesDropdownOpen ? "block" : "hidden"
+                        }`}
+                    >
+                        <Link
+                            href={t("servicesComprehensiveProjectsLink")}
+                            className="block px-4 py-2 text-[10px] hover:bg-gray-200 font-zendots"
+                        >
+                            {t("servicesComprehensiveProjects")}
+                        </Link>
+                        <Link
+                            href={t("servicesEnvironmentalImpactProceduresLink")}
+                            className="block px-4 py-2 text-[10px] hover:bg-gray-200 font-zendots"
+                        >
+                            {t("servicesEnvironmentalImpactProcedures")}
+                        </Link>
+                        <Link
+                            href={t("servicesCoursesWorkshopsLink")}
+                            className="block px-4 py-2 text-[10px] hover:bg-gray-200 font-zendots"
+                        >
+                            {t("servicesCoursesWorkshops")}
+                        </Link>
+                        <Link
+                            href={t("servicesSocioculturalSolutionsLink")}
+                            className="block px-4 py-2 text-[10px] hover:bg-gray-200 font-zendots"
+                        >
+                            {t("servicesSocioculturalSolutions")}
+                        </Link>
+                        <Link
+                            href={t("servicesEnvironmentalSolutionsLink")}
+                            className="block px-4 py-2 text-[10px] hover:bg-gray-200 font-zendots"
+                        >
+                            {t("servicesEnvironmentalSolutions")}
+                        </Link>
+                        <Link
+                            href={t("servicesOthersLink")}
+                            className="block px-4 py-2 text-[10px] hover:bg-gray-200 font-zendots"
+                        >
+                            {t("servicesOthers")}
+                        </Link>
+                    </div>
+                </div>
 
                 <Link
                     href={t("blogLink")}
