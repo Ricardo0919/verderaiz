@@ -1,11 +1,11 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import background2 from "@/assets/images/HeroHomeBG2.png";
-import background3 from "@/assets/images/HeroHomeBG3.png";
-import background4 from "@/assets/images/HeroHomeBG4.png";
-import background5 from "@/assets/images/HeroHomeBG5.png";
-import background6 from "@/assets/images/HeroHomeBG6.png";
+import background2 from "@/assets/images/Home/Hero/HeroHomeBG2.png";
+import background3 from "@/assets/images/Home/Hero/HeroHomeBG3.png";
+import background4 from "@/assets/images/Home/Hero/HeroHomeBG4.png";
+import background5 from "@/assets/images/Home/Hero/HeroHomeBG5.png";
+import background6 from "@/assets/images/Home/Hero/HeroHomeBG6.png";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 

@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import QuoteEthicsPoliciesIMG from "@/assets/images/QuoteEthicsPolicies.png";
-import QuoteEthicsPoliciesLG from "@/assets/images/QuoteEthicsPoliciesLG.png";
+import QuoteEthicsPoliciesIMG from "@/assets/images/EthicsPolicies/QuoteEthicsPolicies/QuoteEthicsPolicies.png";
+import QuoteEthicsPoliciesLG from "@/assets/images/EthicsPolicies/QuoteEthicsPolicies/QuoteEthicsPoliciesLG.png";
 import {useTranslations} from "next-intl";
 
 function QuoteEthicsPolicies() {

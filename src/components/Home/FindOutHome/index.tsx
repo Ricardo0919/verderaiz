@@ -7,7 +7,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { useTranslations } from "next-intl";
 
 // Imagen de fallback local
-import LogoVerde from "@/assets/images/LogoVerde.png";
+import LogoVerde from "@/assets/images/Home/FindOut/LogoVerde.png";
 
 // Función para quitar etiquetas HTML de un excerpt
 function stripHTML(html: string): string {

@@ -181,22 +181,6 @@ const nextConfig: NextConfig = {
                 source: "/:first/bibliotheque-de-blogs",
                 destination: "/:first/blog-library",
             },
-            // ==================
-            // ==== Contact ====
-            // ==================
-            {
-                source: "/:first/contacto",
-                destination: "/:first/contact",
-            },
-            {
-                source: "/:first/kontakt",
-                destination: "/:first/contact",
-            },
-            {
-                source: "/:first/contact-fr",
-                destination: "/:first/contact",
-            },
-
         ];
     },
 };

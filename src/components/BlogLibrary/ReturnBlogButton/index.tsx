@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import {useTranslations} from "next-intl";
 import Image from "next/image";
-import SuperiorLibraryBlog from "@/assets/images/SuperiorLibraryBlog.png";
+import SuperiorLibraryBlog from "@/assets/images/BlogLibrary/ReturnBlogButton/SuperiorLibraryBlog.png";
 
 function LibraryBlogButton() {
     const t = useTranslations("navbar");

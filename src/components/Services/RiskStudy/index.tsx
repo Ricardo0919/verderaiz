@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import RiskStudyIMG from "@/assets/images/RiskStudy.png";
+import RiskStudyIMG from "@/assets/images/Services/ComprehensiveProjects/RiskStudy.png";
 import Image from "next/image";
 import {useTranslations} from "next-intl";
-import servicesBG2 from "@/assets/images/servicesBG2.png";
+import servicesBG2 from "@/assets/images/Services/ComprehensiveProjects/servicesBG2.png";
 
 function RiskStudy() {
     const t = useTranslations("riskServices");

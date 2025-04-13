@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
-import blogBG3 from "@/assets/images/blogBG3.png";
-import Logo from "@/assets/images/Logo.png"; // Default image for blog posts
+import blogBG3 from "@/assets/images/Blog/RecentBlogs/blogBG3.png";
+import Logo from "@/assets/images/Blog/RecentBlogs/Logo.png"; // Default image for blog posts
 import Link from "next/link";
 import {useTranslations} from "next-intl";
 

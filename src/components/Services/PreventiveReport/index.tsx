@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import PreventiveReportIMG from "@/assets/images/PreventiveReport.png";
+import PreventiveReportIMG from "@/assets/images/Services/ComprehensiveProjects/PreventiveReport.png";
 import Image from "next/image";
 import {useTranslations} from "next-intl";
-import servicesBG1 from "@/assets/images/servicesBG1.png";
+import servicesBG1 from "@/assets/images/Services/ComprehensiveProjects/servicesBG1.png";
 
 function PreventiveReport() {
     const t = useTranslations("preventiveServices");

@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import PlantasMV from "@/assets/images/PlantasMV.png";
-import PlantasMVEN from "@/assets/images/listonPlantasIngles.png";
-import PlantasMVDE from "@/assets/images/listonPlantasAleman.png";
-import PlantasMVFR from "@/assets/images/listonPlantasFrances.png";
+import PlantasMV from "@/assets/images/AboutUs/MisionVision/PlantasMV.png";
+import PlantasMVEN from "@/assets/images/AboutUs/MisionVision/listonPlantasIngles.png";
+import PlantasMVDE from "@/assets/images/AboutUs/MisionVision/listonPlantasAleman.png";
+import PlantasMVFR from "@/assets/images/AboutUs/MisionVision/listonPlantasFrances.png";
 import { useTranslations, useLocale } from "next-intl";
 
 function MisionVision() {

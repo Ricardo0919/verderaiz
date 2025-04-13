@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import HeroEthicsPoliciesIMG from "@/assets/images/HeroEthicsPolicies.png";
+import HeroEthicsPoliciesIMG from "@/assets/images/EthicsPolicies/Hero/HeroEthicsPolicies.png";
 import {useTranslations} from "next-intl";
 
 function HeroEthicsPolicies() {

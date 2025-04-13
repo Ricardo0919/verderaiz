@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, FormEvent, useEffect } from "react";
 import Image from "next/image";
-import background from "@/assets/images/FooterBG.png";
+import background from "@/assets/images/Footer/FooterBG.png";
 import { useTranslations } from "next-intl";
 
 // Tipos para el estado del botón/envío

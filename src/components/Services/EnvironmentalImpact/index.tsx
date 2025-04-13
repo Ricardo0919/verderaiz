@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import EnvironmentalImpactIMG from "@/assets/images/EnvironmentalImpact.png";
+import EnvironmentalImpactIMG from "@/assets/images/Services/ComprehensiveProjects/EnvironmentalImpact.png";
 import Image from "next/image";
 import {useTranslations} from "next-intl";
 

@@ -1,11 +1,11 @@
 "use client"
 import React from 'react';
-import ArcosQro from "@/assets/images/MexicanCompanyHome.png";
+import ArcosQro from "@/assets/images/Home/MexicanCompany/MexicanCompanyHome.png";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { FaArrowRightLong } from "react-icons/fa6";
 import Link from "next/link";
-import homeBG3 from "@/assets/images/homeBG3.png";
+import homeBG3 from "@/assets/images/Home/MexicanCompany/homeBG3.png";
 
 
 function MexicanCompany() {

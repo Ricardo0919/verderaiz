@@ -6,17 +6,17 @@ import { CiCirclePlus } from "react-icons/ci";
 import { IoIosCloseCircleOutline } from "react-icons/io";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import ImpactoAmbiental from "@/assets/images/ServiceSlider/ImpactoAmbiental.png";
-import InformePreventivo from "@/assets/images/ServiceSlider/InformePreventivo.png";
-import Capacitacion from "@/assets/images/ServiceSlider/Capacitacion.png";
-import EstudioRiesgo from "@/assets/images/ServiceSlider/EstudioRiesgo.png";
-import GestionEnergetica from "@/assets/images/ServiceSlider/GestionEnergetica.png";
-import GestionHidrica from "@/assets/images/ServiceSlider/GestionHidrica.png";
-import GestionResiduos from "@/assets/images/ServiceSlider/GestionResiduos.png";
-import Socioculturales from "@/assets/images/ServiceSlider/Socioculturales.png";
-import Ambientales from "@/assets/images/ServiceSlider/Ambientales.png";
-import DictamenesGas from "@/assets/images/ServiceSlider/DictamenesGas.png";
-import homeBG4 from "@/assets/images/homeBG4.png";
+import ImpactoAmbiental from "@/assets/images/Home/ServiceSlider/ImpactoAmbiental.png";
+import InformePreventivo from "@/assets/images/Home/ServiceSlider/InformePreventivo.png";
+import Capacitacion from "@/assets/images/Home/ServiceSlider/Capacitacion.png";
+import EstudioRiesgo from "@/assets/images/Home/ServiceSlider/EstudioRiesgo.png";
+import GestionEnergetica from "@/assets/images/Home/ServiceSlider/GestionEnergetica.png";
+import GestionHidrica from "@/assets/images/Home/ServiceSlider/GestionHidrica.png";
+import GestionResiduos from "@/assets/images/Home/ServiceSlider/GestionResiduos.png";
+import Socioculturales from "@/assets/images/Home/ServiceSlider/Socioculturales.png";
+import Ambientales from "@/assets/images/Home/ServiceSlider/Ambientales.png";
+import DictamenesGas from "@/assets/images/Home/ServiceSlider/DictamenesGas.png";
+import homeBG4 from "@/assets/images/Home/ServiceSlider/homeBG4.png";
 
 interface Slide {
     id: number;
