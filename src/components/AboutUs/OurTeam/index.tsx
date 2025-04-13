@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Fernanda from "@/assets/images/FER.jpg";
-import Alison from "@/assets/images/ALISON.jpg";
-import Gustavo from "@/assets/images/GUS.jpg";
+import Fernanda from "@/assets/images/AboutUs/OurTeam/FER.jpg";
+import Alison from "@/assets/images/AboutUs/OurTeam/ALISON.jpg";
+import Gustavo from "@/assets/images/AboutUs/OurTeam/GUS.jpg";
 import {useTranslations} from "next-intl";
-import aboutusBG1 from "@/assets/images/aboutusBG1.png";
-import aboutusBG2 from "@/assets/images/aboutusBG2.png";
+import aboutusBG1 from "@/assets/images/AboutUs/OurTeam/aboutusBG1.png";
+import aboutusBG2 from "@/assets/images/AboutUs/OurTeam/aboutusBG2.png";
 
 function OurTeam() {
     const t = useTranslations("ourTeamAboutUs");

@@ -3,12 +3,12 @@ import React, { useState, useEffect, useRef } from "react";
 import Image, { StaticImageData } from "next/image";
 import { FaRegArrowAltCircleLeft, FaRegArrowAltCircleRight } from "react-icons/fa";
 import { useTranslations } from "next-intl";
-import umaLogo from "@/assets/images/AccreditationsSlider/umaLogo.png";
-import enzoLogo from "@/assets/images/AccreditationsSlider/enzoLogo.png";
-import emaLogo from "@/assets/images/AccreditationsSlider/emaLogo.png";
-import uniciLogo from "@/assets/images/AccreditationsSlider/uniciLogo.png";
-import tecLogo from "@/assets/images/AccreditationsSlider/tecLogo.png";
-import aboutusBG3 from "@/assets/images/aboutusBG3.png";
+import umaLogo from "@/assets/images/AboutUs/AccreditationsSlider/umaLogo.png";
+import enzoLogo from "@/assets/images/AboutUs/AccreditationsSlider/enzoLogo.png";
+import emaLogo from "@/assets/images/AboutUs/AccreditationsSlider/emaLogo.png";
+import uniciLogo from "@/assets/images/AboutUs/AccreditationsSlider/uniciLogo.png";
+import tecLogo from "@/assets/images/AboutUs/AccreditationsSlider/tecLogo.png";
+import aboutusBG3 from "@/assets/images/AboutUs/AccreditationsSlider/aboutusBG3.png";
 
 interface Slide {
     id: number;

@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Sostenible from "@/assets/images/Sostenible.png";
-import SostenibleEn from "@/assets/images/pastoHomeIngles.png";
-import SostenibleDE from "@/assets/images/pastoHomeAleman.png";
-import SostenibleFR from "@/assets/images/pastoHomeFrances.png";
+import Sostenible from "@/assets/images/Home/SustainableFuture/Sostenible.png";
+import SostenibleEn from "@/assets/images/Home/SustainableFuture/pastoHomeIngles.png";
+import SostenibleDE from "@/assets/images/Home/SustainableFuture/pastoHomeAleman.png";
+import SostenibleFR from "@/assets/images/Home/SustainableFuture/pastoHomeFrances.png";
 import { useTranslations, useLocale } from "next-intl";
-import homeBG1 from "@/assets/images/homeBG1.png";
+import homeBG1 from "@/assets/images/Home/SustainableFuture/homeBG1.png";
 
 function SustainableFutureHome() {
     const t= useTranslations("sustainableFutureHome");

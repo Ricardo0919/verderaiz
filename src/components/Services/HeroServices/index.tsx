@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import PlantBG from "@/assets/images/PlantBG.png";
-import PlantBGLG from "@/assets/images/PlantBGLG.png";
-import PlantBGLGEN from "@/assets/images/listonTuercaIngles.png";
-import PlantBGLGDE from "@/assets/images/listonTuercaAleman.png";
-import PlantBGLGFR from "@/assets/images/listonTuercaFrances.png";
+import PlantBG from "@/assets/images/Services/ComprehensiveProjects/PlantBG.png";
+import PlantBGLG from "@/assets/images/Services/ComprehensiveProjects/PlantBGLG.png";
+import PlantBGLGEN from "@/assets/images/Services/ComprehensiveProjects/listonTuercaIngles.png";
+import PlantBGLGDE from "@/assets/images/Services/ComprehensiveProjects/listonTuercaAleman.png";
+import PlantBGLGFR from "@/assets/images/Services/ComprehensiveProjects/listonTuercaFrances.png";
 
 import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";

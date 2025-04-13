@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import background from "@/assets/images/AboutUsBG.png";
-import PartnersIMG from "@/assets/images/IdentityPartnersIMG.png";
-import PartnersIMGLG from "@/assets/images/IdentityPartnersIMG-LG.png";
+import background from "@/assets/images/AboutUs/Hero/AboutUsBG.png";
+import PartnersIMG from "@/assets/images/AboutUs/Hero/IdentityPartnersIMG.png";
+import PartnersIMGLG from "@/assets/images/AboutUs/Hero/IdentityPartnersIMG-LG.png";
 import {useTranslations} from "next-intl";
 
 function HeroAboutUs() {

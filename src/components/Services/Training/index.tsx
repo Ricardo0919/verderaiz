@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import TrainingIMG from "@/assets/images/Training.png";
+import TrainingIMG from "@/assets/images/Services/ComprehensiveProjects/Training.png";
 import Image from "next/image";
 import {useTranslations} from "next-intl";
 

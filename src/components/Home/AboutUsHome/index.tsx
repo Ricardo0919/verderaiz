@@ -1,9 +1,9 @@
 "use client"
 import React from 'react';
-import AboutUsHome from "@/assets/images/AboutUsHome.png";
+import AboutUsHome from "@/assets/images/Home/AboutUs/AboutUsHome.png";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import homeBG2 from "@/assets/images/homeBG2.png";
+import homeBG2 from "@/assets/images/Home/AboutUs/homeBG2.png";
 
 
 function AboutUs() {

@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import mainBlog from "@/assets/images/mainBlog.png";
-import blogBG2 from "@/assets/images/blogBG2.png";
+import mainBlog from "@/assets/images/Blog/MainBlog/mainBlog.png";
+import blogBG2 from "@/assets/images/Blog/MainBlog/blogBG2.png";
 import {useTranslations} from "next-intl";
 
 function MainBlog() {

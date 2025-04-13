@@ -2,9 +2,9 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link"; // For links
-import LogoVerde from "@/assets/images/LogoVerde.png"; // Default image for blogpost
+import LogoVerde from "@/assets/images/Home/FindOut/LogoVerde.png"; // Default image for blogpost
 import { CiCirclePlus } from "react-icons/ci";
-import InferiorBlog from "@/assets/images/InferiorBlog.png";
+import InferiorBlog from "@/assets/images/Services/ComprehensiveProjects/InferiorBlog.png";
 import {useTranslations} from "next-intl";
 
 interface Blog {

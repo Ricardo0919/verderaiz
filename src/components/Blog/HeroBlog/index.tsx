@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Cambio from "@/assets/images/blogCambio.png";
-import CambioEN from "@/assets/images/pastoBlogIngles.png";
-import CambioDE from "@/assets/images/pastoBlogAleman.png";
-import CambioFR from "@/assets/images/pastoBlogFrances.png";
+import Cambio from "@/assets/images/Blog/Hero/blogCambio.png";
+import CambioEN from "@/assets/images/Blog/Hero/pastoBlogIngles.png";
+import CambioDE from "@/assets/images/Blog/Hero/pastoBlogAleman.png";
+import CambioFR from "@/assets/images/Blog/Hero/pastoBlogFrances.png";
 import { useTranslations, useLocale } from "next-intl";
-import blogBG1 from "@/assets/images/blogBG1.png";
+import blogBG1 from "@/assets/images/Blog/Hero/blogBG1.png";
 
 function HeroBlog() {
     const t = useTranslations("heroBlog");
