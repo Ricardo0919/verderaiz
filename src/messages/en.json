@@ -191,6 +191,10 @@
     "quote1": "In Mexico, 102,895 tons of municipal solid waste (MSW) are generated daily, of which 83.93% is collected and 78.54% is disposed of in final disposal sites. However, only 9.63% of the generated MSW is recycled, indicating a significant potential for improvement in circular economy practices (INEGI, 2023).",
     "quote2": "It was estimated that climate impacts reach an average of 6.22% of the current GDP, while the costs of mitigating 50% of emissions would represent between 0.7% and 2.21% of GDP (SEMARNAT, 2009)."
   },
+  "blogStandardsButton": {
+    "blogStandardsButtonTitle": "Editorial Guidelines",
+    "blogStandardsButtonText": "To publish with us, please review and download the editorial guidelines here."
+  },
   "footer": {
     "title": "CONTACT US",
     "project": "Let's talk about your project",

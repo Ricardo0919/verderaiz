@@ -191,6 +191,10 @@
     "quote1": "In Mexiko werden täglich 102.895 Tonnen Siedlungsabfälle (MSW) erzeugt, von denen 83,93% gesammelt und 78,54% an endgültigen Entsorgungsstellen abgelagert werden. Allerdings werden nur 9,63% der erzeugten Siedlungsabfälle recycelt, was auf ein erhebliches Verbesserungspotenzial in der Kreislaufwirtschaft hinweist (INEGI, 2023).",
     "quote2": "Es wurde geschätzt, dass die klimatischen Auswirkungen durchschnittlich 6,22% des aktuellen BIP erreichen, während die Kosten zur Minderung von 50% der Emissionen zwischen 0,7% und 2,21% des BIP betragen würden (SEMARNAT, 2009)."
   },
+  "blogStandardsButton": {
+    "blogStandardsButtonTitle": "Redaktionsrichtlinien",
+    "blogStandardsButtonText": "Um bei uns zu veröffentlichen, lesen und laden Sie bitte hier die Redaktionsrichtlinien herunter."
+  },
   "footer": {
     "title": "KONTAKTIERE UNS",
     "project": "Lass uns über dein Projekt sprechen",
