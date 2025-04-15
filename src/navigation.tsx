@@ -34,7 +34,7 @@ export const pathnames = {
     "/services/environmental-impact-procedures": {
         en: "/services/environmental-impact-procedures",
         es: "/servicios/tramites-de-impacto-ambiental",
-        de: "/dienstleistungen/umweltverträglichkeitsverfahren",
+        de: "/dienstleistungen/umweltvertraglichkeitsverfahren",
         fr: "/services/procedures-impact-environnemental",
     },
     "/services/courses-and-workshops": {

@@ -21,7 +21,7 @@
     "servicesComprehensiveProjects": "Umfassende Projekte",
     "servicesComprehensiveProjectsLink": "/dienstleistungen/umfassende-projekte",
     "servicesEnvironmentalImpactProcedures": "Verfahren zur Umweltverträglichkeitsprüfung",
-    "servicesEnvironmentalImpactProceduresLink": "/dienstleistungen/umweltverträglichkeitsverfahren",
+    "servicesEnvironmentalImpactProceduresLink": "/dienstleistungen/umweltvertraglichkeitsverfahren",
     "servicesCoursesWorkshops": "Kurse und Workshops",
     "servicesCoursesWorkshopsLink": "/dienstleistungen/kurse-und-workshops",
     "servicesSocioculturalSolutions": "Soziokulturelle Lösungen",
@@ -161,22 +161,6 @@
     "description": "Von der Wurzel des Problems zu einer positiven Wirkung: Dienstleistungen, die Nachhaltigkeit in jede Entscheidung integrieren.\n\n",
     "button": "MEIN PROJEKT STARTEN"
   },
-  "environmentalServices": {
-    "title": "WAS WIR TUN",
-    "subtitle": "UMWELTVERTRÄGLICHKEITSSTUDIE",
-    "description1": "Es ist eine technische Studie, die die möglichen Auswirkungen eines Projekts auf die Umwelt bewertet. Durch eine UVS identifizieren, verhindern und mindern wir negative Auswirkungen, bevor die geplanten Aktivitäten durchgeführt werden. Diese Studie ist insbesondere für Bau-, Infrastruktur-, Industrie- und Tourismusprojekte unerlässlich.",
-    "description2": "Die UVS ist eine unverzichtbare Voraussetzung für Projekte, die die natürliche Umwelt beeinträchtigen könnten, da sie fundierte und nachhaltige Entscheidungen ermöglicht. Außerdem gewährleistet sie die Einhaltung der Umweltvorschriften in Mexiko, vermeidet Sanktionen und stärkt den Ruf des Unternehmens."
-  },
-  "preventiveServices": {
-    "subtitle": "PRÄVENTIVER\nBERICHT",
-    "description1": "Es ist ein Werkzeug, das Behörden und Unternehmen ermöglicht zu bewerten, ob ein Projekt das Potenzial hat, Umweltschäden zu verursachen, wobei die verbundenen Risiken und vorgeschlagenen Aktivitäten berücksichtigt werden. Dieser Bericht ist für Projekte mit geringerer Auswirkung erforderlich, die jedoch in Bezug auf Nachhaltigkeit und Verantwortung ebenso wichtig sind.",
-    "description2": "Er erleichtert die Validierung von Projekten, die aufgrund ihrer Größe oder Eigenschaften keine vollständige UVS erfordern. Darüber hinaus ermöglicht er Unternehmen, präventive Maßnahmen zu identifizieren, und stellt die Einhaltung von Vorschriften sicher, fördert verantwortungsbewusste Praktiken und vermeidet regulatorische Konflikte oder Verzögerungen."
-  },
-  "riskServices": {
-    "subtitle": "RISIKOBEWERTUNG",
-    "description1": "Wir bewerten die Risiken von Unfällen oder Umweltkatastrophen, die während des Betriebs eines Projekts auftreten könnten. Dazu gehört die Analyse potenzieller Auswirkungen auf die menschliche Gesundheit, Ökosysteme und Infrastruktur, sodass Unternehmen Maßnahmen zur Vermeidung oder Minimierung dieser Risiken umsetzen können.",
-    "description2": "Diese Studie ist entscheidend für die Prävention und Vorbereitung auf mögliche Umweltvorfälle, insbesondere in hochkomplexen Sektoren wie Kohlenwasserstoffe, Chemie und Bergbau. Sie hilft Unternehmen, ihre Vermögenswerte und ihr Personal zu schützen, gesetzliche Anforderungen zu erfüllen und ein starkes Engagement für die Umweltsicherheit zu demonstrieren."
-  },
   "trainingServices": {
     "subtitle": "SCHULUNG",
     "description1": "Unsere Schulungen zur Umweltbewusstseinsbildung sind darauf ausgerichtet, Teams und Mitarbeiter über beste Umweltpraktiken, die Einhaltung gesetzlicher Vorschriften und die Bedeutung von Nachhaltigkeit im täglichen Betrieb zu informieren und zu sensibilisieren. Durch dynamische Lernaktivitäten und spezialisiertes Wissen fördern wir eine unternehmenskulturelle Orientierung am Umweltschutz.",
@@ -194,6 +178,36 @@
   "blogStandardsButton": {
     "blogStandardsButtonTitle": "Redaktionsrichtlinien",
     "blogStandardsButtonText": "Um bei uns zu veröffentlichen, lesen und laden Sie bitte hier die Redaktionsrichtlinien herunter."
+  },
+  "environmentalImpactProceduresHero": {
+    "title": "Verfahren zur Umweltverträglichkeitsprüfung",
+    "description1": "Mehr als nur eine Vorschrift",
+    "description2": "Eine Chance, Spuren zu hinterlassen",
+    "button": "KONTAKTIEREN SIE UNS"
+  },
+  "environmentalImpactProceduresQuote": {
+    "quote": "Bei Verderaiz glauben wir, dass jedes Projekt das Potenzial hat, seine Umgebung zu verändern. Umweltverträglichkeitsverfahren sind nicht nur eine gesetzliche Verpflichtung, sondern ein wesentliches Instrument, um sicherzustellen, dass Entwicklung und Umweltschutz Hand in Hand gehen."
+  },
+  "environmentalImpactProceduresQuestion": {
+    "question": "Was erreichen wir mit diesen Verfahren?",
+    "text1": "Erkennung, Bewertung und Minderung möglicher negativer Auswirkungen der Projektaktivitäten auf die Umwelt.",
+    "text2": "Einhaltung gesetzlicher Vorschriften.",
+    "text3": "Sicherstellen, dass Ihr Projekt ein Beispiel für Nachhaltigkeit und soziale Verantwortung wird."
+  },
+  "environmentalImpactService": {
+    "title": "UMWELTVERTRÄGLICHKEITSSTUDIE (UVS)",
+    "description1": "Dies ist eine technische Studie, die die möglichen Auswirkungen eines Projekts auf die Umwelt bewertet. Durch eine UVS identifizieren, verhindern und mindern wir negative Auswirkungen, bevor die geplanten Aktivitäten durchgeführt werden. Diese Studie ist unerlässlich für Bau-, Infrastruktur-, Industrie- und Tourismusprojekte, unter anderem.",
+    "description2": "Die UVS ist eine unverzichtbare Voraussetzung für Projekte, die die natürliche Umgebung beeinflussen könnten, da sie fundierte und nachhaltige Entscheidungen ermöglicht. Sie gewährleistet zudem die Einhaltung der Umweltvorschriften in Mexiko, vermeidet Sanktionen und stärkt den Ruf des Unternehmens."
+  },
+  "environmentalImpactPreventiveServices": {
+    "title": "VORBEUGENDER BERICHT",
+    "description1": "Dies ist ein Instrument, das Behörden und Unternehmen ermöglicht zu bewerten, ob ein Projekt potenziell Umweltschäden verursachen kann, unter Berücksichtigung der damit verbundenen Risiken und vorgeschlagenen Aktivitäten. Dieser Bericht ist für Projekte mit geringerem Einfluss erforderlich, die dennoch in Bezug auf Nachhaltigkeit und Verantwortung wichtig sind.",
+    "description2": "Er erleichtert die Validierung von Projekten, die aufgrund ihres Umfangs oder ihrer Eigenschaften keine vollständige UVS benötigen. Darüber hinaus ermöglicht er es Unternehmen, vorbeugende Maßnahmen zu identifizieren und die Einhaltung der Vorschriften sicherzustellen, wodurch verantwortungsbewusste Praktiken gefördert und regulatorische Konflikte oder Verzögerungen vermieden werden."
+  },
+  "environmentalImpactRiskServices": {
+    "subtitle": "RISIKOSTUDIE",
+    "description1": "Wir bewerten die Risiken von Unfällen oder Umweltkatastrophen, die während des Betriebs eines Projekts auftreten könnten. Die Studie beinhaltet eine Analyse der möglichen Auswirkungen auf die menschliche Gesundheit, Ökosysteme und Infrastruktur, wodurch Unternehmen Maßnahmen zur Vermeidung oder Minimierung dieser Risiken umsetzen können.",
+    "description2": "Diese Studie ist entscheidend für die Prävention und Vorbereitung auf mögliche Umweltvorfälle, insbesondere in hochkomplexen Sektoren wie Erdöl, Chemie und Bergbau. Sie hilft Unternehmen, ihre Vermögenswerte und ihr Personal zu schützen, gesetzliche Anforderungen zu erfüllen und ein starkes Engagement für Umweltsicherheit zu zeigen."
   },
   "footer": {
     "title": "KONTAKTIERE UNS",
