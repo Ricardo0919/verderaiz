@@ -15,7 +15,7 @@
     "aboutUsLink": "/about-us",
     "identity": "Identity",
     "ethicsPolicies": "Ethics Policies",
-    "ethicsPoliciesLink": "ethics-policies",
+    "ethicsPoliciesLink": "/ethics-policies",
     "services": "Services",
     "servicesLink": "/services",
     "servicesComprehensiveProjects": "Comprehensive Projects",
@@ -156,11 +156,6 @@
     "title": "These policies are periodically reviewed to ensure they reflect our values and align with industry best practices. All Verderaíz collaborators are responsible for adhering to these policies and acting as ambassadors of our ethical principles. At Verderaíz, everyone is valued for who they are, and we aim to build a more just, inclusive, sustainable, and ethical future for all communities.",
     "quote": "\"DIVERSITY STRENGTHENS US, INCLUSION UNITES US, AND ETHICS AND TRANSPARENCY GUIDE US TOWARDS A SUSTAINABLE FUTURE.\""
   },
-  "heroServices": {
-    "title": "VERDERAÍZ",
-    "description": "From the root of the problem to a positive impact: Services that integrate sustainability into every decision.\n\n",
-    "button": "START MY PROJECT"
-  },
   "trainingServices": {
     "subtitle": "TRAINING",
     "description1": "Our environmental awareness training programs are designed to educate and raise awareness among teams and employees about best environmental practices, regulatory compliance, and the importance of sustainability in daily operations. Through dynamic learning activities and specialized content, we foster an organizational culture oriented towards environmental care.",
@@ -208,6 +203,35 @@
     "subtitle": "RISK STUDY",
     "description1": "We assess the risks of accidents or environmental disasters that could occur during the operation of a project. It includes an analysis of potential impacts on human health, ecosystems, and infrastructure, allowing companies to implement measures to prevent or minimize these risks.",
     "description2": "This study is essential for prevention and preparedness against potential environmental incidents, especially in highly complex sectors such as hydrocarbons, chemicals, and mining. It helps companies protect their assets and personnel, comply with legal requirements, and demonstrate a strong commitment to environmental safety."
+  },
+  "comprehensiveProjectsHero": {
+    "title": "Comprehensive Projects",
+    "description": "Solutions that transform systems",
+    "button": "START MY PROJECT"
+  },
+  "coursesAndWorkshopsHero": {
+    "title": "Courses and Workshops",
+    "description1": "We plant knowledge",
+    "description2": "WE HARVEST A SUSTAINABLE FUTURE",
+    "button": "CONTACT US"
+  },
+  "socioculturalSolutionsHero": {
+    "title": "Sociocultural Solutions",
+    "description1": "The solution lies in",
+    "description2": "COLLABORATION",
+    "button": "CONTACT US"
+  },
+  "environmentalSolutionsHero": {
+    "title": "Environmental Solutions",
+    "description1": "Ecosystem regeneration solutions",
+    "description2": "BASED ON NATURE",
+    "button": "CONTACT US"
+  },
+  "othersHero": {
+    "title": "OTHERS",
+    "description1": "At Verderaíz we are committed to",
+    "description2": "REGULATORY COMPLIANCE",
+    "button": "CONTACT US"
   },
   "footer": {
     "title": "CONTACT US",

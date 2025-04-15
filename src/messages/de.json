@@ -15,7 +15,7 @@
     "aboutUsLink": "/ueber-uns",
     "identity": "Identität",
     "ethicsPolicies": "Ethikrichtlinien",
-    "ethicsPoliciesLink": "ethikrichtlinien",
+    "ethicsPoliciesLink": "/ethikrichtlinien",
     "services": "Dienstleistungen",
     "servicesLink": "/dienstleistungen",
     "servicesComprehensiveProjects": "Umfassende Projekte",
@@ -156,11 +156,6 @@
     "title": "Diese Richtlinien werden regelmäßig überprüft, um sicherzustellen, dass sie unsere Werte widerspiegeln und mit den besten Praktiken der Branche in Einklang stehen. Alle Mitarbeiter von Verderaíz sind dafür verantwortlich, diese Richtlinien einzuhalten und als Botschafter unserer ethischen Grundsätze zu handeln. Bei Verderaíz wird jeder für das geschätzt, was er ist, und wir streben danach, eine gerechtere, inklusivere, nachhaltigere und ethischere Zukunft für alle Gemeinschaften aufzubauen.",
     "quote": "\"DIVERSITÄT STÄRKT UNS, INKLUSION VEREINT UNS, UND ETHIK UND TRANSPARENZ FÜHREN UNS ZU EINER NACHHALTIGEN ZUKUNFT.\""
   },
-  "heroServices": {
-    "title": "VERDERAÍZ",
-    "description": "Von der Wurzel des Problems zu einer positiven Wirkung: Dienstleistungen, die Nachhaltigkeit in jede Entscheidung integrieren.\n\n",
-    "button": "MEIN PROJEKT STARTEN"
-  },
   "trainingServices": {
     "subtitle": "SCHULUNG",
     "description1": "Unsere Schulungen zur Umweltbewusstseinsbildung sind darauf ausgerichtet, Teams und Mitarbeiter über beste Umweltpraktiken, die Einhaltung gesetzlicher Vorschriften und die Bedeutung von Nachhaltigkeit im täglichen Betrieb zu informieren und zu sensibilisieren. Durch dynamische Lernaktivitäten und spezialisiertes Wissen fördern wir eine unternehmenskulturelle Orientierung am Umweltschutz.",
@@ -208,6 +203,35 @@
     "subtitle": "RISIKOSTUDIE",
     "description1": "Wir bewerten die Risiken von Unfällen oder Umweltkatastrophen, die während des Betriebs eines Projekts auftreten könnten. Die Studie beinhaltet eine Analyse der möglichen Auswirkungen auf die menschliche Gesundheit, Ökosysteme und Infrastruktur, wodurch Unternehmen Maßnahmen zur Vermeidung oder Minimierung dieser Risiken umsetzen können.",
     "description2": "Diese Studie ist entscheidend für die Prävention und Vorbereitung auf mögliche Umweltvorfälle, insbesondere in hochkomplexen Sektoren wie Erdöl, Chemie und Bergbau. Sie hilft Unternehmen, ihre Vermögenswerte und ihr Personal zu schützen, gesetzliche Anforderungen zu erfüllen und ein starkes Engagement für Umweltsicherheit zu zeigen."
+  },
+  "comprehensiveProjectsHero": {
+    "title": "Umfassende Projekte",
+    "description": "Lösungen, die Systeme transformieren",
+    "button": "MEIN PROJEKT STARTEN"
+  },
+  "coursesAndWorkshopsHero": {
+    "title": "Kurse und Workshops",
+    "description1": "Wir säen Wissen",
+    "description2": "WIR ERNTEN EINE NACHHALTIGE ZUKUNFT",
+    "button": "KONTAKTIEREN SIE UNS"
+  },
+  "socioculturalSolutionsHero": {
+    "title": "Soziokulturelle Lösungen",
+    "description1": "Die Lösung liegt in der",
+    "description2": "ZUSAMMENARBEIT",
+    "button": "KONTAKTIEREN SIE UNS"
+  },
+  "environmentalSolutionsHero": {
+    "title": "Umweltlösungen",
+    "description1": "Lösungen zur ökosystemischen Regeneration",
+    "description2": "AUF DER NATUR BASIEREND",
+    "button": "KONTAKTIEREN SIE UNS"
+  },
+  "othersHero": {
+    "title": "SONSTIGES",
+    "description1": "Bei Verderaíz engagieren wir uns für die",
+    "description2": "EINHALTUNG VON VORSCHRIFTEN",
+    "button": "KONTAKTIEREN SIE UNS"
   },
   "footer": {
     "title": "KONTAKTIERE UNS",

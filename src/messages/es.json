@@ -15,7 +15,7 @@
     "aboutUsLink": "/nosotros",
     "identity": "Identidad",
     "ethicsPolicies": "Póliticas de Ética",
-    "ethicsPoliciesLink": "politicas-de-etica",
+    "ethicsPoliciesLink": "/politicas-de-etica",
     "services": "Servicios",
     "servicesLink": "/servicios",
     "servicesComprehensiveProjects": "Proyectos Integrales",
@@ -156,11 +156,6 @@
     "title": "Estas políticas son revisadas periódicamente para asegurar que reflejen nuestros valores y se alineen con las mejores prácticas de la industria. Todos los colaboradores de Verderaíz son responsables de adherirse a estas políticas y actuar como embajadores de nuestros principios éticos. En Verderaiz, cada persona es valorada por lo que es, y buscamos construir juntos un futuro más justo, inclusivo, sostenible y ético para todas las comunidades.",
     "quote": "\"LA DIVERSIDAD NOS FORTALECE, LA INCLUSIÓN NOS UNE, Y LA ÉTICA Y TRANSPARENCIA NOS GUÍAN HACIA UN FUTURO SOSTENIBLE.\""
   },
-  "heroServices": {
-    "title": "VERDERAÍZ",
-    "description": "Desde la raíz del problema, hacia un impacto positivo: Servicios que integran sostenibilidad en cada decisión.",
-    "button": "EMPEZAR MI PROYECTO"
-  },
   "trainingServices": {
     "subtitle": "CAPACITACIÓN",
     "description1": "Nuestras capacitaciones en conciencia ambiental están diseñadas para educar y sensibilizar a equipos y empleados sobre las mejores prácticas ambientales, el cumplimiento normativo, y la importancia de la sostenibilidad en la operación diaria. A través de dinámicas de aprendizaje y contenido especializado, fomentamos una cultura organizacional orientada al cuidado del medio ambiente.",
@@ -208,6 +203,35 @@
     "subtitle": "ESTUDIO DE RIESGO",
     "description1": "Evaluamos los riesgos de accidentes o desastres ambientales que podrían ocurrir durante la operación de un proyecto. Incluye análisis de impacto potencial sobre la salud humana, los ecosistemas, y la infraestructura, permitiendo a las empresas implementar medidas para evitar o minimizar estos riesgos.",
     "description2": "Este estudio es fundamental para la prevención y preparación ante posibles incidentes ambientales, especialmente en sectores de alta complejidad, como hidrocarburos, químico, y minería. Ayuda a las empresas a proteger sus activos y personal, cumpliendo con las exigencias legales y demostrando un compromiso sólido con la seguridad ambiental."
+  },
+  "comprehensiveProjectsHero": {
+    "title": "Proyectos Integrales",
+    "description": "Soluciones que transforman sistemas",
+    "button": "EMPEZAR MI PROYECTO"
+  },
+  "coursesAndWorkshopsHero": {
+    "title": "Cursos y talleres",
+    "description1": "Sembramos conocimiento",
+    "description2": "COSECHAMOS UN FUTURO SOSTENIBLE",
+    "button": "CONTÁCTANOS"
+  },
+  "socioculturalSolutionsHero": {
+    "title": "Soluciones Socioculturales",
+    "description1": "La solucion reside en la",
+    "description2": "COLABORACIÓN",
+    "button": "CONTÁCTANOS"
+  },
+  "environmentalSolutionsHero": {
+    "title": "Soluciones ambientales",
+    "description1": "Soluciones  de regeneración ecosistemica",
+    "description2": "BASADAS EN LA NATURALEZA",
+    "button": "CONTÁCTANOS"
+  },
+  "othersHero": {
+    "title": "OTROS",
+    "description1": "En verderaíz estamos comprometidos con el ",
+    "description2": "CUMPLIMIENTO NORMATIVO",
+    "button": "CONTÁCTANOS"
   },
   "footer": {
     "title": "CONTÁCTANOS",
