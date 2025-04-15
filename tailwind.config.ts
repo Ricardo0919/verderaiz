@@ -19,6 +19,7 @@ export default {
         'blog-BG': '#121e15',
         'light-green-blog': '#49724b',
         'light-beige': '#f8f8f6',
+        'verderaiz-green': '#546357',
       },
       animation: {
         'spin-once': 'spin-once 0.5s linear forwards',

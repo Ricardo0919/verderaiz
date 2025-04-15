@@ -15,7 +15,7 @@
     "aboutUsLink": "/a-propos",
     "identity": "Identité",
     "ethicsPolicies": "Politiques d'éthique",
-    "ethicsPoliciesLink": "politiques-d-ethique",
+    "ethicsPoliciesLink": "/politiques-d-ethique",
     "services": "Services",
     "servicesLink": "/services-fr",
     "servicesComprehensiveProjects": "Projets Intégraux",
@@ -156,11 +156,6 @@
     "title": "Ces politiques sont régulièrement révisées pour s'assurer qu'elles reflètent nos valeurs et qu'elles s'alignent avec les meilleures pratiques de l'industrie. Tous les collaborateurs de Verderaíz sont responsables de respecter ces politiques et d'agir en tant qu'ambassadeurs de nos principes éthiques. Chez Verderaíz, chaque personne est valorisée pour ce qu'elle est, et nous cherchons à construire ensemble un avenir plus juste, inclusif, durable et éthique pour toutes les communautés.",
     "quote": "\"LA DIVERSITÉ NOUS RENFORCE, L'INCLUSION NOUS UNIT, ET L'ÉTHIQUE ET LA TRANSPARENCE NOUS GUIDENT VERS UN AVENIR DURABLE.\""
   },
-  "heroServices": {
-    "title": "VERDERAÍZ",
-    "description": "De la racine du problème à un impact positif : des services qui intègrent la durabilité dans chaque décision.\n\n",
-    "button": "COMMENCER MON PROJET"
-  },
   "trainingServices": {
     "subtitle": "FORMATION",
     "description1": "Nos formations en sensibilisation environnementale sont conçues pour éduquer et sensibiliser les équipes et les employés aux meilleures pratiques environnementales, à la conformité réglementaire et à l'importance de la durabilité dans les opérations quotidiennes. Grâce à des activités d'apprentissage dynamiques et à un contenu spécialisé, nous favorisons une culture organisationnelle axée sur le respect de l'environnement.",
@@ -208,6 +203,35 @@
     "subtitle": "ÉTUDE DE RISQUE",
     "description1": "Nous évaluons les risques d'accidents ou de catastrophes environnementales pouvant survenir lors de l'exploitation d’un projet. L’étude inclut une analyse des impacts potentiels sur la santé humaine, les écosystèmes et les infrastructures, permettant aux entreprises de mettre en œuvre des mesures pour éviter ou minimiser ces risques.",
     "description2": "Cette étude est essentielle pour la prévention et la préparation face à d’éventuels incidents environnementaux, notamment dans les secteurs complexes comme les hydrocarbures, la chimie et l’exploitation minière. Elle aide les entreprises à protéger leurs actifs et leur personnel, à respecter les exigences légales et à démontrer un engagement fort envers la sécurité environnementale."
+  },
+  "comprehensiveProjectsHero": {
+    "title": "Projets Intégraux",
+    "description": "Des solutions qui transforment les systèmes",
+    "button": "DÉMARRER MON PROJET"
+  },
+  "coursesAndWorkshopsHero": {
+    "title": "Cours et Ateliers",
+    "description1": "Nous semons le savoir",
+    "description2": "NOUS RÉCOLTONS UN AVENIR DURABLE",
+    "button": "CONTACTEZ-NOUS"
+  },
+  "socioculturalSolutionsHero": {
+    "title": "Solutions Socioculturelles",
+    "description1": "La solution réside dans la",
+    "description2": "COLLABORATION",
+    "button": "CONTACTEZ-NOUS"
+  },
+  "environmentalSolutionsHero": {
+    "title": "Solutions Environnementales",
+    "description1": "Solutions de régénération des écosystèmes",
+    "description2": "BASÉES SUR LA NATURE",
+    "button": "CONTACTEZ-NOUS"
+  },
+  "othersHero": {
+    "title": "AUTRES",
+    "description1": "Chez Verderaíz, nous nous engageons à respecter",
+    "description2": "LA CONFORMITÉ RÉGLEMENTAIRE",
+    "button": "CONTACTEZ-NOUS"
   },
   "footer": {
     "title": "CONTACTEZ-NOUS",
