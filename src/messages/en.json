@@ -161,22 +161,6 @@
     "description": "From the root of the problem to a positive impact: Services that integrate sustainability into every decision.\n\n",
     "button": "START MY PROJECT"
   },
-  "environmentalServices": {
-    "title": "WHAT WE DO",
-    "subtitle": "ENVIRONMENTAL IMPACT ASSESSMENT",
-    "description1": "It is a technical study that evaluates the potential effects of a project on the environment. Through an EIA, we identify, prevent, and mitigate negative impacts before the planned activities are executed. This study is essential for construction, infrastructure, industry, and tourism projects, among others.",
-    "description2": "The EIA is an indispensable requirement for projects that may affect the natural environment, as it allows for informed and sustainable decision-making. Additionally, it ensures compliance with environmental regulations in Mexico, avoiding penalties and strengthening the company's reputation."
-  },
-  "preventiveServices": {
-    "subtitle": "PREVENTIVE\nREPORT",
-    "description1": "It is a tool that allows authorities and companies to assess whether a project has the potential to cause environmental harm, considering associated risks and proposed activities. This report is required for projects with lesser impact, although still significant in terms of sustainability and responsibility.",
-    "description2": "It facilitates the validation of projects that, due to their scale or characteristics, do not require a full EIA. Additionally, it enables companies to identify preventive measures and ensures compliance with regulations, promoting responsible practices and avoiding regulatory conflicts or delays."
-  },
-  "riskServices": {
-    "subtitle": "RISK\nASSESSMENT",
-    "description1": "We evaluate the risks of accidents or environmental disasters that could occur during a project's operation. This includes analyzing potential impacts on human health, ecosystems, and infrastructure, allowing companies to implement measures to prevent or minimize these risks.",
-    "description2": "This study is essential for prevention and preparation for possible environmental incidents, especially in highly complex sectors such as hydrocarbons, chemicals, and mining. It helps companies protect their assets and personnel, comply with legal requirements, and demonstrate a strong commitment to environmental safety."
-  },
   "trainingServices": {
     "subtitle": "TRAINING",
     "description1": "Our environmental awareness training programs are designed to educate and raise awareness among teams and employees about best environmental practices, regulatory compliance, and the importance of sustainability in daily operations. Through dynamic learning activities and specialized content, we foster an organizational culture oriented towards environmental care.",
@@ -194,6 +178,36 @@
   "blogStandardsButton": {
     "blogStandardsButtonTitle": "Editorial Guidelines",
     "blogStandardsButtonText": "To publish with us, please review and download the editorial guidelines here."
+  },
+  "environmentalImpactProceduresHero": {
+    "title": "Environmental Impact Procedures",
+    "description1": "More than a requirement",
+    "description2": "An Opportunity to Make a Mark",
+    "button": "CONTACT US"
+  },
+  "environmentalImpactProceduresQuote": {
+    "quote": "At Verderaiz, we believe that every project has the power to transform its surroundings. Environmental impact procedures are not just a legal obligation, but a key tool to ensure that development goes hand in hand with environmental preservation."
+  },
+  "environmentalImpactProceduresQuestion": {
+    "question": "What do we achieve with these procedures?",
+    "text1": "Identify, assess, and mitigate potential negative effects of project activities on the environment.",
+    "text2": "Regulatory compliance.",
+    "text3": "Ensure that your project becomes a model of sustainability and social responsibility."
+  },
+  "environmentalImpactService": {
+    "title": "ENVIRONMENTAL IMPACT STATEMENT (EIS)",
+    "description1": "It is a technical study that assesses the potential effects of a project on the environment. Through an EIS, we identify, prevent, and mitigate negative impacts before the planned activities are carried out. This study is essential for construction, infrastructure, industrial, and tourism projects, among others.",
+    "description2": "The EIS is a mandatory requirement for projects that may affect the natural environment, as it enables informed and sustainable decision-making. It also ensures compliance with environmental regulations in Mexico, avoiding penalties and strengthening the company's reputation."
+  },
+  "environmentalImpactPreventiveServices": {
+    "title": "PREVENTIVE REPORT",
+    "description1": "It is a tool that allows authorities and companies to assess whether a project has the potential to cause environmental harm, considering the associated risks and proposed activities. This report is required for projects with lower impact, yet still important in terms of sustainability and responsibility.",
+    "description2": "It facilitates the validation of projects that, due to their scale or characteristics, do not require a full EIS. It also allows companies to identify preventive measures and ensures compliance with regulations, promoting responsible practices and avoiding regulatory conflicts or delays."
+  },
+  "environmentalImpactRiskServices": {
+    "subtitle": "RISK STUDY",
+    "description1": "We assess the risks of accidents or environmental disasters that could occur during the operation of a project. It includes an analysis of potential impacts on human health, ecosystems, and infrastructure, allowing companies to implement measures to prevent or minimize these risks.",
+    "description2": "This study is essential for prevention and preparedness against potential environmental incidents, especially in highly complex sectors such as hydrocarbons, chemicals, and mining. It helps companies protect their assets and personnel, comply with legal requirements, and demonstrate a strong commitment to environmental safety."
   },
   "footer": {
     "title": "CONTACT US",

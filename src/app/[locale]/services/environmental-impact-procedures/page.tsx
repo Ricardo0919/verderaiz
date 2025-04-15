@@ -1,10 +1,11 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
-import Hero from "../../../../components/Services/HeroServices";
-import EnvironmentalImpact from "../../../../components/Services/EnvironmentalImpact";
-import PreventiveReport from "@/components/Services/PreventiveReport";
-import RiskStudy from "@/components/Services/RiskStudy";
-import Training from "@/components/Services/Training";
+import Hero from "../../../../components/Services/EnvironmentalImpactProcedures/Hero";
+import Quote from "../../../../components/Services/EnvironmentalImpactProcedures/Quote";
+import Question from "../../../../components/Services/EnvironmentalImpactProcedures/Question";
+import EnvironmentalImpact from "../../../../components/Services/EnvironmentalImpactProcedures/EnvironmentalImpact";
+import PreventiveReport from "@/components/Services/EnvironmentalImpactProcedures/PreventiveReport";
+import RiskStudy from "@/components/Services/EnvironmentalImpactProcedures/RiskStudy";
 import Footer from "@/components/Footer";
 import ButtonLanguage from "@/components/ButtonLanguage";
 
@@ -15,10 +16,11 @@ export default function Services() {
             <Navbar/>
             <ButtonLanguage/>
             <Hero/>
+            <Quote/>
+            <Question/>
             <EnvironmentalImpact/>
             <PreventiveReport/>
             <RiskStudy/>
-            <Training/>
             <Footer/>
         </div>
     );

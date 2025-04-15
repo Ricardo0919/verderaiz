@@ -161,22 +161,6 @@
     "description": "De la racine du problème à un impact positif : des services qui intègrent la durabilité dans chaque décision.\n\n",
     "button": "COMMENCER MON PROJET"
   },
-  "environmentalServices": {
-    "title": "CE QUE NOUS FAISONS",
-    "subtitle": "ÉTUDE D'IMPACT ENVIRONNEMENTAL",
-    "description1": "Il s'agit d'une étude technique qui évalue les effets potentiels d'un projet sur l'environnement. Grâce à une EIE, nous identifions, prévenons et atténuons les impacts négatifs avant que les activités prévues ne soient exécutées. Cette étude est essentielle pour les projets de construction, d'infrastructure, d'industrie et de tourisme, entre autres.",
-    "description2": "L'EIE est une exigence indispensable pour les projets susceptibles d'affecter l'environnement naturel, car elle permet de prendre des décisions éclairées et durables. En outre, elle garantit le respect de la réglementation environnementale au Mexique, évitant les sanctions et renforçant la réputation de l'entreprise."
-  },
-  "preventiveServices": {
-    "subtitle": "RAPPORT\nPRÉVENTIF",
-    "description1": "C'est un outil qui permet aux autorités et aux entreprises d'évaluer si un projet a le potentiel de causer des dommages environnementaux, en prenant en compte les risques associés et les activités proposées. Ce rapport est requis pour les projets ayant un impact moindre, mais tout aussi importants en termes de durabilité et de responsabilité.",
-    "description2": "Il facilite la validation des projets qui, en raison de leur échelle ou de leurs caractéristiques, ne nécessitent pas une EIE complète. De plus, il permet aux entreprises d'identifier des mesures préventives et garantit le respect des réglementations, en favorisant des pratiques responsables et en évitant les conflits ou retards réglementaires."
-  },
-  "riskServices": {
-    "subtitle": "ÉTUDE DE\nRISQUE",
-    "description1": "Nous évaluons les risques d'accidents ou de catastrophes environnementales pouvant survenir pendant l'exploitation d'un projet. Cela inclut une analyse des impacts potentiels sur la santé humaine, les écosystèmes et les infrastructures, permettant aux entreprises de mettre en œuvre des mesures pour éviter ou minimiser ces risques.",
-    "description2": "Cette étude est essentielle pour la prévention et la préparation aux incidents environnementaux possibles, en particulier dans les secteurs hautement complexes comme les hydrocarbures, la chimie et l'exploitation minière. Elle aide les entreprises à protéger leurs actifs et leur personnel, à respecter les exigences légales et à démontrer un engagement solide envers la sécurité environnementale."
-  },
   "trainingServices": {
     "subtitle": "FORMATION",
     "description1": "Nos formations en sensibilisation environnementale sont conçues pour éduquer et sensibiliser les équipes et les employés aux meilleures pratiques environnementales, à la conformité réglementaire et à l'importance de la durabilité dans les opérations quotidiennes. Grâce à des activités d'apprentissage dynamiques et à un contenu spécialisé, nous favorisons une culture organisationnelle axée sur le respect de l'environnement.",
@@ -194,6 +178,36 @@
   "blogStandardsButton": {
     "blogStandardsButtonTitle": "Normes éditoriales",
     "blogStandardsButtonText": "Pour publier avec nous, veuillez consulter et télécharger les normes éditoriales ici."
+  },
+  "environmentalImpactProceduresHero": {
+    "title": "Procédures d'impact environnemental",
+    "description1": "Plus qu'une obligation",
+    "description2": "Une opportunité de laisser une empreinte",
+    "button": "CONTACTEZ-NOUS"
+  },
+  "environmentalImpactProceduresQuote": {
+    "quote": "Chez Verderaiz, nous croyons que chaque projet a le pouvoir de transformer son environnement. Les procédures d'impact environnemental ne sont pas seulement une obligation légale, mais un outil essentiel pour garantir que le développement s’accompagne de la préservation de l’environnement."
+  },
+  "environmentalImpactProceduresQuestion": {
+    "question": "Que permettent ces procédures ?",
+    "text1": "Identifier, évaluer et atténuer les effets négatifs potentiels des activités du projet sur l’environnement.",
+    "text2": "Conformité réglementaire.",
+    "text3": "Faire en sorte que votre projet devienne un exemple de durabilité et de responsabilité sociale."
+  },
+  "environmentalImpactService": {
+    "title": "ÉTUDE D’IMPACT ENVIRONNEMENTAL (EIE)",
+    "description1": "Il s'agit d'une étude technique qui évalue les effets potentiels d’un projet sur l’environnement. Grâce à une EIE, nous identifions, prévenons et atténuons les impacts négatifs avant que les activités prévues ne soient mises en œuvre. Cette étude est essentielle pour les projets de construction, d’infrastructure, industriels et touristiques, entre autres.",
+    "description2": "L’EIE est une exigence indispensable pour les projets susceptibles d’affecter l’environnement naturel, car elle permet de prendre des décisions éclairées et durables. Elle assure également la conformité à la réglementation environnementale au Mexique, évite les sanctions et renforce la réputation de l’entreprise."
+  },
+  "environmentalImpactPreventiveServices": {
+    "title": "RAPPORT PRÉVENTIF",
+    "description1": "Il s'agit d’un outil permettant aux autorités et aux entreprises d’évaluer si un projet présente un risque potentiel pour l’environnement, en tenant compte des risques associés et des activités proposées. Ce rapport est requis pour les projets à faible impact, mais tout aussi importants en matière de durabilité et de responsabilité.",
+    "description2": "Il facilite la validation de projets qui, de par leur échelle ou leurs caractéristiques, ne nécessitent pas une EIE complète. Il permet également aux entreprises d’identifier des mesures préventives et garantit le respect de la réglementation, en promouvant des pratiques responsables et en évitant les conflits ou retards réglementaires."
+  },
+  "environmentalImpactRiskServices": {
+    "subtitle": "ÉTUDE DE RISQUE",
+    "description1": "Nous évaluons les risques d'accidents ou de catastrophes environnementales pouvant survenir lors de l'exploitation d’un projet. L’étude inclut une analyse des impacts potentiels sur la santé humaine, les écosystèmes et les infrastructures, permettant aux entreprises de mettre en œuvre des mesures pour éviter ou minimiser ces risques.",
+    "description2": "Cette étude est essentielle pour la prévention et la préparation face à d’éventuels incidents environnementaux, notamment dans les secteurs complexes comme les hydrocarbures, la chimie et l’exploitation minière. Elle aide les entreprises à protéger leurs actifs et leur personnel, à respecter les exigences légales et à démontrer un engagement fort envers la sécurité environnementale."
   },
   "footer": {
     "title": "CONTACTEZ-NOUS",

@@ -90,7 +90,7 @@ const nextConfig: NextConfig = {
                 destination: "/:first/services/environmental-impact-procedures",
             },
             {
-                source: "/:first/dienstleistungen/umweltverträglichkeitsverfahren",
+                source: "/:first/dienstleistungen/umweltvertraglichkeitsverfahren",
                 destination: "/:first/services/environmental-impact-procedures",
             },
             {
