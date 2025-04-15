@@ -24,6 +24,7 @@ interface Slide {
     img: StaticImageData;
     alt: string;
     description: React.ReactNode;
+    link: string;
 }
 
 function Slider() {
@@ -40,7 +41,8 @@ function Slider() {
                 p: (chunks) => <p className="text-center">{chunks}</p>,
                 ul: (chunks) => <ul className="text-left list-disc pl-5 mt-4">{chunks}</ul>,
                 li: (chunks) => <li>{chunks}</li>
-            })
+            }),
+            link: l("servicesEnvironmentalImpactProceduresLink")
         },
         {
             id: 2,
@@ -51,7 +53,8 @@ function Slider() {
                 p: (chunks) => <p className="text-center">{chunks}</p>,
                 ul: (chunks) => <ul className="text-left list-disc pl-5 mt-4">{chunks}</ul>,
                 li: (chunks) => <li>{chunks}</li>
-            })
+            }),
+            link: l("servicesEnvironmentalImpactProceduresLink")
         },
         {
             id: 3,
@@ -62,7 +65,8 @@ function Slider() {
                 p: (chunks) => <p className="text-center">{chunks}</p>,
                 ul: (chunks) => <ul className="text-left list-disc pl-5 mt-4">{chunks}</ul>,
                 li: (chunks) => <li>{chunks}</li>
-            })
+            }),
+            link: l("servicesCoursesWorkshopsLink")
         },
         {
             id: 4,
@@ -73,7 +77,8 @@ function Slider() {
                 p: (chunks) => <p className="text-center">{chunks}</p>,
                 ul: (chunks) => <ul className="text-left list-disc pl-5 mt-4">{chunks}</ul>,
                 li: (chunks) => <li>{chunks}</li>
-            })
+            }),
+            link: l("servicesEnvironmentalImpactProceduresLink")
         },
         {
             id: 5,
@@ -84,7 +89,8 @@ function Slider() {
                 p: (chunks) => <p className="text-center">{chunks}</p>,
                 ul: (chunks) => <ul className="text-left list-disc pl-5 mt-4">{chunks}</ul>,
                 li: (chunks) => <li>{chunks}</li>
-            })
+            }),
+            link: l("servicesComprehensiveProjectsLink")
         },
         {
             id: 6,
@@ -95,7 +101,8 @@ function Slider() {
                 p: (chunks) => <p className="text-center">{chunks}</p>,
                 ul: (chunks) => <ul className="text-left list-disc pl-5 mt-4">{chunks}</ul>,
                 li: (chunks) => <li>{chunks}</li>
-            })
+            }),
+            link: l("servicesComprehensiveProjectsLink")
         },
         {
             id: 7,
@@ -106,7 +113,8 @@ function Slider() {
                 p: (chunks) => <p className="text-center">{chunks}</p>,
                 ul: (chunks) => <ul className="text-left list-disc pl-5 mt-4">{chunks}</ul>,
                 li: (chunks) => <li>{chunks}</li>
-            })
+            }),
+            link: l("servicesComprehensiveProjectsLink")
         },
         {
             id: 8,
@@ -117,7 +125,8 @@ function Slider() {
                 p: (chunks) => <p className="text-center">{chunks}</p>,
                 ul: (chunks) => <ul className="text-left list-disc pl-5 mt-4">{chunks}</ul>,
                 li: (chunks) => <li>{chunks}</li>
-            })
+            }),
+            link: l("servicesSocioculturalSolutionsLink")
         },
         {
             id: 9,
@@ -128,7 +137,8 @@ function Slider() {
                 p: (chunks) => <p className="text-center">{chunks}</p>,
                 ul: (chunks) => <ul className="text-left list-disc pl-5 mt-4">{chunks}</ul>,
                 li: (chunks) => <li>{chunks}</li>
-            })
+            }),
+            link: l("servicesEnvironmentalSolutionsLink")
         },
         {
             id: 10,
@@ -139,7 +149,8 @@ function Slider() {
                 p: (chunks) => <p className="text-center">{chunks}</p>,
                 ul: (chunks) => <ul className="text-left list-disc pl-5 mt-4">{chunks}</ul>,
                 li: (chunks) => <li>{chunks}</li>
-            })
+            }),
+            link: l("servicesOthersLink")
         }
     ];
 
@@ -299,7 +310,7 @@ function Slider() {
                                                         {slide.description}
                                                     </div>
                                                     <div className="relative flex justify-center z-10 mb-8">
-                                                        <Link href={l("servicesLink")}>
+                                                        <Link href={slide.link}>
                                                             <button
                                                                 onClick={handleLink}
                                                                 className="font-zendots text-white border-2 border-white py-2 px-4 xl:px-6 rounded-[30px] text-xs xl:text-lg transform hover:scale-125 transition-transform duration-300"
