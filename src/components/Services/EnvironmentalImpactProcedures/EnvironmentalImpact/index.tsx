@@ -9,7 +9,7 @@ function EnvironmentalImpact() {
     return (
         <div className="text-black px-10 md:px-20 xl:px-32 lg:pt-10 xl:pt-20 bg-light-beige">
             {/*Title*/}
-            <h2 className="text-center font-[1000] font-cambay text-3xl tracking-[2px] mt-6 md:text-left md:text-2xl md:mt-0 lg:text-3xl xl:text-5xl md:tracking-[7px] lg:tracking-[10px] xl:tracking-[18px]">
+            <h2 className="text-center font-[1000] font-cambay text-3xl tracking-[2px] pt-6 md:text-left md:text-2xl md:pt-0 lg:text-3xl xl:text-5xl md:tracking-[7px] lg:tracking-[10px] xl:tracking-[18px]">
                 {t("title")}
             </h2>
 

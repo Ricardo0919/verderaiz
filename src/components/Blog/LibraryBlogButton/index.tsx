@@ -38,7 +38,9 @@ function LibraryBlogButton() {
                 {/* Biblioteca */}
                 <Link href={t("blogLibraryLink")} className="mx-10 md:mx-0 mt-3 md:mt-0 lg:mr-[-24px] xl:mr-[-24px]">
                     <button className="bg-light-green-blog h-24 lg:px-8 md:h-[100px] rounded-[20px] text-lg xl:text-2xl font-zendots font-bold uppercase hover:bg-dark-green hover:scale-110 transition ease-in-out duration-300">
-                        {t("blogLibrary")}
+                        <p className="mx-5">
+                            {t("blogLibrary")}
+                        </p>
                     </button>
                 </Link>
             </div>
