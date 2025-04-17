@@ -1,12 +1,30 @@
 "use client";
-import React from "react";
+
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import mainBlog from "@/assets/images/Blog/MainBlog/mainBlog.png";
 import blogBG2 from "@/assets/images/Blog/MainBlog/blogBG2.png";
-import {useTranslations} from "next-intl";
+import { useTranslations } from "next-intl";
 
 function MainBlog() {
     const t = useTranslations("mainBlog");
+    const [latestTitle, setLatestTitle] = useState<string>("");
+
+    useEffect(() => {
+        async function fetchLatestTitle() {
+            try {
+                const res = await fetch("https://blog.verderaiz.com.mx/wp-json/wp/v2/posts?_embed&per_page=1");
+                const data = await res.json();
+                const title = data?.[0]?.title?.rendered || "";
+                setLatestTitle(title);
+            } catch (error) {
+                console.error("Error fetching blog title:", error);
+            }
+        }
+
+        fetchLatestTitle();
+    }, []);
+
     return (
         <div className="flex flex-col -mt-1 items-center justify-center relative">
             <Image
@@ -47,7 +65,6 @@ function MainBlog() {
                             src={mainBlog}
                             alt="MainBlog"
                             priority
-                            className=""
                         />
                         <p
                             className="
@@ -57,16 +74,15 @@ function MainBlog() {
               md:bottom-5 md:left-5 md:right-5 md:text-base
               lg:text-lg
               xl:text-2xl
+              text-white drop-shadow-lg
             "
                         >
-                            {t("title")}
+                            {latestTitle}
                         </p>
                     </div>
                 </div>
 
                 {/* Columna Derecha */}
-                {/* Hacemos que este contenedor ocupe todo el alto (md:h-full)
-          y dentro creamos dos div flex-1 para que se repartan 50/50 */}
                 <div className="mx-8 flex flex-col gap-y-6 md:mx-0 md:w-5/12 md:h-full">
                     <div
                         className="
@@ -74,13 +90,19 @@ function MainBlog() {
             rounded-[20px]
             text-center
             px-8 py-2
-            font-cambay font-bold md:text-[12px]
-            lg:py-4 lg:text-[12px]
-            xl:py-10 xl:text-[16px]
-            flex-1
+            font-cambay md:text-[16px]
+            lg:py-4 lg:text-[19px]
+            xl:py-10 xl:text-[25px]
+            flex-1 uppercase
           "
                     >
-                        {t("quote1")}
+                        {t.rich("quote1", {
+                            code: (chunks) => (
+                                <code className="font-black">
+                                    {chunks}
+                                </code>
+                            ),
+                        })}
                     </div>
                     <div
                         className="
@@ -88,13 +110,19 @@ function MainBlog() {
             rounded-[20px]
             text-center
             px-8 py-2
-            font-cambay font-bold md:text-[12px]
-            lg:py-4 lg:text-[12px]
-            xl:py-10 xl:text-[16px]
-            flex-1
+            font-cambay md:text-[16px]
+            lg:py-4 lg:text-[19px]
+            xl:py-10 xl:text-[25px]
+            flex-1 uppercase
           "
                     >
-                        {t("quote2")}
+                        {t.rich("quote2", {
+                            code: (chunks) => (
+                                <code className="font-black">
+                                    {chunks}
+                                </code>
+                            ),
+                        })}
                     </div>
                 </div>
             </div>
