@@ -233,6 +233,38 @@
     "description2": "EINHALTUNG VON VORSCHRIFTEN",
     "button": "KONTAKTIEREN SIE UNS"
   },
+  "othersQuote": {
+    "quote": "Entwicklung und Nachhaltigkeit können Hand in Hand gehen. Eine ordnungsgemäße Überprüfung von Flüssiggasanlagen gewährleistet einen sicheren Betrieb und verhindert Zwischenfälle wie Leckagen und Explosionen, die das menschliche Wohlbefinden und die Umwelt beeinträchtigen könnten. Unser Engagement besteht darin, sicherzustellen, dass die Energieindustrie verantwortungsvoll handelt, Emissionen reduziert und Ökosysteme schützt."
+  },
+  "othersInspectionUnit": {
+    "title": "Inspektionseinheit",
+    "subtitle": "Von der Mexikanischen Akkreditierungsstelle (EMA) akkreditierte und von der Energieregulierungsbehörde (CRE) autorisierte Inspektionseinheit"
+  },
+  "othersServiceDescription": {
+    "title": "Verifizierungseinheit; Ing. Gustavo Adolfo Hernández Alfaro UVSELP 154-C",
+    "description1": "Spezialisiert auf Planung (Projekterstellung), Beratung und Konformitätsbewertung (Technisches Gutachten) gemäß den strengen Kriterien der offiziellen mexikanischen Normen. Als eine <code>Akkreditierte und Autorisierte Verifizierungseinheit</code> verfügen wir über die Unterstützung und Anerkennung von Akkreditierungsstellen wie der <code>EMA</code> und der <code>Energiebundesregulierungsbehörde</code>.",
+    "description2": "Unser Team aus hochqualifizierten Experten mit umfangreicher Branchenerfahrung ermöglicht es uns, zuverlässige und hochwertige Verifizierungsdienste bereitzustellen, um die Einhaltung geltender Normen und Vorschriften zu gewährleisten. Bei Gasingenieurwesen sind wir stolz darauf, ein verlässlicher Ansprechpartner für unsere Kunden zu sein, der sichere und effiziente Lösungen in der Gasindustrie bietet."
+  },
+  "othersOfficialMexicanStandards": {
+    "title1": "Offizielle Mexikanische Normen",
+    "title2": "-LP-GAS-",
+    "standard1": "NOM-001-SESH-2014",
+    "subtitle1": "LP-GAS-VERTEILUNGSANLAGEN: ENTWURF, BAU UND SICHERE BETRIEBSBEDINGUNGEN.",
+    "description1": "Legt die minimalen technischen Sicherheitsanforderungen fest, die landesweit für den Entwurf, Bau und Betrieb von LP-Gas-Verteilungsanlagen zu erfüllen sind, bei denen die minimale Betriebstemperatur nicht unter 258,15 K (-15 °C) liegt, sowie das Verfahren zur Konformitätsbewertung mit dieser offiziellen mexikanischen Norm.",
+    "standard2": "NOM-003-SEDG-2004",
+    "subtitle2": "LP-GAS-TANKSTELLEN ZUR VERGASUNG: ENTWURF UND BAU.",
+    "description2": "Legt die minimalen technischen Sicherheitsanforderungen fest, die beim Entwurf und Bau von LP-Gas-Tankstellen mit festen Lagereinheiten zu beachten sind, die ausschließlich zum Befüllen von Fahrzeugtanks mit LP-Gas verwendet werden. Außerdem wird das Verfahren zur Konformitätsbewertung festgelegt.",
+    "standard3": "NOM-004-SEDG-2004",
+    "subtitle3": "LP-GAS-NUTZUNGSANLAGEN: ENTWURF UND BAU.",
+    "description3": "Legt die technischen Sicherheitsanforderungen innerhalb Mexikos für den Entwurf, Bau und die Modifikation von festen und dauerhaften LP-Gas-Nutzungsanlagen sowie für die Konformitätsbewertung fest. Bei Anlagen, die LP-Gas aus einem Verteilungsnetz erhalten, gilt diese Norm ab dem Zähler des Nutzers.",
+    "standard4": "NOM-005-SESH-2010",
+    "subtitle4": "LP-GAS-NUTZUNGSGERÄTE IN KRAFTFAHRZEUGEN UND STATIONÄREN VERBRENNUNGSMOTOREN: INSTALLATION UND WARTUNG.",
+    "description4": "Legt die technischen Mindestanforderungen für die Installation von LP-Gas-Nutzungsgeräten in Fahrzeugen und stationären Verbrennungsmotoren sowie die erforderliche Mindestwartung für einen sicheren Betrieb fest und definiert das Verfahren zur Konformitätsbewertung.",
+    "standard5": "NOM-007-SESH-2010",
+    "subtitle5": "FAHRZEUGE FÜR DEN TRANSPORT UND DIE VERTEILUNG VON LP-GAS – SICHERHEITS-, BETRIEBS- UND WARTUNGSBEDINGUNGEN",
+    "description5": "Legt die minimalen Anforderungen an Sicherheit, Betrieb und Wartung beim Einsatz von Fahrzeugen für den Transport und die Verteilung von Flüssiggas fest. Diese offizielle mexikanische Norm gilt für folgende Fahrzeuge:\n\na) Sattelanhänger\nb) Verteiler-Tankwagen\nc) Transport-Tankwagen\nd) Lieferfahrzeuge",
+    "downloadButton": "HERUNTERLADEN"
+  },
   "footer": {
     "title": "KONTAKTIERE UNS",
     "project": "Lass uns über dein Projekt sprechen",

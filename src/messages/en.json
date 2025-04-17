@@ -233,6 +233,38 @@
     "description2": "REGULATORY COMPLIANCE",
     "button": "CONTACT US"
   },
+  "othersQuote": {
+    "quote": "Development and sustainability can go hand in hand. Proper verification of LP gas installations ensures safe operations and prevents incidents such as spills and explosions that may affect human well-being and the environment. Our commitment is to ensure that the energy industry operates responsibly, reducing the risk of emissions and protecting ecosystems."
+  },
+  "othersInspectionUnit": {
+    "title": "Inspection Unit",
+    "subtitle": "Inspection Unit Accredited by the Mexican Accreditation Entity (EMA) and Authorized by the Energy Regulatory Commission (CRE)"
+  },
+  "othersServiceDescription": {
+    "title": "Verification Unit; Eng. Gustavo Adolfo Hernández Alfaro UVSELP 154-C",
+    "description1": "Specialized in design (Project Generation), consulting, and conformity assessment (Technical Report) in accordance with the rigorous criteria established in the Official Mexican Standards. As an <code>Accredited and Authorized Verification Unit</code>, we are backed and recognized by accreditation bodies such as <code>EMA</code> and the <code>Energy Regulatory Commission</code>.",
+    "description2": "Our team of highly trained experts with extensive industry experience enables us to provide reliable and high-quality verification services, ensuring compliance with current standards and regulations. At Gas Engineering, we take pride in being a trusted reference for our clients, offering safe and efficient solutions in the gas industry."
+  },
+  "othersOfficialMexicanStandards": {
+    "title1": "Official Mexican Standards",
+    "title2": "-LP GAS-",
+    "standard1": "NOM-001-SESH-2014",
+    "subtitle1": "LP GAS DISTRIBUTION PLANTS: DESIGN, CONSTRUCTION, AND SAFE OPERATING CONDITIONS.",
+    "description1": "Establishes the minimum technical safety specifications to be met nationwide for the design, construction, and operation of LP gas distribution plants, where the minimum operating temperature is not lower than 258.15 K (-15 °C), as well as the procedure for evaluating compliance with this Official Mexican Standard.",
+    "standard2": "NOM-003-SEDG-2004",
+    "subtitle2": "LP GAS CARBURATION STATIONS: DESIGN AND CONSTRUCTION.",
+    "description2": "Establishes the minimum technical safety requirements to be observed and met in the design and construction of LP gas carburation stations with fixed storage, intended exclusively for filling containers with LP gas for vehicles using it as fuel. It also establishes the procedure for conformity assessment.",
+    "standard3": "NOM-004-SEDG-2004",
+    "subtitle3": "LP GAS UTILIZATION INSTALLATIONS: DESIGN AND CONSTRUCTION.",
+    "description3": "Establishes the minimum technical safety specifications within the Mexican Republic for the design, construction, and modification of fixed and permanent LP gas utilization installations, as well as for the evaluation of conformity. In installations receiving LP gas from a distribution network, this Standard applies from the user's meter onwards.",
+    "standard4": "NOM-005-SESH-2010",
+    "subtitle4": "LP GAS UTILIZATION EQUIPMENT IN AUTOMOTIVE VEHICLES AND STATIONARY INTERNAL COMBUSTION ENGINES: INSTALLATION AND MAINTENANCE.",
+    "description4": "Establishes the minimum technical safety requirements for the installation of LP gas utilization equipment in automotive vehicles and stationary internal combustion engines, as well as the minimum maintenance required for their safe operation, and defines the procedure for conformity assessment.",
+    "standard5": "NOM-007-SESH-2010",
+    "subtitle5": "VEHICLES FOR TRANSPORT AND DISTRIBUTION OF LP GAS – SAFETY, OPERATION AND MAINTENANCE CONDITIONS",
+    "description5": "Establishes the minimum conditions for safety, operation, and maintenance that must be met in the use of vehicles for the transport and distribution of liquefied petroleum gas. This Official Mexican Standard applies to the following vehicles:\n\na) Semi-trailers\nb) Distribution tank trucks\nc) Transport tank trucks\nd) Delivery vehicles",
+    "downloadButton": "DOWNLOAD"
+  },
   "footer": {
     "title": "CONTACT US",
     "project": "Let's talk about your project",

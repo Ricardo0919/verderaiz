@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import OfficialMexicanStandards from "@/components/Services/Others/OfficialMexicanStandards";
 
 export default {
   content: [
@@ -20,6 +21,7 @@ export default {
         'light-green-blog': '#49724b',
         'light-beige': '#f8f8f6',
         'verderaiz-green': '#546357',
+        'official-mexican-standards':'#e4e9e1',
       },
       animation: {
         'spin-once': 'spin-once 0.5s linear forwards',

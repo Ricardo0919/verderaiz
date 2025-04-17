@@ -233,6 +233,38 @@
     "description2": "LA CONFORMITÉ RÉGLEMENTAIRE",
     "button": "CONTACTEZ-NOUS"
   },
+  "othersQuote": {
+    "quote": "Le développement et la durabilité peuvent aller de pair. Une vérification correcte des installations de gaz LP garantit des opérations sûres et évite des incidents tels que les déversements et les explosions, qui peuvent nuire au bien-être humain et à l’environnement. Notre engagement est d’assurer que l’industrie énergétique fonctionne de manière responsable, en réduisant les risques d’émissions et en protégeant les écosystèmes."
+  },
+  "othersInspectionUnit": {
+    "title": "Unité d'inspection",
+    "subtitle": "Unité d'inspection accréditée par l’Organisme Mexicain d’Accréditation (EMA) et autorisée par la Commission de Régulation de l'Énergie (CRE)"
+  },
+  "othersServiceDescription": {
+    "title": "Unité de vérification ; Ing. Gustavo Adolfo Hernández Alfaro UVSELP 154-C",
+    "description1": "Spécialisés dans la conception (Génération de projets), le conseil et l’évaluation de la conformité (Rapport Technique) selon les critères rigoureux établis dans les Normes Officielles Mexicaines. En tant qu’<code>Unité de Vérification Accréditée et Autorisée</code>, nous bénéficions du soutien et de la reconnaissance d’organismes d’accréditation tels que <code>l’EMA</code> et la <code>Commission de Régulation de l’Énergie</code>.",
+    "description2": "Notre équipe d’experts hautement qualifiés et expérimentés dans l’industrie nous permet de fournir des services de vérification fiables et de qualité, garantissant le respect des normes et réglementations en vigueur. Chez Ingénierie du Gaz, nous sommes fiers d’être un partenaire de confiance pour nos clients, en offrant des solutions sûres et efficaces dans le secteur gazier."
+  },
+  "othersOfficialMexicanStandards": {
+    "title1": "Normes Officielles Mexicaines",
+    "title2": "-GAZ LP-",
+    "standard1": "NOM-001-SESH-2014",
+    "subtitle1": "USINES DE DISTRIBUTION DE GAZ LP : CONCEPTION, CONSTRUCTION ET CONDITIONS DE SÉCURITÉ POUR LEUR FONCTIONNEMENT.",
+    "description1": "Établit les spécifications techniques minimales de sécurité à respecter au niveau national pour la conception, la construction et l’exploitation des usines de distribution de gaz LP, dont la température minimale de fonctionnement n’est pas inférieure à 258,15 K (-15 °C), ainsi que la procédure d’évaluation de la conformité à cette norme officielle mexicaine.",
+    "standard2": "NOM-003-SEDG-2004",
+    "subtitle2": "STATIONS DE GAZ LP POUR LA CARBURATION : CONCEPTION ET CONSTRUCTION.",
+    "description2": "Établit les exigences techniques minimales de sécurité à respecter dans la conception et la construction de stations de gaz LP pour la carburation avec stockage fixe, destinées exclusivement au remplissage des réservoirs de véhicules utilisant ce gaz comme carburant. Elle établit également la procédure d’évaluation de la conformité.",
+    "standard3": "NOM-004-SEDG-2004",
+    "subtitle3": "INSTALLATIONS DE GAZ LP POUR L’UTILISATION : CONCEPTION ET CONSTRUCTION.",
+    "description3": "Établit, au sein de la République mexicaine, les spécifications techniques minimales de sécurité pour la conception, la construction et la modification des installations fixes et permanentes utilisant du gaz LP, ainsi que la procédure d’évaluation de la conformité. Pour les installations recevant du gaz LP via un réseau de distribution, cette norme s’applique à partir du compteur de l’utilisateur.",
+    "standard4": "NOM-005-SESH-2010",
+    "subtitle4": "ÉQUIPEMENT DE GAZ LP DANS LES VÉHICULES AUTOMOBILES ET MOTEURS À COMBUSTION INTERNE STATIONNAIRES : INSTALLATION ET MAINTENANCE.",
+    "description4": "Établit les exigences techniques minimales de sécurité à respecter pour l’installation d’équipements de gaz LP dans les véhicules et les moteurs à combustion interne stationnaires, ainsi que la maintenance minimale nécessaire à leur fonctionnement sûr, et définit la procédure d’évaluation de la conformité.",
+    "standard5": "NOM-007-SESH-2010",
+    "subtitle5": "VÉHICULES POUR LE TRANSPORT ET LA DISTRIBUTION DE GAZ LP – CONDITIONS DE SÉCURITÉ, DE FONCTIONNEMENT ET DE MAINTENANCE",
+    "description5": "Établit les conditions minimales de sécurité, de fonctionnement et de maintenance à respecter pour l’utilisation de véhicules servant au transport et à la distribution de gaz de pétrole liquéfié. Cette norme officielle mexicaine s’applique aux véhicules suivants :\n\na) Semi-remorques\nb) Camions-citernes de distribution\nc) Camions-citernes de transport\nd) Véhicules de livraison",
+    "downloadButton": "TÉLÉCHARGER"
+  },
   "footer": {
     "title": "CONTACTEZ-NOUS",
     "project": "Parlons de votre projet",

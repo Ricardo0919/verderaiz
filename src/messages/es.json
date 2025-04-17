@@ -233,6 +233,38 @@
     "description2": "CUMPLIMIENTO NORMATIVO",
     "button": "CONTÁCTANOS"
   },
+  "othersQuote": {
+    "quote": "El desarrollo y la sostenibilidad pueden ir de la mano. Una correcta verificación de instalaciones de gas LP garantiza operaciones seguras y evita incidentes  como derrames y explosiones, que puedan afectar el bienestar humano y el medio ambiente. Nuestro compromiso es asegurar que la industria energética opere con responsabilidad, reduciendo el riesgo a emisiones y protegiendo los ecosistemas."
+  },
+  "othersInspectionUnit": {
+    "title": "Unidad de inspección",
+    "subtitle": "Unidad de Inspección Acreditada por la Entidad Mexicana de Acreditación, A.C. (EMA) y Autorizada por la Comisión Reguladora de Energía (CRE)"
+  },
+  "othersServiceDescription": {
+    "title": "Unidad  de verificación; Ing.Gustavo Adolfo Hernández Alfaro UVSELP 154-C",
+    "description1": "Especializados en el diseño (Generación de Proyectos), asesoría y evaluación de la conformidad (Dictamen Técnico) conforme a los rigurosos criterios establecidos en las Normas Oficiales Mexicanas. Como una <code>Unidad de Verificación Acreditada y Autorizada</code>, contamos con el respaldo y reconocimiento de entidades de acreditación como la <code>EMA</code> y la <code>Comisión Reguladora de Energía</code>.",
+    "description2": "Nuestro equipo de expertos altamente capacitados y con amplia experiencia en la industria nos permite brindar servicios de verificación confiables y de calidad, en virtud de garantizar el cumplimiento de las normas y regulaciones vigentes. En Ingeniería en Gas, nos enorgullece ser una referencia confiable para nuestros clientes, ofreciendo soluciones seguras y eficientes en el campo de la industria gasera."
+  },
+  "othersOfficialMexicanStandards": {
+    "title1": "Normas oficiales mexicanas",
+    "title2": "-GAS LP-",
+    "standard1": "NOM-001-SESH-2014",
+    "subtitle1": "PLANTAS DE DISTRIBUCIÓN DE GAS L.P. DISEÑO, CONSTRUCCIÓN Y CONDICIONES SEGURAS EN SU OPERACIÓN.",
+    "description1": "Establece las especificaciones técnicas mínimas de seguridad que se deben cumplir en el territorio nacional para el diseño, construcción y operación de las plantas de distribución de Gas L.P., en las cuales la temperatura mínima de operación no es inferior a 258.15 K (-15 °C), así como el procedimiento para la evaluación de la conformidad con esta Norma Oficial Mexicana.",
+    "standard2": "NOM-003-SEDG-2004",
+    "subtitle2": "ESTACIONES DE GAS L.P. PARA CARBURACIÓN, DISEÑO Y CONSTRUCCIÓN.",
+    "description2": "Establece los requisitos técnicos mínimos de seguridad que se deben observar y cumplir en el diseño y construcción de estaciones de Gas L.P., para carburación con almacenamiento fijo, que se destinan exclusivamente a llenar recipientes con Gas L.P. de los vehículos que lo utilizan como combustible. Asimismo, se establece el procedimiento para la evaluación de la conformidad correspondiente.",
+    "standard3": "NOM-004-SEDG-2004",
+    "subtitle3": "INSTALACIONES DE APROVECHAMIENTO DE GAS L.P. DISEÑO Y CONSTRUCCIÓN.",
+    "description3": "Establece dentro de la República Mexicana las especificaciones técnicas mínimas de seguridad para el diseño, construcción y modificación de las instalaciones fijas y permanentes de aprovechamiento de Gas L.P., así como para la evaluación de la conformidad. En instalaciones que reciben Gas L.P. proveniente de una red de distribución, esta Norma aplica a partir del medidor del usuario.",
+    "standard4": "NOM-005-SESH-2010",
+    "subtitle4": "EQUIPO DE APROVECHAMIENTO DE GAS L.P. EN VEHÍCULOS AUTOMOTORES Y MOTORES ESTACIONARIOS DE COMBUSTIÓN INTERNA. INSTALACIÓN Y MANTENIMIENTO.",
+    "description4": "Establece los requisitos técnicos mínimos de seguridad que se deben de cumplir en las instalaciones de equipos de aprovechamiento de Gas L.P. en vehículos automotores y motores estacionarios de combustión interna, así como el mantenimiento mínimo que requieren estas instalaciones para su funcionamiento seguro, y señalar el procedimiento para la evaluación de la conformidad con esta Norma Oficial Mexicana.",
+    "standard5": "NOM-007-SESH-2010",
+    "subtitle5": "VEHÍCULOS PARA EL TRANSPORTE Y DISTRIBUCIÓN DE GAS L.P.- CONDICIONES DE SEGURIDAD, OPERACIÓN Y MANTENIMIENTO",
+    "description5": "Establece las condiciones mínimas de seguridad, operación y mantenimiento que se deben cumplir en lo que refiere al uso de vehículos para el transporte y distribución de gas licuado de petróleo.\nEsta Norma Oficial Mexicana aplica para los siguientes vehículos:\n\na) Semirremolques\nb) Auto-tanques de distribución\nc) Auto-tanques de transporte\nd) Vehículos de reparto",
+    "downloadButton": "DESCARGAR"
+  },
   "footer": {
     "title": "CONTÁCTANOS",
     "project": "Hablemos de tu proyecto",
