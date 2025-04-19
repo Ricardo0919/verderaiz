@@ -1,5 +1,4 @@
 import type { Config } from "tailwindcss";
-import OfficialMexicanStandards from "@/components/Services/Others/OfficialMexicanStandards";
 
 export default {
   content: [
