@@ -8,7 +8,7 @@ import Image, { StaticImageData } from "next/image";
 import image1Topic1 from "@/assets/images/Services/ComprehensiveProjects/WasteManagement/image1Topic1.png";
 import image2Topic1 from "@/assets/images/Services/ComprehensiveProjects/WasteManagement/image2Topic1.png";
 import image3Topic1 from "@/assets/images/Services/ComprehensiveProjects/WasteManagement/image3Topic1.png";
-import image4Topic1 from "@/assets/images/Services/ComprehensiveProjects/WasteManagement/image3Topic1.png";
+import image4Topic1 from "@/assets/images/Services/ComprehensiveProjects/WasteManagement/image4Topic1.png";
 
 // Tipos estrictos para las claves válidas
 type Topic1TitleKeys = "image1Topic1" | "image2Topic1" | "image3Topic1" | "image4Topic1";
