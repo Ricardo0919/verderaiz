@@ -204,6 +204,41 @@
     "description1": "Wir bewerten die Risiken von Unfällen oder Umweltkatastrophen, die während des Betriebs eines Projekts auftreten könnten. Die Studie beinhaltet eine Analyse der möglichen Auswirkungen auf die menschliche Gesundheit, Ökosysteme und Infrastruktur, wodurch Unternehmen Maßnahmen zur Vermeidung oder Minimierung dieser Risiken umsetzen können.",
     "description2": "Diese Studie ist entscheidend für die Prävention und Vorbereitung auf mögliche Umweltvorfälle, insbesondere in hochkomplexen Sektoren wie Erdöl, Chemie und Bergbau. Sie hilft Unternehmen, ihre Vermögenswerte und ihr Personal zu schützen, gesetzliche Anforderungen zu erfüllen und ein starkes Engagement für Umweltsicherheit zu zeigen."
   },
+  "environmentalSolutionsQuote": {
+    "quote": "Umweltzerstörung ist nicht das Ende – sie ist der Beginn einer Chance zur Regeneration. Wir entwerfen Wiederherstellungs- und Regenerationspläne für Ökosysteme mit naturbasierten und wissenschaftlich fundierten Lösungen."
+  },
+  "environmentalSolutionsBiodiversityInventory": {
+    "description1": "Wir führen umfassende Biodiversitätsinventuren durch, um Schlüsselarten und ihren Erhaltungszustand zu identifizieren.",
+    "description2": "Diese Informationen sind grundlegend für:",
+    "list1": "Umweltverträglichkeitsprüfungen (UVP)",
+    "list2": "Managementpläne für Schutzgebiete",
+    "imageQuote": "Inventare von Flora und Fauna"
+  },
+  "environmentalSolutionsEcoConnectivity": {
+    "description1": "Gestaltung von Biokorridoren oder Pufferzonen zur Verbindung von Habitatfragmenten.",
+    "list1": "Ermöglicht die Wanderung von Arten und den genetischen Austausch.",
+    "list2": "Gestaltung von bepflanzten Rändern, Wildtierquerungen oder Übergangszonen.",
+    "list3": "Ideal für landwirtschaftliche, touristische oder industrielle Gebiete in der Nähe natürlicher Lebensräume.",
+    "imageQuote": "Ökologische Konnektivität"
+  },
+  "environmentalSolutionsSoilManagement": {
+    "description1": "Maßnahmen zur Wiederherstellung der natürlichen Bodenstruktur, Fruchtbarkeit und Wasserdynamik des Standorts.",
+    "list1": "Konturen, Gräben, Gabionen, Versickerungsgruben, Feuchtgebiete, künstliche Teiche und weitere Techniken zur Rückhaltung von Wasser und Boden.",
+    "list2": "Renaturierung von Fließgewässern, Feuchtgebieten oder natürlichen Abflusswegen.",
+    "list3": "Erosionsschutztechniken und Technologien zur Förderung der Wasserversickerung in den Untergrund.",
+    "imageQuote": "Bodenmanagement und hydrologische Wiederherstellung"
+  },
+  "environmentalSolutionsLandscapeDesign": {
+    "list1": "Wiedereinführung einheimischer Flora und ursprünglicher Ökosystemarten zur Förderung der natürlichen Regeneration.",
+    "list2": "Hilft bei der Bodenstabilisierung, der Wiederherstellung der Biodiversität und der Rückkehr einheimischer Tierarten.",
+    "list3": "Wiederaufforstung und Begrünung mit einheimischen Arten, Baumverpflanzungen, Gestaltung von Beeten, urbanen Gärten, Baumschulen und gemeinschaftlichen Pflanzaktionen.",
+    "imageQuote": "Projekte für regeneratives Landschaftsdesign und Wiederaufforstung"
+  },
+  "environmentalSolutionsFinance": {
+    "title": "Finanzierung",
+    "description": "Bei Verderaíz verstehen wir, dass die Umsetzung nachhaltiger Lösungen eine Notwendigkeit ist, jedoch auch eine Investition darstellt. Um die technische und wirtschaftliche Umsetzbarkeit zu erleichtern und Nachhaltigkeit zugänglicher zu machen, bieten wir Finanzierungsmodelle an und empfehlen passende Optionen je nach den Eigenschaften jedes Projekts...",
+    "note": "*Optionen abhängig vom Projekttyp und dessen individueller Bewertung."
+  },
   "comprehensiveProjectsHero": {
     "title": "Umfassende Projekte",
     "description": "Lösungen, die Systeme transformieren",

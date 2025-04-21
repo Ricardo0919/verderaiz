@@ -204,6 +204,41 @@
     "description1": "We assess the risks of accidents or environmental disasters that could occur during the operation of a project. It includes an analysis of potential impacts on human health, ecosystems, and infrastructure, allowing companies to implement measures to prevent or minimize these risks.",
     "description2": "This study is essential for prevention and preparedness against potential environmental incidents, especially in highly complex sectors such as hydrocarbons, chemicals, and mining. It helps companies protect their assets and personnel, comply with legal requirements, and demonstrate a strong commitment to environmental safety."
   },
+  "environmentalSolutionsQuote": {
+    "quote": "Environmental degradation is not the end — it's the beginning of an opportunity to regenerate. We design Ecosystem Recovery and Regeneration Plans with nature-based and science-driven solutions."
+  },
+  "environmentalSolutionsBiodiversityInventory": {
+    "description1": "We conduct comprehensive biodiversity inventories that help identify key species and their conservation status.",
+    "description2": "This information is essential for:",
+    "list1": "Environmental Impact Assessments (EIA)",
+    "list2": "Protected Area Management Plans",
+    "imageQuote": "Flora and Fauna Inventories"
+  },
+  "environmentalSolutionsEcoConnectivity": {
+    "description1": "Design of biological corridors or buffer zones to connect habitat fragments.",
+    "list1": "Facilitates species movement and genetic flow.",
+    "list2": "Includes vegetated edges, wildlife crossings, or transition zones.",
+    "list3": "Ideal for agricultural, tourism, or industrial areas near natural environments.",
+    "imageQuote": "Ecological connectivity"
+  },
+  "environmentalSolutionsSoilManagement": {
+    "description1": "Actions to restore the site's natural structure, fertility, and water dynamics.",
+    "list1": "Contours, trenches, gabions, infiltration pits, wetlands, artificial ponds, and other techniques to retain water and soil.",
+    "list2": "Restoration of streams, wetlands, or natural runoff paths.",
+    "list3": "Erosion prevention techniques and technologies that enhance groundwater infiltration.",
+    "imageQuote": "Soil management and hydrological restoration"
+  },
+  "environmentalSolutionsLandscapeDesign": {
+    "list1": "Reintroduction of native flora and original ecosystem species to support natural regeneration.",
+    "list2": "Helps stabilize the soil, restore biodiversity, and attract native fauna.",
+    "list3": "Reforestation and revegetation with native species, tree transplants, garden bed design, urban gardens, nurseries, and community planting.",
+    "imageQuote": "Projects in regenerative landscape design and reforestation."
+  },
+  "environmentalSolutionsFinance": {
+    "title": "Financing",
+    "description": "At Verderaíz, we understand that implementing sustainable solutions is a necessity, but it also represents an investment. Therefore, to facilitate their technical and economic feasibility and make sustainability more attainable, we offer and recommend financing scheme options tailored to the characteristics of each project...",
+    "note": "*Options subject to the type of project and its specific evaluation."
+  },
   "comprehensiveProjectsHero": {
     "title": "Comprehensive Projects",
     "description": "Solutions that transform systems",

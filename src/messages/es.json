@@ -204,10 +204,40 @@
     "description1": "Evaluamos los riesgos de accidentes o desastres ambientales que podrían ocurrir durante la operación de un proyecto. Incluye análisis de impacto potencial sobre la salud humana, los ecosistemas, y la infraestructura, permitiendo a las empresas implementar medidas para evitar o minimizar estos riesgos.",
     "description2": "Este estudio es fundamental para la prevención y preparación ante posibles incidentes ambientales, especialmente en sectores de alta complejidad, como hidrocarburos, químico, y minería. Ayuda a las empresas a proteger sus activos y personal, cumpliendo con las exigencias legales y demostrando un compromiso sólido con la seguridad ambiental."
   },
-  "comprehensiveProjectsHero": {
-    "title": "Proyectos Integrales",
-    "description": "Soluciones que transforman sistemas",
-    "button": "EMPEZAR MI PROYECTO"
+  "environmentalSolutionsQuote": {
+    "quote": "La degradación ambiental no es el final, es el comienzo de una oportunidad para regenerar. Diseñamos Planes de Recuperación y Regeneración del Ecosistema con  soluciones basadas en la naturaleza y la ciencia."
+  },
+  "environmentalSolutionsBiodiversityInventory": {
+    "description1": "Realizamos inventarios completos de biodiversidad que permiten identificar especies clave y su estado de conservación.",
+    "description2": "Esta información es fundamental para:",
+    "list1": "Estudios de Impacto Ambiental (EIA)",
+    "list2": "Planes de Manejo de Áreas Protegidas",
+    "imageQuote": "Inventarios de Flora y Fauna"
+  },
+  "environmentalSolutionsEcoConnectivity": {
+    "description1": "Diseño de corredores biológicos o zonas de amortiguamiento para conectar fragmentos de hábitat.",
+    "list1": "Facilita el movimiento de especies y el flujo genético.",
+    "list2": "Se diseñan bordes vegetados, pasos de fauna o zonas de transición.",
+    "list3": "Ideal para zonas agrícolas, turísticas o industriales cercanas a áreas naturales.",
+    "imageQuote": "Conectividad ecológica"
+  },
+  "environmentalSolutionsSoilManagement": {
+    "description1": "Acciones para recuperar la estructura, fertilidad y dinámica hídrica natural del sitio.",
+    "list1": "Contornos, zanjas, gaviones pozos de absorción humedales, estanques artificiales y otras técnicas para retener agua y suelo.",
+    "list2": "Restauración de cauces, humedales o escurrimientos naturales.",
+    "list3": "Tecnicas de prevención de erosión y technologias facilitadoras de la infiltración de agua al subsuelo.",
+    "imageQuote": "Manejo del suelo y restauración hidrológica"
+  },
+  "environmentalSolutionsLandscapeDesign": {
+    "list1": "Reintroducción de flora nativa y propias del ecosistema original para favorecer su regeneración natural.",
+    "list2": "Ayuda a estabilizar el suelo, recuperar biodiversidad y atraer fauna nativa.",
+    "list3": "Reforestación y revegetación con especies nativas, transplantes arboreos, diseño de jardineras, huertos urbanos, viveros y siembras comunitarias.",
+    "imageQuote": "Proyectos en diseño de paisaje regenerativo y reforestación."
+  },
+  "environmentalSolutionsFinance": {
+    "title": "Financiamento",
+    "description": "En Verderaíz comprendemos que implementar soluciones sostenibles es una necesidad, pero también representa una inversión. Por ello, y con el fin de facilitar su viabilidad técnica y económica y hacer la sostenibilidad más alcanzable, ofrecemos y recomendamos opciones de esquemas de financiamiento segun las caracerísticas de cada proyecto...",
+    "note": "*Opciones sujetas al tipo de proyecto y su evaluación específica."
   },
   "comprehensiveProjectsQuote": {
     "quote": "La verdadera <code>sostenibilidad</code> ocurre cuando optimizamos <code>todo el sistema,</code> no solo sus partes."

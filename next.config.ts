@@ -123,7 +123,7 @@ const nextConfig: NextConfig = {
                 source: "/:first/services/solutions-socioculturelles",
                 destination: "/:first/services/sociocultural-solutions",
             },
-            // 🌱 Redirecciones para Environmental Solutions
+            // 🌱 Redirecciones para Quote
             {
                 source: "/:first/servicios/soluciones-ambientales",
                 destination: "/:first/services/environmental-solutions",
