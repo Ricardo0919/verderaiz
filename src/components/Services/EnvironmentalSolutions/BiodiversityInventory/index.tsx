@@ -30,7 +30,7 @@ function BiodiversityInventory() {
                             src={BioInventory}
                             alt="Biodiversity Inventory"
                             fill
-                            className="object-cover rounded-r-none rounded-l-[64px]"
+                            className="object-cover rounded-r-none rounded-l-[64px] sm:rounded-l-[42px] lg:rounded-l-[64px]"
                         />
                         <div className="absolute inset-0 flex items-center justify-center p-4 text-center">
                             <p className="text-white text-3xl md:text-2xl lg:text-4xl font-cambay p-4 rounded-lg">
