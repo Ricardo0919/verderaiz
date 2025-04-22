@@ -10,7 +10,7 @@ function Finance() {
         <div className="bg-light-beige flex flex-col items-right justify-center relative">
             <div className="bg-official-mexican-standards mx-10 py-10 mb-20 flex flex-col md:flex-row justify-between items-center md:mx-10 md:py-8 md:gap-8 md:px-4 lg:px-10 xl:mx-20 xl:gap-24 xl:px-20">
                 <div className="px-9 md:w-2/3 md:px-0">
-                    <p className="font-montserrat text-black text-center md:text-left md:pt-0 text-sm md:text-lg lg:text-xl xl:text-2xl">
+                    <p className="font-montserrat text-black text-center md:text-right md:pt-0 text-sm md:text-lg lg:text-xl xl:text-2xl">
                         {t.rich("description", {
                             code: (chunks) => (
                                 <code className="font-bold">
@@ -19,7 +19,7 @@ function Finance() {
                             ),
                         })}
                     </p>
-                    <p className="font-montserrat text-blog-BG text-center pt-4 italic md:text-left lg:text-lg xl:text-xl pb-10 md:pb-0">
+                    <p className="font-montserrat text-blog-BG text-center pt-4 italic md:text-right lg:text-lg xl:text-xl pb-10 md:pb-0">
                         {t("note")}
                     </p>
                 </div>

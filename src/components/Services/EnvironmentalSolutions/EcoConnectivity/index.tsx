@@ -17,8 +17,8 @@ function EcoConnectivity() {
                 className="absolute sm:w-2/3 md:left-0 rotate-180 bottom-1"
             />
 
-            <div className="flex flex-col justify-center items-stretch md:flex-row pb-12 xl:pb-20">
-                <div className="md:w-1/2 mr-9 flex items-stretch h-[220px] md:h-[140px] lg:h-[200px] xl:h-[246px] mt-9 md:mt-0 order-2 md:order-1">
+            <div className="flex flex-col justify-center items-stretch md:flex-row pb-12 xl:pb-20 md:items-center">
+                <div className="md:w-1/2 mr-9 flex items-stretch h-[220px] md:h-[120px] lg:h-[160px] xl:h-[180px] mt-9 md:mt-0 order-2 md:order-1">
                     <div className="relative w-full h-full md:h-auto md:pt-9">
                         <Image
                             src={EcoConnectivityIMG}
@@ -38,7 +38,7 @@ function EcoConnectivity() {
                     <p className="font-montserrat text-justify md:text-xs lg:text-base xl:text-xl">
                         {t("description1")}
                     </p>
-                    <ul className="font-montserrat text-justify mt-2 md:text-xs lg:text-base xl:text-xl lg:mt-8 list-disc pl-5 space-y-2">
+                    <ul className="font-montserrat text-justify md:mt-1 xl:mt-2 md:text-xs lg:text-base xl:text-xl list-disc pl-5">
                         <li>{t("list1")}</li>
                         <li>{t("list2")}</li>
                         <li>{t("list3")}</li>
