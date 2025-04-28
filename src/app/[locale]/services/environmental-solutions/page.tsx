@@ -19,9 +19,11 @@ export default function Services() {
             <Hero/>
             <Quote/>
             <BiodiversityInventory/>
-            <EcoConnectivity/>
-            <SoilManagement/>
-            <LandscapeDesign/>
+            <div className="bg-light-beige">
+                <EcoConnectivity/>
+                <SoilManagement/>
+                <LandscapeDesign/>
+            </div>
             <Finance/>
             <Footer/>
         </div>
