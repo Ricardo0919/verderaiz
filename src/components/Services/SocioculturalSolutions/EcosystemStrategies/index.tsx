@@ -59,8 +59,8 @@ function EcosystemStrategies() {
 
                 {/* Layout para laptop y desktop */}
                 <div className="hidden lg:block">
-                    <div className="flex justify-center px-8">
-                        <div className="pr-0 py-4 xl:p-4 flex flex-col items-center justify-center gap-8 xl:gap-10 w-1/2 xl:w-1/3">
+                    <div className="flex justify-center px-8 xl:px-16 2xl:px-[36rem]">
+                        <div className="pr-0 py-4 xl:p-4 flex flex-col items-center justify-center gap-8 xl:gap-10 2xl:gap-12 2xl:pl-12 w-1/2 xl:w-1/3">
                             <h3 className="text-black font-semibold uppercase text-base xl:text-xl font-cambay">
                                 {t("title1")}
                             </h3>
@@ -88,7 +88,7 @@ function EcosystemStrategies() {
                             className="w-32 h-auto object-contain pb-6"
                         />
                     </div>
-                    <div className="p-4 flex flex-col items-center justify-center gap-6 w-5/2 pl-8">
+                    <div className="p-4 flex flex-col items-center justify-center gap-6 xl:gap-10 w-5/2 pl-8">
                         <p className="text-black font-medium font-cambay text-base xl:text-xl">
                             {t("description1")}
                         </p>
