@@ -16,7 +16,7 @@ function SoilManagement() {
                 <Image
                     src={BGLand}
                     alt="BGLand"
-                    className="absolute md:w-1/3 2xl:w-1/5 md:right-0 bottom-[-120px] 2xl:bottom-[-240px] "
+                    className="absolute md:w-2/5 2xl:w-1/5 md:right-0 bottom-[-120px] xl:bottom-[-240px] "
                 />
 
                 <div className="flex flex-col justify-center items-stretch md:flex-row pb-12 xl:pb-20 md:items-center">

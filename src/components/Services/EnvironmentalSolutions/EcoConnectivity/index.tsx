@@ -15,7 +15,7 @@ function EcoConnectivity() {
                 <Image
                     src={BGEco}
                     alt="BGEco"
-                    className="absolute md:w-1/3 2xl:w-1/5 md:left-0 bottom-[-120px] 2xl:bottom-[-240px] "
+                    className="absolute md:w-2/5 2xl:w-1/5 md:left-0 bottom-[-120px] 2xl:bottom-[-240px] "
                 />
 
 
