@@ -290,11 +290,96 @@
     "description2": "COLLABORATION",
     "button": "CONTACT US"
   },
+  "socioculturalSolutionsQuote": {
+    "description1": "Sustainability is not just about technology and regulations; it's about culture, community, and transformation.",
+    "description2": "At Verderaíz, we design strategies that change the way people and businesses relate to their environment, turning environmental awareness into real action.",
+    "description3": "We want sustainability to be more than just a commitment on paper—it should be a lifestyle that benefits everyone: businesses, communities, and ecosystems."
+  },
+  "socioculturalSolutionsNatureSolutions": {
+    "title": "Nature-Based Solutions:",
+    "description1": "Nature has spent millions of years solving problems efficiently and in balance. At Verderaíz, we apply this knowledge to innovative strategies that mimic natural processes to address environmental and social challenges.",
+    "description2": "Nature-based solutions are essential mechanisms for various",
+    "description2_1": " issues",
+    "description2_2": ". At Verderaíz, we address the following...",
+    "list1": "Economic and social development",
+    "list2": "Ecosystem degradation",
+    "list3": "Water security",
+    "list4": "Human health and well-being"
+  },
+  "socioculturalSolutionsEcosystemStrategies": {
+    "title1": "Ecosystem regeneration",
+    "title2": "Sustainable water management",
+    "title3": "Mitigation strategies",
+    "description1": "Agroforestry strategies, food forests, and soil management with hydrological restoration. Aimed at improving land productivity while being ecologically sustainable and providing food security.",
+    "description2": "We implement water system improvement solutions to increase water availability and quality for communities and businesses.",
+    "description3": "We promote healthier environments by designing green spaces, ensuring access to clean water, and implementing strategies to reduce environmental pollution."
+  },
+  "socioculturalSolutionsEnvironmentalAwareness": {
+    "title": "ENVIRONMENTAL AWARENESS",
+    "description1": "We design tailored environmental awareness campaigns to meet institutional objectives, creating transformative impact for both clients and end consumers."
+  },
+  "socioculturalSolutionsAwarenessCards": {
+    "title1": "Awareness campaigns",
+    "title2": "Educational experiences about the environment",
+    "title3": "Environmental communication campaigns",
+    "description1": "Transform your team into sustainability ambassadors. We provide specialized training to integrate sustainability into daily operations, focusing on reducing waste, optimizing resources, and improving social responsibility.",
+    "description2": "Turn every nature experience into a conservation lesson. We design educational experiences for your end customers, promoting conscious and responsible consumption.",
+    "description3": "From eco-friendly signage to interactive digital content, we make it easy for clients and collaborators to learn effortlessly."
+  },
+  "socioculturalSolutionsEconomicDevelopment": {
+    "title": "Community economic development projects",
+    "description1": "Sustainable solutions cannot be achieved without the participation of local communities. We foster the integration of businesses with sustainable producers and entrepreneurs to strengthen the local economy and reduce environmental impacts."
+  },
+  "socioculturalSolutionsSustainablePartnerships": {
+    "title1": "Sustainable Supplier Partnerships:",
+    "title2": "Fair Trade and Responsible Consumption Programs:",
+    "title3": "Regenerative Business Strategy Development:",
+    "title4": "Connection to the circular economy",
+    "description1": "We facilitate connections between businesses and local producers of eco-friendly goods and services, reducing carbon footprints and generating positive social impact.",
+    "description2": "We promote more ethical and sustainable supply chains, prioritizing local and environmentally friendly products.",
+    "description3": "We implement business models that benefit communities, protect the environment, and enrich the visitor experience.",
+    "description4": "We drive circular economy models and community engagement to generate employment and improve quality of life without overexploiting natural resources."
+  },
   "environmentalSolutionsHero": {
     "title": "Environmental Solutions",
     "description1": "Ecosystem regeneration solutions",
     "description2": "BASED ON NATURE",
     "button": "CONTACT US"
+  },
+  "environmentalSolutionsQuote": {
+    "quote": "Environmental degradation is not the end — it's the beginning of an opportunity to regenerate. We design Ecosystem Recovery and Regeneration Plans with nature-based and science-driven solutions."
+  },
+  "environmentalSolutionsBiodiversityInventory": {
+    "description1": "We conduct comprehensive biodiversity inventories that help identify key species and their conservation status.",
+    "description2": "This information is essential for:",
+    "list1": "Environmental Impact Assessments (EIA)",
+    "list2": "Protected Area Management Plans",
+    "imageQuote": "Flora and Fauna Inventories"
+  },
+  "environmentalSolutionsEcoConnectivity": {
+    "description1": "Design of biological corridors or buffer zones to connect habitat fragments.",
+    "list1": "Facilitates species movement and genetic flow.",
+    "list2": "Includes vegetated edges, wildlife crossings, or transition zones.",
+    "list3": "Ideal for agricultural, tourism, or industrial areas near natural environments.",
+    "imageQuote": "Ecological connectivity"
+  },
+  "environmentalSolutionsSoilManagement": {
+    "description1": "Actions to restore the site's natural structure, fertility, and water dynamics.",
+    "list1": "Contours, trenches, gabions, infiltration pits, wetlands, artificial ponds, and other techniques to retain water and soil.",
+    "list2": "Restoration of streams, wetlands, or natural runoff paths.",
+    "list3": "Erosion prevention techniques and technologies that enhance groundwater infiltration.",
+    "imageQuote": "Soil management and hydrological restoration"
+  },
+  "environmentalSolutionsLandscapeDesign": {
+    "list1": "Reintroduction of native flora and original ecosystem species to support natural regeneration.",
+    "list2": "Helps stabilize the soil, restore biodiversity, and attract native fauna.",
+    "list3": "Reforestation and revegetation with native species, tree transplants, garden bed design, urban gardens, nurseries, and community planting.",
+    "imageQuote": "Projects in regenerative landscape design and reforestation."
+  },
+  "environmentalSolutionsFinance": {
+    "title": "Financing",
+    "description": "At Verderaíz, we understand that implementing sustainable solutions is a necessity, but it also represents an investment. Therefore, to facilitate their technical and economic feasibility and make sustainability more attainable, we offer and recommend financing scheme options tailored to the characteristics of each project...",
+    "note": "*Options subject to the type of project and its specific evaluation."
   },
   "othersHero": {
     "title": "OTHERS",

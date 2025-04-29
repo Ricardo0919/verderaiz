@@ -284,17 +284,102 @@
     "description2": "WIR ERNTEN EINE NACHHALTIGE ZUKUNFT",
     "button": "KONTAKTIEREN SIE UNS"
   },
+  "environmentalSolutionsHero": {
+    "title": "Umweltlösungen",
+    "description1": "Lösungen zur ökosystemischen Regeneration",
+    "description2": "AUF DER NATUR BASIEREND",
+    "button": "KONTAKTIEREN SIE UNS"
+  },
+  "environmentalSolutionsQuote": {
+    "quote": "Umweltzerstörung ist nicht das Ende – sie ist der Beginn einer Chance zur Regeneration. Wir entwerfen Wiederherstellungs- und Regenerationspläne für Ökosysteme mit naturbasierten und wissenschaftlich fundierten Lösungen."
+  },
+  "environmentalSolutionsBiodiversityInventory": {
+    "description1": "Wir führen umfassende Biodiversitätsinventuren durch, um Schlüsselarten und ihren Erhaltungszustand zu identifizieren.",
+    "description2": "Diese Informationen sind grundlegend für:",
+    "list1": "Umweltverträglichkeitsprüfungen (UVP)",
+    "list2": "Managementpläne für Schutzgebiete",
+    "imageQuote": "Inventare von Flora und Fauna"
+  },
+  "environmentalSolutionsEcoConnectivity": {
+    "description1": "Gestaltung von Biokorridoren oder Pufferzonen zur Verbindung von Habitatfragmenten.",
+    "list1": "Ermöglicht die Wanderung von Arten und den genetischen Austausch.",
+    "list2": "Gestaltung von bepflanzten Rändern, Wildtierquerungen oder Übergangszonen.",
+    "list3": "Ideal für landwirtschaftliche, touristische oder industrielle Gebiete in der Nähe natürlicher Lebensräume.",
+    "imageQuote": "Ökologische Konnektivität"
+  },
+  "environmentalSolutionsSoilManagement": {
+    "description1": "Maßnahmen zur Wiederherstellung der natürlichen Bodenstruktur, Fruchtbarkeit und Wasserdynamik des Standorts.",
+    "list1": "Konturen, Gräben, Gabionen, Versickerungsgruben, Feuchtgebiete, künstliche Teiche und weitere Techniken zur Rückhaltung von Wasser und Boden.",
+    "list2": "Renaturierung von Fließgewässern, Feuchtgebieten oder natürlichen Abflusswegen.",
+    "list3": "Erosionsschutztechniken und Technologien zur Förderung der Wasserversickerung in den Untergrund.",
+    "imageQuote": "Bodenmanagement und hydrologische Wiederherstellung"
+  },
+  "environmentalSolutionsLandscapeDesign": {
+    "list1": "Wiedereinführung einheimischer Flora und ursprünglicher Ökosystemarten zur Förderung der natürlichen Regeneration.",
+    "list2": "Hilft bei der Bodenstabilisierung, der Wiederherstellung der Biodiversität und der Rückkehr einheimischer Tierarten.",
+    "list3": "Wiederaufforstung und Begrünung mit einheimischen Arten, Baumverpflanzungen, Gestaltung von Beeten, urbanen Gärten, Baumschulen und gemeinschaftlichen Pflanzaktionen.",
+    "imageQuote": "Projekte für regeneratives Landschaftsdesign und Wiederaufforstung"
+  },
+  "environmentalSolutionsFinance": {
+    "title": "Finanzierung",
+    "description": "Bei Verderaíz verstehen wir, dass die Umsetzung nachhaltiger Lösungen eine Notwendigkeit ist, jedoch auch eine Investition darstellt. Um die technische und wirtschaftliche Umsetzbarkeit zu erleichtern und Nachhaltigkeit zugänglicher zu machen, bieten wir Finanzierungsmodelle an und empfehlen passende Optionen je nach den Eigenschaften jedes Projekts...",
+    "note": "*Optionen abhängig vom Projekttyp und dessen individueller Bewertung."
+  },
   "socioculturalSolutionsHero": {
     "title": "Soziokulturelle Lösungen",
     "description1": "Die Lösung liegt in der",
     "description2": "ZUSAMMENARBEIT",
     "button": "KONTAKTIEREN SIE UNS"
   },
-  "environmentalSolutionsHero": {
-    "title": "Umweltlösungen",
-    "description1": "Lösungen zur ökosystemischen Regeneration",
-    "description2": "AUF DER NATUR BASIEREND",
-    "button": "KONTAKTIEREN SIE UNS"
+  "socioculturalSolutionsQuote": {
+    "description1": "Nachhaltigkeit ist nicht nur Technologie und Vorschriften; es ist Kultur, Gemeinschaft und Transformation.",
+    "description2": "Bei Verderaíz entwickeln wir Strategien, die die Art und Weise verändern, wie Menschen und Unternehmen mit ihrer Umwelt interagieren, und so Umweltbewusstsein in echtes Handeln umwandeln.",
+    "description3": "Wir möchten, dass Nachhaltigkeit nicht nur eine schriftliche Verpflichtung ist, sondern ein Lebensstil, der allen zugutekommt: Unternehmen, Gemeinschaften und Ökosystemen."
+  },
+  "socioculturalSolutionsNatureSolutions": {
+    "title": "Naturbasierte Lösungen:",
+    "description1": "Die Natur hat Millionen von Jahren damit verbracht, Probleme effizient und im Gleichgewicht zu lösen. Bei Verderaíz wenden wir dieses Wissen in innovativen Strategien an, die natürliche Prozesse nachahmen, um ökologische und soziale Herausforderungen zu bewältigen.",
+    "description2": "Naturbasierte Lösungen sind wesentliche Mechanismen für verschiedene",
+    "description2_1": " Probleme",
+    "description2_2": ". Bei Verderaíz befassen wir uns mit folgenden Themen...",
+    "list1": "Wirtschaftliche und soziale Entwicklung",
+    "list2": "Ökosystemzerstörung",
+    "list3": "Wassersicherheit",
+    "list4": "Menschliche Gesundheit und Wohlbefinden"
+  },
+  "socioculturalSolutionsEcosystemStrategies": {
+    "title1": "Ökosystem-Regeneration",
+    "title2": "Nachhaltiges Wassermanagement",
+    "title3": "Minderungsstrategien",
+    "description1": "Agroforstwirtschaftliche Strategien, essbare Wälder und Bodenmanagement mit hydrologischer Sanierung. Ziel ist es, die Landproduktivität zu steigern, gleichzeitig ökologisch nachhaltig zu sein und Ernährungssicherheit zu gewährleisten.",
+    "description2": "Wir setzen Lösungen zur Verbesserung von Wassersystemen um, um die Verfügbarkeit und Qualität von Wasser für Gemeinden und Unternehmen zu erhöhen.",
+    "description3": "Wir fördern gesündere Umgebungen durch die Gestaltung von Grünflächen, Zugang zu sauberem Wasser und Strategien zur Verringerung der Umweltverschmutzung."
+  },
+  "socioculturalSolutionsEnvironmentalAwareness": {
+    "title": "UMWELTBEWUSSTSEIN",
+    "description1": "Wir entwickeln maßgeschneiderte Umweltkampagnen, die auf die Ziele der Institution abgestimmt sind, um transformative Wirkung für Kunden und Endverbraucher zu erzielen."
+  },
+  "socioculturalSolutionsAwarenessCards": {
+    "title1": "Bewusstseinskampagnen",
+    "title2": "Bildungserlebnisse zur Umwelt",
+    "title3": "Umweltkommunikationskampagnen",
+    "description1": "Verwandeln Sie Ihr Team in Botschafter der Nachhaltigkeit. Wir bieten spezialisierte Schulungen an, um Nachhaltigkeit in den täglichen Betrieb zu integrieren, mit Fokus auf Abfallreduzierung, Ressourcenoptimierung und sozialer Verantwortung.",
+    "description2": "Machen Sie jedes Naturerlebnis zu einer Lektion im Umweltschutz. Wir gestalten Bildungsangebote für Ihre Kunden, die bewusstes und verantwortungsvolles Konsumverhalten fördern.",
+    "description3": "Von ökologischer Beschilderung bis hin zu interaktiven digitalen Inhalten – wir machen es Kunden und Partnern leicht, spielerisch zu lernen."
+  },
+  "socioculturalSolutionsEconomicDevelopment": {
+    "title": "Gemeinschaftliche Wirtschaftsentwicklungsprojekte",
+    "description1": "Nachhaltige Lösungen sind ohne die Beteiligung lokaler Gemeinschaften nicht möglich. Wir fördern die Zusammenarbeit zwischen Unternehmen und nachhaltigen Produzenten, um die lokale Wirtschaft zu stärken und Umweltauswirkungen zu reduzieren."
+  },
+  "socioculturalSolutionsSustainablePartnerships": {
+    "title1": "Partnerschaften mit nachhaltigen Lieferanten:",
+    "title2": "Programme für fairen Handel und verantwortungsvollen Konsum:",
+    "title3": "Entwicklung regenerativer Geschäftsstrategien:",
+    "title4": "Anbindung an die Kreislaufwirtschaft",
+    "description1": "Wir vermitteln Verbindungen zwischen Unternehmen und lokalen Anbietern umweltfreundlicher Produkte und Dienstleistungen, um CO₂-Fußabdrücke zu verringern und positive soziale Wirkung zu erzeugen.",
+    "description2": "Wir fördern ethischere und nachhaltigere Lieferketten, mit Fokus auf lokale und umweltfreundliche Produkte.",
+    "description3": "Wir implementieren Geschäftsmodelle, die Gemeinschaften nutzen, die Umwelt schützen und das Besuchererlebnis bereichern.",
+    "description4": "Wir treiben Kreislaufwirtschaft und gemeinwohlorientierte Modelle voran, um Arbeitsplätze zu schaffen und Lebensqualität zu verbessern – ohne natürliche Ressourcen zu überlasten."
   },
   "othersHero": {
     "title": "SONSTIGES",

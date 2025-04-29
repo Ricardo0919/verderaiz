@@ -290,11 +290,96 @@
     "description2": "COLABORACIÓN",
     "button": "CONTÁCTANOS"
   },
+  "socioculturalSolutionsQuote": {
+    "description1": "La sustentabilidad no es solo tecnología y normativas; es cultura, es comunidad, es transformación",
+    "description2": "En Verderaíz diseñamos estrategias que cambian la manera en que las personas y empresas se relacionan con su entorno, convirtiendo la conciencia ambiental en acción real.",
+    "description3": "Queremos que la sustentabilidad no sea solo un compromiso en papel, sino un estilo de vida que beneficie a todos: negocios, comunidades y ecosistemas."
+  },
+  "socioculturalSolutionsNatureSolutions": {
+    "title": "Soluciones Basadas en la Naturaleza:",
+    "description1": "La naturaleza tiene millones de años resolviendo problemas de manera eficiente y equilibrada. En Verderaíz aplicamos este conocimiento a estrategias innovadoras que imitan los procesos naturales para resolver desafíos ambientales y sociales.",
+    "description2": "Las soluciones basadas en la naturaleza son mecanismos escenciales ante diversas ",
+    "description2_1": " problematicas",
+    "description2_2": ", en verderaiz antendemos las siguientes...",
+    "list1": "Desarrollo económico y social",
+    "list2": "Desgaste y deterioro ecosistemico",
+    "list3": "Seguridad hídrica",
+    "list4": "Salud y bienestar humano"
+  },
+  "socioculturalSolutionsEcosystemStrategies": {
+    "title1": "Regeneración del ecosistema",
+    "title2": "Gestion hídrica sostenible",
+    "title3": "Estrategias de mitigación",
+    "description1": "Estrategias de agrosilvicultura, bosques comestibles y manejo de suelo con restauración hidrologica. Orientado a mejorar la productividad de las tierras y, al mismo tiempo, ser ecológicamente sustentable y proveer seguridad alimenticia. ",
+    "description2": "Implementamos soluciones de mejora para sistemas hidricos, para incrementar la disponibilidad y calidad  del agua para  comunidades y negocios.",
+    "description3": "Promovemos entornos más saludables mediante el diseño de espacios verdes, acceso a agua limpia y estrategias para reducir la contaminación ambiental."
+  },
+  "socioculturalSolutionsEnvironmentalAwareness": {
+    "title": "CONCIENTIZACION AMBIENTAL",
+    "description1": "Diseñamos campañas de sensibilización ambiental adaptados a diferentes objetivos según la necesidad de la institución, con el fin de crear impacto que transforma, con el cliente y el consumidor final. "
+  },
+  "socioculturalSolutionsAwarenessCards": {
+    "title1": "Campañas de concientización",
+    "title2": "Experiencias educativa sobre el medio ambiente",
+    "title3": "Campañas de comunicación ambiental",
+    "description1": "Transforma a tu equipo en embajadores de la sustentabilidad. Brindamos formación especializada para integrar la sustentabilidad en operaciones diarias, enfocada en reducir desperdicios, optimizar recursos y mejorar la responsabilidad social. ",
+    "description2": "Haz que cada experiencia en la naturaleza sea también una lección de conservación. Diseñamos experiencias educativas para tus clientes finales, promoviendo el consumo consciente y responsable.",
+    "description3": "Desde señalética ecológica hasta contenido digital interactivo para que clientes y colaboradores aprendan sin esfuerzo."
+  },
+  "socioculturalSolutionsEconomicDevelopment": {
+    "title": "Proyectos de desarrollo económico en comunidad ",
+    "description1": "Las soluciones sustentables no pueden lograrse sin la participación de las comunidades locales. Fomentamos la integración de negocios con productores y emprendedores sostenibles para fortalecer la economía local y reducir impactos ambientales."
+  },
+  "socioculturalSolutionsSustainablePartnerships": {
+    "title1": "Alianzas con Proveedores Sustentables:",
+    "title2": "Programas de Comercio Justo y Consumo Responsable: ",
+    "title3": "Desarrollo de Estrategias para Negocio Regenerativo: ",
+    "title4": "Vinculación a la economia circular ",
+    "description1": "Facilitamos la conexión entre empresas y productores locales de bienes y servicios ecológicos, reduciendo la huella de carbono y generando impacto social positivo\n",
+    "description2": "Promovemos cadenas de suministro más éticas y sostenibles, priorizando productos locales y amigables con el ambiente.",
+    "description3": "Implementamos modelos de negocios que beneficien a las comunidades, protejan el entorno y enriquezcan la experiencia del visitante.",
+    "description4": "Impulsamos modelos de economía circular y vinculación comunitaria para generar empleo y mejorar la calidad de vida sin sobreexplotar los recursos naturales."
+  },
   "environmentalSolutionsHero": {
     "title": "Soluciones ambientales",
     "description1": "Soluciones  de regeneración ecosistemica",
     "description2": "BASADAS EN LA NATURALEZA",
     "button": "CONTÁCTANOS"
+  },
+  "environmentalSolutionsQuote": {
+    "quote": "La degradación ambiental no es el final, es el comienzo de una oportunidad para regenerar. Diseñamos Planes de Recuperación y Regeneración del Ecosistema con  soluciones basadas en la naturaleza y la ciencia."
+  },
+  "environmentalSolutionsBiodiversityInventory": {
+    "description1": "Realizamos inventarios completos de biodiversidad que permiten identificar especies clave y su estado de conservación.",
+    "description2": "Esta información es fundamental para:",
+    "list1": "Estudios de Impacto Ambiental (EIA)",
+    "list2": "Planes de Manejo de Áreas Protegidas",
+    "imageQuote": "Inventarios de Flora y Fauna"
+  },
+  "environmentalSolutionsEcoConnectivity": {
+    "description1": "Diseño de corredores biológicos o zonas de amortiguamiento para conectar fragmentos de hábitat.",
+    "list1": "Facilita el movimiento de especies y el flujo genético.",
+    "list2": "Se diseñan bordes vegetados, pasos de fauna o zonas de transición.",
+    "list3": "Ideal para zonas agrícolas, turísticas o industriales cercanas a áreas naturales.",
+    "imageQuote": "Conectividad ecológica"
+  },
+  "environmentalSolutionsSoilManagement": {
+    "description1": "Acciones para recuperar la estructura, fertilidad y dinámica hídrica natural del sitio.",
+    "list1": "Contornos, zanjas, gaviones pozos de absorción humedales, estanques artificiales y otras técnicas para retener agua y suelo.",
+    "list2": "Restauración de cauces, humedales o escurrimientos naturales.",
+    "list3": "Tecnicas de prevención de erosión y technologias facilitadoras de la infiltración de agua al subsuelo.",
+    "imageQuote": "Manejo del suelo y restauración hidrológica"
+  },
+  "environmentalSolutionsLandscapeDesign": {
+    "list1": "Reintroducción de flora nativa y propias del ecosistema original para favorecer su regeneración natural.",
+    "list2": "Ayuda a estabilizar el suelo, recuperar biodiversidad y atraer fauna nativa.",
+    "list3": "Reforestación y revegetación con especies nativas, transplantes arboreos, diseño de jardineras, huertos urbanos, viveros y siembras comunitarias.",
+    "imageQuote": "Proyectos en diseño de paisaje regenerativo y reforestación."
+  },
+  "environmentalSolutionsFinance": {
+    "title": "Financiamento",
+    "description": "En Verderaíz comprendemos que implementar soluciones sostenibles es una necesidad, pero también representa una inversión. Por ello, y con el fin de facilitar su viabilidad técnica y económica y hacer la sostenibilidad más alcanzable, ofrecemos y recomendamos opciones de esquemas de financiamiento segun las caracerísticas de cada proyecto...",
+    "note": "*Opciones sujetas al tipo de proyecto y su evaluación específica."
   },
   "othersHero": {
     "title": "OTROS",
