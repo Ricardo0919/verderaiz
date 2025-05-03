@@ -284,6 +284,77 @@
     "description2": "WE HARVEST A SUSTAINABLE FUTURE",
     "button": "CONTACT US"
   },
+  "coursesAndWorkshopsQuote": {
+    "title": "awareness courses",
+    "description1": "Through learning dynamics and specialized content, we foster an <code>organizational and educational culture</code> focused on <code>environmental care</code> and <code>CLIMATE CHANGE MITIGATION.</code>"
+  },
+  "coursesAndWorkshopsEcoConscious": {
+    "title": "for conscious businesses",
+    "description1": "Our environmental awareness trainings are designed to educate and raise awareness among...",
+    "sections": {
+      "list1": "Work teams",
+      "list2": "Administrative staff and collaborators",
+      "list3": "Employees",
+      "list4": "Service providers",
+      "work": { "altText": "Image: Work teams" },
+      "admin": { "altText": "Image: Administrative staff" },
+      "employees": { "altText": "Image: Employees" },
+      "providers": { "altText": "Image: Providers" }
+    },
+    "description2": "About best environmental practices, regulatory compliance, and the importance of sustainability in daily operations.",
+    "description_banner": "We design and implement environmental awareness training sessions covering <code>various socio-environmental themes</code>, with the purpose of <code>triggering</code> in staff a change of <code>attitudes and habits</code> with a sustainability perspective, that positively influence <code>climate change mitigation</code> and environmental care from their respective areas of influence both at home and in the workplace.",
+    "title_benefits": "benefits",
+    "benefits": "<ul><li>Ensures all staff are aligned with the company's environmental objectives.</li><li>Reduces the risk of regulatory non-compliance.</li><li>Strengthens the organization's responsible image.</li><li>Increases efficiency in resource management</li><li>Improves efficiency in implementing environmental policies.</li></ul>",
+    "benefits_quote": "Modality: \nIn-person | Online\n \n<code>INFORMATIVE AND INTERACTIVE APPROACH</code>",
+    "title_topics": "SYLLABUS",
+    "quote_topics": "*THE SYLLABUS IS SUBJECT TO CHANGES DEPENDING ON THE AUDIENCE'S NEEDS*",
+    "description_topic_list1": "<p>Opening our eyes (Environmental Context)</p><ul><li>Climate change and the tourism sector.</li><li>Water crisis in tourist areas</li><li>Examples of cases at national and local levels.</li></ul>",
+    "description_topic_list2": "<p>Sustainable Waste Management (Reducing impact)</p><ul><li>The garbage problem and its impact (organic waste, leachates, final disposal, overconsumption)</li><li>Types of waste (MSW, hazardous waste, special handling) and how to separate them (at home and in hotels)</li><li>Reduce your impact (7Rs, Composting, zero waste products)</li></ul>",
+    "description_topic_list3": "<p>Responsible energy use</p><ul><li>Energy sector as main cause of climate change</li><li>Daily actions to reduce energy consumption (work area and at home)</li><li>Efficient use of equipment and appliances</li></ul>",
+    "description_topic_list4": "<p>Responsible water use</p><ul><li>Proper handling of products to avoid contamination from spills</li><li>Educating guests about water saving without affecting their comfort</li><li>Reducing water consumption at home and in hotels</li></ul>",
+    "description_topic_list5": "<p>Conscious decisions</p><ul><li>Sustainable alternatives for household products</li><li>Key questions for a conscious consumer</li><li>Next steps</li></ul>"
+  },
+  "coursesAndWorkshopsStudentsAgents": {
+    "title": "students as change agents",
+    "description1": "Our environmental awareness trainings are designed to educate and raise awareness among...",
+    "sections": {
+      "list1": "Kindergarten and Preschool",
+      "list2": "Elementary and Middle School",
+      "list3": "High School",
+      "list4": "Higher Education",
+      "work": { "altText": "Image: Kindergarten and Preschool" },
+      "admin": { "altText": "Image: Elementary and Middle School" },
+      "employees": { "altText": "Image: High School" },
+      "providers": { "altText": "Image: Higher Education" }
+    },
+    "description2": "About the importance of questioning current systems we inhabit, bringing environmental awareness to daily life, how to apply it and share it from each student's level of reach.",
+    "description_banner": "We train the <code>present</code> generations to transform the <code>future.</code> Our comprehensive-dynamic learning sessions in environmental awareness are designed to cover <code>various socio-environmental themes</code> and the content is tailored for all educational levels, with the purpose of <code>triggering</code> a mindset of environmental critique and reflection, joining efforts in <code>climate change mitigation</code> and <code>environmental care</code> while seeking to motivate each student to become a <code>change agent</code> in their community and beyond.",
+    "title_benefits": "benefits",
+    "benefits": "<ul><li>Strengthens the institution's commitment and responsibility with environmental education.</li><li>Increases efficiency in resource management within the institution.</li><li>Improves efficiency in implementing environmental campaigns.</li><li>Fosters a more conscious and participatory school environment.</li><li>Students develop critical thinking about sustainability and environmental impact.</li><li>Students acquire practical tools to apply in their daily lives.</li><li>Students feel inspired to undertake environmental and social impact projects.</li></ul>",
+    "benefits_quote": "Modality: \nIn-person | Online\n \n<code>DYNAMIC AND INTERACTIVE APPROACH</code>",
+    "title_topics": "SYLLABUS",
+    "quote_topics": "*THE SYLLABUS IS SUBJECT TO CHANGES DEPENDING ON THE AUDIENCE'S NEEDS*",
+    "description_topic_list1": "<p>Getting to know our planet and its current state</p><ul><li>What is the environment and why is it important?</li><li>Climate change: causes, effects and our responsibility.</li><li>Water crisis: water as an essential resource and its care.</li><li>Examples of environmental problems in our community.</li></ul>",
+    "description_topic_list2": "<p>Waste and its impact</p><ul><li>What happens to our waste after we throw it away?</li><li>Types of waste and how to separate them correctly.</li><li>How to reduce our waste? (The 7Rs, composting and responsible habits).</li></ul>",
+    "description_topic_list3": "<p>Energy and natural resources: how can we use them better?</p><ul><li>Where does the energy we use come from?</li><li>Daily actions to save energy at school and at home.</li><li>How to save water without affecting our routine?</li></ul>",
+    "description_topic_list4": "<p>Products and habits that can change the world</p><ul><li>How do our consumption habits affect the planet?</li><li>Sustainable alternatives for daily life.</li><li>How to be a conscious consumer? (Key questions before buying).</li></ul>",
+    "description_topic_list5": "<p>Taking action: small changes, big impacts</p><ul><li>How to become change agents in our school and community?</li><li>Initiatives and projects we can do together.</li><li>Get inspired: stories of youth at the same educational level making a difference.</li></ul>"
+  },
+  "coursesAndWorkshopsWorkshops": {
+    "title": "Workshops",
+    "workshops_quote": "Modality:\nIn-person\n \nFlexible Duration:  \n3 to 8 hours\n \nDYNAMIC AND INTERACTIVE APPROACH",
+    "block_title": "Workshop:",
+    "block_desc": "sustainability as business strategy",
+    "block_quote": "For administrators, managers and executives",
+    "description1": "Today, companies that integrate sustainable strategies not only reduce costs but also attract more customers, strengthen their reputation and ensure their market permanence. \nThis workshop is designed to understand how sustainability can become a competitive advantage and a profitable growth strategy.\nThrough innovative dynamics, analysis of success cases and applicable tools, participants will learn to identify saving opportunities, optimize resources and visualize the return on investment in sustainability."
+  },
+  "coursesAndWorkshopsLearning": {
+    "title": "you will learn about...",
+    "desc1": "Sustainable strategies to increase income and build customer loyalty.",
+    "desc2": "Hidden costs of not being sustainable: fines, overcosts and reputation loss.",
+    "desc3": "Effective strategies to maximize profitability with smart investments.",
+    "desc4": "Building an action plan tailored to the organization's needs."
+  },
   "socioculturalSolutionsHero": {
     "title": "Sociocultural Solutions",
     "description1": "The solution lies in",
