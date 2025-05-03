@@ -284,6 +284,77 @@
     "description2": "COSECHAMOS UN FUTURO SOSTENIBLE",
     "button": "CONTÁCTANOS"
   },
+  "coursesAndWorkshopsQuote": {
+    "title": "cursos de concientización",
+    "description1": "A través de dinámicas de aprendizaje y contenido especializado, fomentamos una cultura <code>organizacional y educativa</code> orientada al cuidado del <code>medio ambiente</code> Y MITIGACION DEL <code>CAMBIO CLIMATICO.</code>"
+  },
+  "coursesAndWorkshopsEcoConscious": {
+    "title": "para empresas conscientes ",
+    "description1": "Nuestras capacitaciones en conciencia ambiental están diseñadas para educar y sensibilizar a..." ,
+    "sections": {
+      "list1": "Equipos de trabajo",
+      "list2": "Administrativos y colaboradores",
+      "list3": "Empleados",
+      "list4": "Proveedores de servicios",
+      "work": { "altText": "Imagen: Equipos de trabajo" },
+      "admin": { "altText": "Imagen: Administrativos" },
+      "employees": { "altText": "Imagen: Empleados" },
+      "providers": { "altText": "Imagen: Proveedores" }
+    },
+    "description2": "Sobre las mejores prácticas ambientales, el cumplimiento normativo, y la importancia de la sostenibilidad en la operación diaria. ",
+    "description_banner": "Diseñamos e implementamos sesiones de capacitación de concientización ambiental abarcando <code>diversas temáticas socioambientales</code>, con la finalidad de <code>detonar</code> en el personal un cambio de <code>actitudes y habitos</code> con una perspectiva de sustentabilidad, que influyan de manera positiva en la <code>mitigación por el cambio climatico</code> y el cuidado del medio ambiente desde sus respectivas areas de influencia tanto en el hogar como en el area de trabajo.",
+    "title_benefits": "beneficios",
+    "benefits": "<ul><li>Permite que todo el personal esté alineado con los objetivos ambientales de la empresa.</li><li>Reduce el riesgo de incumplimiento normativo.</li><li>Fortalece la imagen responsable de la organización.</li><li>Incrementa la eficiencia en el manejo de recursos</li><li>Incrementa eficiencia en implementación de políticas ambientales.</li></ul>",
+    "benefits_quote": "Modalidad: \nPresencial | Online\n \n<code>ENFOQUE INFORMATIVO E INTERACTIVO</code>",
+    "title_topics": "TEMARIO",
+    "quote_topics": "*eL TEMARIO ES SUJETO A CAMBIOS DEPENDIENDO DE LAS NECESIDADES DEL PÚBLICO*",
+    "description_topic_list1": "<p>Abramos los ojos (Contexto Ambiental)</p><ul><li>Cambio climático y sector turismo.</li><li>Crisis hídrica en zonas turísticas</li><li>Ejemplos casos a nivel nacional y local.</li></ul>",
+    "description_topic_list2": "<p>Gestión Sostenible de Residuos (Reducir impacto)</p><ul><li>El problema de la basura y su impacto (orgánica, lixiviados, destino final, sobreconsumo)</li><li>Tipos de residuos (RSU, RME, RP) y su forma de segregar (en casa y en el hotel)</li><li>Reduce tu impacto (7R, Composta, productos zero waste)</li></ul>",
+    "description_topic_list3": "<p>Uso responsable de la energía</p><ul><li>Sector energético como razón principal del cambio climático</li><li>Acciones cotidianas para reducir el consumo energético (área de trabajo y en el hogar)</li><li>Uso eficiente de equipos y electrodomésticos</li></ul>",
+    "description_topic_list4": "<p>Uso responsable del agua</p><ul><li>Manejo adecuado de productos para evitar contaminación por derrames</li><li>Educación al huésped sobre el ahorro del agua sin afectar su comodidad</li><li>Reducir el consumo de agua desde casa y en hotel</li></ul>",
+    "description_topic_list5": "<p>Decisiones conscientes</p><ul><li>Alternativas sustentables en productos del hogar</li><li>Preguntas clave para un consumidor consciente</li><li>Los siguientes pasos</li></ul>"
+  },
+  "coursesAndWorkshopsStudentsAgents": {
+    "title": "estudiantes como agentes de cambio",
+    "description1": "Nuestras capacitaciones en conciencia ambiental están diseñadas para educar y sensibilizar a..." ,
+    "sections": {
+      "list1": "Kinder y Preescolar.",
+      "list2": "Escuela Primaria y Secundaria.",
+      "list3": "Bachillerato",
+      "list4": "Estudios superiores",
+      "work": { "altText": "Imagen: Kinder y Preescolar." },
+      "admin": { "altText": "Imagen: Escuela Primaria y Secundaria." },
+      "employees": { "altText": "Imagen: Bachillerato" },
+      "providers": { "altText": "Imagen: Estudios superiores" }
+    },
+    "description2": "Sobre la importancia de cuestionarse los sistemas actuales que habitamos, llevar la consciencia ambiental a la vida diaria, como aplicarla y compartirla desde el nivel de alcance de cada estudiante.  ",
+    "description_banner": "Formamos a las generaciones del <code>presente</code> para transformar el <code>futuro.</code> Nuestras sesiones de aprendizaje integral-dinamico en concientización ambiental, estan diseñadas para abarcar <code>diversas temáticas socioambientales</code> y el contenido  se diseña para todos los niveles educativos, con la finalidad de  <code>detonar</code>  una mentalidad de critica y reflexión ambientalista, sumando esfuerzos en la <code>mitigación por el cambio climatico</code> y el <code>cuidado del medio ambiente</code> y buscando motivar a cada estudiante para que sea un <code>agente de cambio</code> en su comunidad y más alla.",
+    "title_benefits": "beneficios",
+    "benefits": "<ul><li>Fortalece el compromiso y responsabilidad de la institución con la educación ambiental.</li><li>Incrementa la eficiencia en el manejo de recursos dentro de la institución.</li><li>Incrementa eficiencia en implementación de campañas ambientales.</li><li>Fomenta un ambiente escolar más consciente y participativo.</li><li>El estudiante desarrolla pensamiento crítico de sostenibilidad e impacto ambiental.</li><li>El estudiante adquiere herramientas prácticas para aplicar en su día a día.</li><li>El estudiante se inspira a emprender proyectos ambientales y de impacto social.</li></ul>",
+    "benefits_quote": "Modalidad: \nPresencial | Online\n \n<code>ENFOQUE DINAMICO E INTERACTIVO</code>",
+    "title_topics": "TEMARIO",
+    "quote_topics": "*eL TEMARIO ES SUJETO A CAMBIOS DEPENDIENDO DE LAS NECESIDADES DEL PÚBLICO*",
+    "description_topic_list1": "<p>Conociendo nuestro planeta y su estado actual</p><ul><li>¿Qué es el medio ambiente y por qué es importante?</li><li>Cambio climático: causas, efectos y nuestra responsabilidad.</li><li>Crisis hídrica: el agua como recurso esencial y su cuidado.</li><li>Ejemplos de problemas ambientales en nuestra comunidad.</li></ul>",
+    "description_topic_list2": "<p>La basura y su impacto</p><ul><li>¿Qué pasa con nuestra basura después de tirarla?</li><li>Tipos de residuos y cómo separarlos correctamente.</li><li>¿Cómo reducir nuestra basura? (Las 7R, compostaje y hábitos responsables).</li></ul>",
+    "description_topic_list3": "<p>Energía y recursos naturales: ¿cómo podemos usarlos mejor?</p><ul><li>¿De dónde viene la energía que usamos?</li><li>Acciones diarias para ahorrar energía en la escuela y en casa.</li><li>¿Cómo ahorrar agua sin afectar nuestra rutina?</li></ul>",
+    "description_topic_list4": "<p>Productos y hábitos que pueden cambiar el mundo</p><ul><li>¿Cómo afectan nuestros hábitos de consumo al planeta?</li><li>Alternativas sustentables para la vida diaria.</li><li>¿Cómo ser un consumidor consciente? (Preguntas clave antes de comprar).</li></ul>",
+    "description_topic_list5": "<p>Tomando acción: pequeños cambios, grandes impactos</p><ul><li>¿Cómo convertirnos en agentes de cambio en nuestra escuela y comunidad?</li><li>Iniciativas y proyectos que podemos hacer juntos.</li><li>Inspírate: historias de jóvenes del mismo nivel educativo que están haciendo la diferencia.</li></ul>"
+  },
+  "coursesAndWorkshopsWorkshops": {
+    "title": "Workshops",
+    "workshops_quote": "Modalidad:\nPresencial\n \nDuración Flexible:  \nde 3 a 8 horas\n \nENFOQUE DINÁMICO E INTERACTIVO",
+    "block_title": "Workshop:",
+    "block_desc": "sustentabilidad como estrategia empresarial",
+    "block_quote": "Para administrativos, gerentes y directivos",
+    "description1": "Hoy en día, las empresas que integran estrategias sustentables no solo reducen costos, sino que atraen más clientes, fortalecen su reputación y aseguran su permanencia en el mercado. \nEste workshop está diseñado comprender cómo la sustentabilidad puede convertirse en una ventaja competitiva y una estrategia de crecimiento rentable.\nA través de dinámicas innovadoras, análisis de casos de éxito y herramientas aplicables, los participantes aprenderán a identificar oportunidades de ahorro, optimizar recursos y visualizar el retorno de inversión en sustentabilidad."
+  },
+  "coursesAndWorkshopsLearning": {
+    "title": "aprenderas sobre...",
+    "desc1": "Estrategias sustentables para aumentar ingresos y fidelizar clientes.",
+    "desc2": "Costos ocultos de no ser sustentable: multas, sobrecostos y pérdida de reputación.",
+    "desc3": "Estrategias efectivas para maximizar la rentabilidad con inversiones inteligentes.",
+    "desc4": "Construcción de un plan de acción adaptado a las necesidades de la organización."
+  },
   "socioculturalSolutionsHero": {
     "title": "Soluciones Socioculturales",
     "description1": "La solucion reside en la",
