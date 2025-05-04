@@ -284,6 +284,77 @@
     "description2": "WIR ERNTEN EINE NACHHALTIGE ZUKUNFT",
     "button": "KONTAKTIEREN SIE UNS"
   },
+  "coursesAndWorkshopsQuote": {
+    "title": "Sensibilisierungskurse",
+    "description1": "Durch Lernmethoden und spezialisierte Inhalte fördern wir eine <code>organisatorische und bildungsorientierte</code> Kultur, die auf <code>Umweltschutz</code> und <code>KLIMASCHUTZ</code> ausgerichtet ist."
+  },
+  "coursesAndWorkshopsEcoConscious": {
+    "title": "für umweltbewusste Unternehmen",
+    "description1": "Unsere Schulungen zum Umweltbewusstsein sind darauf ausgelegt, zu bilden und zu sensibilisieren...",
+    "sections": {
+      "list1": "Arbeitsteams",
+      "list2": "Verwaltungspersonal und Mitarbeiter",
+      "list3": "Angestellte",
+      "list4": "Dienstleister",
+      "work": { "altText": "Bild: Arbeitsteams" },
+      "admin": { "altText": "Bild: Verwaltungspersonal" },
+      "employees": { "altText": "Bild: Angestellte" },
+      "providers": { "altText": "Bild: Dienstleister" }
+    },
+    "description2": "Über beste Umweltpraktiken, Compliance und die Bedeutung von Nachhaltigkeit im täglichen Betrieb.",
+    "description_banner": "Wir gestalten und implementieren Schulungssitzungen zur Umweltsensibilisierung, die <code>verschiedene sozial-ökologische Themen</code> abdecken, mit dem Ziel, bei den Mitarbeitern eine Änderung der <code>Einstellungen und Gewohnheiten</code> mit einer Nachhaltigkeitsperspektive zu bewirken, die sich positiv auf den <code>Klimaschutz</code> und den Umweltschutz in ihren jeweiligen Einflussbereichen sowohl zu Hause als auch am Arbeitsplatz auswirkt.",
+    "title_benefits": "Vorteile",
+    "benefits": "<ul><li>Sichert die Ausrichtung aller Mitarbeiter auf die Umweltziele des Unternehmens.</li><li>Reduziert das Risiko von Compliance-Verstößen.</li><li>Stärkt das verantwortungsbewusste Image der Organisation.</li><li>Erhöht die Effizienz im Ressourcenmanagement</li><li>Verbessert die Umsetzung von Umweltrichtlinien.</li></ul>",
+    "benefits_quote": "Modalität: \nPräsenz | Online\n \n<code>INFORMATIVER UND INTERAKTIVER ANSATZ</code>",
+    "title_topics": "LEHRPLAN",
+    "quote_topics": "*DER LEHRPLAN KANN JE NACH BEDÜRFNISSEN DER ZIELGRUPPE ANGEPASST WERDEN*",
+    "description_topic_list1": "<p>Die Augen öffnen (Umweltkontext)</p><ul><li>Klimawandel und Tourismussektor.</li><li>Wasserknappheit in Tourismusgebieten</li><li>Beispiele auf nationaler und lokaler Ebene.</li></ul>",
+    "description_topic_list2": "<p>Nachhaltige Abfallwirtschaft (Auswirkungen reduzieren)</p><ul><li>Das Müllproblem und seine Auswirkungen (organische Abfälle, Sickerwasser, Entsorgung, Überkonsum)</li><li>Abfallarten (Siedlungsabfälle, gefährliche Abfälle, Sonderabfälle) und ihre Trennung (zu Hause und in Hotels)</li><li>Reduzieren Sie Ihren Fußabdruck (7Rs, Kompostierung, Zero-Waste-Produkte)</li></ul>",
+    "description_topic_list3": "<p>Verantwortungsvoller Energieverbrauch</p><ul><li>Energiesektor als Hauptursache des Klimawandels</li><li>Tägliche Maßnahmen zur Reduzierung des Energieverbrauchs (Arbeitsplatz und Zuhause)</li><li>Effiziente Nutzung von Geräten und Haushaltsgeräten</li></ul>",
+    "description_topic_list4": "<p>Verantwortungsvoller Umgang mit Wasser</p><ul><li>Richtiger Umgang mit Produkten zur Vermeidung von Kontamination durch Leckagen</li><li>Gäste über Wassersparen informieren, ohne ihren Komfort zu beeinträchtigen</li><li>Wasserverbrauch zu Hause und in Hotels reduzieren</li></ul>",
+    "description_topic_list5": "<p>Bewusste Entscheidungen</p><ul><li>Nachhaltige Alternativen für Haushaltsprodukte</li><li>Schlüsselfragen für bewusste Verbraucher</li><li>Nächste Schritte</li></ul>"
+  },
+  "coursesAndWorkshopsStudentsAgents": {
+    "title": "Schüler als Veränderer",
+    "description1": "Unsere Schulungen zum Umweltbewusstsein sind darauf ausgelegt, zu bilden und zu sensibilisieren...",
+    "sections": {
+      "list1": "Kindergarten und Vorschule",
+      "list2": "Grundschule und Sekundarstufe I",
+      "list3": "Gymnasiale Oberstufe",
+      "list4": "Hochschulbildung",
+      "work": { "altText": "Bild: Kindergarten und Vorschule" },
+      "admin": { "altText": "Bild: Grundschule und Sekundarstufe I" },
+      "employees": { "altText": "Bild: Gymnasiale Oberstufe" },
+      "providers": { "altText": "Bild: Hochschulbildung" }
+    },
+    "description2": "Über die Bedeutung, aktuelle Systeme zu hinterfragen, Umweltbewusstsein in den Alltag zu integrieren und wie man es entsprechend dem Einflussbereich jedes Schülers anwenden und vermitteln kann.",
+    "description_banner": "Wir bilden die <code>gegenwärtige</code> Generation aus, um die <code>Zukunft</code> zu gestalten. Unsere umfassenden, dynamischen Lernsitzungen zur Umweltsensibilisierung decken <code>verschiedene sozial-ökologische Themen</code> ab und sind für alle Bildungsstufen konzipiert, mit dem Ziel, eine <code>kritische und reflektierende</code> Umwelthaltung zu entwickeln, die sich für <code>Klimaschutz</code> und <code>Umweltschutz</code> einsetzt und jeden Schüler motiviert, ein <code>Veränderer</code> in seiner Gemeinschaft und darüber hinaus zu werden.",
+    "title_benefits": "Vorteile",
+    "benefits": "<ul><li>Stärkt das Engagement und die Verantwortung der Institution für Umweltbildung.</li><li>Erhöht die Effizienz im Ressourcenmanagement der Institution.</li><li>Verbessert die Umsetzung von Umweltkampagnen.</li><li>Fördert ein bewussteres und partizipativeres Schulumfeld.</li><li>Schüler entwickeln kritisches Denken über Nachhaltigkeit und Umweltauswirkungen.</li><li>Schüler erwerben praktische Werkzeuge für den Alltag.</li><li>Schüler fühlen sich inspiriert, Umwelt- und Sozialprojekte zu starten.</li></ul>",
+    "benefits_quote": "Modalität: \nPräsenz | Online\n \n<code>DYNAMISCHER UND INTERAKTIVER ANSATZ</code>",
+    "title_topics": "LEHRPLAN",
+    "quote_topics": "*DER LEHRPLAN KANN JE NACH BEDÜRFNISSEN DER ZIELGRUPPE ANGEPASST WERDEN*",
+    "description_topic_list1": "<p>Unsere Erde und ihr aktueller Zustand</p><ul><li>Was ist Umwelt und warum ist sie wichtig?</li><li>Klimawandel: Ursachen, Auswirkungen und unsere Verantwortung.</li><li>Wasserkrise: Wasser als essentielle Ressource und sein Schutz.</li><li>Beispiele für Umweltprobleme in unserer Gemeinschaft.</li></ul>",
+    "description_topic_list2": "<p>Abfall und seine Auswirkungen</p><ul><li>Was passiert mit unserem Müll nach der Entsorgung?</li><li>Abfallarten und richtige Trennung.</li><li>Wie reduzieren wir unseren Abfall? (Die 7Rs, Kompostierung und verantwortungsvolle Gewohnheiten).</li></ul>",
+    "description_topic_list3": "<p>Energie und natürliche Ressourcen: Wie können wir sie besser nutzen?</p><ul><li>Woher kommt die Energie, die wir verbrauchen?</li><li>Tägliche Maßnahmen zum Energiesparen in Schule und Zuhause.</li><li>Wie sparen wir Wasser, ohne unsere Routine zu beeinträchtigen?</li></ul>",
+    "description_topic_list4": "<p>Produkte und Gewohnheiten, die die Welt verändern können</p><ul><li>Wie beeinflussen unsere Konsumgewohnheiten den Planeten?</li><li>Nachhaltige Alternativen für den Alltag.</li><li>Wie wird man ein bewusster Verbraucher? (Schlüsselfragen vor dem Kauf).</li></ul>",
+    "description_topic_list5": "<p>Initiative ergreifen: Kleine Veränderungen, große Wirkung</p><ul><li>Wie werden wir Veränderer in Schule und Gemeinschaft?</li><li>Initiativen und Projekte, die wir gemeinsam umsetzen können.</li><li>Lassen Sie sich inspirieren: Geschichten von Jugendlichen, die etwas bewegen.</li></ul>"
+  },
+  "coursesAndWorkshopsWorkshops": {
+    "title": "Workshops",
+    "workshops_quote": "Modalität:\nPräsenz\n \nFlexible Dauer:  \n3 bis 8 Stunden\n \nDYNAMISCHER UND INTERAKTIVER ANSATZ",
+    "block_title": "Workshop:",
+    "block_desc": "Nachhaltigkeit als Unternehmensstrategie",
+    "block_quote": "Für Führungskräfte, Manager und Entscheidungsträger",
+    "description1": "Unternehmen, die Nachhaltigkeitsstrategien integrieren, reduzieren nicht nur Kosten, sondern gewinnen auch Kunden, stärken ihren Ruf und sichern ihren Markterfolg. \nDieser Workshop vermittelt, wie Nachhaltigkeit zum Wettbewerbsvorteil und profitablen Wachstumsmodell wird.\nDurch innovative Methoden, Fallstudien und praktische Tools lernen Teilnehmer, Einsparpotenziale zu identifizieren, Ressourcen zu optimieren und die Rendite von Nachhaltigkeitsinvestitionen zu bewerten."
+  },
+  "coursesAndWorkshopsLearning": {
+    "title": "Sie lernen...",
+    "desc1": "Nachhaltige Strategien zur Ertragssteigerung und Kundenbindung.",
+    "desc2": "Versteckte Kosten mangelnder Nachhaltigkeit: Strafen, Mehrkosten und Reputationsverlust.",
+    "desc3": "Effektive Strategien zur Gewinnmaximierung durch kluge Investitionen.",
+    "desc4": "Erstellung eines maßgeschneiderten Aktionsplans für Ihr Unternehmen."
+  },
   "environmentalSolutionsHero": {
     "title": "Umweltlösungen",
     "description1": "Lösungen zur ökosystemischen Regeneration",

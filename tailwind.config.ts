@@ -21,6 +21,7 @@ export default {
         'light-beige': '#f8f8f6',
         'verderaiz-green': '#546357',
         'official-mexican-standards':'#e4e9e1',
+        'workshops-green': '#e4e9e1',
       },
       animation: {
         'spin-once': 'spin-once 0.5s linear forwards',

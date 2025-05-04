@@ -284,6 +284,77 @@
     "description2": "NOUS RÉCOLTONS UN AVENIR DURABLE",
     "button": "CONTACTEZ-NOUS"
   },
+  "coursesAndWorkshopsQuote": {
+    "title": "cours de sensibilisation",
+    "description1": "À travers des dynamiques d'apprentissage et un contenu spécialisé, nous favorisons une culture <code>organisationnelle et éducative</code> orientée vers la <code>protection de l'environnement</code> et la <code>MITIGATION DU CHANGEMENT CLIMATIQUE</code>."
+  },
+  "coursesAndWorkshopsEcoConscious": {
+    "title": "pour entreprises responsables",
+    "description1": "Nos formations en sensibilisation environnementale sont conçues pour éduquer et sensibiliser...",
+    "sections": {
+      "list1": "Équipes de travail",
+      "list2": "Personnel administratif et collaborateurs",
+      "list3": "Employés",
+      "list4": "Prestataires de services",
+      "work": { "altText": "Image : Équipes de travail" },
+      "admin": { "altText": "Image : Personnel administratif" },
+      "employees": { "altText": "Image : Employés" },
+      "providers": { "altText": "Image : Prestataires" }
+    },
+    "description2": "Sur les meilleures pratiques environnementales, la conformité réglementaire et l'importance de la durabilité dans les opérations quotidiennes.",
+    "description_banner": "Nous concevons et mettons en œuvre des sessions de formation à la sensibilisation environnementale couvrant <code>divers thèmes socio-environnementaux</code>, dans le but de <code>déclencher</code> chez le personnel un changement d'<code>attitudes et d'habitudes</code> avec une perspective de durabilité, influençant positivement la <code>mitigation du changement climatique</code> et la protection de l'environnement dans leurs sphères d'influence tant à la maison qu'au travail.",
+    "title_benefits": "avantages",
+    "benefits": "<ul><li>Permet à tout le personnel d'être aligné sur les objectifs environnementaux de l'entreprise.</li><li>Réduit le risque de non-conformité réglementaire.</li><li>Renforce l'image responsable de l'organisation.</li><li>Augmente l'efficacité dans la gestion des ressources</li><li>Améliore l'efficacité dans la mise en œuvre des politiques environnementales.</li></ul>",
+    "benefits_quote": "Modalité : \nPrésentiel | En ligne\n \n<code>APPROCHE INFORMATIVE ET INTERACTIVE</code>",
+    "title_topics": "PROGRAMME",
+    "quote_topics": "*LE PROGRAMME PEUT ÊTRE MODIFIÉ EN FONCTION DES BESOINS DU PUBLIC*",
+    "description_topic_list1": "<p>Ouvrons les yeux (Contexte environnemental)</p><ul><li>Changement climatique et secteur touristique.</li><li>Crise hydrique dans les zones touristiques</li><li>Exemples de cas au niveau national et local.</li></ul>",
+    "description_topic_list2": "<p>Gestion durable des déchets (Réduire l'impact)</p><ul><li>Le problème des déchets et leur impact (organiques, lixiviats, destination finale, surconsommation)</li><li>Types de déchets (DMS, DME, DP) et leur tri (à la maison et à l'hôtel)</li><li>Réduisez votre impact (7R, Compost, produits zéro déchet)</li></ul>",
+    "description_topic_list3": "<p>Utilisation responsable de l'énergie</p><ul><li>Le secteur énergétique comme principale cause du changement climatique</li><li>Actions quotidiennes pour réduire la consommation d'énergie (au travail et à la maison)</li><li>Utilisation efficace des équipements et appareils électroménagers</li></ul>",
+    "description_topic_list4": "<p>Utilisation responsable de l'eau</p><ul><li>Gestion appropriée des produits pour éviter la contamination par les déversements</li><li>Sensibilisation des clients aux économies d'eau sans affecter leur confort</li><li>Réduire la consommation d'eau à la maison et à l'hôtel</li></ul>",
+    "description_topic_list5": "<p>Décisions conscientes</p><ul><li>Alternatives durables pour les produits ménagers</li><li>Questions clés pour un consommateur responsable</li><li>Prochaines étapes</li></ul>"
+  },
+  "coursesAndWorkshopsStudentsAgents": {
+    "title": "étudiants comme agents de changement",
+    "description1": "Nos formations en sensibilisation environnementale sont conçues pour éduquer et sensibiliser...",
+    "sections": {
+      "list1": "Maternelle et Préscolaire",
+      "list2": "École primaire et secondaire",
+      "list3": "Lycée",
+      "list4": "Enseignement supérieur",
+      "work": { "altText": "Image : Maternelle et Préscolaire" },
+      "admin": { "altText": "Image : École primaire et secondaire" },
+      "employees": { "altText": "Image : Lycée" },
+      "providers": { "altText": "Image : Enseignement supérieur" }
+    },
+    "description2": "Sur l'importance de remettre en question les systèmes actuels, d'apporter la conscience environnementale dans la vie quotidienne, comment l'appliquer et la partager selon la portée de chaque étudiant.",
+    "description_banner": "Nous formons les générations du <code>présent</code> pour transformer l'<code>avenir</code>. Nos sessions d'apprentissage intégrales et dynamiques en sensibilisation environnementale couvrent <code>divers thèmes socio-environnementaux</code> et le contenu est conçu pour tous les niveaux éducatifs, dans le but de <code>déclencher</code> une mentalité de critique et de réflexion environnementale, en unissant les efforts pour la <code>mitigation du changement climatique</code> et la <code>protection de l'environnement</code> tout en motivant chaque étudiant à devenir un <code>agent de changement</code> dans sa communauté et au-delà.",
+    "title_benefits": "avantages",
+    "benefits": "<ul><li>Renforce l'engagement et la responsabilité de l'institution envers l'éducation environnementale.</li><li>Augmente l'efficacité dans la gestion des ressources au sein de l'institution.</li><li>Améliore l'efficacité dans la mise en œuvre des campagnes environnementales.</li><li>Favorise un environnement scolaire plus conscient et participatif.</li><li>L'étudiant développe une pensée critique sur la durabilité et l'impact environnemental.</li><li>L'étudiant acquiert des outils pratiques à appliquer au quotidien.</li><li>L'étudiant est inspiré à entreprendre des projets environnementaux et à impact social.</li></ul>",
+    "benefits_quote": "Modalité : \nPrésentiel | En ligne\n \n<code>APPROCHE DYNAMIQUE ET INTERACTIVE</code>",
+    "title_topics": "PROGRAMME",
+    "quote_topics": "*LE PROGRAMME PEUT ÊTRE MODIFIÉ EN FONCTION DES BESOINS DU PUBLIC*",
+    "description_topic_list1": "<p>Connaître notre planète et son état actuel</p><ul><li>Qu'est-ce que l'environnement et pourquoi est-il important ?</li><li>Changement climatique : causes, effets et notre responsabilité.</li><li>Crise hydrique : l'eau comme ressource essentielle et sa préservation.</li><li>Exemples de problèmes environnementaux dans notre communauté.</li></ul>",
+    "description_topic_list2": "<p>Les déchets et leur impact</p><ul><li>Que deviennent nos déchets après les avoir jetés ?</li><li>Types de déchets et comment les trier correctement.</li><li>Comment réduire nos déchets ? (Les 7R, compostage et habitudes responsables).</li></ul>",
+    "description_topic_list3": "<p>Énergie et ressources naturelles : comment mieux les utiliser ?</p><ul><li>D'où vient l'énergie que nous utilisons ?</li><li>Actions quotidiennes pour économiser l'énergie à l'école et à la maison.</li><li>Comment économiser l'eau sans affecter notre routine ?</li></ul>",
+    "description_topic_list4": "<p>Produits et habitudes qui peuvent changer le monde</p><ul><li>Comment nos habitudes de consommation affectent-elles la planète ?</li><li>Alternatives durables pour la vie quotidienne.</li><li>Comment être un consommateur responsable ? (Questions clés avant d'acheter).</li></ul>",
+    "description_topic_list5": "<p>Passer à l'action : petits changements, grands impacts</p><ul><li>Comment devenir des agents de changement dans notre école et communauté ?</li><li>Initiatives et projets que nous pouvons réaliser ensemble.</li><li>Inspirez-vous : histoires de jeunes du même niveau éducatif qui font la différence.</li></ul>"
+  },
+  "coursesAndWorkshopsWorkshops": {
+    "title": "Ateliers",
+    "workshops_quote": "Modalité :\nPrésentiel\n \nDurée flexible :  \nde 3 à 8 heures\n \nAPPROCHE DYNAMIQUE ET INTERACTIVE",
+    "block_title": "Atelier :",
+    "block_desc": "durabilité comme stratégie d'entreprise",
+    "block_quote": "Pour administrateurs, gestionnaires et dirigeants",
+    "description1": "Aujourd'hui, les entreprises qui intègrent des stratégies durables non seulement réduisent les coûts, mais attirent plus de clients, renforcent leur réputation et assurent leur pérennité sur le marché. \nCet atelier est conçu pour comprendre comment la durabilité peut devenir un avantage concurrentiel et une stratégie de croissance rentable.\nÀ travers des dynamiques innovantes, l'analyse de cas de succès et des outils applicables, les participants apprendront à identifier des opportunités d'économie, optimiser les ressources et visualiser le retour sur investissement en durabilité."
+  },
+  "coursesAndWorkshopsLearning": {
+    "title": "vous apprendrez...",
+    "desc1": "Stratégies durables pour augmenter les revenus et fidéliser les clients.",
+    "desc2": "Coûts cachés de ne pas être durable : amendes, surcoûts et perte de réputation.",
+    "desc3": "Stratégies efficaces pour maximiser la rentabilité avec des investissements intelligents.",
+    "desc4": "Construction d'un plan d'action adapté aux besoins de l'organisation."
+  },
   "socioculturalSolutionsHero": {
     "title": "Solutions Socioculturelles",
     "description1": "La solution réside dans la",
