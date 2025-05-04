@@ -8,7 +8,7 @@ function WorkShops() {
     const t = useTranslations("coursesAndWorkshopsWorkshops");
 
     return (
-        <div className="bg-light-beige pb-10 px-10 md:pb-16 md:px-16 lg:px-24 lg:pb-20 xl:px-36 xl:pb-24 2xl:px-[32rem] relative">
+        <div className="bg-light-beige pb-10 px-10 md:pb-16 md:px-16 lg:px-24 lg:pb-20 xl:px-36 xl:pb-24 relative">
             <p className="text-black text-center tracking-widest font-cambay font-bold border-[#263c2c] border-[3px] uppercase lg:border-[4px] rounded-2xl px-4 pt-2 mx-4 md:mx-36 md:py-3 lg:mx-64 lg:py-4 xl:mx-96 xl:py-6 md:text-lg lg:text-2xl xl:text-3xl">
                 {t("title")}
             </p>
@@ -17,7 +17,7 @@ function WorkShops() {
                     <Image
                         src={EcoConsciousBenefits}
                         alt="EcoConsciousBenefits"
-                        className="xl:w-full 2xl:w-10/12"
+                        className="xl:w-10/12"
                     />
                     <blockquote
                         className="xl:w-auto italic tracking-widest font-bold uppercase text-black whitespace-pre-line">
