@@ -7,11 +7,11 @@ import Image from "next/image";
 function Quote() {
     const t = useTranslations("coursesAndWorkshopsQuote");
     return (
-        <div className="bg-light-beige py-10 px-10 md:py-16 md:px-28 lg:px-40 lg:py-20 xl:px-72 xl:py-24">
+        <div className="py-10 px-10 md:py-16 md:px-28 lg:px-40 lg:py-20 xl:px-72 xl:py-24 relative">
             <Image
                 src={BGQuote}
                 alt="BGQuote"
-                className="absolute md:w-2/3 md:right-0 xl:w-1/2"
+                className="absolute md:w-2/3 right-0 xl:w-1/2"
             />
 
             <div className="z-10">

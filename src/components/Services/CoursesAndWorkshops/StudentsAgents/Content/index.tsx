@@ -8,8 +8,6 @@ import Primary from "@/assets/images/Services/CoursesAndWorkshops/StudentsAgents
 import Highschool from "@/assets/images/Services/CoursesAndWorkshops/StudentsAgents/HighschoolIMG.png";
 import University from "@/assets/images/Services/CoursesAndWorkshops/StudentsAgents/UniversityIMG.png";
 import StudentsAgents from "@/assets/images/Services/CoursesAndWorkshops/StudentsAgents/StudentsAgents.png";
-import StudentsBG from "@/assets/images/Services/CoursesAndWorkshops/StudentsAgents/StudentsBG.png";
-import StudentsBG2 from "@/assets/images/Services/CoursesAndWorkshops/StudentsAgents/StudentsBG2.png";
 
 function EcoConsciousContent() {
     const t = useTranslations("coursesAndWorkshopsStudentsAgents");
@@ -22,22 +20,9 @@ function EcoConsciousContent() {
     ];
 
     return (
-        <div>
-            <div
-                className="bg-[#e6e8e1] flex flex-col items-center justify-center justify-items-[anchor-center] px-4 lg:px-8 py-8 lg:py-12 rounded-3xl lg:rounded-[48px] mx-16 lg:mx-24 xl:mx-32 mb-12 md:mb-16 xl:mb-24">
-                <div className="-z-0">
-                    <Image
-                        src={StudentsBG}
-                        alt="StudentsBG"
-                        className="absolute w-1/2 md:w-1/4 left-0"
-                    />
-                    <Image
-                        src={StudentsBG2}
-                        alt="StudentsBG2"
-                        className="absolute w-1/2 md:w-1/4 right-0"
-                    />
-                </div>
-                <div className="z-10">
+        <div className="flex flex-col">
+            <div className="z-10">
+                <div className="bg-[#e6e8e1] flex flex-col items-center justify-center px-4 lg:px-8 py-8 lg:py-12 rounded-3xl lg:rounded-[48px] mx-2 lg:mx-24 xl:mx-32 mb-12 md:mb-16 xl:mb-24">
                     <h1 className="font-cambay font-semibold tracking-[0.3em] text-center uppercase text-[#2c4e31] mb-8 md:text-2xl lg:text-3xl mx-4 md:mx-8 lg:mx-12 xl:mx-48">
                         {t("title")}
                     </h1>
@@ -77,7 +62,7 @@ function EcoConsciousContent() {
                 </div>
 
                 <div
-                    className="bg-[#536156] text-white text-justify md:text-lg lg:text-xl xl:text-2xl font-montserrat px-4 lg:px-8 py-8 lg:py-12 rounded-3xl lg:rounded-[48px] mx-12 md:mx-8 mb-12 md:mb-16 xl:mb-24">
+                    className="bg-[#536156] text-white text-justify md:text-lg lg:text-xl xl:text-2xl font-montserrat px-4 lg:px-8 py-8 lg:py-12 rounded-3xl lg:rounded-[48px] mx-2 md:mx-8 mb-12 md:mb-16 xl:mb-24">
                     {t.rich("description_banner", {
                         code: (chunks) => (
                             <code className="font-extrabold">
@@ -112,7 +97,7 @@ function EcoConsciousContent() {
                             {t("title_benefits")}
                         </h2>
                         <div
-                            className="font-montserrat text-center lg:text-justify font-[200] text-black md:text-lg lg:text-xl xl:text-2xl w-3/5 lg:w-10/12 justify-self-center">
+                            className="font-montserrat text-justify font-[200] text-black md:text-lg lg:text-xl xl:text-2xl w-3/5 lg:w-10/12 justify-self-center">
                             {t.rich("benefits", {
                                 ul: (chunks) => <ul className="list-disc">{chunks}</ul>,
                                 li: (chunks) => <li>{chunks}</li>,
@@ -124,7 +109,7 @@ function EcoConsciousContent() {
                     {t("title_topics")}
                 </h2>
                 <div
-                    className="bg-[#e6e8e1] flex flex-col items-center justify-center justify-items-[anchor-center] px-2 lg:px-8 py-8 lg:py-12 rounded-3xl lg:rounded-[48px] mx-10 sm:mx-2 xl:mx-4 mb-12 md:mb-16 xl:mb-24">
+                    className="bg-[#e6e8e1] flex flex-col items-center justify-center  px-2 lg:px-8 py-8 lg:py-12 rounded-3xl lg:rounded-[48px] mx-2 sm:mx-2 xl:mx-4 mb-2 md:mb-4">
                     <p className="text-center uppercase font-montserrat font-bold text-black text-xs lg:text-base xl:text-lg mb-8">
                         {t("quote_topics")}
                     </p>
@@ -174,6 +159,7 @@ function EcoConsciousContent() {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 }

@@ -16,9 +16,11 @@ export default function Services() {
             <Navbar/>
             <ButtonLanguage/>
             <Hero/>
-            <Quote/>
-            <EcoConscious/>
-            <StudentsAgents/>
+            <div className="bg-light-beige">
+                <Quote/>
+                <EcoConscious/>
+                <StudentsAgents/>
+            </div>
             <WorkShops/>
             <Learning/>
             <Footer/>

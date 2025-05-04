@@ -41,7 +41,7 @@ function AwarenessCards() {
                                 </h3>
 
                                 {/* Imagen con fondo verde */}
-                                <div className="bg-[#536156] p-4 rounded-full mb-4">
+                                <div className="bg-[#536156] p-4 rounded-[400px] mb-4">
                                     <Image
                                         src={item.image}
                                         alt={`Image ${index + 1}`}

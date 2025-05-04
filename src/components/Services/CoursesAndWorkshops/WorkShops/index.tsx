@@ -28,16 +28,16 @@ function WorkShops() {
                     {/* Línea vertical con altura dinámica */}
                     <div className="hidden lg:block absolute left-1/2 w-[2px] bg-black transform -translate-x-1/2"></div>
 
-                    <div className="bg-[#e6e8e1] flex flex-row rounded-2xl text-sm justify-items-center items-center font-montserrat font-extrabold uppercase mx-6 mb-4 lg:mx-2 p-4 lg:py-1 text-black relative z-10 md:text-lg lg:text-xl xl:text-2xl">
+                    <div className="bg-[#e6e8e1] flex flex-row rounded-2xl text-sm justify-items-center items-center font-montserrat font-extrabold uppercase mb-4 mx-2 p-4 lg:py-1 text-black relative z-10 md:text-lg lg:text-xl xl:text-2xl">
                         <p className="p-2 my-2">{t("block_title")}</p>
                         <p className="p-2 my-2">{t("block_desc")}</p>
                     </div>
 
-                    <p className="items-center font-montserrat font-bold uppercase text-center md:text-lg lg:text-xl xl:text-2xl text-black mx-6 lg:mx-2 mb-6 relative z-10">
+                    <p className="items-center font-montserrat font-bold uppercase text-center md:text-lg lg:text-xl xl:text-2xl text-black mx-2 mb-6 relative z-10">
                         {t("block_quote")}
                     </p>
 
-                    <div className="text-black text-justify mx-6 md:text-lg lg:text-xl xl:text-2xl lg:mx-2">
+                    <div className="text-black text-justify md:text-lg lg:text-xl xl:text-2xl lg:mx-2 px-4">
                         {t("description1")}
                     </div>
                 </div>
