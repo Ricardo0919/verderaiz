@@ -30,11 +30,11 @@ function Learning() {
     ];
 
     return (
-        <div className="bg-light-beige pb-10 px-10 md:pb-16 md:px-16 lg:px-24 lg:pb-20 xl:px-36 xl:pb-24 relative">
+        <div className="bg-light-beige pb-10 md:px-16 lg:px-24 relative">
             <h2 className="text-center uppercase font-cambay tracking-[0.3em] md:text-2xl lg:text-3xl text-black font-bold">
                 {t("title")}
             </h2>
-            <div className="bg-[#e6e8e1] flex flex-col items-center justify-center justify-items-[anchor-center] px-2 lg:px-8 py-8 lg:py-12 rounded-3xl lg:rounded-[48px] mx-10 sm:mx-2 xl:mx-4 mb-12 md:mb-16 xl:mb-24">
+            <div className="bg-[#e6e8e1] flex flex-col items-center justify-center justify-items-[anchor-center] px-2 lg:px-8 py-8 lg:py-12 rounded-3xl lg:rounded-[48px] mx-10 sm:mx-2 xl:mx-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
                     {items.map((item, index) => (
                         <div key={index} className="flex flex-col items-center text-black text-center xl:text-justify relative">
