@@ -138,7 +138,7 @@ function WaterManagementContent() {
                             />
                             <div className="absolute inset-0 bg-black bg-opacity-30 rounded-[40px]" />
                             <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
-                                <p className="font-cambay font-bold text-xl px-3 uppercase xl:text-[28px] xl:px-12">
+                                <p className="font-cambay font-bold text-xl px-3 uppercase lg:text-[16px] lg:tracking-[5px] xl:text-[20px] xl:tracking-[10px] xl:px-12">
                                     {t(block.titleKey)}
                                 </p>
                             </div>
@@ -177,7 +177,7 @@ function WaterManagementContent() {
                             />
                             <div className="absolute inset-0 bg-black bg-opacity-30 rounded-[40px]" />
                             <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
-                                <p className="font-cambay font-bold text-xl px-3 uppercase xl:text-[28px] xl:px-12">
+                                <p className="font-cambay font-bold text-xl px-3 uppercase lg:text-[16px] lg:tracking-[5px] xl:text-[20px] xl:tracking-[8px] xl:px-12">
                                     {t(block.titleKey)}
                                 </p>
                             </div>
@@ -216,7 +216,7 @@ function WaterManagementContent() {
                             />
                             <div className="absolute inset-0 bg-black bg-opacity-30 rounded-[40px]" />
                             <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center">
-                                <p className="font-cambay font-bold text-xl px-3 uppercase xl:text-[28px] xl:px-12">
+                                <p className="font-cambay font-bold text-xl px-3 uppercase lg:text-[20px] lg:tracking-[5px] xl:text-[28px] xl:tracking-[10px] xl:px-12">
                                     {t(block.titleKey)}
                                 </p>
                             </div>

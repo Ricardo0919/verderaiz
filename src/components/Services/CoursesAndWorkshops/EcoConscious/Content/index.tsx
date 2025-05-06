@@ -115,17 +115,17 @@ function EcoConsciousContent() {
                     <div
                         className="w-full grid grid-cols-1 lg:grid-cols-2 lg:gap-8 relative items-center text-black font-montserrat">
                         {/* Columna izquierda */}
-                        <div className="space-y-6 lg:pr-8 justify-items-center">
+                        <div className="space-y-6 lg:pr-8 justify-items-center lg:justify-items-start md:px-8 lg:px-0">
                             {t.rich("description_topic_list1", {
                                 p: (chunks) => <h2
-                                    className="font-bold text-base md:text-lg uppercase">{chunks}</h2>,
+                                    className="font-[800] font-sans text-base md:text-lg uppercase md:tracking-[3px]">{chunks}</h2>,
                                 ul: (chunks) => <ul className="list-disc pl-5">{chunks}</ul>,
                                 li: (chunks) => <li>{chunks}</li>
                             })}
 
                             {t.rich("description_topic_list2", {
                                 p: (chunks) => <h2
-                                    className="font-bold text-base md:text-lg uppercase">{chunks}</h2>,
+                                    className="font-[800] font-sans text-base md:text-lg uppercase md:tracking-[3px]">{chunks}</h2>,
                                 ul: (chunks) => <ul className="">{chunks}</ul>,
                                 li: (chunks) => <li>{chunks}</li>,
                                 strong: (chunks) => <strong>{chunks}</strong>
@@ -133,7 +133,7 @@ function EcoConsciousContent() {
 
                             {t.rich("description_topic_list3", {
                                 p: (chunks) => <h2
-                                    className="font-bold text-base md:text-lg uppercase">{chunks}</h2>,
+                                    className="font-[800] font-sans text-base md:text-lg uppercase md:tracking-[3px]">{chunks}</h2>,
                                 ul: (chunks) => <ul className="">{chunks}</ul>,
                                 li: (chunks) => <li>{chunks}</li>,
                                 strong: (chunks) => <strong>{chunks}</strong>
@@ -141,13 +141,13 @@ function EcoConsciousContent() {
                         </div>
 
                         {/* Columna derecha */}
-                        <div className="space-y-6 lg:pl-8 mt-8 lg:mt-0 justify-items-center">
+                        <div className="space-y-6 lg:pl-8 mt-8 lg:mt-0 justify-items-center lg:justify-items-start md:px-8 lg:px-0">
                             {/* Línea divisoria solo en desktop */}
                             <div
                                 className="hidden lg:block absolute top-0 bottom-0 left-1/2 w-[2px] bg-black"></div>
                             {t.rich("description_topic_list4", {
                                 p: (chunks) => <h2
-                                    className="font-bold text-base md:text-lg uppercase">{chunks}</h2>,
+                                    className="font-[800] font-sans text-base md:text-lg uppercase md:tracking-[3px]">{chunks}</h2>,
                                 ul: (chunks) => <ul className="list-decimal pl-5">{chunks}</ul>,
                                 li: (chunks) => <li>{chunks}</li>,
                                 strong: (chunks) => <strong>{chunks}</strong>
@@ -155,7 +155,7 @@ function EcoConsciousContent() {
 
                             {t.rich("description_topic_list5", {
                                 p: (chunks) => <h2
-                                    className="font-bold text-base md:text-lg uppercase">{chunks}</h2>,
+                                    className="font-[800] font-sans text-base md:text-lg uppercase md:tracking-[3px]">{chunks}</h2>,
                                 ul: (chunks) => <ul className="list-disc pl-5">{chunks}</ul>,
                                 li: (chunks) => <li>{chunks}</li>,
                                 strong: (chunks) => <strong>{chunks}</strong>

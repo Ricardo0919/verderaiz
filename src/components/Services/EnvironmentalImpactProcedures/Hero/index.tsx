@@ -35,15 +35,15 @@ function Hero() {
 
             {/* Contenido principal */}
             <div className="relative border border-white rounded-2xl pt-24 pb-6 px-10 mx-8 md:px-16 md:pt-32 md:pb-16 lg:pb-16 lg:-mt-40 lg:pt-48 lg:px-10 xl:pt-60 xl:pb-16 xl:px-36">
-                <div className="flex flex-col md:flex-row items-center justify-center md:gap-12 lg:gap-8">
-                    <h1 className="text-3xl md:text-4xl text-white font-cambay font-semibold mt-6 md:w-1/2 md:text-left md:mt-0 md:pr-4 lg:w-2/3 lg:tracking-[10px] xl:tracking-[8px] lg:pr-32 lg:leading-[50px] xl:leading-[75px] xl:pr-64 lg:text-4xl xl:text-5xl uppercase">
+                <div className="flex flex-col md:flex-row items-center justify-center">
+                    <h1 className="text-3xl md:text-4xl text-white font-cambay font-semibold mt-6 md:w-1/2 md:text-left md:mt-0 md:pr-4 lg:w-2/3 lg:tracking-[16px] xl:tracking-[16px] lg:pr-10 lg:leading-[50px] xl:leading-[75px] xl:pr-10 lg:text-4xl xl:text-5xl uppercase">
                         {t("title")}
                     </h1>
-                    <div className="text-white md:w-1/2 md:order-1 lg:w-1/3">
-                        <p className="font-montserrat text-center mt-6 text-sm md:text-lg font-light lg:text-lg xl:text-2xl">
+                    <div className="text-white md:w-1/2 md:order-1 lg:w-1/2">
+                        <p className="font-montserrat text-center mt-6 text-sm md:text-lg md:tracking-[2px] lg:tracking-[4px] xl:tracking-[8px] font-light lg:text-lg xl:text-2xl">
                             {t("description1")}
                         </p>
-                        <p className="font-montserrat px-5 text-center mt-2 text-sm font-bold md:px-8 md:text-lg lg:text-lg xl:text-2xl uppercase">
+                        <p className="font-montserrat px-5 text-center mt-2 text-sm font-bold md:px-0 md:text-lg md:tracking-[2px] lg:tracking-[8px] xl:tracking-[10px] lg:text-lg xl:text-2xl uppercase">
                             {t("description2")}
                         </p>
                         <Link href={l("contactLink")}>

@@ -19,7 +19,7 @@ function Question() {
                         alt="Background Image"
                         className="w-[80px] xl:w-[130px] hidden md:flex"
                     />
-                    <p className="text-center uppercase font-bold md:px-5 xl:text-[40px] xl:px-12 md:w-1/2">
+                    <p className="text-center uppercase font-bold md:px-5 md:tracking-[3px] lg:tracking-[6px] xl:tracking-[12px] xl:leading-[44px] xl:text-[30px] xl:px-12 md:w-1/2">
                         {t("question")}
                     </p>
                     <Image
@@ -29,10 +29,10 @@ function Question() {
                     />
                 </div>
                 <div className="text-center text-sm lg:text-lg xl:text-2xl mt-3 font-semibold flex flex-col md:flex-row justify-center items-center">
-                    <p className="mb-3 md:mb-0 md:w-1/3 md:pr-4">
+                    <p className="mb-3 md:mb-0 md:w-1/3 md:pr-12 md:pl-4 xl:pr-28 xl:pl-8">
                         {t("text1")}
                     </p>
-                    <div className="md:w-1/3 flex flex-col justify-center items-center md:px-4">
+                    <div className="md:w-1/3 flex flex-col justify-center items-center md:px-12 xl:px-24">
                         <Image
                             src={ArrowDown}
                             alt="Background Image"
@@ -42,7 +42,7 @@ function Question() {
                             {t("text2")}
                         </p>
                     </div>
-                    <p className="mb-3 md:mb-0 md:w-1/3 md:pl-4">
+                    <p className="mb-3 md:mb-0 md:w-1/3 md:pl-12 md:pr-4 xl:pl-28 xl:pr-8">
                         {t("text3")}
                     </p>
                 </div>
