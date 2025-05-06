@@ -1,12 +1,17 @@
 "use client";
 import Link from "next/link";
 import React from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { SiGoogledocs } from "react-icons/si";
 
 function LibraryBlogButton() {
     const t = useTranslations("navbar");
     const b = useTranslations("blogStandardsButton");
+    const locale = useLocale();
+
+    const standardsHref = locale === "es"
+        ? "/pdf/normas-editoriales.pdf"
+        : "/pdf/editorial-standards.pdf";
 
     return (
         <div className="bg-blog-BG pt-2 md:pt-5 lg:pt-10 pb-10 -mt-1">
@@ -14,7 +19,7 @@ function LibraryBlogButton() {
 
                 {/* Normas Editoriales */}
                 <a
-                    href="/pdf/normas-editoriales.pdf"
+                    href={standardsHref}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="mx-10 md:mx-0 lg:ml-0 xl:ml-0"
