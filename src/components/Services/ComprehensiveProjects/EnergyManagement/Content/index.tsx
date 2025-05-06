@@ -62,7 +62,7 @@ function EnergyManagementContent() {
             <div className="font-montserrat mt-5 lg:mt-10 xl:mt-16 flex flex-col md:flex-row gap-y-8 mx-8 md:gap-y-0 md:gap-8 md:mx-16 text-sm lg:text-base lg:mx-24 lg:gap-12 xl:text-xl xl:mx-32 xl:gap-20">
                 {topic1Blocks.map((block, index) => (
                     <div key={index} className="md:w-1/3">
-                        <p className="text-center font-bold xl:px-8">
+                        <p className="text-center font-bold uppercase md:text-xs lg:text-sm xl:text-xl">
                             {t(block.subtitleKey)}
                         </p>
                         <p className="text-justify mt-4">
