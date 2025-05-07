@@ -16,7 +16,7 @@ function ServiceDescription() {
                     priority
                     className=""
                 />
-                <p className="pt-8 font-black uppercase md:text-xs md:px-8 lg:text-base lg:px-0 lg:pl-8 xl:text-xl">
+                <p className="pt-8 font-black uppercase font-montserrat md:text-xs md:px-8 lg:text-base lg:px-0 lg:pl-8 xl:text-xl">
                     {t("title")}
                 </p>
             </div>
@@ -30,7 +30,7 @@ function ServiceDescription() {
                         ),
                     })}
                 </p>
-                <p className="pt-5">
+                <p className="pt-5 font-montserrat">
                     {t("description2")}
                 </p>
             </div>

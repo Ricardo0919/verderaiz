@@ -48,10 +48,10 @@ function OfficialMexicanStandards() {
     return (
         <div className="bg-light-beige md:px-20 px-8 pb-10 rounded-[25px]">
             <div className="bg-official-mexican-standards text-center text-black rounded-[20px] py-6">
-                <h2 className="text-base md:text-xl lg:text-2xl font-bold tracking-[4px] lg:tracking-[6px] uppercase">
+                <h2 className="text-base md:text-xl lg:text-2xl font-bold font-cambay tracking-[4px] lg:tracking-[6px] uppercase">
                     {t("title1")}
                 </h2>
-                <h3 className="text-base md:text-xl lg:text-2xl font-bold tracking-[4px] lg:tracking-[6px] uppercase">
+                <h3 className="text-base md:text-xl lg:text-2xl font-bold font-cambay tracking-[4px] lg:tracking-[6px] uppercase">
                     {t("title2")}
                 </h3>
             </div>
@@ -61,7 +61,7 @@ function OfficialMexicanStandards() {
                     <div key={index} className="mb-4">
                         <button
                             onClick={() => handleToggle(index)}
-                            className={`w-full text-center px-6 py-2 md:py-3 font-black text-sm md:text-lg rounded-full transition duration-300 hover:bg-white ${
+                            className={`w-full text-center px-6 py-2 md:py-3 font-black text-sm md:text-lg rounded-full font-montserrat transition duration-300 hover:bg-white ${
                                 activeIndex === index
                                     ? "bg-white text-black"
                                     : "bg-official-mexican-standards text-black hover:bg-opacity-90"
@@ -72,10 +72,10 @@ function OfficialMexicanStandards() {
 
                         {activeIndex === index && (
                             <div className="bg-white text-black mt-2 px-6 py-6 rounded-[20px] shadow-sm">
-                                <h3 className="text-xs md:text-sm lg:text-base font-bold uppercase mb-2 lg:pr-[200px] xl:text-xl xl:pr-[400px]">
+                                <h3 className="text-xs md:text-sm font-montserrat lg:text-base font-bold uppercase mb-2 lg:pr-[200px] xl:text-xl xl:pr-[400px]">
                                     {item.subtitle}
                                 </h3>
-                                <p className="text-sm whitespace-pre-wrap leading-relaxed text-justify lg:px-10 xl:pt-4 xl:text-xl xl:px-20">
+                                <p className="text-sm whitespace-pre-wrap font-montserrat leading-relaxed text-justify lg:px-10 xl:pt-4 xl:text-xl xl:px-20">
                                     {item.content}
                                 </p>
 
@@ -91,11 +91,11 @@ function OfficialMexicanStandards() {
                                                 <SiGoogledocs className="text-dark-green text-4xl md:text-5xl" />
                                             </div>
                                             <div>
-                                                <h3 className="text-left font-bold text-dark-green text-sm md:text-base">
+                                                <h3 className="text-left font-montserrat font-bold text-dark-green text-sm md:text-base">
                                                     {item.title}
                                                 </h3>
                                                 <hr className="border-dark-green border-[2px] my-1" />
-                                                <p className="text-left text-dark-green text-xs leading-tight">
+                                                <p className="text-left text-dark-green text-xs font-montserrat leading-tight">
                                                     {t("downloadButton")}
                                                 </p>
                                             </div>
