@@ -9,12 +9,12 @@ function OfficialMexicanStandards() {
     const [activeIndex, setActiveIndex] = useState<number>(0);
 
     const items = [
-        {
-            title: t("standard1"),
-            subtitle: t("subtitle1"),
-            content: t("description1"),
-            pdf: "/standards/NOM-001-SESH-2014.pdf",
-        },
+        //{
+        //    title: t("standard1"),
+        //    subtitle: t("subtitle1"),
+        //    content: t("description1"),
+        //    pdf: "/standards/NOM-001-SESH-2014.pdf",
+        //},
         {
             title: t("standard2"),
             subtitle: t("subtitle2"),
