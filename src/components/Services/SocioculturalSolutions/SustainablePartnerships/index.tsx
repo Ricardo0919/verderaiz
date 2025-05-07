@@ -41,7 +41,7 @@ function SustainablePartnerships() {
                     {items.map((item, index) => (
                         <div key={index} className="flex flex-col items-center text-black text-center">
                             {/* Título */}
-                            <h3 className="text-xl md:text-2xl font-semibold font-cambay mb-4">
+                            <h3 className="text-xl md:text-2xl font-semibold font-montserrat mb-4">
                                 {item.title}
                             </h3>
 
@@ -55,7 +55,7 @@ function SustainablePartnerships() {
                             </div>
 
                             {/* Descripción */}
-                            <p className="text-base md:text-lg font-medium font-cambay max-w-xl">
+                            <p className="text-base md:text-lg font-medium font-montserrat max-w-xl">
                                 {item.description}
                             </p>
                         </div>
@@ -67,16 +67,16 @@ function SustainablePartnerships() {
             <div className="hidden lg:block">
                 <div className="flex justify-center px-8 xl:px-16">
                     <div className="pr-0 py-4 xl:p-4 flex flex-col items-center justify-center gap-8 xl:gap-10 w-1/2 xl:w-1/3">
-                        <h3 className="text-black font-semibold uppercase text-base xl:text-xl font-cambay">
+                        <h3 className="text-black font-semibold uppercase text-base xl:text-xl font-montserrat">
                             {t("title1")}
                         </h3>
-                        <h3 className="text-black font-semibold uppercase text-base xl:text-xl font-cambay">
+                        <h3 className="text-black font-semibold uppercase text-base xl:text-xl font-montserrat">
                             {t("title2")}
                         </h3>
-                        <h3 className="text-black font-semibold uppercase text-base xl:text-xl font-cambay">
+                        <h3 className="text-black font-semibold uppercase text-base xl:text-xl font-montserrat">
                             {t("title3")}
                         </h3>
-                        <h3 className="text-black font-semibold uppercase text-base xl:text-xl font-cambay">
+                        <h3 className="text-black font-semibold uppercase text-base xl:text-xl font-montserrat">
                             {t("title4")}
                         </h3>
                     </div>
@@ -103,16 +103,16 @@ function SustainablePartnerships() {
                         />
                     </div>
                     <div className="p-4 flex flex-col items-center justify-center gap-6 xl:gap-16 w-5/2 pl-8">
-                        <p className="text-black font-medium font-cambay text-base xl:text-xl">
+                        <p className="text-black font-medium font-montserrat text-base xl:text-xl">
                             {t("description1")}
                         </p>
-                        <p className="text-black font-medium font-cambay pt-2 text-base xl:text-xl">
+                        <p className="text-black font-medium font-montserrat pt-2 text-base xl:text-xl">
                             {t("description2")}
                         </p>
-                        <p className="text-black font-medium font-cambay pt-2 text-base xl:text-xl">
+                        <p className="text-black font-medium font-montserrat pt-2 text-base xl:text-xl">
                             {t("description3")}
                         </p>
-                        <p className="text-black font-medium font-cambay pt-2 text-base xl:text-xl">
+                        <p className="text-black font-medium font-montserrat pt-2 text-base xl:text-xl">
                             {t("description4")}
                         </p>
                     </div>
