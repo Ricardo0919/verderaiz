@@ -11,5 +11,5 @@ services:
       - NODE_ENV=production
 
 networks:
-  backend:
+  frontend:
     driver: bridge
