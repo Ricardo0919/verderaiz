@@ -9,6 +9,9 @@ services:
       - frontend
     environment:
       - NODE_ENV=production
+    volumes:
+      - ./public:/app/public            # Monta el directorio /public
+      - ./.next/static:/app/.next/static # Monta el directorio /_next/static
 
 networks:
   frontend:
