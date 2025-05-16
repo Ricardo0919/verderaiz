@@ -13,21 +13,6 @@ services:
       - ./public:/app/public            # Monta el directorio /public
       - ./.next/static:/app/.next/static # Monta el directorio /_next/static
 
-  nginx:
-    image: nginx:alpine
-    container_name: nginx
-    ports:
-      - "8080:80"
-      - "8443:443"
-    volumes:
-      - ./nginx.conf:/etc/nginx/conf.d/default.conf  # Monta tu configuración de Nginx
-      - ./public:/app/public                         # Acceso a /public directamente
-      - ./.next/static:/app/.next/static             # Acceso a /_next/static directamente
-    networks:
-      - frontend
-    depends_on:
-      - web
-
 networks:
   frontend:
     driver: bridge
