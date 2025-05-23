@@ -17,7 +17,7 @@ export function generateStaticParams() {
     return locales.map((locale) => ({locale}));
 }
 
-export const dynamic = 'force-dynamic'; // 🚀 Forzar actualización en cada render
+//export const dynamic = 'force-dynamic'; // 🚀 Forzar actualización en cada render
 
 export async function generateMetadata() {
     return {
